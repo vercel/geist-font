@@ -1,4 +1,5 @@
-![geist-hero](./.docs/img/geist-banner.png)
+![geist-hero](./.docs/img/geist-banner--light.png#gh-light-mode-only)
+![geist-hero](./.docs/img/geist-banner--dark.png#gh-dark-mode-only)
 
 # Geist Sans & Geist Mono
 Geist is a new font family for Vercel, created by [Vercel](https://vercel.com/design) in collaboration with [Basement Studio](https://basement.studio/).
