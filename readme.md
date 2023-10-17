@@ -9,7 +9,7 @@ Geist Mono is a monospaced typeface that has been crafted to be the perfect part
 
 ### Installation
 
-Download the latest release from the [releases page](./releases/latest) and install the fonts on your system.
+Download the latest release from the [releases page](https://github.com/vercel/geist-font/releases/latest) and install the fonts on your system.
 * [Download Geist Sans](https://github.com/vercel/geist-font/releases/download/1.0.0/Geist.Sans.zip)
 * [Download Geist Mono](https://github.com/vercel/geist-font/releases/download/1.0.0/Geist.Mono.zip)
 
