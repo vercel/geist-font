@@ -1,0 +1,37 @@
+{
+  "name": "geist-font",
+  "version": "1.0.0",
+  "description": "Script to download the latest Geist Sans and Geist Mono fonts.",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geist",
+    "geist mono",
+    "geist sans",
+    "vercel font"
+  ],
+  "type": "module",
+  "homepage": "https://vercel.com/font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/geist-font",
+    "directory": "scripts"
+  },
+  "license": "SIL OPEN FONT LICENSE",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/vercel/geist-font/issues"
+  },
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "commander": "^11.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
