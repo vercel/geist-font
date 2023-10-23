@@ -26,7 +26,7 @@ value = 1;
 }
 );
 date = "2023-01-10 15:10:13 +0000";
-familyName = "Geist Mono (Beta)";
+familyName = "Geist Mono";
 featurePrefixes = (
 {
 automatic = 1;
