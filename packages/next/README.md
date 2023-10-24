@@ -19,7 +19,7 @@ npm install geist
 
 In your `app/layout.js`:
 
-```js
+```jsx
 import { sansFont } from "geist/font";
 
 export default function RootLayout({
@@ -39,7 +39,7 @@ export default function RootLayout({
 
 In your `pages/_app.js`:
 
-```js
+```jsx
 import { sansFont } from "geist/font";
 
 export default function MyApp({ Component, pageProps }) {
