@@ -11,8 +11,8 @@ Geist Mono is a monospaced typeface that has been crafted to be the perfect part
 ### Installation
 
 Download the latest release from the [releases page](https://github.com/vercel/geist-font/releases/latest) and install the fonts on your system.
-* [Download Geist Sans](https://github.com/vercel/geist-font/releases/download/0.9.0/Geist.Sans.zip)
-* [Download Geist Mono](https://github.com/vercel/geist-font/releases/download/0.9.0/Geist.Mono.zip)
+* [Download Geist Sans](https://github.com/vercel/geist-font/releases/download/0.9.1/Geist.Sans.zip)
+* [Download Geist Mono](https://github.com/vercel/geist-font/releases/download/0.9.1/Geist.Mono.zip)
 
 ### License
 The Geist font family is free and open sourced under the [SIL Open Font License](./LICENSE.TXT).
