@@ -8,7 +8,7 @@ declare module "geist/font" {
    *
    * You can download the latest font files from {@link https://github.com/vercel/geist-font/releases}
    */
-  export const sansFont: NextFont;
+  export const GeistSans: NextFont;
   /**
    * Geist Mono
    *
@@ -16,5 +16,5 @@ declare module "geist/font" {
    *
    * You can download the latest font files from {@link https://github.com/vercel/geist-font/releases}
    */
-  export const monoFont: NextFont;
+  export const GeistMono: NextFont;
 }

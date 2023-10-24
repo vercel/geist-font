@@ -1,6 +1,6 @@
 import localFont from "@next/font/local";
 
-export const sansFont = localFont({
+export const GeistSans = localFont({
   src: [
     {
       path: "./fonts/geist-sans/Geist-Thin.woff2",
@@ -50,7 +50,7 @@ export const sansFont = localFont({
   ],
 });
 
-export const monoFont = localFont({
+export const GeistMono = localFont({
   src: [
     {
       path: "./fonts/geist-mono/GeistMono-Thin.woff2",
