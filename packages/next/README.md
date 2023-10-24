@@ -20,7 +20,7 @@ npm install geist
 In your `app/layout.js`:
 
 ```js
-import { sansFont, monoFont } from "geist/font";
+import { sansFont } from "geist/font";
 
 export default function RootLayout({
   children,
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${sansFont.className} ${monoFont.className}`}>
+    <html lang="en" className={sansFont.className}>
       <body>{children}</body>
     </html>
   )
@@ -40,11 +40,11 @@ export default function RootLayout({
 In your `pages/_app.js`:
 
 ```js
-import { sansFont, monoFont } from "geist/font";
+import { sansFont } from "geist/font";
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <main className={`${sansFont.className} ${monoFont.className}`}>
+    <main className={sansFont.className}>
       <Component {...pageProps} />
     </main>
   )
