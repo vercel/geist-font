@@ -9,9 +9,48 @@ Geist Mono is a monospaced typeface that has been crafted to be the perfect part
 
 ### Installation
 
-Download the latest release from the [releases page](https://github.com/vercel/geist-font/releases/latest) and install the fonts on your system.
-* [Download Geist Sans](https://github.com/vercel/geist-font/releases/download/0.9.1/Geist.Sans.zip)
-* [Download Geist Mono](https://github.com/vercel/geist-font/releases/download/0.9.1/Geist.Mono.zip)
+```sh
+npm install geist
+```
+
+### Using with Next.js
+
+#### App Router
+
+In your `app/layout.js`:
+
+```js
+import { sansFont, monoFont } from "geist/font";
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en" className={`${sansFont.className} ${monoFont.className}`}>
+      <body>{children}</body>
+    </html>
+  )
+}
+```
+
+#### Pages Router
+
+In your `pages/_app.js`:
+
+```js
+import { sansFont, monoFont } from "geist/font";
+
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <main className={`${sansFont.className} ${monoFont.className}`}>
+      <Component {...pageProps} />
+    </main>
+  )
+}
+```
+
 
 ### License
 The Geist font family is free and open sourced under the [SIL Open Font License](./LICENSE.TXT).
