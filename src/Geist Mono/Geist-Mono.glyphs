@@ -73706,7 +73706,7 @@ lastChange = "2023-04-18 02:58:34 +0000";
 layers = (
 {
 backgroundImage = {
-imagePath = "../Images/lozenge-Regular.tif";
+imagePath = "../Interpolations/Images/lozenge-Regular.tif";
 pos = (-82,0);
 };
 layerId = m01;
@@ -73738,7 +73738,7 @@ width = 600;
 },
 {
 backgroundImage = {
-imagePath = "../../Images/lozenge-Regular.tif";
+imagePath = "../Images/lozenge-Regular.tif";
 pos = (-2,0);
 };
 layerId = "37DC72B3-BCF2-46ED-AAD5-F0285A86700E";
@@ -73770,7 +73770,7 @@ width = 600;
 },
 {
 backgroundImage = {
-imagePath = "../../Images/lozenge-Regular.tif";
+imagePath = "../Images/lozenge-Regular.tif";
 pos = (-116,0);
 };
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
