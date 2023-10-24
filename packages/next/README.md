@@ -51,7 +51,6 @@ export default function MyApp({ Component, pageProps }) {
 }
 ```
 
-
 ### License
 The Geist font family is free and open sourced under the [SIL Open Font License](./LICENSE.TXT).
 
