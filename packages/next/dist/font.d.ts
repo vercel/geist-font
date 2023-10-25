@@ -7,9 +7,13 @@ declare module "geist/font" {
    *
    * Included weights: 100, 200, 300, 400, 500, 600, 700, 800, 900
    *
-   * * {@link https://github.com/vercel/geist-font/releases Download font files}
+   * * {@link https://www.npmjs.com/package/geist?activeTab=readme#app-router View App Router Example}
    *
-   * * {@link https://www.npmjs.com/package/geist#with-tailwind-css View Tailwind example}
+   * * {@link https://www.npmjs.com/package/geist?activeTab=readme#with-tailwind-css View Tailwind Example}
+   *
+   * * {@link https://www.npmjs.com/package/geist?activeTab=readme#pages-router View Pages Router Example}
+   *
+   * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
    */
   export const GeistSans: NextFont;
   /**
@@ -18,9 +22,13 @@ declare module "geist/font" {
    *
    * Included weights: 100, 200, 300, 400, 500, 600, 700, 800, 900
    *
-   * * {@link https://github.com/vercel/geist-font/releases Download font files}
+   * * {@link https://www.npmjs.com/package/geist?activeTab=readme#app-router View App Router Example}
    *
-   * * {@link https://www.npmjs.com/package/geist#with-tailwind-css View Tailwind example}
+   * * {@link https://www.npmjs.com/package/geist?activeTab=readme#with-tailwind-css View Tailwind Example}
+   *
+   * * {@link https://www.npmjs.com/package/geist?activeTab=readme#pages-router View Pages Router Example}
+   *
+   * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
    */
   export const GeistMono: NextFont;
 }
