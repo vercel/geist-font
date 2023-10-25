@@ -1,11 +1,13 @@
 ![](.images/hero.png)
 
 # Geist Sans & Geist Mono
-Geist is a new font family for Vercel, created by [Vercel](https://vercel.com/design) in collaboration with [Basement Studio](https://basement.studio/).
 
-Geist Sans is a sans-serif typeface designed for legibility and simplicity. It is a modern, geometric typeface that is based on the principles of [classic Swiss typography](https://en.wikipedia.org/wiki/International_Typographic_Style). It is designed to be used in headlines, logos, posters, and other large display sizes.
+Geist is a new font family created by [Vercel](https://vercel.com/design) in collaboration with [Basement Studio](https://basement.studio/).
 
-Geist Mono is a monospaced typeface that has been crafted to be the perfect partner to Geist Sans. It is designed to be used in code editors, diagrams, terminals, and other textbased interfaces where code is represented.
+Geist Sans is a sans-serif typeface designed for legibility and simplicity. It is modern, geometric, and based on the principles of classic Swiss typography. It is designed to be used in body copy, headlines, logos, posters, and other large display sizes.
+
+Geist Mono is a monospaced typeface, crafted to be the perfect partner to Geist Sans. It is designed to be used in code editors, diagrams, terminals, and other text-based interfaces where code is rendered.
+
 
 ### Installation
 
@@ -17,7 +19,7 @@ npm install geist
 
 #### App Router
 
-In your `app/layout.js`:
+In `app/layout.js`:
 
 ```jsx
 import { GeistSans } from "geist/font";
@@ -37,7 +39,7 @@ export default function RootLayout({
 
 #### Pages Router
 
-In your `pages/_app.js`:
+In `pages/_app.js`:
 
 ```jsx
 import { GeistSans } from "geist/font";
@@ -58,9 +60,7 @@ export default function MyApp({ Component, pageProps }) {
 - `GeistSans`: `--font-geist-sans`
 - `GeistMono`: `--font-geist-mono`
 
-##### App Router Example
-
-In your `app/layout.js`:
+In `app/layout.js`:
 
 
 ```jsx
@@ -79,38 +79,7 @@ export default function RootLayout({
 }
 ```
 
-Then in your `tailwind.config.js`:
-
-```javascript
-module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: ['var(--font-geist-sans)'],
-        mono: ['var(--font-geist-mono)'],
-      },
-    },
-  },
-}
-```
-
-##### Pages Router Example
-
-In your `pages/_app.js`:
-
-```jsx
-import { GeistSans, GeistMono } from 'geist/font'
-
-export default function MyApp({ Component, pageProps }) {
-  return (
-    <main className={`${GeistSans.variable} ${GeistMono.variable}`}>
-      <Component {...pageProps} />
-    </main>
-  )
-}
-```
-
-Then in your `tailwind.config.js`:
+Then in `tailwind.config.js`:
 
 ```javascript
 module.exports = {
