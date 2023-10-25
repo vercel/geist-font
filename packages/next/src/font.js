@@ -48,6 +48,7 @@ export const GeistSans = localFont({
       style: "normal",
     },
   ],
+  variable: "--font-geist-sans",
 });
 
 export const GeistMono = localFont({
@@ -98,4 +99,5 @@ export const GeistMono = localFont({
       style: "normal",
     },
   ],
+  variable: "--font-geist-mono",
 });
