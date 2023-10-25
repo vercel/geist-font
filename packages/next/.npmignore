@@ -1,2 +1,2 @@
-.images
-.pnpm-debug.log
+*
+!dist/**/*

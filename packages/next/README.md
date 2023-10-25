@@ -17,6 +17,8 @@ npm install geist
 
 ### Using with Next.js
 
+`geist/font` exports `GeistSans` and `GeistMono`. Both are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
+
 #### App Router
 
 In `app/layout.js`:
@@ -26,8 +28,6 @@ import { GeistSans } from "geist/font";
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
 }) {
   return (
     <html lang="en" className={GeistSans.className}>
@@ -68,8 +68,6 @@ import { GeistSans, GeistMono } from 'geist/font'
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
 }) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
@@ -98,4 +96,4 @@ module.exports = {
 The Geist font family is free and open sourced under the [SIL Open Font License](./LICENSE.TXT).
 
 ### Inspiration
-Geist has been influenced and inspired by the following typefaces: [Inter](https://fonts.google.com/specimen/Inter), [Univers](https://www.linotype.com/1567/univers-family.html), [SF Mono](https://developer.apple.com/fonts/), [SF Pro](https://developer.apple.com/fonts/), [Suisse International](https://www.swisstypefaces.com/fonts/suisse/), [ABC Diatype Mono](https://abcdinamo.com/typefaces/diatype), and [ABC Diatype](https://abcdinamo.com/typefaces/diatype). We thank the creators of these typefaces for their craft.
+Geist has been influenced and inspired by the following typefaces: [Inter](https://rsms.me/inter), [Univers](https://www.linotype.com/1567/univers-family.html), [SF Mono](https://developer.apple.com/fonts/), [SF Pro](https://developer.apple.com/fonts/), [Suisse International](https://www.swisstypefaces.com/fonts/suisse/), [ABC Diatype Mono](https://abcdinamo.com/typefaces/diatype), and [ABC Diatype](https://abcdinamo.com/typefaces/diatype). We thank the creators of these typefaces for their craft.
