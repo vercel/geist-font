@@ -2,19 +2,25 @@ import { NextFont } from "@next/font";
 
 declare module "geist/font" {
   /**
-   * Geist Sans
+   * Geist Sans font, with `className` and `variable` properties,
+   * meant to be attached to DOM elements via `className`
    *
-   * Includes 9 weights: 100, 200, 300, 400, 500, 600, 700, 800, 900
+   * Included weights: 100, 200, 300, 400, 500, 600, 700, 800, 900
    *
-   * You can download the latest font files from {@link https://github.com/vercel/geist-font/releases}
+   * * {@link https://github.com/vercel/geist-font/releases Download font files}
+   *
+   * * {@link https://www.npmjs.com/package/geist#with-tailwind-css View Tailwind example}
    */
   export const GeistSans: NextFont;
   /**
-   * Geist Mono
+   * Geist Mono font, with `className` and `variable` properties,
+   * meant to be attached to DOM elements via `className`
    *
-   * Includes 9 weights: 100, 200, 300, 400, 500, 600, 700, 800, 900
+   * Included weights: 100, 200, 300, 400, 500, 600, 700, 800, 900
    *
-   * You can download the latest font files from {@link https://github.com/vercel/geist-font/releases}
+   * * {@link https://github.com/vercel/geist-font/releases Download font files}
+   *
+   * * {@link https://www.npmjs.com/package/geist#with-tailwind-css View Tailwind example}
    */
   export const GeistMono: NextFont;
 }

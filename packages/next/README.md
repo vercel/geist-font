@@ -51,6 +51,80 @@ export default function MyApp({ Component, pageProps }) {
 }
 ```
 
+#### With Tailwind CSS
+
+`GeistSans` and `GeistMono` can be used through a CSS variable.
+
+- `GeistSans`: `--font-geist-sans`
+- `GeistMono`: `--font-geist-mono`
+
+##### App Router Example
+
+In your `app/layout.js`:
+
+
+```jsx
+import { GeistSans, GeistMono } from 'geist/font'
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <body>{children}</body>
+    </html>
+  )
+}
+```
+
+Then in your `tailwind.config.js`:
+
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-geist-sans)'],
+        mono: ['var(--font-geist-mono)'],
+      },
+    },
+  },
+}
+```
+
+##### Pages Router Example
+
+In your `pages/_app.js`:
+
+```jsx
+import { GeistSans, GeistMono } from 'geist/font'
+
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <main className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <Component {...pageProps} />
+    </main>
+  )
+}
+```
+
+Then in your `tailwind.config.js`:
+
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-geist-sans)'],
+        mono: ['var(--font-geist-mono)'],
+      },
+    },
+  },
+}
+```
+
 ### License
 The Geist font family is free and open sourced under the [SIL Open Font License](./LICENSE.TXT).
 
