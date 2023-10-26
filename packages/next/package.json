@@ -1,0 +1,31 @@
+{
+  "name": "geist",
+  "version": "1.0.0",
+  "description": "Geist is a new font family for Vercel, created by Vercel in collaboration with Basement Studio.",
+  "main": "dist/font.js",
+  "scripts": {
+    "prepare": "cp ../../LICENSE.TXT ."
+  },
+  "bugs": {
+    "url": "https://github.com/vercel/geist-font/issues"
+  },
+  "homepage": "https://vercel.com/font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vercel/geist-font",
+    "directory": "packages/next"
+  },
+  "keywords": [
+    "geist",
+    "geist mono",
+    "geist sans",
+    "vercel font"
+  ],
+  "exports": {
+    "./font": "./dist/font.js"
+  },
+  "license": "SIL OPEN FONT LICENSE",
+  "dependencies": {
+    "@next/font": "^13.5.6"
+  }
+}
