@@ -1,8 +1,11 @@
 {
   "name": "geist",
-  "version": "1.0.0",
+  "version": "0.1.37",
   "description": "Geist is a new font family for Vercel, created by Vercel in collaboration with Basement Studio.",
   "main": "./dist/font.js",
+  "module": "./dist/font.js",
+  "typings": "font.d.ts",
+  "types": "font.d.ts",
   "scripts": {
     "prepare": "cp ../../LICENSE.TXT ."
   },
@@ -22,7 +25,11 @@
     "vercel font"
   ],
   "exports": {
-    "./font": "./dist/font.js"
+    "./font": {
+      "import": "./dist/font.js",
+      "require": "./dist/font.js",
+      "default": "./dist/index.d.ts"
+    }
   },
   "license": "SIL OPEN FONT LICENSE",
   "dependencies": {
