@@ -1,4 +1,4 @@
-import { NextFont } from "@next/font";
+import { NextFontWithVariable } from "@next/font";
 
 declare module "geist/font" {
   /**
@@ -15,7 +15,7 @@ declare module "geist/font" {
    *
    * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
    */
-  export const GeistSans: NextFont;
+  export const GeistSans: NextFontWithVariable;
   /**
    * Geist Mono font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
@@ -30,5 +30,5 @@ declare module "geist/font" {
    *
    * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
    */
-  export const GeistMono: NextFont;
+  export const GeistMono: NextFontWithVariable;
 }
