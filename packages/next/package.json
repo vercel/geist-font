@@ -26,6 +26,7 @@
   ],
   "exports": {
     "types": "./dist/font.d.ts",
+	"require": "./font.js",
     "import": "./dist/font.js"
   },
   "license": "SIL OPEN FONT LICENSE",
