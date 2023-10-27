@@ -24,6 +24,7 @@
   "exports": {
     "./font": "./dist/font.js"
   },
+  "types": "./dist/font.d.ts",
   "license": "SIL OPEN FONT LICENSE",
   "dependencies": {
     "@next/font": "^13.5.6"
