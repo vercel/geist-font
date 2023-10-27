@@ -1,6 +1,6 @@
-import { NextFontWithVariable } from "@next/font";
+import { NextFontWithVariable } from '@next/font';
 
-declare module "geist/font" {
+declare module 'geist' {
   /**
    * Geist Sans font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
