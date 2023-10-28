@@ -23,6 +23,10 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Variable Font Origin";
+value = m01;
 }
 );
 date = "2023-01-10 15:10:13 +0000";
@@ -524,6 +528,15 @@ value = 920;
 {
 name = winDescent;
 value = 220;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+}
+);
 }
 );
 iconName = Light;
@@ -600,6 +613,15 @@ value = 920;
 {
 name = winDescent;
 value = 220;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
 }
 );
 id = m01;
@@ -674,6 +696,15 @@ value = 920;
 {
 name = winDescent;
 value = 220;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 1000;
+}
+);
 }
 );
 iconName = Bold;
@@ -77524,6 +77555,17 @@ instances = (
 axesValues = (
 32
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+}
+);
+}
+);
 instanceInterpolations = {
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 1;
 };
@@ -77533,6 +77575,17 @@ weightClass = 100;
 {
 axesValues = (
 42
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+}
+);
+}
 );
 instanceInterpolations = {
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 0.82143;
@@ -77545,6 +77598,17 @@ weightClass = 200;
 axesValues = (
 68
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+}
+);
+}
+);
 instanceInterpolations = {
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 0.35714;
 m01 = 0.64286;
@@ -77556,6 +77620,17 @@ weightClass = 300;
 axesValues = (
 84
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
+}
+);
 instanceInterpolations = {
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 0.07143;
 m01 = 0.92857;
@@ -77565,6 +77640,17 @@ name = Regular;
 {
 axesValues = (
 106
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+}
+);
+}
 );
 instanceInterpolations = {
 "37DC72B3-BCF2-46ED-AAD5-F0285A86700E" = 0.11842;
@@ -77577,6 +77663,17 @@ weightClass = 500;
 axesValues = (
 126
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+}
+);
+}
+);
 instanceInterpolations = {
 "37DC72B3-BCF2-46ED-AAD5-F0285A86700E" = 0.25;
 m01 = 0.75;
@@ -77587,6 +77684,17 @@ weightClass = 600;
 {
 axesValues = (
 146
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+}
+);
+}
 );
 instanceInterpolations = {
 "37DC72B3-BCF2-46ED-AAD5-F0285A86700E" = 0.38158;
@@ -77599,6 +77707,17 @@ weightClass = 700;
 axesValues = (
 176
 );
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+}
+);
+}
+);
 instanceInterpolations = {
 "37DC72B3-BCF2-46ED-AAD5-F0285A86700E" = 0.57895;
 m01 = 0.42105;
@@ -77609,6 +77728,17 @@ weightClass = 800;
 {
 axesValues = (
 208
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+}
+);
+}
 );
 instanceInterpolations = {
 "37DC72B3-BCF2-46ED-AAD5-F0285A86700E" = 0.78947;
