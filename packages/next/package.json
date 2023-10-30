@@ -7,6 +7,7 @@
   "files": [
     "dist",
     "font.d.ts",
+    "font.d.mts",
     ".images",
     "LICENSE.TXT"
   ],
@@ -32,7 +33,7 @@
     "vercel font"
   ],
   "scripts": {
-    "prepublishOnly": "cp ../../LICENSE.TXT . && rm -rf ./dist && bunchee",
+    "prepublishOnly": "cp ../../LICENSE.TXT . && rm -rf ./dist && bunchee && cp -r ./src/fonts ./dist",
     "build": "bunchee"
   },
   "dependencies": {
