@@ -49,6 +49,20 @@ export const GeistSans = localFont({
     },
   ],
   variable: "--font-geist-sans",
+  fallback: [
+    "ui-sans-serif",
+    "system-ui",
+    "-apple-system",
+    "BlinkMacSystemFont",
+    "Inter",
+    "Segoe UI",
+    "Roboto",
+    "sans-serif",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji",
+  ],
 });
 
 export const GeistMono = localFont({
@@ -100,4 +114,16 @@ export const GeistMono = localFont({
     },
   ],
   variable: "--font-geist-mono",
+  adjustFontFallback: false,
+  fallback: [
+    "ui-monospace",
+    "SFMono-Regular",
+    "Roboto Mono",
+    "Menlo",
+    "Monaco",
+    "Liberation Mono",
+    "DejaVu Sans Mono",
+    "Courier New",
+    "monospace",
+  ],
 });
