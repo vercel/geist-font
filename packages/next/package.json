@@ -33,6 +33,6 @@
   },
   "license": "SIL OPEN FONT LICENSE",
   "dependencies": {
-    "@next/font": "^13.5.6"
+    "next": "^14.0.1"
   }
 }

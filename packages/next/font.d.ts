@@ -1,4 +1,4 @@
-import { NextFontWithVariable } from "@next/font";
+import { NextFontWithVariable } from "next/dist/compiled/@next/font";
 
 declare module "geist/font" {
   /**
