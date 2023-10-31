@@ -2,3 +2,4 @@
 .vscode/
 .pnpm-debug.log
 node_modules
+dist
