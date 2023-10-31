@@ -32,7 +32,7 @@
     }
   },
   "license": "SIL OPEN FONT LICENSE",
-  "dependencies": {
-    "next": "^14.0.1"
+  "peerDependencies": {
+    "next": "^13.2 || ^14"
   }
 }
