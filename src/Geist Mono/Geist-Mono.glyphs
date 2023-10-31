@@ -65,6 +65,7 @@ feature ss06;
 feature ss07;
 feature ss08;
 feature ss09;
+feature zero;
 ";
 tag = aalt;
 },
@@ -485,6 +486,11 @@ value = "Alt numbers";
 }
 );
 tag = ss09;
+},
+{
+code = "sub zero by zero.ss09;
+";
+tag = zero;
 }
 );
 fontMaster = (
