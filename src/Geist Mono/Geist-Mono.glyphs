@@ -79,7 +79,8 @@ DisplayStrings = (
 ~>
 ~~
 ~~>
-%%"
+%%
+"
 );
 axes = (
 {
@@ -124,6 +125,7 @@ feature sinf;
 feature sups;
 feature frac;
 feature ordn;
+feature clig;
 feature fwid;
 feature ss01;
 feature ss02;
@@ -140,60 +142,57 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
 } ccmp_Other_1;
 ";
 tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_noScript_0 {
-	language MAH;
+code = "language MAH;
+lookup locl_noScript_0 {
 	sub commaaccentcomb by commaaccentcomb.loclMAH;
 } locl_noScript_0;
 
+script latn;
+language AZE;
 lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language MAH;
 lookup locl_latn_2 {
-	script latn;
-	language MAH;
 	sub Lcommaaccent by Lcommaaccent.loclMAH;
 	sub Ncommaaccent by Ncommaaccent.loclMAH;
 	sub lcommaaccent by lcommaaccent.loclMAH;
 	sub ncommaaccent by ncommaaccent.loclMAH;
 } locl_latn_2;
 
+script latn;
+language NLD;
 lookup locl_latn_3 {
-	script latn;
-	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
@@ -247,11 +246,426 @@ tag = sups;
 },
 {
 automatic = 1;
+code = "sub one slash eight by oneeighth;
+sub one slash four by onequarter;
+sub three slash eight by threeeighths;
+sub one slash two by onehalf;
+sub five slash eight by fiveeighths;
+sub three slash four by threequarters;
+sub seven slash eight by seveneighths;
+sub one slash three by onethird;
+sub two slash three by twothirds;
+sub one slash five by onefifth;
+";
+tag = frac;
+},
+{
+automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 sub N o period by numero;
 ";
 tag = ordn;
+},
+{
+code = "lookup less_exclam_hyphen_hyphen_hyphen.liga {
+    sub SPC SPC SPC SPC hyphen' by less_exclam_hyphen_hyphen_hyphen.liga;
+    sub SPC SPC SPC hyphen' hyphen hyphen by SPC;
+    sub SPC SPC hyphen' hyphen hyphen by SPC;
+    sub SPC exclam' hyphen hyphen hyphen by SPC;
+    sub less' exclam hyphen hyphen hyphen by SPC;
+} less_exclam_hyphen_hyphen_hyphen.liga ;
+
+lookup bar_bar_bar_greater.liga {
+    sub SPC SPC SPC greater' by bar_bar_bar_greater.liga;
+    sub SPC SPC bar' greater by SPC;
+    sub SPC bar' bar greater by SPC;
+    sub bar' bar bar greater by SPC;
+} bar_bar_bar_greater.liga ;
+
+lookup hyphen_hyphen_hyphen_greater.liga {
+    sub SPC SPC SPC greater' by hyphen_hyphen_hyphen_greater.liga;
+    sub SPC SPC hyphen' greater by SPC;
+    sub SPC hyphen' hyphen hyphen greater by SPC;
+    sub hyphen' hyphen hyphen greater by SPC;
+} hyphen_hyphen_hyphen_greater.liga ;
+
+lookup less_bar_bar_bar.liga {
+    sub SPC SPC SPC bar' by less_bar_bar_bar.liga;
+    sub SPC SPC bar' bar by SPC;
+    sub SPC bar' bar bar by SPC;
+    sub less' bar bar bar by SPC;
+} less_bar_bar_bar.liga ;
+
+lookup less_equal_equal_greater.liga {
+    sub SPC SPC SPC greater' by less_equal_equal_greater.liga;
+    sub SPC SPC equal' greater by SPC;
+    sub SPC equal' equal greater by SPC;
+    sub less' equal equal greater by SPC;
+} less_equal_equal_greater.liga ;
+
+lookup less_exclam_hyphen_hyphen.liga {
+    sub SPC SPC hyphen' by less_exclam_hyphen_hyphen.liga;
+    sub SPC exclam' hyphen hyphen by SPC;
+    sub less' exclam hyphen hyphen by SPC;
+} less_exclam_hyphen_hyphen.liga ;
+
+lookup asciitilde_asciitilde_greater.liga {
+    sub SPC SPC greater' by asciitilde_asciitilde_greater.liga;
+    sub SPC asciitilde' greater by SPC;
+    sub asciitilde' asciitilde greater by SPC;
+} asciitilde_asciitilde_greater.liga ;
+
+lookup bar_bar_equal.liga {
+    sub SPC SPC equal' by bar_bar_equal.liga;
+    sub SPC equal' equal by SPC;
+    sub bar' bar equal by SPC;
+} bar_bar_equal.liga ;
+
+lookup bar_bar_greater.liga {
+    sub SPC SPC greater' by bar_bar_greater.liga;
+    sub SPC bar' greater by SPC;
+    sub bar' bar greater by SPC;
+} bar_bar_greater.liga ;
+
+lookup bar_hyphen_greater.liga {
+    sub SPC SPC greater' by bar_hyphen_greater.liga;
+    sub SPC hyphen' greater by SPC;
+    sub bar' hyphen greater by SPC;
+} bar_hyphen_greater.liga ;
+
+lookup equal_equal_equal.liga {
+    sub SPC SPC equal' by equal_equal_equal.liga;
+    sub SPC equal' equal by SPC;
+    sub equal' equal equal by SPC;
+} equal_equal_equal.liga ;
+
+lookup equal_equal_greater.liga {
+    sub SPC SPC greater' by equal_equal_greater.liga;
+    sub SPC equal' greater by SPC;
+    sub equal' equal greater by SPC;
+} equal_equal_greater.liga ;
+
+lookup equal_greater_greater.liga {
+    sub SPC SPC greater' by equal_greater_greater.liga;
+    sub SPC greater' greater by SPC;
+    sub equal' greater greater by SPC;
+} equal_greater_greater.liga ;
+
+lookup equal_less_less.liga {
+    sub SPC SPC less' by equal_less_less.liga;
+    sub SPC less' less by SPC;
+    sub equal' less less by SPC;
+} equal_less_less.liga ;
+
+lookup equal_slash_equal.liga {
+    sub SPC SPC equal' by equal_slash_equal.liga;
+    sub SPC slash' equal by SPC;
+    sub equal' equal slash by SPC;
+} equal_slash_equal.liga ;
+
+lookup exclam_equal_equal.liga {
+    sub SPC SPC equal' by exclam_equal_equal.liga;
+    sub SPC equal' equal by SPC;
+    sub exclam' equal equal by SPC;
+} exclam_equal_equal.liga ;
+
+lookup greater_equal_greater.liga {
+    sub SPC SPC greater' by greater_equal_greater.liga;
+    sub SPC equal' greater by SPC;
+    sub greater' equal greater by SPC;
+} greater_equal_greater.liga ;
+
+lookup greater_greater_equal.liga {
+    sub SPC SPC equal' by greater_greater_equal.liga;
+    sub SPC greater' equal by SPC;
+    sub greater' greater equal by SPC;
+} greater_greater_equal.liga ;
+
+lookup greater_greater_hyphen.liga {
+    sub SPC SPC hyphen' by greater_greater_hyphen.liga;
+    sub SPC greater' hyphen by SPC;
+    sub greater' greater hyphen by SPC;
+} greater_greater_hyphen.liga ;
+
+lookup greater_hyphen_greater.liga {
+    sub SPC SPC greater' by greater_hyphen_greater.liga;
+    sub SPC hyphen' greater by SPC;
+    sub greater' hyphen greater by SPC;
+} greater_hyphen_greater.liga ;
+
+lookup hyphen_greater_greater.liga {
+    sub SPC SPC greater' by hyphen_greater_greater.liga;
+    sub SPC greater' greater by SPC;
+    sub hyphen' greater greater by SPC;
+} hyphen_greater_greater.liga ;
+
+lookup hyphen_hyphen_greater.liga {
+    sub SPC SPC greater' by hyphen_hyphen_greater.liga;
+    sub SPC hyphen' greater by SPC;
+    sub hyphen' hyphen greater by SPC;
+} hyphen_hyphen_greater.liga ;
+
+lookup hyphen_less_less.liga {
+    sub SPC SPC less' by hyphen_less_less.liga;
+    sub SPC less' less by SPC;
+    sub hyphen' less less by SPC;
+} hyphen_less_less.liga ;
+
+lookup less_asciitilde_asciitilde.liga {
+    sub SPC SPC asciitilde' by less_asciitilde_asciitilde.liga;
+    sub SPC asciitilde' asciitilde by SPC;
+    sub less' asciitilde asciitilde by SPC;
+} less_asciitilde_asciitilde.liga ;
+
+lookup less_asciitilde_greater.liga {
+    sub SPC SPC greater' by less_asciitilde_greater.liga;
+    sub SPC asciitilde' greater by SPC;
+    sub less' asciitilde greater by SPC;
+} less_asciitilde_greater.liga ;
+
+lookup less_bar_bar.liga {
+    sub SPC SPC bar' by less_bar_bar.liga;
+    sub SPC bar' bar by SPC;
+    sub less' bar bar by SPC;
+} less_bar_bar.liga ;
+
+lookup less_bar_greater.liga {
+    sub SPC SPC greater' by less_bar_greater.liga;
+    sub SPC bar' greater by SPC;
+    sub less' bar greater by SPC;
+} less_bar_greater.liga ;
+
+lookup less_equal_equal.liga {
+    sub SPC SPC equal' by less_equal_equal.liga;
+    sub SPC equal' equal by SPC;
+    sub less' equal equal by SPC;
+} less_equal_equal.liga ;
+
+lookup less_equal_greater.liga {
+    sub SPC SPC greater' by less_equal_greater.liga;
+    sub SPC equal' greater by SPC;
+    sub less' equal greater by SPC;
+} less_equal_greater.liga ;
+
+lookup less_equal_less.liga {
+    sub SPC SPC less' by less_equal_less.liga;
+    sub SPC equal' less by SPC;
+    sub less' equal less by SPC;
+} less_equal_less.liga ;
+
+lookup less_hyphen_greater.liga {
+    sub SPC SPC greater' by less_hyphen_greater.liga;
+    sub SPC hyphen' greater by SPC;
+    sub less' hyphen greater by SPC;
+} less_hyphen_greater.liga ;
+
+lookup less_hyphen_hyphen.liga {
+    sub SPC SPC hyphen' by less_hyphen_hyphen.liga;
+    sub SPC hyphen' hyphen by SPC;
+    sub less' hyphen hyphen by SPC;
+} less_hyphen_hyphen.liga ;
+
+lookup less_hyphen_less.liga {
+    sub SPC SPC less' by less_hyphen_less.liga;
+    sub SPC hyphen' less by SPC;
+    sub less' hyphen less by SPC;
+} less_hyphen_less.liga ;
+
+lookup less_less_equal.liga {
+    sub SPC SPC equal' by less_less_equal.liga;
+    sub SPC less' equal by SPC;
+    sub less' less equal by SPC;
+} less_less_equal.liga ;
+
+lookup less_less_hyphen.liga {
+    sub SPC SPC hyphen' by less_less_hyphen.liga;
+    sub SPC less' hyphen by SPC;
+    sub less' less hyphen by SPC;
+} less_less_hyphen.liga ;
+
+lookup less_slash_greater.liga {
+    sub SPC SPC greater' by less_slash_greater.liga;
+    sub SPC slash' greater by SPC;
+    sub less' slash greater by SPC;
+} less_slash_greater.liga ;
+
+lookup numbersign_numbersign_numbersign.liga {
+    sub SPC SPC numbersign' by numbersign_numbersign_numbersign.liga;
+    sub SPC numbersign' numbersign by SPC;
+    sub numbersign' numbersign numbersign by SPC;
+} numbersign_numbersign_numbersign.liga ;
+
+lookup numbersign_underscore_parenleft.liga {
+    sub SPC SPC parenleft' by numbersign_underscore_parenleft.liga;
+    sub SPC underscore' parenleft by SPC;
+    sub numbersign' underscore parenleft by SPC;
+} numbersign_underscore_parenleft.liga ;
+
+lookup period_period_equal.liga {
+    sub SPC SPC equal' by period_period_equal.liga;
+    sub SPC period' equal by SPC;
+    sub period' period equal by SPC;
+} period_period_equal.liga ;
+
+lookup period_period_period.liga {
+    sub SPC SPC period' by period_period_period.liga;
+    sub SPC period' period by SPC;
+    sub period' period period by SPC;
+} period_period_period.liga ;
+
+lookup slash_equal_equal.liga {
+    sub SPC SPC equal' by slash_equal_equal.liga;
+    sub SPC slash' equal by SPC;
+    sub slash' equal equal by SPC;
+} slash_equal_equal.liga ;
+
+lookup asciitilde_asciitilde.liga {
+    sub SPC asciitilde' by asciitilde_asciitilde.liga;
+    sub asciitilde' asciitilde by SPC;
+} asciitilde_asciitilde.liga ;
+
+lookup asciitilde_at.liga {
+    sub SPC at' by asciitilde_at.liga;
+    sub asciitilde' at by SPC;
+} asciitilde_at.liga ;
+
+lookup asciitilde_equal.liga {
+    sub SPC equal' by asciitilde_equal.liga;
+    sub asciitilde' equal by SPC;
+} asciitilde_equal.liga ;
+
+lookup asciitilde_greater.liga {
+    sub SPC greater' by asciitilde_greater.liga;
+    sub asciitilde' greater by SPC;
+} asciitilde_greater.liga ;
+
+lookup asciitilde_hyphen.liga {
+    sub SPC hyphen' by asciitilde_hyphen.liga;
+    sub asciitilde' hyphen by SPC;
+} asciitilde_hyphen.liga ;
+
+lookup bar_braceright.liga {
+    sub SPC braceright' by bar_braceright.liga;
+    sub bar' braceright by SPC;
+} bar_braceright.liga ;
+
+lookup bar_equal.liga {
+    sub SPC equal' by bar_equal.liga;
+    sub bar' equal by SPC;
+} bar_equal.liga ;
+
+lookup bar_greater.liga {
+    sub SPC greater' by bar_greater.liga;
+    sub bar' greater by SPC;
+} bar_greater.liga ;
+
+lookup braceleft_bar.liga {
+    sub SPC bar' by braceleft_bar.liga;
+    sub braceleft' bar by SPC;
+} braceleft_bar.liga ;
+
+lookup colon_equal.liga {
+    sub SPC equal' by colon_equal.liga;
+    sub colon' equal by SPC;
+} colon_equal.liga ;
+
+lookup equal_equal.liga {
+    sub SPC equal' by equal_equal.liga;
+    sub equal' equal by SPC;
+} equal_equal.liga ;
+
+lookup equal_greater.liga {
+    sub SPC greater' by equal_greater.liga;
+    sub equal' greater by SPC;
+} equal_greater.liga ;
+
+lookup exclam_equal.liga {
+    sub SPC equal' by exclam_equal.liga;
+    sub exclam' equal by SPC;
+} exclam_equal.liga ;
+
+lookup exclam_question.liga {
+    sub SPC question' by exclam_question.liga;
+    sub exclam' question by SPC;
+} exclam_question.liga ;
+
+lookup greater_equal.liga {
+    sub SPC equal' by greater_equal.liga;
+    sub greater' equal by SPC;
+} greater_equal.liga ;
+
+lookup greater_hyphen.liga {
+    sub SPC hyphen' by greater_hyphen.liga;
+    sub greater' hyphen by SPC;
+} greater_hyphen.liga ;
+
+lookup hyphen_asciitilde.liga {
+    sub SPC asciitilde' by hyphen_asciitilde.liga;
+    sub hyphen' asciitilde by SPC;
+} hyphen_asciitilde.liga ;
+
+lookup hyphen_greater.liga {
+    sub SPC greater' by hyphen_greater.liga;
+    sub hyphen' greater by SPC;
+} hyphen_greater.liga ;
+
+lookup hyphen_less.liga {
+    sub SPC less' by hyphen_less.liga;
+    sub hyphen' less by SPC;
+} hyphen_less.liga ;
+
+lookup less_asciitilde.liga {
+    sub SPC asciitilde' by less_asciitilde.liga;
+    sub less' asciitilde by SPC;
+} less_asciitilde.liga ;
+
+lookup less_bar.liga {
+    sub SPC bar' by less_bar.liga;
+    sub less' bar by SPC;
+} less_bar.liga ;
+
+lookup less_equal.liga {
+    sub SPC equal' by less_equal.liga;
+    sub less' equal by SPC;
+} less_equal.liga ;
+
+lookup less_greater.liga {
+    sub SPC greater' by less_greater.liga;
+    sub less' greater by SPC;
+} less_greater.liga ;
+
+lookup less_hyphen.liga {
+    sub SPC hyphen' by less_hyphen.liga;
+    sub less' hyphen by SPC;
+} less_hyphen.liga ;
+
+lookup numbersign_underscore.liga {
+    sub SPC underscore' by numbersign_underscore.liga;
+    sub numbersign' underscore by SPC;
+} numbersign_underscore.liga ;
+
+lookup percent_percent.liga {
+    sub SPC percent' by percent_percent.liga;
+    sub percent' percent by SPC;
+} percent_percent.liga ;
+
+lookup period_equal.liga {
+    sub SPC equal' by period_equal.liga;
+    sub period' equal by SPC;
+} period_equal.liga ;
+
+lookup question_question.liga {
+    sub SPC question' by question_question.liga;
+    sub question' question by SPC;
+} question_question.liga ;
+
+lookup slash_equal.liga {
+    sub SPC equal' by slash_equal.liga;
+    sub slash' equal by SPC;
+} slash_equal.liga ;
+";
+tag = clig;
 },
 {
 automatic = 1;
@@ -327,6 +741,7 @@ sub period equal by period_equal.liga;
 sub question question by question_question.liga;
 sub slash equal by slash_equal.liga;
 ";
+disabled = 1;
 tag = liga;
 },
 {
@@ -4748,7 +5163,7 @@ unicode = 72;
 glyphname = Hbar;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-17 21:48:14 +0000";
+lastChange = "2020-08-30 21:17:06 +0000";
 layers = (
 {
 guides = (
@@ -5147,7 +5562,7 @@ unicode = 205;
 glyphname = Icircumflex;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-17 21:48:14 +0000";
+lastChange = "2020-04-05 21:58:07 +0000";
 layers = (
 {
 layerId = m01;
@@ -12061,7 +12476,7 @@ unicode = 7808;
 glyphname = X;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-17 21:48:14 +0000";
+lastChange = "2023-04-17 21:03:06 +0000";
 layers = (
 {
 guides = (
@@ -12524,7 +12939,7 @@ unicode = 89;
 glyphname = Yacute;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-18 02:09:55 +0000";
+lastChange = "2021-11-05 22:45:55 +0000";
 layers = (
 {
 layerId = m01;
@@ -13263,7 +13678,7 @@ width = 600;
 glyphname = Ncommaaccent.loclMAH;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-16 18:09:42 +0000";
+lastChange = "2020-04-05 21:58:23 +0000";
 layers = (
 {
 layerId = m01;
@@ -15032,7 +15447,7 @@ width = 600;
 glyphname = Udieresis.ss08;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-18 02:58:50 +0000";
+lastChange = "2023-04-18 02:58:23 +0000";
 layers = (
 {
 layerId = m01;
@@ -17739,7 +18154,7 @@ unicode = 263;
 glyphname = ccaron;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-17 21:48:02 +0000";
+lastChange = "2022-05-22 20:54:11 +0000";
 layers = (
 {
 layerId = m01;
@@ -21726,7 +22141,7 @@ unicode = 311;
 glyphname = l;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-11-05 00:02:10 +0000";
+lastChange = "2023-11-05 00:02:52 +0000";
 layers = (
 {
 associatedMasterId = m01;
@@ -27033,7 +27448,7 @@ unicode = 117;
 glyphname = uacute;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-19 20:38:36 +0000";
+lastChange = "2020-04-19 20:38:36 +0000";
 layers = (
 {
 layerId = m01;
@@ -29850,7 +30265,7 @@ width = 600;
 glyphname = acircumflex.ss01;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-19 20:38:36 +0000";
+lastChange = "2023-04-05 21:58:58 +0000";
 layers = (
 {
 layerId = m01;
@@ -37434,7 +37849,7 @@ unicode = 9312;
 {
 export = 0;
 glyphname = two.circled;
-lastChange = "2023-06-14 20:13:27 +0000";
+lastChange = "2020-04-05 21:59:02 +0000";
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -40506,7 +40921,7 @@ unicode = 8310;
 },
 {
 glyphname = sevensuperior;
-lastChange = "2023-11-04 22:31:02 +0000";
+lastChange = "2020-04-05 21:59:13 +0000";
 layers = (
 {
 anchors = (
@@ -43729,7 +44144,7 @@ unicode = 59;
 glyphname = ellipsis;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-17 21:47:26 +0000";
+lastChange = "2020-04-05 21:59:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -44719,7 +45134,7 @@ unicode = 63;
 glyphname = questiondown;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-19 20:28:29 +0000";
+lastChange = "2020-04-05 21:59:13 +0000";
 layers = (
 {
 layerId = m01;
@@ -48289,7 +48704,7 @@ width = 600;
 glyphname = period.full.ss08;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-10 12:20:34 +0000";
+lastChange = "2023-04-10 12:59:34 +0000";
 layers = (
 {
 layerId = m01;
@@ -56027,7 +56442,7 @@ width = 600;
 {
 color = 9;
 glyphname = asciitilde_at.liga;
-lastChange = "2023-11-05 01:36:56 +0000";
+lastChange = "2020-04-05 21:59:13 +0000";
 layers = (
 {
 layerId = "37DC72B3-BCF2-46ED-AAD5-F0285A86700E";
@@ -65494,7 +65909,7 @@ unicode = 8362;
 glyphname = sterling;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-18 02:58:34 +0000";
+lastChange = "2023-04-15 16:46:29 +0000";
 layers = (
 {
 layerId = m01;
@@ -68971,7 +69386,7 @@ unicode = 8721;
 glyphname = radical;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-18 02:58:34 +0000";
+lastChange = "2019-03-25 21:13:22 +0000";
 layers = (
 {
 guides = (
@@ -70258,7 +70673,7 @@ unicode = 37;
 glyphname = perthousand;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-18 02:58:34 +0000";
+lastChange = "2020-04-15 16:46:29 +0000";
 layers = (
 {
 guides = (
@@ -71046,7 +71461,7 @@ unicode = 8601;
 glyphname = leftArrow;
 kernLeft = "0";
 kernRight = "0";
-lastChange = "2023-04-18 02:58:34 +0000";
+lastChange = "2020-04-05 21:59:59 +0000";
 layers = (
 {
 layerId = m01;
@@ -71134,7 +71549,7 @@ unicode = 8598;
 },
 {
 glyphname = rightWaveArrow;
-lastChange = "2023-05-24 17:01:07 +0000";
+lastChange = "2020-08-07 15:56:08 +0000";
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -77754,78 +78169,18 @@ width = 600;
 },
 {
 glyphname = SPC;
-lastChange = "2023-11-05 00:04:58 +0000";
+lastChange = "2023-11-05 02:39:28 +0000";
 layers = (
 {
 layerId = "37DC72B3-BCF2-46ED-AAD5-F0285A86700E";
-shapes = (
-{
-closed = 1;
-nodes = (
-(0,690,l),
-(20,690,l),
-(20,710,l),
-(0,710,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(0,0,l),
-(20,0,l),
-(20,20,l),
-(0,20,l)
-);
-}
-);
 width = 600;
 },
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
-shapes = (
-{
-closed = 1;
-nodes = (
-(0,690,l),
-(20,690,l),
-(20,710,l),
-(0,710,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(0,0,l),
-(20,0,l),
-(20,20,l),
-(0,20,l)
-);
-}
-);
 width = 600;
 },
 {
 layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(0,690,l),
-(20,690,l),
-(20,710,l),
-(0,710,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(0,0,l),
-(20,0,l),
-(20,20,l),
-(0,20,l)
-);
-}
-);
 width = 600;
 }
 );
