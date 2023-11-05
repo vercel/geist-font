@@ -6,7 +6,6 @@ DisplayStrings = (
 ½ ⅓ ⅔ ¼ ¾ ⅕ ⅛ ⅜ ⅝ ⅞
 ½ ⅓ ⅔ ¼ ¾ ⅕ ⅛ ⅜ ⅝ ⅞
 ",
-"",
 "liga
 
 
@@ -80,12 +79,7 @@ DisplayStrings = (
 ~>
 ~~
 ~~>
-%%",
-"/less_asciitilde_greater.liga",
-"/less_asciitilde.liga",
-"/asciitilde_asciitilde_greater.liga",
-"/greater_hyphen_greater.liga",
-"/less_exclam_hyphen_hyphen_hyphen.liga"
+%%"
 );
 axes = (
 {
@@ -38176,7 +38170,7 @@ unicode = 8531;
 },
 {
 glyphname = twothirds;
-lastChange = "2023-11-04 22:31:49 +0000";
+lastChange = "2023-11-05 02:13:01 +0000";
 layers = (
 {
 background = {
@@ -38192,7 +38186,7 @@ shapes = (
 ref = fraction.alt;
 },
 {
-pos = (-135,0);
+pos = (-144,0);
 ref = twosuperior;
 },
 {
@@ -38216,7 +38210,7 @@ shapes = (
 ref = fraction.alt;
 },
 {
-pos = (-134,0);
+pos = (-144,0);
 ref = twosuperior;
 },
 {
@@ -38240,7 +38234,7 @@ shapes = (
 ref = fraction.alt;
 },
 {
-pos = (-150,0);
+pos = (-154,0);
 ref = twosuperior;
 },
 {
@@ -39642,13 +39636,13 @@ unicode = 185;
 },
 {
 glyphname = twosuperior;
-lastChange = "2023-11-04 22:29:13 +0000";
+lastChange = "2023-11-05 02:12:42 +0000";
 layers = (
 {
 anchors = (
 {
 name = _superior;
-pos = (293,710);
+pos = (302,710);
 }
 );
 background = {
@@ -39734,7 +39728,7 @@ width = 600;
 anchors = (
 {
 name = _superior;
-pos = (292,710);
+pos = (302,710);
 }
 );
 layerId = m01;
@@ -39781,7 +39775,7 @@ width = 600;
 anchors = (
 {
 name = _superior;
-pos = (298,710);
+pos = (302,710);
 }
 );
 layerId = "37DC72B3-BCF2-46ED-AAD5-F0285A86700E";
