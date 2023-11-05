@@ -5,7 +5,9 @@ DisplayStrings = (
 "½ ⅓ ⅔ ¼ ¾ ⅕ ⅛ ⅜ ⅝ ⅞
 ½ ⅓ ⅔ ¼ ¾ ⅕ ⅛ ⅜ ⅝ ⅞
 ½ ⅓ ⅔ ¼ ¾ ⅕ ⅛ ⅜ ⅝ ⅞
-"
+",
+"",
+"/SPC"
 );
 axes = (
 {
@@ -77678,6 +77680,24 @@ shapes = (
 ref = dotaccentcomb.ss08;
 }
 );
+width = 600;
+}
+);
+},
+{
+glyphname = SPC;
+lastChange = "2023-11-05 01:43:59 +0000";
+layers = (
+{
+layerId = "37DC72B3-BCF2-46ED-AAD5-F0285A86700E";
+width = 600;
+},
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+width = 600;
+},
+{
+layerId = m01;
 width = 600;
 }
 );
