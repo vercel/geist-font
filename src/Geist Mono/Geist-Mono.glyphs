@@ -270,7 +270,7 @@ tag = ordn;
 {
 code = "lookup less_exclam_hyphen_hyphen_hyphen.liga {
     sub SPC SPC SPC SPC hyphen' by less_exclam_hyphen_hyphen_hyphen.liga;
-    sub SPC SPC SPC hyphen' hyphen hyphen by SPC;
+    sub SPC SPC SPC hyphen' hyphen by SPC;
     sub SPC SPC hyphen' hyphen hyphen by SPC;
     sub SPC exclam' hyphen hyphen hyphen by SPC;
     sub less' exclam hyphen hyphen hyphen by SPC;
@@ -286,7 +286,7 @@ lookup bar_bar_bar_greater.liga {
 lookup hyphen_hyphen_hyphen_greater.liga {
     sub SPC SPC SPC greater' by hyphen_hyphen_hyphen_greater.liga;
     sub SPC SPC hyphen' greater by SPC;
-    sub SPC hyphen' hyphen hyphen greater by SPC;
+    sub SPC hyphen' hyphen greater by SPC;
     sub hyphen' hyphen hyphen greater by SPC;
 } hyphen_hyphen_hyphen_greater.liga ;
 
@@ -305,7 +305,8 @@ lookup less_equal_equal_greater.liga {
 } less_equal_equal_greater.liga ;
 
 lookup less_exclam_hyphen_hyphen.liga {
-    sub SPC SPC hyphen' by less_exclam_hyphen_hyphen.liga;
+    sub SPC SPC SPC hyphen' by less_exclam_hyphen_hyphen.liga;
+    sub SPC SPC hyphen' hyphen by SPC;
     sub SPC exclam' hyphen hyphen by SPC;
     sub less' exclam hyphen hyphen by SPC;
 } less_exclam_hyphen_hyphen.liga ;
@@ -318,7 +319,7 @@ lookup asciitilde_asciitilde_greater.liga {
 
 lookup bar_bar_equal.liga {
     sub SPC SPC equal' by bar_bar_equal.liga;
-    sub SPC equal' equal by SPC;
+    sub SPC bar' equal by SPC;
     sub bar' bar equal by SPC;
 } bar_bar_equal.liga ;
 
@@ -361,7 +362,7 @@ lookup equal_less_less.liga {
 lookup equal_slash_equal.liga {
     sub SPC SPC equal' by equal_slash_equal.liga;
     sub SPC slash' equal by SPC;
-    sub equal' equal slash by SPC;
+    sub equal' slash equal by SPC;
 } equal_slash_equal.liga ;
 
 lookup exclam_equal_equal.liga {
@@ -516,7 +517,7 @@ lookup period_period_period.liga {
 
 lookup slash_equal_equal.liga {
     sub SPC SPC equal' by slash_equal_equal.liga;
-    sub SPC slash' equal by SPC;
+    sub SPC equal' equal by SPC;
     sub slash' equal equal by SPC;
 } slash_equal_equal.liga ;
 
@@ -571,6 +572,7 @@ lookup colon_equal.liga {
 } colon_equal.liga ;
 
 lookup equal_equal.liga {
+	ignore sub slash equal' equal;
     sub SPC equal' by equal_equal.liga;
     sub equal' equal by SPC;
 } equal_equal.liga ;
