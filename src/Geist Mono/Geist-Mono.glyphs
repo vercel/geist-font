@@ -125,7 +125,7 @@ feature sinf;
 feature sups;
 feature frac;
 feature ordn;
-feature clig;
+feature calt;
 feature fwid;
 feature ss01;
 feature ss02;
@@ -665,7 +665,7 @@ lookup slash_equal.liga {
     sub slash' equal by SPC;
 } slash_equal.liga ;
 ";
-tag = clig;
+tag = calt;
 },
 {
 automatic = 1;
