@@ -24,7 +24,7 @@ npm install geist
 In `app/layout.js`:
 
 ```jsx
-import { GeistSans } from "geist/font";
+import { GeistSans } from "geist/font/sans";
 
 export default function RootLayout({
   children,
@@ -42,7 +42,7 @@ export default function RootLayout({
 In `pages/_app.js`:
 
 ```jsx
-import { GeistSans } from "geist/font";
+import { GeistSans } from "geist/font/sans";
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -64,7 +64,7 @@ In `app/layout.js`:
 
 
 ```jsx
-import { GeistSans, GeistMono } from 'geist/font'
+import { GeistSans, GeistMono } from 'geist/font/sans'
 
 export default function RootLayout({
   children,

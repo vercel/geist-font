@@ -1,3 +1,4 @@
 *
 !dist/**/*
 !font.d.ts
+!font/**/*
