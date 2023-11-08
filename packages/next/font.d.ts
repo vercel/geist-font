@@ -7,6 +7,9 @@ declare module "geist/font" {
    * Geist Sans variable font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
    *
+   * `GeistSans`—approximately 30kb—is preferred in almost all cases. Use `GeistSansNonVariable`—approximately
+   * 300kb—if you need to support browsers that {@link https://caniuse.com/variable-fonts cannot display variable fonts}
+   *
    * Included weights: 100 through 900
    *
    * * {@link https://www.npmjs.com/package/geist?activeTab=readme#app-router View App Router Example}
@@ -25,11 +28,10 @@ declare module "geist/font" {
    * Geist Sans font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
    *
+   * `GeistSans`—approximately 30kb—is preferred in almost all cases. Use `GeistSansNonVariable`—approximately
+   * 300kb—if you need to support browsers that {@link https://caniuse.com/variable-fonts cannot display variable fonts}
    *
-   * You should use `GeistSans` instead of `GeistSansNonVariable`. `GeistSansNonVariable` will
-   * add about 315kb while `GeistSans` will add 44kb. You should only use `GeistSansNonVariable` if you need to support browsers that don't {@link https://caniuse.com/variable-fonts support variable fonts}
-   *
-   * Included weights: 100 through 900.
+   * Included weights: 100 through 900
    *
    * * {@link https://www.npmjs.com/package/geist?activeTab=readme#app-router View App Router Example}
    *
@@ -48,7 +50,10 @@ declare module "geist/font" {
    * Geist Mono variable font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
    *
-   * Included weights: 100, 200, 300, 400, 500, 600, 700, 800, 900
+   * `GeistMono`—approximately 30kb—is preferred in almost all cases. Use `GeistMonoNonVariable`—approximately
+   * 300kb—if you need to support browsers that {@link https://caniuse.com/variable-fonts cannot display variable fonts}
+   *
+   * Included weights: 100 through 900.
    *
    * * {@link https://www.npmjs.com/package/geist?activeTab=readme#app-router View App Router Example}
    *
@@ -66,9 +71,8 @@ declare module "geist/font" {
    * Geist Mono font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
    *
-   *
-   * You should use `GeistMono` instead of `GeistMonoNonVariable`. `GeistMonoNonVariable` will
-   * add about 315kb while `GeistMono` will add 43kb. You should only use `GeistMonoNonVariable` if you need to support browsers that don't {@link https://caniuse.com/variable-fonts support variable fonts}
+   * `GeistMono`—approximately 30kb—is preferred in almost all cases. Use `GeistMonoNonVariable`—approximately
+   * 300kb—if you need to support browsers that {@link https://caniuse.com/variable-fonts cannot display variable fonts}
    *
    * Included weights: 100 through 900.
    *
@@ -88,6 +92,9 @@ declare module "geist/font/mono" {
    * Geist Mono variable font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
    *
+   * `GeistMono`—approximately 30kb—is preferred in almost all cases. Use `GeistMonoNonVariable`—approximately
+   * 300kb—if you need to support browsers that {@link https://caniuse.com/variable-fonts cannot display variable fonts}
+   *
    * Included weights: 100 through 900.
    *
    * * {@link https://www.npmjs.com/package/geist?activeTab=readme#app-router View App Router Example}
@@ -106,9 +113,8 @@ declare module "geist/font/mono-non-variable" {
    * Geist Mono font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
    *
-   *
-   * You should use `GeistMono` instead of `GeistMonoNonVariable`. `GeistMonoNonVariable` will
-   * add about 315kb while `GeistMono` will add 43kb. You should only use `GeistMonoNonVariable` if you need to support browsers that don't {@link https://caniuse.com/variable-fonts support variable fonts}
+   * `GeistMono`—approximately 30kb—is preferred in almost all cases. Use `GeistMonoNonVariable`—approximately
+   * 300kb—if you need to support browsers that {@link https://caniuse.com/variable-fonts cannot display variable fonts}
    *
    * Included weights: 100 through 900.
    *
@@ -125,8 +131,11 @@ declare module "geist/font/mono-non-variable" {
 
 declare module "geist/font/sans" {
   /**
-   * Geist Sans variable font, with `className` and `variable` properties,
+   * Geist Sans font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
+   *
+   * `GeistSans`—approximately 30kb—is preferred in almost all cases. Use `GeistSansNonVariable`—approximately
+   * 300kb—if you need to support browsers that {@link https://caniuse.com/variable-fonts cannot display variable fonts}
    *
    * Included weights: 100 through 900
    *
@@ -143,14 +152,11 @@ declare module "geist/font/sans" {
 
 declare module "geist/font/sans-non-variable" {
   /**
-   * @deprecated - Import from `geist/font/sans-non-variable` instead.
-   *
    * Geist Sans font, with `className` and `variable` properties,
    * meant to be attached to DOM elements via `className`
    *
-   *
-   * You should use `GeistSans` instead of `GeistSansNonVariable`. `GeistSansNonVariable` will
-   * add about 315kb while `GeistSans` will add 44kb. You should only use `GeistSansNonVariable` if you need to support browsers that don't {@link https://caniuse.com/variable-fonts support variable fonts}
+   * `GeistSans`—approximately 30kb—is preferred in almost all cases. Use `GeistSansNonVariable`—approximately
+   * 300kb—if you need to support browsers that {@link https://caniuse.com/variable-fonts cannot display variable fonts}
    *
    * Included weights: 100 through 900.
    *
@@ -161,7 +167,6 @@ declare module "geist/font/sans-non-variable" {
    * * {@link https://www.npmjs.com/package/geist?activeTab=readme#pages-router View Pages Router Example}
    *
    * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
-   * @deprecated Use `GeistSans` instead
    */
   export const GeistSansNonVariable: NextFontWithVariable;
 }
