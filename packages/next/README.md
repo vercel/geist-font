@@ -17,7 +17,7 @@ npm install geist
 
 ### Using with Next.js
 
-`geist/font` exports `GeistSans` and `GeistMono`. Both are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
+`GeistSans` is exported from `geist/font/sans`, and `GeistMono` can be found in `geist/font/mono`. Both are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
 
 #### App Router
 
@@ -64,7 +64,8 @@ In `app/layout.js`:
 
 
 ```jsx
-import { GeistSans, GeistMono } from 'geist/font/sans'
+import { GeistSans } from 'geist/font/sans'
+import { GeistMono } from 'geist/font/mono'
 
 export default function RootLayout({
   children,
