@@ -15,4 +15,5 @@ export const GeistMono = localFont({
     "Courier New",
     "monospace",
   ],
+  weight: "100 900",
 });
