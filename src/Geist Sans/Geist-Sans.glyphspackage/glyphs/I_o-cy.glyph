@@ -23,11 +23,11 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (175,180);
+pos = (139,181);
 ref = dieresiscomb;
 }
 );
-width = 602.96667;
+width = 603;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -36,11 +36,11 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (175,180);
+pos = (68,181);
 ref = dieresiscomb;
 }
 );
-width = 633.87793;
+width = 634;
 }
 );
 unicode = 1025;
