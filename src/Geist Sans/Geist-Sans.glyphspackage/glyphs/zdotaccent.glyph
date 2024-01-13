@@ -18,31 +18,27 @@ width = 536;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
 ref = z;
 },
 {
-alignment = -1;
 pos = (185,0);
 ref = dotaccentcomb;
 }
 );
-width = 549.53333;
+width = 549;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
 ref = z;
 },
 {
-alignment = -1;
-pos = (184,0);
+pos = (185,0);
 ref = dotaccentcomb;
 }
 );
-width = 626.7277;
+width = 626;
 }
 );
 unicode = 380;
