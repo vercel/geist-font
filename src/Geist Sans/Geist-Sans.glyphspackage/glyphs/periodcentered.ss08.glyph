@@ -1,0 +1,62 @@
+{
+glyphname = periodcentered.ss08;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (71,530);
+}
+);
+guides = (
+{
+pos = (250,353);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (0,271);
+ref = period.ss08;
+}
+);
+width = 162;
+},
+{
+anchors = (
+{
+name = top;
+pos = (97,530);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+pos = (0,247);
+ref = period.ss08;
+}
+);
+width = 208.4;
+},
+{
+anchors = (
+{
+name = top;
+pos = (121,530);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+pos = (0,208);
+ref = period.ss08;
+}
+);
+width = 254.08451;
+}
+);
+metricLeft = o;
+metricRight = o;
+}

@@ -1,0 +1,73 @@
+{
+color = 3;
+glyphname = "Yat-cy";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "Softsign-cy";
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (10,0);
+ref = "Softsign-cy";
+},
+{
+closed = 1;
+nodes = (
+(16,550,l),
+(311,550,l),
+(311,580,l),
+(16,580,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (24,0);
+ref = "Softsign-cy";
+},
+{
+closed = 1;
+nodes = (
+(15,530,l),
+(364,530,l),
+(364,614,l),
+(15,614,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (21,0);
+ref = "Softsign-cy";
+},
+{
+closed = 1;
+nodes = (
+(20,524,l),
+(403,524,l),
+(403,627,l),
+(20,627,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 1122;
+}

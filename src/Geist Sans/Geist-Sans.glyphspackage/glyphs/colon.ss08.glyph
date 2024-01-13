@@ -1,0 +1,76 @@
+{
+glyphname = colon.ss08;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (117,530);
+}
+);
+guides = (
+{
+pos = (293,467);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (46,-6);
+ref = period.ss08;
+},
+{
+pos = (46,370);
+ref = period.ss08;
+}
+);
+width = 254;
+},
+{
+anchors = (
+{
+name = top;
+pos = (140,530);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+pos = (45,0);
+ref = period.ss08;
+},
+{
+alignment = -1;
+pos = (45,357);
+ref = period.ss08;
+}
+);
+width = 298.46667;
+},
+{
+anchors = (
+{
+name = top;
+pos = (148,530);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+pos = (29,0);
+ref = period.ss08;
+},
+{
+alignment = -1;
+pos = (29,315);
+ref = period.ss08;
+}
+);
+width = 312;
+}
+);
+metricLeft = H;
+metricRight = H;
+}

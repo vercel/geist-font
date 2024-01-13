@@ -1,0 +1,59 @@
+{
+glyphname = Saltillo;
+kernLeft = "0";
+kernRight = "0";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(280,580,l),
+(286,397,l),
+(314,397,l),
+(320,580,l),
+(320,710,l),
+(280,710,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,574,l),
+(270,378,l),
+(330,378,l),
+(344,574,l),
+(344,710,l),
+(256,710,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,561,l),
+(253,356,l),
+(348,356,l),
+(360,561,l),
+(360,710,l),
+(240,710,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 42891;
+}

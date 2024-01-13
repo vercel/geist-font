@@ -1,0 +1,66 @@
+{
+color = 9;
+glyphname = numbersign_numbersign_numbersign.liga;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (601,0);
+ref = numbersign;
+},
+{
+pos = (1042,0);
+ref = numbersign;
+},
+{
+pos = (160,0);
+ref = numbersign;
+}
+);
+width = 1800;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (601,0);
+ref = numbersign;
+},
+{
+alignment = -1;
+pos = (1042,0);
+ref = numbersign;
+},
+{
+alignment = -1;
+pos = (160,0);
+ref = numbersign;
+}
+);
+width = 1800;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (600,0);
+ref = numbersign;
+},
+{
+alignment = -1;
+pos = (1091,0);
+ref = numbersign;
+},
+{
+alignment = -1;
+pos = (109,0);
+ref = numbersign;
+}
+);
+width = 1800;
+}
+);
+}

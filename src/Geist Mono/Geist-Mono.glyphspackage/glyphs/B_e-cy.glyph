@@ -1,0 +1,88 @@
+{
+color = 3;
+glyphname = "Be-cy";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = B;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (-13,710);
+ref = P;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(91,680,l),
+(519,680,l),
+(519,710,l),
+(91,710,l)
+);
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+ref = B;
+}
+);
+};
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+pos = (-10,710);
+ref = P;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(80,626,l),
+(523,626,l),
+(523,710,l),
+(80,710,l)
+);
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+ref = B;
+}
+);
+};
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+pos = (0,710);
+ref = P;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(70,579,l),
+(530,579,l),
+(530,710,l),
+(70,710,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 1041;
+}
