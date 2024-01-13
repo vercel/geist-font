@@ -525,11 +525,11 @@ value = 100;
 },
 {
 name = winAscent;
-value = 920;
+value = 1012;
 },
 {
 name = winDescent;
-value = 220;
+value = 247;
 }
 );
 iconName = Light;
@@ -601,11 +601,11 @@ value = 100;
 },
 {
 name = winAscent;
-value = 920;
+value = 1012;
 },
 {
 name = winDescent;
-value = 220;
+value = 247;
 }
 );
 id = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
@@ -668,11 +668,11 @@ value = 100;
 },
 {
 name = winAscent;
-value = 920;
+value = 1012;
 },
 {
 name = winDescent;
-value = 220;
+value = 247;
 }
 );
 iconName = Bold;
@@ -778,6 +778,7 @@ instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 0.4;
 "58B1DC7A-69F8-4375-AD2E-AC5103CCF536" = 0.6;
 };
+isBold = 1;
 name = Bold;
 weightClass = 700;
 },

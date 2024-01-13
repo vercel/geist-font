@@ -21,7 +21,7 @@ name = "Write DisplayStrings";
 value = 0;
 }
 );
-date = "2024-01-13 14:25:11 +0000";
+date = "2024-01-13 14:32:49 +0000";
 familyName = Geist;
 featurePrefixes = (
 {
@@ -521,11 +521,11 @@ value = 100;
 },
 {
 name = winAscent;
-value = 920;
+value = 976;
 },
 {
 name = winDescent;
-value = 220;
+value = 245;
 }
 );
 iconName = Light;
@@ -597,11 +597,11 @@ value = 100;
 },
 {
 name = winAscent;
-value = 920;
+value = 976;
 },
 {
 name = winDescent;
-value = 220;
+value = 245;
 }
 );
 id = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -669,11 +669,11 @@ value = 100;
 },
 {
 name = winAscent;
-value = 920;
+value = 976;
 },
 {
 name = winDescent;
-value = 220;
+value = 245;
 }
 );
 iconName = Bold;
@@ -782,6 +782,7 @@ instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 0.6;
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 0.4;
 };
+isBold = 1;
 name = Bold;
 weightClass = 700;
 },
