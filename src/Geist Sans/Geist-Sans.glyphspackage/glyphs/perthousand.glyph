@@ -22,6 +22,9 @@ nodes = (
 );
 },
 {
+ref = percent;
+},
+{
 closed = 1;
 nodes = (
 (759,30,o),
@@ -37,9 +40,6 @@ nodes = (
 (855,30,o),
 (807,30,cs)
 );
-},
-{
-ref = percent;
 }
 );
 width = 970;
@@ -65,6 +65,10 @@ nodes = (
 );
 },
 {
+alignment = -1;
+ref = percent;
+},
+{
 closed = 1;
 nodes = (
 (859,76,o),
@@ -80,10 +84,6 @@ nodes = (
 (943,76,o),
 (901,76,cs)
 );
-},
-{
-alignment = -1;
-ref = percent;
 }
 );
 width = 1091.8;
@@ -109,6 +109,10 @@ nodes = (
 );
 },
 {
+alignment = -1;
+ref = percent;
+},
+{
 closed = 1;
 nodes = (
 (999,85,o),
@@ -124,10 +128,6 @@ nodes = (
 (1065,85,o),
 (1032,85,cs)
 );
-},
-{
-alignment = -1;
-ref = percent;
 }
 );
 width = 1231.29577;
