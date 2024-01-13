@@ -544,24 +544,17 @@ over = 16;
 pos = 710;
 },
 {
-over = 16;
-pos = 710;
-},
-{
 over = 12;
 pos = 530;
 },
 {
-over = -12;
+over = -16;
 },
 {
 over = -12;
 pos = -150;
 },
 {
-},
-{
-over = -16;
 }
 );
 name = Thin;
@@ -619,24 +612,17 @@ over = 16;
 pos = 710;
 },
 {
-over = 16;
-pos = 710;
-},
-{
 over = 12;
 pos = 530;
 },
 {
-over = -12;
+over = -16;
 },
 {
 over = -12;
 pos = -150;
 },
 {
-},
-{
-over = -16;
 }
 );
 name = Regular;
@@ -687,24 +673,17 @@ over = 16;
 pos = 710;
 },
 {
-over = 16;
-pos = 710;
-},
-{
 over = 12;
 pos = 530;
 },
 {
-over = -12;
+over = -16;
 },
 {
 over = -12;
 pos = -150;
 },
 {
-},
-{
-over = -16;
 }
 );
 name = UltraBlack;
@@ -1358,9 +1337,7 @@ r = {
 };
 metrics = (
 {
-type = ascender;
-},
-{
+name = Ascender;
 type = "cap height";
 },
 {
@@ -1374,10 +1351,6 @@ type = descender;
 },
 {
 type = "italic angle";
-},
-{
-filter = "case == 1 OR category == \"Number\"";
-name = "Cap Baseline";
 }
 );
 unitsPerEm = 1000;

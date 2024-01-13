@@ -23,6 +23,27 @@ value = 0;
 {
 name = "Variable Font Origin";
 value = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+},
+{
+name = "Family Alignment Zones";
+value = (
+{
+pos = 710;
+size = 16;
+},
+{
+pos = 530;
+size = 12;
+},
+{
+pos = 0;
+size = -12;
+},
+{
+pos = -150;
+size = -12;
+}
+);
 }
 );
 date = "2024-01-13 14:32:49 +0000";
@@ -540,24 +561,17 @@ over = 16;
 pos = 710;
 },
 {
-over = 16;
-pos = 710;
-},
-{
 over = 12;
 pos = 530;
 },
 {
-over = -12;
+over = -16;
 },
 {
 over = -12;
 pos = -150;
 },
 {
-},
-{
-over = -16;
 }
 );
 name = Thin;
@@ -615,24 +629,17 @@ over = 16;
 pos = 710;
 },
 {
-over = 16;
-pos = 710;
-},
-{
 over = 12;
 pos = 530;
 },
 {
-over = -12;
+over = -16;
 },
 {
 over = -12;
 pos = -150;
 },
 {
-},
-{
-over = -16;
 }
 );
 name = Regular;
@@ -688,24 +695,17 @@ over = 16;
 pos = 710;
 },
 {
-over = 16;
-pos = 710;
-},
-{
 over = 12;
 pos = 530;
 },
 {
-over = -12;
+over = -16;
 },
 {
 over = -12;
 pos = -150;
 },
 {
-},
-{
-over = -16;
 }
 );
 name = UltraBlack;
@@ -1808,9 +1808,7 @@ r = {
 };
 metrics = (
 {
-type = ascender;
-},
-{
+name = Ascender;
 type = "cap height";
 },
 {
@@ -1824,10 +1822,6 @@ type = descender;
 },
 {
 type = "italic angle";
-},
-{
-filter = "case == 1 OR category == \"Number\"";
-name = "Cap Baseline";
 }
 );
 unitsPerEm = 1000;
