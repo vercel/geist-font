@@ -19,6 +19,10 @@ value = 0;
 {
 name = "Write DisplayStrings";
 value = 0;
+},
+{
+name = "Variable Font Origin";
+value = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 }
 );
 date = "2023-01-10 15:10:13 +0000";
