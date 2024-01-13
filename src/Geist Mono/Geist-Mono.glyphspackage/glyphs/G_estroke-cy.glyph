@@ -6,16 +6,16 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-ref = "Ge-cy";
-},
-{
 closed = 1;
 nodes = (
-(36,313,l),
 (412,313,l),
 (412,343,l),
-(36,343,l)
+(36,343,l),
+(36,313,l)
 );
+},
+{
+ref = "Ge-cy";
 }
 );
 width = 600;
@@ -24,16 +24,16 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-ref = "Ge-cy";
-},
-{
 closed = 1;
 nodes = (
-(19,286,l),
 (425,286,l),
 (425,370,l),
-(19,370,l)
+(19,370,l),
+(19,286,l)
 );
+},
+{
+ref = "Ge-cy";
 }
 );
 width = 600;
@@ -42,16 +42,16 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-ref = "Ge-cy";
-},
-{
 closed = 1;
 nodes = (
-(20,263,l),
 (466,263,l),
 (466,394,l),
-(20,394,l)
+(20,394,l),
+(20,263,l)
 );
+},
+{
+ref = "Ge-cy";
 }
 );
 width = 600;

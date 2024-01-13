@@ -23,18 +23,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(62,344,l),
 (538,344,l),
 (538,374,l),
-(62,374,l)
+(62,374,l),
+(62,344,l)
 );
 },
 {
-pos = (0,523);
+pos = (0,146);
 ref = period.ss08;
 },
 {
-pos = (0,146);
+pos = (0,523);
 ref = period.ss08;
 }
 );
@@ -52,20 +52,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(62,287,l),
 (538,287,l),
 (538,365,l),
-(62,365,l)
+(62,365,l),
+(62,287,l)
 );
 },
 {
 alignment = -1;
-pos = (0,463);
+pos = (0,90);
 ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (0,90);
+pos = (0,463);
 ref = period.ss08;
 }
 );
@@ -83,20 +83,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(62,263,l),
 (538,263,l),
 (538,392,l),
-(62,392,l)
+(62,392,l),
+(62,263,l)
 );
 },
 {
 alignment = -1;
-pos = (0,479);
+pos = (0,34);
 ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (0,34);
+pos = (0,479);
 ref = period.ss08;
 }
 );

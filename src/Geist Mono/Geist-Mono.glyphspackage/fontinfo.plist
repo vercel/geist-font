@@ -711,6 +711,12 @@ instances = (
 axesValues = (
 100
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 1;
 };
@@ -720,6 +726,12 @@ weightClass = 100;
 {
 axesValues = (
 200
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 0.33333;
@@ -732,6 +744,12 @@ weightClass = 200;
 axesValues = (
 300
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 0.66667;
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 0.33333;
@@ -743,6 +761,12 @@ weightClass = 300;
 axesValues = (
 400
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 1;
 };
@@ -751,6 +775,12 @@ name = Regular;
 {
 axesValues = (
 500
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 0.8;
@@ -763,6 +793,12 @@ weightClass = 500;
 axesValues = (
 600
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 0.6;
 "58B1DC7A-69F8-4375-AD2E-AC5103CCF536" = 0.4;
@@ -773,6 +809,12 @@ weightClass = 600;
 {
 axesValues = (
 700
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 0.4;
@@ -786,6 +828,12 @@ weightClass = 700;
 axesValues = (
 800
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 0.2;
 "58B1DC7A-69F8-4375-AD2E-AC5103CCF536" = 0.8;
@@ -796,6 +844,12 @@ weightClass = 800;
 {
 axesValues = (
 900
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "58B1DC7A-69F8-4375-AD2E-AC5103CCF536" = 1;
