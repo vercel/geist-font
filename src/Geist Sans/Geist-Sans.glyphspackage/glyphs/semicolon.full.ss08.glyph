@@ -1,0 +1,39 @@
+{
+glyphname = semicolon.full.ss08;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (-46,0);
+ref = semicolon.ss08;
+}
+);
+width = 163;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+pos = (-45,0);
+ref = semicolon.ss08;
+}
+);
+width = 215;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+pos = (-29,0);
+ref = semicolon.ss08;
+}
+);
+width = 262;
+}
+);
+metricLeft = o;
+metricRight = o;
+}

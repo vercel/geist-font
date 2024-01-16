@@ -1,0 +1,61 @@
+{
+glyphname = quotedbl.full;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(147,457,l),
+(199,457,l),
+(223,710,l),
+(143,710,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-15,457,l),
+(37,457,l),
+(41,710,l),
+(-39,710,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = quotedbl;
+}
+);
+width = 245;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+pos = (-2,0);
+ref = quotedbl;
+}
+);
+width = 352.3;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+pos = (-2,0);
+ref = quotedbl;
+}
+);
+width = 400;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 65282;
+}

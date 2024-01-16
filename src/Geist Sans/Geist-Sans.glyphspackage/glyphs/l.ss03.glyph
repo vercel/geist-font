@@ -1,0 +1,84 @@
+{
+glyphname = l.ss03;
+kernLeft = b;
+kernRight = d;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = top;
+pos = (111,710);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(126,0,l),
+(126,710,l),
+(96,710,l),
+(96,0,l)
+);
+}
+);
+width = 222;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (134,0);
+},
+{
+name = top;
+pos = (134,710);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(176,0,l),
+(176,710,l),
+(92,710,l),
+(92,0,l)
+);
+}
+);
+width = 268.4;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (159,0);
+},
+{
+name = top;
+pos = (159,710);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,0,l),
+(256,710,l),
+(62,710,l),
+(62,0,l)
+);
+}
+);
+width = 318.39437;
+}
+);
+metricLeft = H;
+metricRight = H;
+}

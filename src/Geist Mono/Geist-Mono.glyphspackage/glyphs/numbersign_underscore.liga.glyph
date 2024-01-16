@@ -1,0 +1,55 @@
+{
+color = 9;
+glyphname = numbersign_underscore.liga;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (30,0);
+ref = numbersign;
+},
+{
+pos = (241,74);
+ref = underscore;
+scale = (1.7,1);
+}
+);
+width = 1200;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-12,0);
+ref = numbersign;
+},
+{
+alignment = -1;
+pos = (250,122);
+ref = underscore;
+scale = (1.7,1);
+}
+);
+width = 1200;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (11,0);
+ref = numbersign;
+},
+{
+alignment = -1;
+pos = (274,130);
+ref = underscore;
+scale = (1.6286,0.8214);
+}
+);
+width = 1200;
+}
+);
+}

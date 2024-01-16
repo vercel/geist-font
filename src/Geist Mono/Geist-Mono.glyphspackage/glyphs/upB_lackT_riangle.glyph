@@ -1,0 +1,73 @@
+{
+glyphname = upBlackTriangle;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(591,0,l),
+(299,505,l),
+(8,0,l)
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 12 values pushed */
+2 1 0 74 0 0 0 118 16 1 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(591,0,l),
+(299,505,l),
+(8,0,l)
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 12 values pushed */
+2 1 0 74 0 0 0 118 16 1 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(591,0,l),
+(299,505,l),
+(8,0,l)
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 12 values pushed */
+2 1 0 74 0 0 0 118 16 1 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 600;
+}
+);
+note = uni25B2;
+unicode = 9650;
+}

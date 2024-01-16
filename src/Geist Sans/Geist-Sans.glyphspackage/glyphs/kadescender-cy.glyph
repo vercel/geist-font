@@ -1,0 +1,65 @@
+{
+color = 8;
+glyphname = "kadescender-cy";
+kernLeft = b;
+kernRight = x;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(491,-150,l),
+(491,74,l),
+(461,74,l),
+(461,-150,l)
+);
+},
+{
+ref = "ka-cy";
+}
+);
+width = 540;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(553,-150,l),
+(553,74,l),
+(469,74,l),
+(469,-150,l)
+);
+},
+{
+ref = "ka-cy";
+}
+);
+width = 600;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(689,-150,l),
+(689,74,l),
+(495,74,l),
+(495,-150,l)
+);
+},
+{
+ref = "ka-cy";
+}
+);
+width = 734;
+}
+);
+metricLeft = b;
+metricRight = x;
+unicode = 1179;
+}
