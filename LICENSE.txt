@@ -1,8 +1,8 @@
-Geist Sans and Geist Mono Font
-(C) 2023 Vercel, made in collaboration with basement.studio
+Copyright (c) 2023 Vercel, in collaboration with basement.studio
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: http://scripts.sil.org/OFL and copied below
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
