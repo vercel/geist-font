@@ -1337,7 +1337,6 @@ r = {
 };
 metrics = (
 {
-name = Ascender;
 type = "cap height";
 },
 {
