@@ -1,7 +1,7 @@
 {
 glyphname = "Em-cy";
-kernLeft = H;
-kernRight = H;
+kernLeft = b;
+kernRight = d;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -13,16 +13,6 @@ ref = M;
 width = 850;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-alignment = -1;
-ref = M;
-}
-);
-width = 877.06667;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -31,6 +21,16 @@ ref = M;
 }
 );
 width = 939.51174;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+ref = M;
+}
+);
+width = 877.06667;
 }
 );
 unicode = 1052;

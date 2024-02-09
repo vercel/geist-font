@@ -9,7 +9,7 @@ ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (118,-162);
+pos = (296,-162);
 ref = onesuperior;
 }
 );
@@ -21,6 +21,21 @@ CALL[ ]	/* CallFunction */";
 width = 838;
 },
 {
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (260,-162);
+ref = onesuperior;
+}
+);
+width = 853;
+},
+{
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
@@ -29,7 +44,7 @@ ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (120,-162);
+pos = (268,-162);
 ref = onesuperior;
 }
 );
@@ -39,21 +54,6 @@ assembly = "NPUSHB[ ]	/* 72 values pushed */
 CALL[ ]	/* CallFunction */";
 };
 width = 832.2;
-},
-{
-layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
-shapes = (
-{
-alignment = -1;
-ref = blackCircledStroke;
-},
-{
-alignment = -1;
-pos = (119,-162);
-ref = onesuperior;
-}
-);
-width = 853;
 }
 );
 metricLeft = o;

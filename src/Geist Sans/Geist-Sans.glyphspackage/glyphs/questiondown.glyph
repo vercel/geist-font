@@ -15,18 +15,6 @@ ref = question;
 width = 516;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (565,564);
-ref = question;
-}
-);
-width = 565.3;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -37,6 +25,18 @@ ref = question;
 }
 );
 width = 615.3662;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (565,564);
+ref = question;
+}
+);
+width = 565.3;
 }
 );
 metricLeft = o;

@@ -24,25 +24,6 @@ ref = "ge-cy";
 width = 511;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(366,232,l),
-(366,306,l),
-(60,306,l),
-(60,232,l)
-);
-},
-{
-pos = (39,0);
-ref = "ge-cy";
-}
-);
-width = 537;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -60,6 +41,25 @@ ref = "ge-cy";
 }
 );
 width = 553;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(366,232,l),
+(366,306,l),
+(60,306,l),
+(60,232,l)
+);
+},
+{
+pos = (39,0);
+ref = "ge-cy";
+}
+);
+width = 537;
 }
 );
 metricLeft = "=n-20";

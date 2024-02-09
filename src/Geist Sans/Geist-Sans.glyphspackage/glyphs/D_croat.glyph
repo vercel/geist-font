@@ -1,5 +1,7 @@
 {
 glyphname = Dcroat;
+kernLeft = O;
+kernRight = D;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -11,16 +13,6 @@ ref = Eth;
 width = 765;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-alignment = -1;
-ref = Eth;
-}
-);
-width = 790.13333;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -29,6 +21,16 @@ ref = Eth;
 }
 );
 width = 797.22066;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+ref = Eth;
+}
+);
+width = 790.13333;
 }
 );
 unicode = 272;

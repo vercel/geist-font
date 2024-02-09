@@ -9,17 +9,7 @@ shapes = (
 ref = acute;
 }
 );
-width = 206;
-},
-{
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-alignment = -1;
-ref = acute;
-}
-);
-width = 250.46667;
+width = 207;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -30,6 +20,16 @@ ref = acute;
 }
 );
 width = 267.37089;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+ref = acute;
+}
+);
+width = 250.46667;
 }
 );
 unicode = 8242;

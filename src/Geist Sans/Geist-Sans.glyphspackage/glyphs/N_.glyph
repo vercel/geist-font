@@ -1,7 +1,7 @@
 {
 glyphname = N;
-kernLeft = H;
-kernRight = H;
+kernLeft = b;
+kernRight = d;
 layers = (
 {
 anchors = (
@@ -61,37 +61,6 @@ pos = (373,0);
 },
 {
 name = top;
-pos = (386,710);
-}
-);
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(178,0,l),
-(178,602,l),
-(523,0,l),
-(651,0,l),
-(651,710,l),
-(565,710,l),
-(565,96,l),
-(214,710,l),
-(92,710,l),
-(92,0,l)
-);
-}
-);
-width = 743;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (373,0);
-},
-{
-name = top;
 pos = (378,710);
 }
 );
@@ -114,6 +83,37 @@ nodes = (
 }
 );
 width = 754.53991;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (373,0);
+},
+{
+name = top;
+pos = (386,710);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,0,l),
+(178,602,l),
+(523,0,l),
+(651,0,l),
+(651,710,l),
+(565,710,l),
+(565,96,l),
+(214,710,l),
+(92,710,l),
+(92,0,l)
+);
+}
+);
+width = 743;
 }
 );
 metricLeft = H;

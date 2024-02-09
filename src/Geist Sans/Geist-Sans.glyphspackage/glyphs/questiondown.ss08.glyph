@@ -24,24 +24,6 @@ width = 516;
 anchors = (
 {
 name = top;
-pos = (279,530);
-}
-);
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-alignment = -1;
-angle = 180;
-pos = (565,564);
-ref = question.ss08;
-}
-);
-width = 565.3;
-},
-{
-anchors = (
-{
-name = top;
 pos = (267,530);
 }
 );
@@ -55,6 +37,24 @@ ref = question.ss08;
 }
 );
 width = 615.3662;
+},
+{
+anchors = (
+{
+name = top;
+pos = (279,530);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (565,564);
+ref = question.ss08;
+}
+);
+width = 565.3;
 }
 );
 metricLeft = o;

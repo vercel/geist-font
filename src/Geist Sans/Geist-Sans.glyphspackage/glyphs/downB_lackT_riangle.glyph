@@ -18,6 +18,18 @@ CALL[ ]	/* CallFunction */";
 width = 867;
 },
 {
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+pos = (0,710);
+ref = upBlackTriangle;
+scale = (1,-1);
+}
+);
+width = 873.98592;
+},
+{
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
@@ -33,18 +45,6 @@ assembly = "PUSHB[ ]	/* 8 values pushed */
 CALL[ ]	/* CallFunction */";
 };
 width = 861.2;
-},
-{
-layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
-shapes = (
-{
-alignment = -1;
-pos = (0,710);
-ref = upBlackTriangle;
-scale = (1,-1);
-}
-);
-width = 873.98592;
 }
 );
 metricLeft = Y;

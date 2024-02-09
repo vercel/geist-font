@@ -1,4 +1,5 @@
 {
+export = 0;
 glyphname = ezhcaron;
 layers = (
 {
@@ -15,19 +16,6 @@ ref = caroncomb;
 width = 564;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = ezh;
-},
-{
-pos = (106,0);
-ref = caroncomb;
-}
-);
-width = 599;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -39,6 +27,19 @@ ref = caroncomb;
 }
 );
 width = 672;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = ezh;
+},
+{
+pos = (106,0);
+ref = caroncomb;
+}
+);
+width = 599;
 }
 );
 unicode = 495;

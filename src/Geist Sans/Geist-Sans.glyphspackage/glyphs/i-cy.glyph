@@ -13,16 +13,6 @@ ref = i;
 width = 200;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-alignment = -1;
-ref = i;
-}
-);
-width = 244.46667;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -31,6 +21,16 @@ ref = i;
 }
 );
 width = 305.9061;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+ref = i;
+}
+);
+width = 244.46667;
 }
 );
 unicode = 1110;

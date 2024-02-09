@@ -36,35 +36,6 @@ width = 224;
 anchors = (
 {
 name = bottom;
-pos = (135,0);
-},
-{
-name = ogonek;
-pos = (178,0);
-},
-{
-name = top;
-pos = (135,710);
-}
-);
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(178,0,l),
-(178,710,l),
-(92,710,l),
-(92,0,l)
-);
-}
-);
-width = 270.4;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (160,0);
 },
 {
@@ -89,6 +60,35 @@ nodes = (
 }
 );
 width = 320.39437;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (135,0);
+},
+{
+name = ogonek;
+pos = (178,0);
+},
+{
+name = top;
+pos = (135,710);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,0,l),
+(178,710,l),
+(92,710,l),
+(92,0,l)
+);
+}
+);
+width = 270.4;
 }
 );
 metricLeft = H;

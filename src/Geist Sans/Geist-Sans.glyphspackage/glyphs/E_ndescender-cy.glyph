@@ -1,7 +1,7 @@
 {
 color = 8;
 glyphname = "Endescender-cy";
-kernLeft = H;
+kernLeft = b;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -22,24 +22,6 @@ ref = "En-cy";
 width = 687;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(678,-150,l),
-(678,70,l),
-(592,70,l),
-(592,-150,l)
-);
-},
-{
-ref = "En-cy";
-}
-);
-width = 750;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -56,6 +38,24 @@ ref = "En-cy";
 }
 );
 width = 815;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(678,-150,l),
+(678,70,l),
+(592,70,l),
+(592,-150,l)
+);
+},
+{
+ref = "En-cy";
+}
+);
+width = 750;
 }
 );
 metricLeft = H;

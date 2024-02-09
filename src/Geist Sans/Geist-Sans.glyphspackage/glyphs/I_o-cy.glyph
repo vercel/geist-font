@@ -1,6 +1,6 @@
 {
 glyphname = "Io-cy";
-kernLeft = H;
+kernLeft = b;
 kernRight = E;
 layers = (
 {
@@ -17,19 +17,6 @@ ref = dieresiscomb;
 width = 573;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = "Ie-cy";
-},
-{
-pos = (139,181);
-ref = dieresiscomb;
-}
-);
-width = 603;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -41,6 +28,19 @@ ref = dieresiscomb;
 }
 );
 width = 634;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = "Ie-cy";
+},
+{
+pos = (139,181);
+ref = dieresiscomb;
+}
+);
+width = 603;
 }
 );
 unicode = 1025;

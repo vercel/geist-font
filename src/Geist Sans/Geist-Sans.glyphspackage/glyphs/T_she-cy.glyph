@@ -23,25 +23,6 @@ ref = "Shha-cy";
 width = 706;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(519,626,l),
-(519,710,l),
-(25,710,l),
-(25,626,l)
-);
-},
-{
-pos = (127,0);
-ref = "Shha-cy";
-}
-);
-width = 779;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -59,6 +40,25 @@ ref = "Shha-cy";
 }
 );
 width = 816;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,626,l),
+(519,710,l),
+(25,710,l),
+(25,626,l)
+);
+},
+{
+pos = (127,0);
+ref = "Shha-cy";
+}
+);
+width = 779;
 }
 );
 metricLeft = T;

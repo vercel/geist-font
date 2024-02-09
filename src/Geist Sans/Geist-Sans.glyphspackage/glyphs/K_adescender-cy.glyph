@@ -1,7 +1,7 @@
 {
 color = 8;
 glyphname = "Kadescender-cy";
-kernLeft = H;
+kernLeft = b;
 kernRight = X;
 layers = (
 {
@@ -21,24 +21,6 @@ ref = "Ka-cy";
 }
 );
 width = 558;
-},
-{
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(638,-150,l),
-(638,70,l),
-(552,70,l),
-(552,-150,l)
-);
-},
-{
-ref = "Ka-cy";
-}
-);
-width = 665;
 },
 {
 background = {
@@ -65,6 +47,24 @@ ref = "Ka-cy";
 }
 );
 width = 817;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(638,-150,l),
+(638,70,l),
+(552,70,l),
+(552,-150,l)
+);
+},
+{
+ref = "Ka-cy";
+}
+);
+width = 665;
 }
 );
 metricLeft = H;

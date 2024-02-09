@@ -1,6 +1,6 @@
 {
 glyphname = j.ss08;
-kernLeft = j;
+kernLeft = b;
 kernRight = d;
 layers = (
 {
@@ -17,19 +17,6 @@ ref = dotaccentcomb.ss08;
 width = 230;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = jdotless;
-},
-{
-pos = (39,0);
-ref = dotaccentcomb.ss08;
-}
-);
-width = 260;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -41,6 +28,19 @@ ref = dotaccentcomb.ss08;
 }
 );
 width = 379;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (39,0);
+ref = dotaccentcomb.ss08;
+}
+);
+width = 260;
 }
 );
 }
