@@ -24,7 +24,7 @@ shapes = (
 ref = "u-cy";
 },
 {
-pos = (122,0);
+pos = (122,10);
 ref = macroncomb;
 }
 );

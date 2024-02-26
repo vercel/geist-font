@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = softhyphen;
 layers = (
 {
@@ -18,7 +19,7 @@ alignment = -1;
 ref = hyphen;
 }
 );
-width = 420.16901;
+width = 418;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -28,8 +29,10 @@ alignment = -1;
 ref = hyphen;
 }
 );
-width = 430.8;
+width = 425;
 }
 );
+metricLeft = o;
+metricRight = o;
 unicode = 173;
 }

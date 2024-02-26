@@ -23,7 +23,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (32,0);
+pos = (32,10);
 ref = dotaccentcomb.ss08;
 }
 );

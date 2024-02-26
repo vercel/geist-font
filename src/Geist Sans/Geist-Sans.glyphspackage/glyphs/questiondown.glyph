@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = questiondown;
 kernLeft = questiondown;
 kernRight = questiondown;
@@ -24,7 +25,7 @@ pos = (615,564);
 ref = question;
 }
 );
-width = 615.3662;
+width = 615;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,7 +37,7 @@ pos = (565,564);
 ref = question;
 }
 );
-width = 565.3;
+width = 565;
 }
 );
 metricLeft = o;

@@ -23,7 +23,7 @@ shapes = (
 ref = g;
 },
 {
-pos = (183,0);
+pos = (183,10);
 ref = commaturnedabovecomb;
 }
 );

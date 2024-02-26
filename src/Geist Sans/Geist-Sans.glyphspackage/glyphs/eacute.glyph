@@ -23,7 +23,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (234,-1);
+pos = (234,8);
 ref = acutecomb;
 }
 );

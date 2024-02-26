@@ -27,7 +27,7 @@ pos = (340,180);
 ref = gravecomb;
 }
 );
-width = 1044;
+width = 1043;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

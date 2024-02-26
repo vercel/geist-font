@@ -23,7 +23,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (204,-1);
+pos = (204,8);
 ref = dotaccentcomb.ss08;
 }
 );

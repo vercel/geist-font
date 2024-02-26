@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = emdash;
 layers = (
 {
@@ -35,14 +36,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(882,216,l),
-(882,368,l),
+(883,216,l),
+(883,368,l),
 (33,368,l),
 (33,216,l)
 );
 }
 );
-width = 915.15493;
+width = 916;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

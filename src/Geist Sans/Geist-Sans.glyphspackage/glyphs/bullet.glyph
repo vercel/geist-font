@@ -1,13 +1,8 @@
 {
+color = 4;
 glyphname = bullet;
 layers = (
 {
-anchors = (
-{
-name = top;
-pos = (88,530);
-}
-);
 guides = (
 {
 pos = (293,392);
@@ -22,7 +17,7 @@ pos = (263,157);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (-37,233);
+pos = (-37,243);
 ref = period.ss08;
 scale = (1.7494,1.7494);
 }
@@ -30,17 +25,11 @@ scale = (1.7494,1.7494);
 width = 209;
 },
 {
-anchors = (
-{
-name = top;
-pos = (172,530);
-}
-);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (-19,149);
+pos = (-19,159);
 ref = period.ss08;
 scale = (1.5899,1.5899);
 }
@@ -48,22 +37,16 @@ scale = (1.5899,1.5899);
 width = 365;
 },
 {
-anchors = (
-{
-name = top;
-pos = (134,530);
-}
-);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (-35,187);
+pos = (-35,217);
 ref = period.ss08;
 scale = (1.7494,1.7494);
 }
 );
-width = 294.06667;
+width = 294;
 }
 );
 metricLeft = o;

@@ -1,5 +1,5 @@
 {
-.appVersion = "3234";
+.appVersion = "3241";
 .formatVersion = 3;
 axes = (
 {
@@ -519,6 +519,12 @@ name = winDescent;
 value = 245;
 }
 );
+guides = (
+{
+angle = 180;
+pos = (0,-12);
+}
+);
 iconName = Light;
 id = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 metricValues = (
@@ -585,6 +591,12 @@ value = 976;
 {
 name = winDescent;
 value = 245;
+}
+);
+guides = (
+{
+angle = 180;
+pos = (0,-12);
 }
 );
 id = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -654,6 +666,12 @@ name = winDescent;
 value = 245;
 }
 );
+guides = (
+{
+angle = 180;
+pos = (0,-12);
+}
+);
 iconName = Bold;
 id = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 metricValues = (
@@ -663,7 +681,7 @@ pos = 710;
 },
 {
 over = 12;
-pos = 530;
+pos = 540;
 },
 {
 over = -16;
@@ -1670,7 +1688,7 @@ J = -50;
 "@MMK_R_j" = -60;
 "@MMK_R_l" = -5;
 "@MMK_R_n" = -12;
-"@MMK_R_o" = 0;
+"@MMK_R_o" = -10;
 "@MMK_R_question" = -40;
 "@MMK_R_t" = -23;
 "@MMK_R_u" = -14;
@@ -1792,9 +1810,6 @@ Y = {
 k = {
 "@MMK_R_o" = -86;
 };
-o = {
-"@MMK_R_o" = -10;
-};
 r = {
 "@MMK_R_o" = -40;
 };
@@ -1830,7 +1845,7 @@ nV = "194";
 nd = "136";
 oH = "139";
 oV = "199";
-tH = "136";
+tH = "137";
 };
 "37DC72B3-BCF2-46ED-AAD5-F0285A86700E" = {
 HH = "186";
@@ -1866,7 +1881,7 @@ nV = "30";
 nd = "30";
 oH = "30";
 oV = "32";
-tH = "30";
+tH = "28";
 };
 m01 = {
 HH = "86";

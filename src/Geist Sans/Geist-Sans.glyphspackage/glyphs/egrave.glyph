@@ -23,7 +23,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (143,-1);
+pos = (143,8);
 ref = gravecomb;
 }
 );

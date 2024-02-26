@@ -20,9 +20,11 @@ width = 570;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
+alignment = -1;
 ref = k;
 },
 {
+alignment = -1;
 pos = (-63,180);
 ref = caroncomb;
 }

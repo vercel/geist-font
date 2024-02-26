@@ -23,7 +23,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (135,0);
+pos = (135,10);
 ref = acutecomb;
 }
 );
