@@ -1,9 +1,19 @@
 {
+color = 5;
 glyphname = questiondown;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (600,564);
+ref = question;
+}
+);
+};
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -15,6 +25,16 @@ ref = question;
 width = 600;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (600,564);
+ref = question;
+}
+);
+};
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
@@ -27,12 +47,22 @@ ref = question;
 width = 600;
 },
 {
-layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+background = {
 shapes = (
 {
 alignment = -1;
 angle = 180;
 pos = (585,564);
+ref = question;
+}
+);
+};
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (600,564);
 ref = question;
 }
 );

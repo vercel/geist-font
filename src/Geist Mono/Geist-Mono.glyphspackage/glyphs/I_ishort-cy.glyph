@@ -11,7 +11,7 @@ ref = N;
 scale = (-1,1);
 },
 {
-pos = (168,180);
+pos = (-8,180);
 ref = brevecomb;
 }
 );
@@ -26,7 +26,7 @@ ref = N;
 scale = (-1,1);
 },
 {
-pos = (148,180);
+pos = (0,180);
 ref = brevecomb;
 }
 );
@@ -41,7 +41,7 @@ ref = N;
 scale = (-1,1);
 },
 {
-pos = (124,180);
+pos = (0,170);
 ref = brevecomb;
 }
 );

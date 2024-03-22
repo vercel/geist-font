@@ -29,7 +29,7 @@ layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 angle = 180;
-pos = (600,530);
+pos = (600,540);
 ref = e;
 }
 );

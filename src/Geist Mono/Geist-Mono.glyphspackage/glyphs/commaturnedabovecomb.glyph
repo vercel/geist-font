@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = commaturnedabovecomb;
 kernLeft = "0";
 kernRight = "0";
@@ -7,15 +8,16 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (-257,530);
+pos = (290,530);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
+alignment = -1;
 angle = 180;
-pos = (56,741);
-ref = comma;
+pos = (600,572);
+ref = commaaccentcomb;
 }
 );
 width = 600;
@@ -24,7 +26,7 @@ width = 600;
 anchors = (
 {
 name = _top;
-pos = (-203,530);
+pos = (287,530);
 }
 );
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
@@ -32,8 +34,8 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (110,734);
-ref = comma;
+pos = (600,559);
+ref = commaaccentcomb;
 }
 );
 width = 600;
@@ -42,7 +44,7 @@ width = 600;
 anchors = (
 {
 name = _top;
-pos = (-124,530);
+pos = (282,540);
 }
 );
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
@@ -50,8 +52,8 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (194,734);
-ref = comma;
+pos = (600,541);
+ref = commaaccentcomb;
 }
 );
 width = 600;

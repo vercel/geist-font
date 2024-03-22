@@ -1,9 +1,21 @@
 {
+color = 5;
 glyphname = Q;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,710);
+}
+);
+background = {
 anchors = (
 {
 name = bottom;
@@ -14,54 +26,6 @@ name = top;
 pos = (364,710);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(567,-16,o),
-(684,149,o),
-(684,354,cs),
-(684,560,o),
-(568,726,o),
-(362,726,cs),
-(156,726,o),
-(40,560,o),
-(40,354,cs),
-(40,149,o),
-(157,-16,o),
-(362,-16,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(208,70,o),
-(132,200,o),
-(132,354,cs),
-(132,509,o),
-(207,640,o),
-(362,640,cs),
-(517,640,o),
-(592,509,o),
-(592,354,cs),
-(592,200,o),
-(516,70,o),
-(362,70,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(420,208,l),
-(328,208,l),
-(542,-69,l),
-(634,-69,l)
-);
-}
-);
-};
-layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 closed = 1;
@@ -70,6 +34,22 @@ nodes = (
 (320,208,l),
 (282,208,l),
 (488,-69,l)
+);
+},
+{
+ref = O;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(482,-70,l),
+(322,208,l),
+(286,208,l),
+(446,-70,l)
 );
 },
 {
@@ -216,6 +196,17 @@ width = 728;
 anchors = (
 {
 name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,710);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
 pos = (362,0);
 },
 {
@@ -223,7 +214,6 @@ name = top;
 pos = (362,710);
 }
 );
-layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 closed = 1;
@@ -239,9 +229,37 @@ alignment = -1;
 ref = O;
 }
 );
+};
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(516,-70,l),
+(356,208,l),
+(260,208,l),
+(420,-70,l)
+);
+},
+{
+alignment = -1;
+ref = O;
+}
+);
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,710);
+}
+);
+background = {
 anchors = (
 {
 name = bottom;
@@ -252,7 +270,6 @@ name = top;
 pos = (389,710);
 }
 );
-layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 closed = 1;
@@ -261,6 +278,23 @@ nodes = (
 (378,208,l),
 (265,208,l),
 (427,-69,l)
+);
+},
+{
+alignment = -1;
+ref = O;
+}
+);
+};
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,-70,l),
+(364,208,l),
+(250,208,l),
+(370,-70,l)
 );
 },
 {

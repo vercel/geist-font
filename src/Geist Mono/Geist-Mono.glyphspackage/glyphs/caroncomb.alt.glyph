@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = caroncomb.alt;
 kernLeft = "0";
 kernRight = "0";
@@ -6,16 +7,20 @@ layers = (
 {
 anchors = (
 {
-name = _top;
-pos = (-102,530);
+name = _topright;
+pos = (244,530);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (106,0);
-ref = gravecomb;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(290,487,l),
+(336,710,l),
+(298,710,l),
+(264,487,l)
+);
 }
 );
 width = 600;
@@ -23,17 +28,20 @@ width = 600;
 {
 anchors = (
 {
-name = _top;
-pos = (-31,530);
+name = _topright;
+pos = (224,530);
 }
 );
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-alignment = -1;
-pos = (156,0);
-ref = gravecomb;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(305,468,l),
+(357,710,l),
+(274,710,l),
+(244,468,l)
+);
 }
 );
 width = 600;
@@ -41,17 +49,20 @@ width = 600;
 {
 anchors = (
 {
-name = _top;
-pos = (5,530);
+name = _topright;
+pos = (198,540);
 }
 );
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-alignment = -1;
-pos = (206,0);
-ref = gravecomb;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(325,418,l),
+(383,710,l),
+(247,710,l),
+(218,418,l)
+);
 }
 );
 width = 600;

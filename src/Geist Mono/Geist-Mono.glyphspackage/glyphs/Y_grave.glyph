@@ -10,7 +10,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (206,180);
+pos = (-45,180);
 ref = gravecomb;
 }
 );
@@ -20,12 +20,10 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-alignment = -1;
 ref = Y;
 },
 {
-alignment = -1;
-pos = (181,180);
+pos = (-40,180);
 ref = gravecomb;
 }
 );
@@ -35,12 +33,10 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-alignment = -1;
 ref = Y;
 },
 {
-alignment = -1;
-pos = (160,180);
+pos = (-40,170);
 ref = gravecomb;
 }
 );

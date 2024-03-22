@@ -10,7 +10,7 @@ shapes = (
 ref = z;
 },
 {
-pos = (287,0);
+pos = (45,0);
 ref = acutecomb;
 }
 );
@@ -20,12 +20,10 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-alignment = -1;
 ref = z;
 },
 {
-alignment = -1;
-pos = (265,0);
+pos = (43,0);
 ref = acutecomb;
 }
 );
@@ -35,12 +33,10 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-alignment = -1;
 ref = z;
 },
 {
-alignment = -1;
-pos = (251,0);
+pos = (47,0);
 ref = acutecomb;
 }
 );

@@ -1,9 +1,20 @@
 {
+color = 5;
 glyphname = gravecomb;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (345,530);
+},
+{
+name = top;
+pos = (345,734);
+}
+);
 background = {
 shapes = (
 {
@@ -20,33 +31,63 @@ nodes = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (107,0);
-ref = acutecomb;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(360,618,l),
+(279,734,l),
+(240,734,l),
+(330,618,l)
+);
 }
 );
 width = 600;
 },
 {
+anchors = (
+{
+name = _top;
+pos = (340,530);
+},
+{
+name = top;
+pos = (340,730);
+}
+);
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-alignment = -1;
-pos = (156,0);
-ref = acutecomb;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(380,602,l),
+(314,730,l),
+(220,730,l),
+(310,602,l)
+);
 }
 );
 width = 600;
 },
 {
+anchors = (
+{
+name = _top;
+pos = (340,540);
+},
+{
+name = top;
+pos = (340,754);
+}
+);
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-alignment = -1;
-pos = (193,0);
-ref = acutecomb;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(400,594,l),
+(340,754,l),
+(200,754,l),
+(290,594,l)
+);
 }
 );
 width = 600;

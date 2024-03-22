@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = caroncomb;
 kernLeft = "0";
 kernRight = "0";
@@ -7,13 +8,13 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (98,530);
+pos = (300,530);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (0,1338);
+pos = (0,1344);
 ref = circumflexcomb;
 scale = (1,-1);
 }
@@ -24,14 +25,14 @@ width = 600;
 anchors = (
 {
 name = _top;
-pos = (137,530);
+pos = (300,530);
 }
 );
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 alignment = -1;
-pos = (0,1338);
+pos = (0,1328);
 ref = circumflexcomb;
 scale = (1,-1);
 }
@@ -42,14 +43,14 @@ width = 600;
 anchors = (
 {
 name = _top;
-pos = (181,530);
+pos = (300,540);
 }
 );
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 alignment = -1;
-pos = (0,1340);
+pos = (0,1334);
 ref = circumflexcomb;
 scale = (1,-1);
 }

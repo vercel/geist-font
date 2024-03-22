@@ -1,18 +1,28 @@
 {
+color = 5;
 glyphname = bullet;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
+background = {
 anchors = (
 {
 name = top;
 pos = (301,530);
 }
 );
+shapes = (
+{
+pos = (-225,233);
+ref = period.ss08;
+scale = (1.7494,1.7494);
+}
+);
+};
 guides = (
 {
-pos = (330,392);
+pos = (104,339);
 },
 {
 pos = (330,392);
@@ -24,7 +34,7 @@ pos = (300,157);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (-225,233);
+pos = (-225,243);
 ref = period.ss08;
 scale = (1.7494,1.7494);
 }
@@ -32,13 +42,13 @@ scale = (1.7494,1.7494);
 width = 600;
 },
 {
+background = {
 anchors = (
 {
 name = top;
 pos = (300,530);
 }
 );
-layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 alignment = -1;
@@ -47,20 +57,40 @@ ref = period.ss08;
 scale = (1.7494,1.7494);
 }
 );
+};
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-225,209);
+ref = period.ss08;
+scale = (1.7494,1.7494);
+}
+);
 width = 600;
 },
 {
+background = {
 anchors = (
 {
 name = top;
 pos = (300,530);
 }
 );
-layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 alignment = -1;
 pos = (-177,149);
+ref = period.ss08;
+scale = (1.5908,1.5908);
+}
+);
+};
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (-177,169);
 ref = period.ss08;
 scale = (1.5908,1.5908);
 }
