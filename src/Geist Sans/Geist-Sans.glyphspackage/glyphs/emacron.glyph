@@ -10,7 +10,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (107,0);
+pos = (101,0);
 ref = macroncomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (135,8);
+pos = (132,8);
 ref = macroncomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (115,-2);
+pos = (109,-2);
 ref = macroncomb;
 }
 );

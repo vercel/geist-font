@@ -1,5 +1,5 @@
 {
-.appVersion = "3241";
+.appVersion = "3249";
 .formatVersion = 3;
 axes = (
 {
@@ -46,7 +46,7 @@ size = -12;
 );
 }
 );
-date = "2024-01-13 17:35:18 +0000";
+date = "2024-03-22 17:50:50 +0000";
 familyName = Geist;
 featurePrefixes = (
 {
@@ -516,13 +516,31 @@ value = 976;
 },
 {
 name = winDescent;
-value = 245;
+value = 262;
 }
 );
 guides = (
 {
 angle = 180;
 pos = (0,-12);
+},
+{
+pos = (53,734);
+},
+{
+pos = (53,618);
+},
+{
+pos = (120,-192);
+},
+{
+pos = (185,712);
+},
+{
+pos = (339,376);
+},
+{
+pos = (155,369);
 }
 );
 iconName = Light;
@@ -547,6 +565,12 @@ pos = -150;
 }
 );
 name = Thin;
+stemValues = (
+32,
+30,
+32,
+30
+);
 userData = {
 GSCornerRadius = 102;
 GSExtrudeAngle = 30;
@@ -590,13 +614,40 @@ value = 976;
 },
 {
 name = winDescent;
-value = 245;
+value = 262;
 }
 );
 guides = (
 {
 angle = 180;
 pos = (0,-12);
+},
+{
+pos = (40,603);
+},
+{
+pos = (53,731);
+},
+{
+pos = (208,-210);
+},
+{
+pos = (185,712);
+},
+{
+pos = (339,376);
+},
+{
+pos = (155,369);
+},
+{
+pos = (185,712);
+},
+{
+pos = (339,376);
+},
+{
+pos = (155,369);
 }
 );
 id = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -620,6 +671,12 @@ pos = -150;
 }
 );
 name = Regular;
+stemValues = (
+90,
+84,
+84,
+80
+);
 userData = {
 GSCornerRadius = 115;
 GSExtrudeAngle = 0;
@@ -663,13 +720,34 @@ value = 976;
 },
 {
 name = winDescent;
-value = 245;
+value = 262;
 }
 );
 guides = (
 {
 angle = 180;
 pos = (0,-12);
+},
+{
+pos = (33,595);
+},
+{
+pos = (53,584);
+},
+{
+pos = (53,730);
+},
+{
+pos = (208,-222);
+},
+{
+pos = (220,718);
+},
+{
+pos = (374,382);
+},
+{
+pos = (168,369);
 }
 );
 iconName = Bold;
@@ -694,6 +772,12 @@ pos = -150;
 }
 );
 name = UltraBlack;
+stemValues = (
+201,
+194,
+157,
+132
+);
 userData = {
 GSCornerRadius = 95;
 };
@@ -980,6 +1064,9 @@ J = -50;
 "@MMK_R_t" = -45;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -15;
+};
+"@MMK_L_l.001" = {
+"@MMK_R_a.001" = 0;
 };
 "@MMK_L_n" = {
 "@MMK_R_T" = -40;
@@ -1313,6 +1400,9 @@ J = -50;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -25;
 };
+"@MMK_L_l.001" = {
+"@MMK_R_a.001" = 0;
+};
 "@MMK_L_n" = {
 "@MMK_R_T" = -40;
 "@MMK_R_V" = -20;
@@ -1348,6 +1438,9 @@ J = -50;
 "@MMK_R_v" = -25;
 "@MMK_R_x" = -50;
 "@MMK_R_z" = -15;
+};
+"@MMK_L_o.001" = {
+"@MMK_R_o.001" = -3;
 };
 "@MMK_L_parenleft" = {
 "@MMK_R_O" = -15;
@@ -1659,6 +1752,9 @@ J = -50;
 "@MMK_R_u" = -6;
 "@MMK_R_v" = -43;
 };
+"@MMK_L_l.001" = {
+"@MMK_R_a.001" = -2;
+};
 "@MMK_L_n" = {
 "@MMK_R_T" = -40;
 "@MMK_R_V" = -20;
@@ -1695,6 +1791,9 @@ J = -50;
 "@MMK_R_v" = -32;
 "@MMK_R_x" = -72;
 "@MMK_R_z" = -4;
+};
+"@MMK_L_o.001" = {
+"@MMK_R_o.001" = -6;
 };
 "@MMK_L_parenleft" = {
 "@MMK_R_O" = -15;
@@ -1830,6 +1929,22 @@ type = descender;
 },
 {
 type = "italic angle";
+}
+);
+stems = (
+{
+name = Upper_H;
+},
+{
+name = Lower_H;
+},
+{
+horizontal = 1;
+name = Upper_V;
+},
+{
+horizontal = 1;
+name = Lower_V;
 }
 );
 unitsPerEm = 1000;
@@ -4097,5 +4212,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 200;
 }

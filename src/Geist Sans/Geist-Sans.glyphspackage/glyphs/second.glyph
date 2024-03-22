@@ -23,7 +23,7 @@ pos = (84,0);
 ref = minute;
 }
 );
-width = 291;
+width = 290;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -38,33 +38,35 @@ ref = minute;
 },
 {
 alignment = -1;
-pos = (169,0);
+pos = (220,0);
 ref = minute;
 }
 );
-width = 436;
+width = 520;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
+pos = (2,0);
 ref = minute;
 },
 {
 alignment = -1;
+pos = (2,0);
 ref = minute;
 },
 {
 alignment = -1;
-pos = (122,0);
+pos = (124,0);
 ref = minute;
 }
 );
-width = 372.16667;
+width = 380;
 }
 );
-metricLeft = o;
-metricRight = o;
+metricLeft = quoteright;
+metricRight = quoteright;
 unicode = 8243;
 }

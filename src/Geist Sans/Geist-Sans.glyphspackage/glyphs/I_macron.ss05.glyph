@@ -8,7 +8,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (-8,180);
+pos = (-14,180);
 ref = macroncomb;
 }
 );
@@ -21,7 +21,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (56,180);
+pos = (53,180);
 ref = macroncomb;
 }
 );
@@ -34,7 +34,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (42,180);
+pos = (36,180);
 ref = macroncomb;
 }
 );

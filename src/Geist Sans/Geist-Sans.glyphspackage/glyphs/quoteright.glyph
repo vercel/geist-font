@@ -32,7 +32,7 @@ pos = (0,536);
 ref = quotesinglbase;
 }
 );
-width = 266.22535;
+width = 262;
 },
 {
 anchors = (
@@ -52,7 +52,5 @@ ref = quotesinglbase;
 width = 211;
 }
 );
-metricLeft = O;
-metricRight = O;
 unicode = 8217;
 }

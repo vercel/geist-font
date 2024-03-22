@@ -10,7 +10,7 @@ shapes = (
 ref = a.ss02;
 },
 {
-pos = (72,0);
+pos = (84,0);
 ref = tildecomb;
 }
 );
@@ -27,7 +27,7 @@ pos = (108,10);
 ref = tildecomb;
 }
 );
-width = 662;
+width = 661;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,7 +36,7 @@ shapes = (
 ref = a.ss02;
 },
 {
-pos = (73,0);
+pos = (83,0);
 ref = tildecomb;
 }
 );

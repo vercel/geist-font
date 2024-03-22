@@ -2,6 +2,13 @@
 glyphname = dieresis.ss08;
 layers = (
 {
+background = {
+shapes = (
+{
+ref = dieresiscomb.ss08;
+}
+);
+};
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -11,6 +18,14 @@ ref = dieresiscomb.ss08;
 width = 312;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+ref = dieresiscomb.ss08;
+}
+);
+};
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -21,6 +36,14 @@ ref = dieresiscomb.ss08;
 width = 459;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+ref = dieresiscomb.ss08;
+}
+);
+};
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {

@@ -8,7 +8,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (-41,180);
+pos = (-29,180);
 ref = tildecomb;
 }
 );
@@ -34,7 +34,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (2,180);
+pos = (12,180);
 ref = tildecomb;
 }
 );

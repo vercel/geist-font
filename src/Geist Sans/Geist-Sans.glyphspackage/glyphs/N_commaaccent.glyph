@@ -10,7 +10,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (230,0);
+pos = (275,0);
 ref = commaaccentcomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (222,0);
+pos = (257,0);
 ref = commaaccentcomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (231,0);
+pos = (266,0);
 ref = commaaccentcomb;
 }
 );

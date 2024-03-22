@@ -14,7 +14,7 @@ pos = (20,0);
 ref = dotaccentcomb.ss08;
 },
 {
-pos = (-19,0);
+pos = (-25,0);
 ref = ogonekcomb;
 }
 );
@@ -31,7 +31,7 @@ pos = (32,10);
 ref = dotaccentcomb.ss08;
 },
 {
-pos = (49,0);
+pos = (12,0);
 ref = ogonekcomb;
 }
 );
@@ -48,7 +48,7 @@ pos = (23,0);
 ref = dotaccentcomb.ss08;
 },
 {
-pos = (-14,0);
+pos = (-25,0);
 ref = ogonekcomb;
 }
 );

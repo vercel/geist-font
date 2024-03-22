@@ -10,7 +10,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (105,180);
+pos = (117,180);
 ref = tildecomb;
 }
 );

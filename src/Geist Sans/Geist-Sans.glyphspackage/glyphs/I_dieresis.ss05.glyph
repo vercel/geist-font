@@ -21,7 +21,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (-11,180);
+pos = (2,180);
 ref = dieresiscomb;
 }
 );

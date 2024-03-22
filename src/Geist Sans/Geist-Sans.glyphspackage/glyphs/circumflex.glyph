@@ -1,16 +1,32 @@
 {
+color = 4;
 glyphname = circumflex;
 layers = (
 {
+background = {
+shapes = (
+{
+ref = circumflexcomb;
+}
+);
+};
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 ref = circumflexcomb;
 }
 );
-width = 297;
+width = 298;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+ref = circumflexcomb;
+}
+);
+};
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -21,6 +37,14 @@ ref = circumflexcomb;
 width = 444;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+ref = circumflexcomb;
+}
+);
+};
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
@@ -28,7 +52,7 @@ alignment = -1;
 ref = circumflexcomb;
 }
 );
-width = 369;
+width = 368;
 }
 );
 metricLeft = o;

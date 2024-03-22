@@ -25,12 +25,11 @@ width = 365;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-pos = (-5,-323);
+pos = (0,-323);
 ref = foursuperior;
 }
 );
-width = 358;
+width = 395;
 }
 );
 unicode = 8324;
