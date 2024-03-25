@@ -1,5 +1,4 @@
 {
-export = 0;
 glyphname = leftRightArrow.ss07;
 kernLeft = "0";
 kernRight = "0";

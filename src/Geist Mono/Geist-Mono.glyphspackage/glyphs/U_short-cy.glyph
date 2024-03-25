@@ -9,7 +9,7 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (-165,180);
+pos = (11,180);
 ref = "brevecomb-cy";
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (-155,180);
+pos = (4,180);
 ref = "brevecomb-cy";
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (-127,170);
+pos = (5,170);
 ref = "brevecomb-cy";
 }
 );

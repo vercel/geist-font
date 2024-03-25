@@ -27,7 +27,6 @@ layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 alignment = -1;
-pos = (104,0);
 ref = hungarumlautcomb;
 }
 );

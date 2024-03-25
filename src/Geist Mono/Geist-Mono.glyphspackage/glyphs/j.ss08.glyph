@@ -36,7 +36,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (299,0);
+pos = (85,0);
 ref = dotaccentcomb.ss08;
 }
 );

@@ -23,15 +23,51 @@ value = 0;
 {
 name = "Variable Font Origin";
 value = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+100 = 100;
+200 = 200;
+300 = 300;
+400 = 400;
+500 = 500;
+600 = 600;
+700 = 700;
+800 = 800;
+900 = 900;
+};
+};
+},
+{
+name = "Family Alignment Zones";
+value = (
+{
+pos = 710;
+size = 16;
+},
+{
+pos = 530;
+size = 12;
+},
+{
+pos = 0;
+size = -16;
+},
+{
+pos = -150;
+size = -12;
 }
 );
-date = "2024-03-22 17:50:43 +0000";
+}
+);
+date = "2024-03-25 12:09:52 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
-languagesystem DFLT MAH;
 
 languagesystem latn dflt;
 languagesystem latn AZE;
@@ -56,7 +92,6 @@ feature sinf;
 feature sups;
 feature frac;
 feature ordn;
-feature fwid;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -72,60 +107,53 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
 } ccmp_Other_1;
 ";
 tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_noScript_0 {
-	language MAH;
-	sub commaaccentcomb by commaaccentcomb.loclMAH;
-} locl_noScript_0;
-
+code = "script latn;
+language AZE;
 lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language MAH;
 lookup locl_latn_2 {
-	script latn;
-	language MAH;
 	sub Lcommaaccent by Lcommaaccent.loclMAH;
 	sub Ncommaaccent by Ncommaaccent.loclMAH;
 	sub lcommaaccent by lcommaaccent.loclMAH;
 	sub ncommaaccent by ncommaaccent.loclMAH;
+	sub commaaccentcomb by commaaccentcomb.loclMAH;
 } locl_latn_2;
 
+script latn;
+language NLD;
 lookup locl_latn_3 {
-	script latn;
-	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
@@ -277,6 +305,7 @@ sub numbersign underscore by numbersign_underscore.liga;
 sub percent percent by percent_percent.liga;
 sub period equal by period_equal.liga;
 sub question question by question_question.liga;
+sub question question question by question_question_question.liga;
 sub slash equal by slash_equal.liga;
   
 } LIGA2;
@@ -388,6 +417,8 @@ sub downArrow by downArrow.ss07;
 sub southWestArrow by southWestArrow.ss07;
 sub leftArrow by leftArrow.ss07;
 sub northWestArrow by northWestArrow.ss07;
+sub leftRightArrow by leftRightArrow.ss07;
+sub upDownArrow by upDownArrow.ss07;
 ";
 labels = (
 {
@@ -1352,6 +1383,38 @@ type = descender;
 },
 {
 type = "italic angle";
+}
+);
+properties = (
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Basement.studio, Andrés Briganti, Mateo Zaragoza";
+}
+);
+},
+{
+key = designerURL;
+value = "https://basement.studio/";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Basement.studio, Vercel, Andrés Briganti, Guido Ferreyra, Mateo Zaragoza";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://basement.studio/";
+},
+{
+key = vendorID;
+value = VRCL;
 }
 );
 stems = (

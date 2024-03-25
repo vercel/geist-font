@@ -16,9 +16,6 @@ shapes = (
 ref = minute;
 },
 {
-ref = minute;
-},
-{
 pos = (84,0);
 ref = minute;
 }
@@ -34,10 +31,6 @@ ref = minute;
 },
 {
 alignment = -1;
-ref = minute;
-},
-{
-alignment = -1;
 pos = (220,0);
 ref = minute;
 }
@@ -47,11 +40,6 @@ width = 520;
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
-{
-alignment = -1;
-pos = (2,0);
-ref = minute;
-},
 {
 alignment = -1;
 pos = (2,0);

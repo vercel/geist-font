@@ -27,7 +27,7 @@ width = 162;
 anchors = (
 {
 name = top;
-pos = (134,530);
+pos = (132,530);
 }
 );
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -35,11 +35,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (266,558);
+pos = (264,558);
 ref = quotesinglbase;
 }
 );
-width = 266.22535;
+width = 266;
 },
 {
 anchors = (

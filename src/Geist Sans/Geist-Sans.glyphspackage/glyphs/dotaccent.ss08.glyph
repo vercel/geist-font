@@ -2,12 +2,6 @@
 glyphname = dotaccent.ss08;
 layers = (
 {
-anchors = (
-{
-name = _top;
-pos = (70,530);
-}
-);
 background = {
 anchors = (
 {
@@ -30,12 +24,6 @@ ref = dotaccentcomb.ss08;
 width = 160;
 },
 {
-anchors = (
-{
-name = _top;
-pos = (113,530);
-}
-);
 background = {
 anchors = (
 {
@@ -60,12 +48,6 @@ ref = dotaccentcomb.ss08;
 width = 240;
 },
 {
-anchors = (
-{
-name = _top;
-pos = (93,530);
-}
-);
 background = {
 anchors = (
 {

@@ -3,6 +3,12 @@ color = 7;
 glyphname = strokeshortcomb;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (301,348);
+}
+);
 background = {
 shapes = (
 {
@@ -21,16 +27,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(615,270,l),
-(615,300,l),
-(199,300,l),
-(199,270,l)
+(477,333,l),
+(477,363,l),
+(124,363,l),
+(124,333,l)
 );
 }
 );
 width = 600;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (300,312);
+}
+);
 background = {
 shapes = (
 {
@@ -49,16 +61,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(615,240,l),
-(615,330,l),
-(199,330,l),
-(199,240,l)
+(515,267,l),
+(515,357,l),
+(85,357,l),
+(85,267,l)
 );
 }
 );
 width = 600;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (301,348);
+}
+);
 background = {
 shapes = (
 {
@@ -77,10 +95,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(615,248,l),
-(615,322,l),
-(199,322,l),
-(199,248,l)
+(477,311,l),
+(477,385,l),
+(124,385,l),
+(124,311,l)
 );
 }
 );

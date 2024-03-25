@@ -25,6 +25,22 @@ name = "Variable Font Origin";
 value = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 },
 {
+name = "Axis Mappings";
+value = {
+wght = {
+100 = 100;
+200 = 200;
+300 = 300;
+400 = 400;
+500 = 500;
+600 = 600;
+700 = 700;
+800 = 800;
+900 = 900;
+};
+};
+},
+{
 name = "Family Alignment Zones";
 value = (
 {
@@ -46,13 +62,12 @@ size = -12;
 );
 }
 );
-date = "2024-03-22 17:50:50 +0000";
+date = "2024-03-25 12:09:53 +0000";
 familyName = Geist;
 featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
-languagesystem DFLT MAH;
 
 languagesystem latn dflt;
 languagesystem latn AZE;
@@ -99,56 +114,58 @@ code = "lookup ccmp_Other_1 {
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
 } ccmp_Other_1;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
 ";
 tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_noScript_0 {
-	language MAH;
-	sub commaaccentcomb by commaaccentcomb.loclMAH;
-} locl_noScript_0;
-
+code = "script latn;
+language AZE;
 lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language MAH;
 lookup locl_latn_2 {
-	script latn;
-	language MAH;
 	sub Lcommaaccent by Lcommaaccent.loclMAH;
 	sub Ncommaaccent by Ncommaaccent.loclMAH;
 	sub lcommaaccent by lcommaaccent.loclMAH;
 	sub ncommaaccent by ncommaaccent.loclMAH;
+	sub commaaccentcomb by commaaccentcomb.loclMAH;
 } locl_latn_2;
 
+script latn;
+language NLD;
 lookup locl_latn_3 {
-	script latn;
-	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
@@ -273,6 +290,8 @@ sub f f by f_f.liga;
 sub hyphen greater by hyphen_greater.liga;
 sub less hyphen by less_hyphen.liga;
 sub t t by t_t.liga;
+sub f i by fi;
+sub f l by fl;
 ";
 tag = liga;
 },
@@ -788,6 +807,12 @@ instances = (
 axesValues = (
 100
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 1;
 };
@@ -797,6 +822,12 @@ weightClass = 100;
 {
 axesValues = (
 200
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 0.33333;
@@ -809,6 +840,12 @@ weightClass = 200;
 axesValues = (
 300
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 0.66667;
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 0.33333;
@@ -820,6 +857,12 @@ weightClass = 300;
 axesValues = (
 400
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 1;
 };
@@ -828,6 +871,12 @@ name = Regular;
 {
 axesValues = (
 500
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 0.2;
@@ -840,6 +889,12 @@ weightClass = 500;
 axesValues = (
 600
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 0.4;
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 0.6;
@@ -850,6 +905,12 @@ weightClass = 600;
 {
 axesValues = (
 700
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 0.6;
@@ -863,6 +924,12 @@ weightClass = 700;
 axesValues = (
 800
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 0.8;
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 0.2;
@@ -873,6 +940,12 @@ weightClass = 800;
 {
 axesValues = (
 900
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 1;
@@ -1929,6 +2002,38 @@ type = descender;
 },
 {
 type = "italic angle";
+}
+);
+properties = (
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Basement.studio, Andrés Briganti, Mateo Zaragoza";
+}
+);
+},
+{
+key = designerURL;
+value = "https://basement.studio/";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Basement.studio, Vercel, Andrés Briganti, Guido Ferreyra, Mateo Zaragoza";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://basement.studio/";
+},
+{
+key = vendorID;
+value = VRCL;
 }
 );
 stems = (

@@ -3,12 +3,6 @@ color = 4;
 glyphname = macron;
 layers = (
 {
-anchors = (
-{
-name = _top;
-pos = (168,530);
-}
-);
 background = {
 anchors = (
 {
@@ -31,12 +25,6 @@ ref = macroncomb;
 width = 348;
 },
 {
-anchors = (
-{
-name = _top;
-pos = (191,530);
-}
-);
 background = {
 anchors = (
 {
@@ -61,12 +49,6 @@ ref = macroncomb;
 width = 386;
 },
 {
-anchors = (
-{
-name = _top;
-pos = (178,530);
-}
-);
 background = {
 anchors = (
 {

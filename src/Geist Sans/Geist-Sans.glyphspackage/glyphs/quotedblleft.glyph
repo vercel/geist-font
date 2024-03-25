@@ -23,17 +23,17 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (266,558);
+pos = (264,558);
 ref = quotesinglbase;
 },
 {
 alignment = -1;
 angle = 180;
-pos = (515,558);
+pos = (513,558);
 ref = quotesinglbase;
 }
 );
-width = 514.57746;
+width = 515;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
