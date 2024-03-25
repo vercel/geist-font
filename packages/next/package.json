@@ -53,6 +53,6 @@
   },
   "license": "SIL OPEN FONT LICENSE",
   "peerDependencies": {
-    "next": "^13.2 || ^14"
+    "next": ">=13.2.0 <15.0.0-0"
   }
 }
