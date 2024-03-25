@@ -16,6 +16,7 @@ layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 alignment = -1;
+pos = (-5,0);
 ref = quoteright;
 }
 );

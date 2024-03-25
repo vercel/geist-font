@@ -16,7 +16,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (305,0);
+pos = (35,0);
 ref = dotaccentcomb.ss08;
 }
 );
@@ -32,12 +32,10 @@ pos = (124,530);
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-alignment = -1;
 ref = idotless;
 },
 {
-alignment = -1;
-pos = (278,0);
+pos = (30,0);
 ref = dotaccentcomb.ss08;
 }
 );
@@ -53,12 +51,10 @@ pos = (135,530);
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-alignment = -1;
 ref = idotless;
 },
 {
-alignment = -1;
-pos = (246,0);
+pos = (32,0);
 ref = dotaccentcomb.ss08;
 }
 );

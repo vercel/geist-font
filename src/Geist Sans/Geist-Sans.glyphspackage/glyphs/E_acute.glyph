@@ -1,5 +1,7 @@
 {
 glyphname = Eacute;
+kernLeft = b;
+kernRight = E;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -15,30 +17,30 @@ ref = acutecomb;
 width = 573;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = E;
-},
-{
-pos = (235,181);
-ref = acutecomb;
-}
-);
-width = 603;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 ref = E;
 },
 {
-pos = (234,181);
+pos = (203,181);
 ref = acutecomb;
 }
 );
 width = 634;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (233,181);
+ref = acutecomb;
+}
+);
+width = 603;
 }
 );
 unicode = 201;

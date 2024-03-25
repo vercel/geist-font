@@ -1,5 +1,7 @@
 {
 glyphname = gstroke;
+kernLeft = o;
+kernRight = u;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -20,25 +22,6 @@ ref = g;
 width = 609;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(573,232,l),
-(573,306,l),
-(234,306,l),
-(234,232,l)
-);
-},
-{
-alignment = -1;
-ref = g;
-}
-);
-width = 633.16667;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -56,6 +39,25 @@ ref = g;
 }
 );
 width = 691.94836;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(573,232,l),
+(573,306,l),
+(234,306,l),
+(234,232,l)
+);
+},
+{
+alignment = -1;
+ref = g;
+}
+);
+width = 633.16667;
 }
 );
 metricLeft = g;

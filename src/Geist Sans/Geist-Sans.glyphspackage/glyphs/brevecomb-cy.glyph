@@ -2,6 +2,19 @@
 glyphname = "brevecomb-cy";
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (174,530);
+}
+);
+background = {
+shapes = (
+{
+ref = brevecomb;
+}
+);
+};
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -11,16 +24,21 @@ ref = brevecomb;
 width = 348;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+anchors = (
+{
+name = _top;
+pos = (201,540);
+}
+);
+background = {
 shapes = (
 {
 alignment = -1;
+pos = (-1,0);
 ref = brevecomb;
 }
 );
-width = 377;
-},
-{
+};
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -28,7 +46,33 @@ alignment = -1;
 ref = brevecomb;
 }
 );
-width = 402.14085;
+width = 402;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (187,530);
 }
 );
+background = {
+shapes = (
+{
+alignment = -1;
+ref = brevecomb;
+}
+);
+};
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+ref = brevecomb;
+}
+);
+width = 373;
+}
+);
+metricLeft = brevecomb;
+metricRight = brevecomb;
 }

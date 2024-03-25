@@ -18,30 +18,30 @@ ref = acutecomb;
 width = 457;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = "ge-cy";
-},
-{
-pos = (183,0);
-ref = acutecomb;
-}
-);
-width = 488;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 ref = "ge-cy";
 },
 {
-pos = (180,0);
+pos = (149,10);
 ref = acutecomb;
 }
 );
 width = 508;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = "ge-cy";
+},
+{
+pos = (181,0);
+ref = acutecomb;
+}
+);
+width = 488;
 }
 );
 unicode = 1107;

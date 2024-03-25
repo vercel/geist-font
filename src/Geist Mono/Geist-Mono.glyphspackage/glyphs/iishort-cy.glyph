@@ -9,7 +9,6 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (176,0);
 ref = brevecomb;
 }
 );
@@ -22,7 +21,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (160,0);
+pos = (1,0);
 ref = brevecomb;
 }
 );
@@ -35,7 +34,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (134,0);
+pos = (1,0);
 ref = brevecomb;
 }
 );

@@ -10,8 +10,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (228,0);
-ref = commaaccentcomb;
+pos = (17,0);
+ref = commaaccentcomb.loclMAH;
 }
 );
 width = 600;
@@ -20,13 +20,11 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-alignment = -1;
 ref = L;
 },
 {
-alignment = -1;
-pos = (214,0);
-ref = commaaccentcomb;
+pos = (21,0);
+ref = commaaccentcomb.loclMAH;
 }
 );
 width = 600;
@@ -35,13 +33,11 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-alignment = -1;
 ref = L;
 },
 {
-alignment = -1;
-pos = (193,0);
-ref = commaaccentcomb;
+pos = (20,0);
+ref = commaaccentcomb.loclMAH;
 }
 );
 width = 600;

@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = emdash;
 layers = (
 {
@@ -30,6 +31,21 @@ nodes = (
 width = 884;
 },
 {
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(883,216,l),
+(883,368,l),
+(33,368,l),
+(33,216,l)
+);
+}
+);
+width = 916;
+},
+{
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
@@ -43,21 +59,6 @@ nodes = (
 }
 );
 width = 913;
-},
-{
-layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
-shapes = (
-{
-closed = 1;
-nodes = (
-(882,216,l),
-(882,368,l),
-(33,368,l),
-(33,216,l)
-);
-}
-);
-width = 915.15493;
 }
 );
 metricLeft = o;

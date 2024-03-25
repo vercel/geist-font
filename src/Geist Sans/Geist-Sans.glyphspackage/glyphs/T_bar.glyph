@@ -1,61 +1,46 @@
 {
 glyphname = Tbar;
+kernLeft = T;
+kernRight = T;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-closed = 1;
-nodes = (
-(462,333,l),
-(462,363,l),
-(109,363,l),
-(109,333,l)
-);
+ref = T;
 },
 {
-ref = T;
+pos = (-15,0);
+ref = strokeshortcomb;
 }
 );
 width = 572;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(466,311,l),
-(466,385,l),
-(113,385,l),
-(113,311,l)
-);
-},
-{
-alignment = -1;
-ref = T;
-}
-);
-width = 577.8;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-closed = 1;
-nodes = (
-(549,267,l),
-(549,357,l),
-(119,357,l),
-(119,267,l)
-);
+ref = T;
 },
 {
-alignment = -1;
-ref = T;
+pos = (35,0);
+ref = strokeshortcomb;
 }
 );
-width = 668.4507;
+width = 668;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (-12,0);
+ref = strokeshortcomb;
+}
+);
+width = 578;
 }
 );
 metricLeft = T;

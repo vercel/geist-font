@@ -9,7 +9,7 @@ shapes = (
 ref = "Ge-cy";
 },
 {
-pos = (312,180);
+pos = (70,180);
 ref = acutecomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = "Ge-cy";
 },
 {
-pos = (290,180);
+pos = (68,180);
 ref = acutecomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = "Ge-cy";
 },
 {
-pos = (269,180);
+pos = (66,170);
 ref = acutecomb;
 }
 );

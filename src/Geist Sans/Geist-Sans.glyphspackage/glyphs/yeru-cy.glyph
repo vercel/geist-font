@@ -22,6 +22,25 @@ ref = "softsign-cy";
 width = 716;
 },
 {
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(866,0,l),
+(866,540,l),
+(671,540,l),
+(671,0,l)
+);
+},
+{
+alignment = -1;
+ref = "softsign-cy";
+}
+);
+width = 922;
+},
+{
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
@@ -39,25 +58,6 @@ ref = "softsign-cy";
 }
 );
 width = 794;
-},
-{
-layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
-shapes = (
-{
-closed = 1;
-nodes = (
-(866,0,l),
-(866,530,l),
-(671,530,l),
-(671,0,l)
-);
-},
-{
-alignment = -1;
-ref = "softsign-cy";
-}
-);
-width = 922;
 }
 );
 metricLeft = n;

@@ -1,5 +1,7 @@
 {
 glyphname = Ytilde;
+kernLeft = V;
+kernRight = V;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -8,24 +10,11 @@ shapes = (
 ref = Y;
 },
 {
-pos = (96,180);
+pos = (108,180);
 ref = tildecomb;
 }
 );
 width = 593;
-},
-{
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = Y;
-},
-{
-pos = (100,180);
-ref = tildecomb;
-}
-);
-width = 630;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -38,7 +27,20 @@ pos = (156,180);
 ref = tildecomb;
 }
 );
-width = 739;
+width = 738;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (110,180);
+ref = tildecomb;
+}
+);
+width = 630;
 }
 );
 unicode = 7928;

@@ -1,5 +1,5 @@
 {
-.appVersion = "3234";
+.appVersion = "3249";
 .formatVersion = 3;
 axes = (
 {
@@ -25,6 +25,22 @@ name = "Variable Font Origin";
 value = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 },
 {
+name = "Axis Mappings";
+value = {
+wght = {
+100 = 100;
+200 = 200;
+300 = 300;
+400 = 400;
+500 = 500;
+600 = 600;
+700 = 700;
+800 = 800;
+900 = 900;
+};
+};
+},
+{
 name = "Family Alignment Zones";
 value = (
 {
@@ -46,13 +62,12 @@ size = -12;
 );
 }
 );
-date = "2024-01-13 17:35:18 +0000";
+date = "2024-03-25 12:09:53 +0000";
 familyName = Geist;
 featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
-languagesystem DFLT MAH;
 
 languagesystem latn dflt;
 languagesystem latn AZE;
@@ -79,7 +94,6 @@ feature frac;
 feature ordn;
 feature pnum;
 feature tnum;
-feature fwid;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -96,60 +110,62 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
 } ccmp_Other_1;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
 ";
 tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_noScript_0 {
-	language MAH;
-	sub commaaccentcomb by commaaccentcomb.loclMAH;
-} locl_noScript_0;
-
+code = "script latn;
+language AZE;
 lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language MAH;
 lookup locl_latn_2 {
-	script latn;
-	language MAH;
 	sub Lcommaaccent by Lcommaaccent.loclMAH;
 	sub Ncommaaccent by Ncommaaccent.loclMAH;
 	sub lcommaaccent by lcommaaccent.loclMAH;
 	sub ncommaaccent by ncommaaccent.loclMAH;
+	sub commaaccentcomb by commaaccentcomb.loclMAH;
 } locl_latn_2;
 
+script latn;
+language NLD;
 lookup locl_latn_3 {
-	script latn;
-	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
@@ -274,36 +290,10 @@ sub f f by f_f.liga;
 sub hyphen greater by hyphen_greater.liga;
 sub less hyphen by less_hyphen.liga;
 sub t t by t_t.liga;
+sub f i by fi;
+sub f l by fl;
 ";
 tag = liga;
-},
-{
-automatic = 1;
-code = "sub ampersand by ampersand.full;
-sub asterisk by asterisk.full;
-sub at by at.full;
-sub backslash by backslash.full;
-sub colon by colon.full;
-sub comma by comma.full;
-sub exclam by exclam.full;
-sub numbersign by numbersign.full;
-sub percent by percent.full;
-sub period by period.full;
-sub question by question.full;
-sub quotedbl by quotedbl.full;
-sub quotesingle by quotesingle.full;
-sub semicolon by semicolon.full;
-sub slash by slash.full;
-sub underscore by underscore.full;
-sub hyphen by hyphen.full;
-sub braceleft by braceleft.full;
-sub braceright by braceright.full;
-sub bracketleft by bracketleft.full;
-sub bracketright by bracketright.full;
-sub parenleft by parenleft.full;
-sub parenright by parenright.full;
-";
-tag = fwid;
 },
 {
 automatic = 1;
@@ -463,8 +453,8 @@ sub gdotaccent by gdotaccent.ss08;
 sub i by i.ss08;
 sub idieresis by idieresis.ss08;
 sub idotaccent by idotaccent.ss08;
-sub ij by ij.ss08;
 sub iogonek by iogonek.ss08;
+sub ij by ij.ss08;
 sub j by j.ss08;
 sub odieresis by odieresis.ss08;
 sub udieresis by udieresis.ss08;
@@ -482,11 +472,6 @@ sub exclamdown by exclamdown.ss08;
 sub question by question.ss08;
 sub questiondown by questiondown.ss08;
 sub periodcentered by periodcentered.ss08;
-sub colon.full by colon.full.ss08;
-sub exclam.full by exclam.full.ss08;
-sub period.full by period.full.ss08;
-sub question.full by question.full.ss08;
-sub semicolon.full by semicolon.full.ss08;
 sub dieresiscomb by dieresiscomb.ss08;
 sub dotaccentcomb by dotaccentcomb.ss08;
 sub dieresis by dieresis.ss08;
@@ -550,7 +535,31 @@ value = 976;
 },
 {
 name = winDescent;
-value = 245;
+value = 262;
+}
+);
+guides = (
+{
+angle = 180;
+pos = (0,-12);
+},
+{
+pos = (53,734);
+},
+{
+pos = (53,618);
+},
+{
+pos = (120,-192);
+},
+{
+pos = (185,712);
+},
+{
+pos = (339,376);
+},
+{
+pos = (155,369);
 }
 );
 iconName = Light;
@@ -575,13 +584,18 @@ pos = -150;
 }
 );
 name = Thin;
+stemValues = (
+32,
+30,
+32,
+30
+);
 userData = {
 GSCornerRadius = 102;
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
-GSOffsetHorizontal = -20;
-GSOffsetProportional = 1;
-GSOffsetVertical = -15;
+GSOffsetHorizontal = 5;
+GSOffsetVertical = 4;
 };
 },
 {
@@ -619,7 +633,40 @@ value = 976;
 },
 {
 name = winDescent;
-value = 245;
+value = 262;
+}
+);
+guides = (
+{
+angle = 180;
+pos = (0,-12);
+},
+{
+pos = (40,603);
+},
+{
+pos = (53,731);
+},
+{
+pos = (208,-210);
+},
+{
+pos = (185,712);
+},
+{
+pos = (339,376);
+},
+{
+pos = (155,369);
+},
+{
+pos = (185,712);
+},
+{
+pos = (339,376);
+},
+{
+pos = (155,369);
 }
 );
 id = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -643,10 +690,18 @@ pos = -150;
 }
 );
 name = Regular;
+stemValues = (
+90,
+84,
+84,
+80
+);
 userData = {
 GSCornerRadius = 115;
-GSExtrudeAngle = 30;
+GSExtrudeAngle = 0;
 GSExtrudeOffset = 15;
+GSOffsetHorizontal = 10;
+GSOffsetVertical = 8;
 };
 },
 {
@@ -684,7 +739,34 @@ value = 976;
 },
 {
 name = winDescent;
-value = 245;
+value = 262;
+}
+);
+guides = (
+{
+angle = 180;
+pos = (0,-12);
+},
+{
+pos = (33,595);
+},
+{
+pos = (53,584);
+},
+{
+pos = (53,730);
+},
+{
+pos = (208,-222);
+},
+{
+pos = (220,718);
+},
+{
+pos = (374,382);
+},
+{
+pos = (168,369);
 }
 );
 iconName = Bold;
@@ -696,7 +778,7 @@ pos = 710;
 },
 {
 over = 12;
-pos = 530;
+pos = 540;
 },
 {
 over = -16;
@@ -709,6 +791,12 @@ pos = -150;
 }
 );
 name = UltraBlack;
+stemValues = (
+201,
+194,
+157,
+132
+);
 userData = {
 GSCornerRadius = 95;
 };
@@ -719,6 +807,12 @@ instances = (
 axesValues = (
 100
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 1;
 };
@@ -728,6 +822,12 @@ weightClass = 100;
 {
 axesValues = (
 200
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 0.33333;
@@ -740,6 +840,12 @@ weightClass = 200;
 axesValues = (
 300
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 0.66667;
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 0.33333;
@@ -751,6 +857,12 @@ weightClass = 300;
 axesValues = (
 400
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 1;
 };
@@ -759,6 +871,12 @@ name = Regular;
 {
 axesValues = (
 500
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 0.2;
@@ -771,6 +889,12 @@ weightClass = 500;
 axesValues = (
 600
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 0.4;
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 0.6;
@@ -781,6 +905,12 @@ weightClass = 600;
 {
 axesValues = (
 700
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 0.6;
@@ -794,6 +924,12 @@ weightClass = 700;
 axesValues = (
 800
 );
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
+);
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 0.8;
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = 0.2;
@@ -804,6 +940,12 @@ weightClass = 800;
 {
 axesValues = (
 900
+);
+customParameters = (
+{
+name = PreFilter;
+value = "RemoveOverlap; include:zerosuperior";
+}
 );
 instanceInterpolations = {
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = 1;
@@ -822,7 +964,9 @@ kerningLTR = {
 "@MMK_R_U" = -10;
 "@MMK_R_V" = -70;
 "@MMK_R_a" = 10;
+"@MMK_R_asterisk" = -60;
 "@MMK_R_f" = -30;
+"@MMK_R_l" = -5;
 "@MMK_R_n" = -10;
 "@MMK_R_o" = -10;
 "@MMK_R_question" = -40;
@@ -872,10 +1016,11 @@ N = -5;
 };
 "@MMK_L_L" = {
 "@MMK_R_A" = 20;
-"@MMK_R_O" = -30;
+"@MMK_R_O" = -35;
 "@MMK_R_T" = -100;
 "@MMK_R_V" = -70;
 "@MMK_R_Y" = -70;
+"@MMK_R_asterisk" = -100;
 "@MMK_R_o" = -25;
 "@MMK_R_question" = -50;
 "@MMK_R_t" = -30;
@@ -885,9 +1030,11 @@ N = -5;
 "@MMK_L_O" = {
 "@MMK_R_A" = -20;
 "@MMK_R_H" = -10;
+"@MMK_R_Lslash" = -10;
 "@MMK_R_T" = -20;
 "@MMK_R_V" = -20;
 "@MMK_R_X" = -40;
+"@MMK_R_asterisk" = -10;
 "@MMK_R_b" = -20;
 "@MMK_R_comma" = -20;
 "@MMK_R_f" = -10;
@@ -944,6 +1091,7 @@ A = -85;
 "@MMK_L_X" = {
 "@MMK_R_H" = -15;
 "@MMK_R_O" = -40;
+"@MMK_R_asterisk" = -10;
 "@MMK_R_n" = -10;
 "@MMK_R_o" = -50;
 "@MMK_R_v" = -30;
@@ -980,6 +1128,8 @@ J = -50;
 };
 "@MMK_L_l" = {
 "@MMK_R_a" = 0;
+"@MMK_R_asterisk" = -20;
+"@MMK_R_l" = -5;
 "@MMK_R_n" = -5;
 "@MMK_R_o" = -5;
 "@MMK_R_period" = 10;
@@ -987,6 +1137,9 @@ J = -50;
 "@MMK_R_t" = -45;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -15;
+};
+"@MMK_L_l.001" = {
+"@MMK_R_a.001" = 0;
 };
 "@MMK_L_n" = {
 "@MMK_R_T" = -40;
@@ -1008,6 +1161,7 @@ J = -50;
 "@MMK_R_V" = -50;
 "@MMK_R_Y" = -50;
 "@MMK_R_a" = 0;
+"@MMK_R_asterisk" = -20;
 "@MMK_R_b" = -15;
 "@MMK_R_el-cy" = -35;
 "@MMK_R_f" = -20;
@@ -1124,7 +1278,9 @@ r = {
 "@MMK_R_U-cy" = -19;
 "@MMK_R_V" = -70;
 "@MMK_R_a" = 10;
+"@MMK_R_asterisk" = -70;
 "@MMK_R_f" = -40;
+"@MMK_R_l" = -10;
 "@MMK_R_n" = -10;
 "@MMK_R_o" = -15;
 "@MMK_R_question" = -40;
@@ -1178,10 +1334,11 @@ N = -10;
 };
 "@MMK_L_L" = {
 "@MMK_R_A" = 20;
-"@MMK_R_O" = -30;
+"@MMK_R_O" = -40;
 "@MMK_R_T" = -100;
 "@MMK_R_V" = -80;
 "@MMK_R_Y" = -70;
+"@MMK_R_asterisk" = -120;
 "@MMK_R_o" = -39;
 "@MMK_R_question" = -60;
 "@MMK_R_t" = -30;
@@ -1191,9 +1348,11 @@ N = -10;
 "@MMK_L_O" = {
 "@MMK_R_A" = -30;
 "@MMK_R_H" = -10;
+"@MMK_R_Lslash" = -10;
 "@MMK_R_T" = -20;
 "@MMK_R_V" = -30;
 "@MMK_R_X" = -40;
+"@MMK_R_asterisk" = -10;
 "@MMK_R_b" = -25;
 "@MMK_R_comma" = -20;
 "@MMK_R_f" = -10;
@@ -1221,6 +1380,7 @@ N = -10;
 "@MMK_R_o" = -15;
 };
 "@MMK_L_T" = {
+"@MMK_R_A" = -90;
 "@MMK_R_J" = -130;
 "@MMK_R_O" = -20;
 "@MMK_R_T" = 19;
@@ -1260,6 +1420,7 @@ A = -90;
 "@MMK_R_H" = -20;
 "@MMK_R_O" = -40;
 "@MMK_R_a" = -10;
+"@MMK_R_asterisk" = -10;
 "@MMK_R_n" = -20;
 "@MMK_R_o" = -50;
 "@MMK_R_v" = -30;
@@ -1281,7 +1442,7 @@ J = -50;
 };
 "@MMK_L_d" = {
 "@MMK_R_O" = -15;
-"@MMK_R_b" = -30;
+"@MMK_R_b" = -25;
 "@MMK_R_j" = -10;
 "@MMK_R_n" = -15;
 "@MMK_R_t" = -40;
@@ -1302,6 +1463,8 @@ J = -50;
 };
 "@MMK_L_l" = {
 "@MMK_R_a" = 0;
+"@MMK_R_asterisk" = -20;
+"@MMK_R_l" = -10;
 "@MMK_R_n" = -5;
 "@MMK_R_o" = -10;
 "@MMK_R_period" = 30;
@@ -1309,6 +1472,9 @@ J = -50;
 "@MMK_R_t" = -50;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -25;
+};
+"@MMK_L_l.001" = {
+"@MMK_R_a.001" = 0;
 };
 "@MMK_L_n" = {
 "@MMK_R_T" = -40;
@@ -1331,6 +1497,7 @@ J = -50;
 "@MMK_R_V" = -50;
 "@MMK_R_Y" = -50;
 "@MMK_R_a" = 0;
+"@MMK_R_asterisk" = -20;
 "@MMK_R_b" = -20;
 "@MMK_R_el-cy" = -35;
 "@MMK_R_f" = -20;
@@ -1344,6 +1511,9 @@ J = -50;
 "@MMK_R_v" = -25;
 "@MMK_R_x" = -50;
 "@MMK_R_z" = -15;
+};
+"@MMK_L_o.001" = {
+"@MMK_R_o.001" = -3;
 };
 "@MMK_L_parenleft" = {
 "@MMK_R_O" = -15;
@@ -1459,7 +1629,9 @@ r = {
 "@MMK_R_U-cy" = -5;
 "@MMK_R_V" = -120;
 "@MMK_R_a" = 10;
+"@MMK_R_asterisk" = -80;
 "@MMK_R_f" = -47;
+"@MMK_R_l" = -25;
 "@MMK_R_n" = -15;
 "@MMK_R_o" = -15;
 "@MMK_R_question" = -47;
@@ -1517,6 +1689,7 @@ N = -3;
 "@MMK_R_T" = -100;
 "@MMK_R_V" = -80;
 "@MMK_R_Y" = -70;
+"@MMK_R_asterisk" = -120;
 "@MMK_R_o" = -22;
 "@MMK_R_question" = -60;
 "@MMK_R_t" = -30;
@@ -1529,6 +1702,7 @@ N = -3;
 "@MMK_R_T" = -20;
 "@MMK_R_V" = -62;
 "@MMK_R_X" = -40;
+"@MMK_R_asterisk" = -10;
 "@MMK_R_b" = -18;
 "@MMK_R_comma" = -20;
 "@MMK_R_f" = -10;
@@ -1597,6 +1771,7 @@ A = -104;
 "@MMK_R_H" = -16;
 "@MMK_R_O" = -40;
 "@MMK_R_a" = -45;
+"@MMK_R_asterisk" = -20;
 "@MMK_R_n" = -13;
 "@MMK_R_o" = -70;
 "@MMK_R_v" = -30;
@@ -1618,7 +1793,7 @@ J = -50;
 };
 "@MMK_L_d" = {
 "@MMK_R_O" = -4;
-"@MMK_R_b" = -23;
+"@MMK_R_b" = -20;
 "@MMK_R_j" = -10;
 "@MMK_R_n" = -11;
 "@MMK_R_o" = -7;
@@ -1640,6 +1815,8 @@ J = -50;
 };
 "@MMK_L_l" = {
 "@MMK_R_a" = -4;
+"@MMK_R_asterisk" = -30;
+"@MMK_R_l" = -10;
 "@MMK_R_n" = -2;
 "@MMK_R_o" = -6;
 "@MMK_R_period" = 34;
@@ -1647,6 +1824,9 @@ J = -50;
 "@MMK_R_t" = -36;
 "@MMK_R_u" = -6;
 "@MMK_R_v" = -43;
+};
+"@MMK_L_l.001" = {
+"@MMK_R_a.001" = -2;
 };
 "@MMK_L_n" = {
 "@MMK_R_T" = -40;
@@ -1670,19 +1850,23 @@ J = -50;
 "@MMK_R_V" = -50;
 "@MMK_R_Y" = -50;
 "@MMK_R_a" = -10;
+"@MMK_R_asterisk" = -30;
 "@MMK_R_b" = -9;
 "@MMK_R_el-cy" = -20;
 "@MMK_R_f" = -20;
 "@MMK_R_j" = -60;
 "@MMK_R_l" = -5;
 "@MMK_R_n" = -12;
-"@MMK_R_o" = 0;
+"@MMK_R_o" = -10;
 "@MMK_R_question" = -40;
 "@MMK_R_t" = -23;
 "@MMK_R_u" = -14;
 "@MMK_R_v" = -32;
 "@MMK_R_x" = -72;
 "@MMK_R_z" = -4;
+};
+"@MMK_L_o.001" = {
+"@MMK_R_o.001" = -6;
 };
 "@MMK_L_parenleft" = {
 "@MMK_R_O" = -15;
@@ -1798,9 +1982,6 @@ Y = {
 k = {
 "@MMK_R_o" = -86;
 };
-o = {
-"@MMK_R_o" = -10;
-};
 r = {
 "@MMK_R_o" = -40;
 };
@@ -1808,7 +1989,6 @@ r = {
 };
 metrics = (
 {
-name = Ascender;
 type = "cap height";
 },
 {
@@ -1824,6 +2004,54 @@ type = descender;
 type = "italic angle";
 }
 );
+properties = (
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Basement.studio, Andrés Briganti, Mateo Zaragoza";
+}
+);
+},
+{
+key = designerURL;
+value = "https://basement.studio/";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Basement.studio, Vercel, Andrés Briganti, Guido Ferreyra, Mateo Zaragoza";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://basement.studio/";
+},
+{
+key = vendorID;
+value = VRCL;
+}
+);
+stems = (
+{
+name = Upper_H;
+},
+{
+name = Lower_H;
+},
+{
+horizontal = 1;
+name = Upper_V;
+},
+{
+horizontal = 1;
+name = Lower_V;
+}
+);
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -1837,7 +2065,7 @@ nV = "194";
 nd = "136";
 oH = "139";
 oV = "199";
-tH = "136";
+tH = "137";
 };
 "37DC72B3-BCF2-46ED-AAD5-F0285A86700E" = {
 HH = "186";
@@ -1873,7 +2101,7 @@ nV = "30";
 nd = "30";
 oH = "30";
 oV = "32";
-tH = "30";
+tH = "28";
 };
 m01 = {
 HH = "86";
@@ -4089,5 +4317,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 200;
 }

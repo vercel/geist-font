@@ -1,6 +1,6 @@
 {
 glyphname = "Ka-cy";
-kernLeft = H;
+kernLeft = b;
 kernRight = X;
 layers = (
 {
@@ -77,45 +77,6 @@ width = 555;
 anchors = (
 {
 name = top;
-pos = (336,710);
-}
-);
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(623,0,l),
-(288,355,l),
-(171,355,l),
-(506,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(178,0,l),
-(178,710,l),
-(92,710,l),
-(92,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(288,355,l),
-(613,710,l),
-(496,710,l),
-(171,355,l)
-);
-}
-);
-width = 649.73333;
-},
-{
-anchors = (
-{
-name = top;
 pos = (368,710);
 }
 );
@@ -150,6 +111,45 @@ nodes = (
 }
 );
 width = 738.277;
+},
+{
+anchors = (
+{
+name = top;
+pos = (336,710);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(623,0,l),
+(288,355,l),
+(171,355,l),
+(506,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(178,0,l),
+(178,710,l),
+(92,710,l),
+(92,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(288,355,l),
+(613,710,l),
+(496,710,l),
+(171,355,l)
+);
+}
+);
+width = 649.73333;
 }
 );
 metricLeft = H;

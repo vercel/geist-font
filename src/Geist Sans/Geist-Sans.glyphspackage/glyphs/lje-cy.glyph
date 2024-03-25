@@ -9,42 +9,42 @@ layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 alignment = -1;
-pos = (419,0);
+pos = (409,0);
 ref = "softsign-cy";
 },
 {
 ref = "el-cy";
 }
 );
-width = 971;
-},
-{
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-alignment = -1;
-pos = (441,0);
-ref = "softsign-cy";
-},
-{
-ref = "el-cy";
-}
-);
-width = 1024;
+width = 961;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (389,0);
+pos = (379,0);
 ref = "softsign-cy";
 },
 {
 ref = "el-cy";
 }
 );
-width = 1020;
+width = 1010;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+pos = (431,0);
+ref = "softsign-cy";
+},
+{
+ref = "el-cy";
+}
+);
+width = 1014;
 }
 );
 metricLeft = "=n-20";

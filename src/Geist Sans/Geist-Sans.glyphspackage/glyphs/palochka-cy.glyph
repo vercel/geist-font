@@ -14,15 +14,6 @@ ref = l.ss03;
 width = 222;
 },
 {
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = l.ss03;
-}
-);
-width = 268;
-},
-{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -30,6 +21,15 @@ ref = l.ss03;
 }
 );
 width = 318;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = l.ss03;
+}
+);
+width = 268;
 }
 );
 unicode = 1231;

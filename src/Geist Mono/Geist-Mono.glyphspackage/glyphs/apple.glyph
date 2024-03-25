@@ -1,5 +1,5 @@
 {
-glyphname = Vercel;
+glyphname = apple;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -116,4 +116,5 @@ nodes = (
 width = 600;
 }
 );
+unicode = 63743;
 }

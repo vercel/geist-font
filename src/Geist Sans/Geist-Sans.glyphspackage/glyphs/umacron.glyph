@@ -1,5 +1,7 @@
 {
 glyphname = umacron;
+kernLeft = u;
+kernRight = u;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -8,24 +10,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (110,0);
+pos = (104,0);
 ref = macroncomb;
 }
 );
 width = 556;
-},
-{
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = u;
-},
-{
-pos = (109,0);
-ref = macroncomb;
-}
-);
-width = 575;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -34,11 +23,24 @@ shapes = (
 ref = u;
 },
 {
-pos = (123,0);
+pos = (120,10);
 ref = macroncomb;
 }
 );
 width = 629;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (103,0);
+ref = macroncomb;
+}
+);
+width = 575;
 }
 );
 unicode = 363;

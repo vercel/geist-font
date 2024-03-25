@@ -1,5 +1,7 @@
 {
 glyphname = ograve;
+kernLeft = o;
+kernRight = o;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -15,6 +17,19 @@ ref = gravecomb;
 width = 550;
 },
 {
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = o;
+},
+{
+pos = (143,10);
+ref = gravecomb;
+}
+);
+width = 650;
+},
+{
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
@@ -26,19 +41,6 @@ ref = gravecomb;
 }
 );
 width = 579;
-},
-{
-layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
-shapes = (
-{
-ref = o;
-},
-{
-pos = (143,0);
-ref = gravecomb;
-}
-);
-width = 650;
 }
 );
 unicode = 242;

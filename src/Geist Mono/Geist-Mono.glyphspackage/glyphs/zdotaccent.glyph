@@ -10,7 +10,7 @@ shapes = (
 ref = z;
 },
 {
-pos = (286,30);
+pos = (1,0);
 ref = dotaccentcomb;
 }
 );
@@ -20,12 +20,9 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-alignment = -1;
 ref = z;
 },
 {
-alignment = -1;
-pos = (259,1);
 ref = dotaccentcomb;
 }
 );
@@ -35,12 +32,10 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-alignment = -1;
 ref = z;
 },
 {
-alignment = -1;
-pos = (205,0);
+pos = (2,0);
 ref = dotaccentcomb;
 }
 );

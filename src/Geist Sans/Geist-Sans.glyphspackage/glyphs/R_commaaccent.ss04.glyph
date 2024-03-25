@@ -1,5 +1,7 @@
 {
 glyphname = Rcommaaccent.ss04;
+kernLeft = b;
+kernRight = R;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -8,24 +10,11 @@ shapes = (
 ref = R.ss04;
 },
 {
-pos = (192,0);
+pos = (237,0);
 ref = commaaccentcomb;
 }
 );
 width = 628;
-},
-{
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = R.ss04;
-},
-{
-pos = (190,0);
-ref = commaaccentcomb;
-}
-);
-width = 678;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -34,11 +23,24 @@ shapes = (
 ref = R.ss04;
 },
 {
-pos = (198,0);
+pos = (233,0);
 ref = commaaccentcomb;
 }
 );
 width = 729;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = R.ss04;
+},
+{
+pos = (225,0);
+ref = commaaccentcomb;
+}
+);
+width = 678;
 }
 );
 }

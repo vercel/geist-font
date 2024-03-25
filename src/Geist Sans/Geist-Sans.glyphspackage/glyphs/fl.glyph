@@ -1,39 +1,47 @@
 {
-glyphname = braceleft.full;
+glyphname = fl;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-ref = braceleft;
+ref = f;
+},
+{
+pos = (354,0);
+ref = l;
 }
 );
-width = 388;
+width = 597;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-pos = (-2,0);
-ref = braceleft;
+ref = f;
+},
+{
+pos = (378,0);
+ref = l;
 }
 );
-width = 423;
+width = 662;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-pos = (-2,0);
-ref = braceleft;
+ref = f;
+},
+{
+pos = (469,0);
+ref = l;
 }
 );
-width = 436;
+width = 827;
 }
 );
-metricLeft = o;
-metricRight = o;
-unicode = 65371;
+metricLeft = f;
+metricRight = l;
+unicode = 64258;
 }

@@ -1,6 +1,6 @@
 {
 glyphname = "Ge-cy";
-kernLeft = H;
+kernLeft = b;
 kernRight = T;
 layers = (
 {
@@ -37,29 +37,6 @@ width = 583;
 anchors = (
 {
 name = top;
-pos = (328,710);
-}
-);
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-closed = 1;
-nodes = (
-(178,0,l),
-(178,626,l),
-(564,626,l),
-(564,710,l),
-(92,710,l),
-(92,0,l)
-);
-}
-);
-width = 588.8;
-},
-{
-anchors = (
-{
-name = top;
 pos = (341,710);
 }
 );
@@ -78,6 +55,29 @@ nodes = (
 }
 );
 width = 650;
+},
+{
+anchors = (
+{
+name = top;
+pos = (328,710);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,0,l),
+(178,626,l),
+(564,626,l),
+(564,710,l),
+(92,710,l),
+(92,0,l)
+);
+}
+);
+width = 588.8;
 }
 );
 metricLeft = H;

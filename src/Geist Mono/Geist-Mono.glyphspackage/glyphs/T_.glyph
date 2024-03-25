@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = T;
 kernLeft = "0";
 kernRight = "0";
@@ -10,33 +11,25 @@ name = bottom;
 pos = (300,0);
 },
 {
+name = center;
+pos = (300,349);
+},
+{
 name = top;
 pos = (300,710);
 }
 );
 background = {
-shapes = (
+anchors = (
 {
-closed = 1;
-nodes = (
-(214,0,l),
-(302,0,l),
-(302,710,l),
-(214,710,l)
-);
+name = bottom;
+pos = (300,0);
 },
 {
-closed = 1;
-nodes = (
-(14,624,l),
-(502,624,l),
-(502,710,l),
-(14,710,l)
-);
+name = top;
+pos = (300,710);
 }
 );
-};
-layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 closed = 1;
@@ -52,9 +45,41 @@ nodes = (
 );
 }
 );
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(316,0,l),
+(316,682,l),
+(560,682,l),
+(560,710,l),
+(40,710,l),
+(40,682,l),
+(284,682,l),
+(284,0,l)
+);
+}
+);
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = center;
+pos = (300,348);
+},
+{
+name = top;
+pos = (300,710);
+}
+);
+background = {
 anchors = (
 {
 name = bottom;
@@ -65,7 +90,6 @@ name = top;
 pos = (300,710);
 }
 );
-layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 closed = 1;
@@ -81,9 +105,41 @@ nodes = (
 );
 }
 );
+};
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(343,0,l),
+(343,628,l),
+(560,628,l),
+(560,710,l),
+(40,710,l),
+(40,628,l),
+(257,628,l),
+(257,0,l)
+);
+}
+);
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = center;
+pos = (300,315);
+},
+{
+name = top;
+pos = (300,710);
+}
+);
+background = {
 anchors = (
 {
 name = bottom;
@@ -94,7 +150,6 @@ name = top;
 pos = (300,710);
 }
 );
-layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 closed = 1;
@@ -106,6 +161,23 @@ nodes = (
 (38,710,l),
 (38,579,l),
 (227,579,l),
+(227,0,l)
+);
+}
+);
+};
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(373,0,l),
+(373,580,l),
+(560,580,l),
+(560,710,l),
+(40,710,l),
+(40,580,l),
+(227,580,l),
 (227,0,l)
 );
 }

@@ -1,5 +1,7 @@
 {
 glyphname = Gmacron;
+kernLeft = O;
+kernRight = G;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -8,24 +10,11 @@ shapes = (
 ref = G;
 },
 {
-pos = (186,180);
+pos = (180,180);
 ref = macroncomb;
 }
 );
 width = 675;
-},
-{
-layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
-shapes = (
-{
-ref = G;
-},
-{
-pos = (195,180);
-ref = macroncomb;
-}
-);
-width = 708;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -34,11 +23,24 @@ shapes = (
 ref = G;
 },
 {
-pos = (202,180);
+pos = (199,180);
 ref = macroncomb;
 }
 );
 width = 754;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = G;
+},
+{
+pos = (189,180);
+ref = macroncomb;
+}
+);
+width = 708;
 }
 );
 unicode = 7712;

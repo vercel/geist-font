@@ -10,7 +10,7 @@ shapes = (
 ref = a.ss02;
 },
 {
-pos = (-64,0);
+pos = (-8,0);
 ref = dieresiscomb.ss08;
 }
 );
@@ -20,12 +20,10 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-alignment = -1;
 ref = a.ss02;
 },
 {
-alignment = -1;
-pos = (-70,0);
+pos = (-13,0);
 ref = dieresiscomb.ss08;
 }
 );
@@ -35,12 +33,10 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-alignment = -1;
 ref = a.ss02;
 },
 {
-alignment = -1;
-pos = (-83,0);
+pos = (5,0);
 ref = dieresiscomb.ss08;
 }
 );

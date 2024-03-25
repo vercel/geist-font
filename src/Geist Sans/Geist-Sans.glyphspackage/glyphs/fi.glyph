@@ -1,37 +1,47 @@
 {
-glyphname = slash.full;
+glyphname = fi;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (-20,0);
-ref = slash;
+ref = f;
+},
+{
+pos = (364,0);
+ref = i;
 }
 );
-width = 412;
+width = 564;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-pos = (-1,0);
-ref = slash;
+ref = f;
+},
+{
+pos = (398,0);
+ref = i;
 }
 );
-width = 480.63333;
+width = 642;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-ref = slash;
+ref = f;
+},
+{
+pos = (482,0);
+ref = i;
 }
 );
-width = 482.33333;
+width = 788;
 }
 );
-unicode = 65295;
+metricLeft = f;
+metricRight = i;
+unicode = 64257;
 }

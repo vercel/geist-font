@@ -1,5 +1,4 @@
 {
-export = 0;
 glyphname = upDownArrow;
 kernLeft = "0";
 kernRight = "0";
