@@ -53,6 +53,23 @@ export default function MyApp({ Component, pageProps }) {
 }
 ```
 
+If you're using a version of Next.js that's older than 15, then in `next.config.js` or `next.config.mjs` add:
+
+```diff js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
++  transpilePackages: ["geist"],
+};
+
+export default nextConfig;
+```
+
+This is required to fix errors like:
+
+- `TypeError: next_font_local__WEBPACK_IMPORTED_MODULE_0___default(...) is not a function`
+- `SyntaxError: Cannot use import statement outside a module`
+
 #### With Tailwind CSS
 
 `GeistSans` and `GeistMono` can be used through a CSS variable.
