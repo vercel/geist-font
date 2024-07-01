@@ -53,7 +53,7 @@ export default function MyApp({ Component, pageProps }) {
 }
 ```
 
-Then in `next.config.js` or `next.config.mjs` add:
+If you're using a version of Next.js that's older than 15, then in `next.config.js` or `next.config.mjs` add:
 
 ```diff js
 /** @type {import('next').NextConfig} */
