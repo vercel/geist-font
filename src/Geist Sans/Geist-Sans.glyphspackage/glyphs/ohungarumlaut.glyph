@@ -23,7 +23,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (119,10);
+pos = (119,0);
 ref = hungarumlautcomb;
 }
 );

@@ -1,7 +1,23 @@
 {
+color = 0;
 glyphname = anglebracketleft;
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(267,-114,l),
+(84,354,l),
+(267,821,l),
+(233,821,l),
+(50,354,l),
+(233,-114,l)
+);
+}
+);
+};
 guides = (
 {
 angle = -90;
@@ -29,6 +45,21 @@ nodes = (
 width = 317;
 },
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(389,-114,l),
+(228,354,l),
+(389,821,l),
+(195,821,l),
+(33,354,l),
+(195,-114,l)
+);
+}
+);
+};
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -46,6 +77,21 @@ nodes = (
 width = 422;
 },
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(311,-114,l),
+(128,354,l),
+(311,821,l),
+(230,821,l),
+(47,354,l),
+(230,-114,l)
+);
+}
+);
+};
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {

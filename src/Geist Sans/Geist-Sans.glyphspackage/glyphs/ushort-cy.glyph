@@ -10,7 +10,7 @@ shapes = (
 ref = "u-cy";
 },
 {
-pos = (82,0);
+pos = (75,0);
 ref = "brevecomb-cy";
 }
 );
@@ -20,31 +20,27 @@ width = 497;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
 ref = "u-cy";
 },
 {
-alignment = -1;
-pos = (111,0);
+pos = (109,0);
 ref = "brevecomb-cy";
 }
 );
-width = 620.93897;
+width = 620;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
 ref = "u-cy";
 },
 {
-alignment = -1;
-pos = (80,0);
+pos = (81,0);
 ref = "brevecomb-cy";
 }
 );
-width = 536.63333;
+width = 537;
 }
 );
 unicode = 1118;

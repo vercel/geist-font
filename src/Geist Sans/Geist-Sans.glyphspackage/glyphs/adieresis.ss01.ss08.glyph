@@ -23,7 +23,7 @@ shapes = (
 ref = a.ss01;
 },
 {
-pos = (73,10);
+pos = (65,0);
 ref = dieresiscomb.ss08;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = a.ss01;
 },
 {
-pos = (87,0);
+pos = (83,0);
 ref = dieresiscomb.ss08;
 }
 );

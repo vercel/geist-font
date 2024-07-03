@@ -1,22 +1,17 @@
 {
+color = 4;
 glyphname = guilsinglleft;
 layers = (
 {
-guides = (
-{
-angle = 50;
-pos = (-107,272);
-}
-);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (297,0);
+pos = (298,0);
 ref = guilsinglright;
 scale = (-1,1);
 }
 );
-width = 297;
+width = 298;
 },
 {
 associatedMasterId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -55,24 +50,24 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (429,0);
+pos = (416,0);
 ref = guilsinglright;
 scale = (-1,1);
 }
 );
-width = 429.01408;
+width = 416;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (335,0);
+pos = (337,0);
 ref = guilsinglright;
 scale = (-1,1);
 }
 );
-width = 334.7;
+width = 337;
 }
 );
 metricLeft = o;

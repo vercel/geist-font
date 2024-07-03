@@ -23,7 +23,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (117,10);
+pos = (117,0);
 ref = macroncomb;
 }
 );

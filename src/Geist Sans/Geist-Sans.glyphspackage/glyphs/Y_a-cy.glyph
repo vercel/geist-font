@@ -3,6 +3,12 @@ glyphname = "Ya-cy";
 kernRight = H;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (314,710);
+}
+);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -14,28 +20,38 @@ scale = (-1,1);
 width = 628;
 },
 {
+anchors = (
+{
+name = top;
+pos = (364,710);
+}
+);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-pos = (728,0);
+pos = (729,0);
 ref = R.ss04;
 scale = (-1,1);
 }
 );
-width = 728.08451;
+width = 729;
 },
 {
+anchors = (
+{
+name = top;
+pos = (339,710);
+}
+);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-pos = (677,0);
+pos = (678,0);
 ref = R.ss04;
 scale = (-1,1);
 }
 );
-width = 677.3;
+width = 678;
 }
 );
 unicode = 1071;

@@ -23,7 +23,7 @@ shapes = (
 ref = a.ss02;
 },
 {
-pos = (140,10);
+pos = (140,0);
 ref = gravecomb;
 }
 );

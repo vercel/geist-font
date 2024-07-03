@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = iogonek;
 kernLeft = b;
 kernRight = d;
@@ -14,6 +15,7 @@ pos = (33,0);
 ref = dotaccentcomb;
 },
 {
+anchor = ogonek;
 pos = (-25,0);
 ref = ogonekcomb;
 }
@@ -27,11 +29,12 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (20,10);
+pos = (20,0);
 ref = dotaccentcomb;
 },
 {
-pos = (12,0);
+anchor = ogonek;
+pos = (8,0);
 ref = ogonekcomb;
 }
 );
@@ -48,7 +51,8 @@ pos = (31,0);
 ref = dotaccentcomb;
 },
 {
-pos = (-25,0);
+anchor = ogonek;
+pos = (-27,0);
 ref = ogonekcomb;
 }
 );

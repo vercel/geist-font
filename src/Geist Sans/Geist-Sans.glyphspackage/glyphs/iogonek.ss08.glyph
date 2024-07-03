@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = iogonek.ss08;
 kernLeft = b;
 kernRight = d;
@@ -10,10 +11,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (20,0);
+pos = (24,0);
 ref = dotaccentcomb.ss08;
 },
 {
+anchor = ogonek;
 pos = (-25,0);
 ref = ogonekcomb;
 }
@@ -27,11 +29,12 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (32,10);
+pos = (26,0);
 ref = dotaccentcomb.ss08;
 },
 {
-pos = (12,0);
+anchor = ogonek;
+pos = (8,0);
 ref = ogonekcomb;
 }
 );
@@ -44,11 +47,12 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (23,0);
+pos = (28,0);
 ref = dotaccentcomb.ss08;
 },
 {
-pos = (-25,0);
+anchor = ogonek;
+pos = (-27,0);
 ref = ogonekcomb;
 }
 );

@@ -23,7 +23,7 @@ shapes = (
 ref = a.ss02;
 },
 {
-pos = (108,10);
+pos = (108,0);
 ref = tildecomb;
 }
 );

@@ -23,7 +23,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-61,10);
+pos = (-61,0);
 ref = tildecomb;
 }
 );

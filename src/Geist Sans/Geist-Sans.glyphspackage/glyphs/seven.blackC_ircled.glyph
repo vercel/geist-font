@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = seven.blackCircled;
 layers = (
 {
@@ -16,7 +17,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (256,-161);
+pos = (278,-163);
 ref = sevensuperior;
 }
 );
@@ -36,7 +37,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (234,-161);
+pos = (244,-162);
 ref = sevensuperior;
 }
 );
@@ -51,7 +52,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (248,-161);
+pos = (272,-162);
 ref = sevensuperior;
 }
 );

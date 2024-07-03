@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = eight.blackCircled;
 layers = (
 {
@@ -16,7 +17,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (233,-163);
+pos = (248,-163);
 ref = eightsuperior;
 }
 );
@@ -51,7 +52,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (230,-163);
+pos = (242,-163);
 ref = eightsuperior;
 }
 );

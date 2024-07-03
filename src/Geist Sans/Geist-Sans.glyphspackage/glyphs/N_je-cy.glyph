@@ -34,8 +34,9 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (452,0);
-ref = "Softsign-cy";
+pos = (452,710);
+ref = P;
+scale = (1,-1);
 }
 );
 width = 1080;
@@ -70,8 +71,9 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (407,0);
-ref = "Softsign-cy";
+pos = (407,710);
+ref = P;
+scale = (1,-1);
 }
 );
 width = 1103;
@@ -107,8 +109,9 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (433,0);
-ref = "Softsign-cy";
+pos = (433,710);
+ref = P;
+scale = (1,-1);
 }
 );
 width = 1093;

@@ -23,7 +23,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (4,10);
+pos = (4,0);
 ref = circumflexcomb;
 }
 );

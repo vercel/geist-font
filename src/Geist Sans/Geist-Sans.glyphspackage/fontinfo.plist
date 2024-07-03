@@ -1,10 +1,17 @@
 {
-.appVersion = "3249";
+.appVersion = "3311";
 .formatVersion = 3;
 axes = (
 {
 name = Weight;
 tag = wght;
+}
+);
+classes = (
+{
+automatic = 1;
+code = "A Aacute Abreve Acaron Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 I.ss05 Iacute.ss05 Icircumflex.ss05 Idieresis.ss05 Idotaccent.ss05 Igrave.ss05 Imacron.ss05 Iogonek.ss05 Itilde.ss05 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Adieresis.ss08 Cdotaccent.ss08 Edieresis.ss08 Edotaccent.ss08 Gdotaccent.ss08 Idieresis.ss08 Idotaccent.ss08 Odieresis.ss08 Udieresis.ss08 Wdieresis.ss08 Ydieresis.ss08 Zdotaccent.ss08 Idieresis.ss05.ss08 Idotaccent.ss05.ss08 Gdotaccent.ss06.ss08 A_I.dlig U_I.dlig A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy Lambda Omega eulerconstant";
+name = Uppercase;
 }
 );
 customParameters = (
@@ -60,6 +67,12 @@ pos = -150;
 size = -12;
 }
 );
+},
+{
+name = fsType;
+value = (
+3
+);
 }
 );
 date = "2024-03-25 12:09:53 +0000";
@@ -78,6 +91,7 @@ languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn MAH;
+languagesystem latn CAT;
 languagesystem latn NLD;
 ";
 name = Languagesystems;
@@ -90,10 +104,13 @@ code = "feature locl;
 feature subs;
 feature sinf;
 feature sups;
+feature numr;
+feature dnom;
 feature frac;
 feature ordn;
 feature pnum;
 feature tnum;
+feature case;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -108,12 +125,26 @@ tag = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
+code = "lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
+
+lookup ccmp_Other_1 {
+	lookupflag 0;
+	@Markscomb = [strokeshortcomb slashshortcomb slashlongcomb];
+	@MarkscombCase = [strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
 
 lookup ccmp_latn_1 {
 	lookupflag 0;
@@ -164,11 +195,18 @@ lookup locl_latn_2 {
 } locl_latn_2;
 
 script latn;
-language NLD;
+language CAT;
 lookup locl_latn_3 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_3;
+
+script latn;
+language NLD;
+lookup locl_latn_4 {
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
-} locl_latn_3;
+} locl_latn_4;
 ";
 tag = locl;
 },
@@ -219,16 +257,46 @@ tag = sups;
 },
 {
 automatic = 1;
-code = "sub one slash eight by oneeighth;
-sub one slash four by onequarter;
-sub three slash eight by threeeighths;
-sub one slash two by onehalf;
-sub five slash eight by fiveeighths;
-sub three slash four by threequarters;
-sub seven slash eight by seveneighths;
-sub one slash three by onethird;
-sub two slash three by twothirds;
-sub one slash five by onefifth;
+code = "sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+";
+tag = numr;
+},
+{
+automatic = 1;
+code = "sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+";
+tag = dnom;
+},
+{
+automatic = 1;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
 ";
 tag = frac;
 },
@@ -269,6 +337,15 @@ sub eight by eight.tf;
 sub nine by nine.tf;
 ";
 tag = tnum;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+sub strokeshortcomb by strokeshortcomb.case;
+sub slashshortcomb by slashshortcomb.case;
+sub slashlongcomb by slashlongcomb.case;
+";
+tag = case;
 },
 {
 automatic = 1;
@@ -472,6 +549,8 @@ sub exclamdown by exclamdown.ss08;
 sub question by question.ss08;
 sub questiondown by questiondown.ss08;
 sub periodcentered by periodcentered.ss08;
+sub periodcentered.loclCAT by periodcentered.loclCAT.ss08;
+sub periodcentered.loclCAT.case by periodcentered.loclCAT.case.ss08;
 sub dieresiscomb by dieresiscomb.ss08;
 sub dotaccentcomb by dotaccentcomb.ss08;
 sub dieresis by dieresis.ss08;
@@ -541,25 +620,25 @@ value = 262;
 guides = (
 {
 angle = 180;
-pos = (0,-12);
+pos = (0,-8);
 },
 {
 pos = (53,734);
 },
 {
-pos = (53,618);
+pos = (50,610);
 },
 {
 pos = (120,-192);
 },
 {
-pos = (185,712);
+pos = (185,718);
 },
 {
-pos = (339,376);
+pos = (346,160);
 },
 {
-pos = (155,369);
+pos = (162,152);
 }
 );
 iconName = Light;
@@ -639,10 +718,10 @@ value = 262;
 guides = (
 {
 angle = 180;
-pos = (0,-12);
+pos = (0,-8);
 },
 {
-pos = (40,603);
+pos = (-34,393);
 },
 {
 pos = (53,731);
@@ -651,22 +730,17 @@ pos = (53,731);
 pos = (208,-210);
 },
 {
-pos = (185,712);
+pos = (185,720);
 },
 {
-pos = (339,376);
+pos = (339,160);
 },
 {
-pos = (155,369);
+pos = (155,152);
 },
 {
-pos = (185,712);
-},
-{
-pos = (339,376);
-},
-{
-pos = (155,369);
+angle = 180;
+pos = (184,598);
 }
 );
 id = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -745,28 +819,28 @@ value = 262;
 guides = (
 {
 angle = 180;
-pos = (0,-12);
+pos = (0,-8);
 },
 {
 pos = (33,595);
 },
 {
-pos = (53,584);
+pos = (33,587);
 },
 {
-pos = (53,730);
+pos = (-10,331);
 },
 {
 pos = (208,-222);
 },
 {
-pos = (220,718);
+pos = (220,720);
 },
 {
-pos = (374,382);
+pos = (274,160);
 },
 {
-pos = (168,369);
+pos = (168,152);
 }
 );
 iconName = Bold;
@@ -1021,6 +1095,7 @@ N = -5;
 "@MMK_R_V" = -70;
 "@MMK_R_Y" = -70;
 "@MMK_R_asterisk" = -100;
+"@MMK_R_dotCAT.case" = -202;
 "@MMK_R_o" = -25;
 "@MMK_R_question" = -50;
 "@MMK_R_t" = -30;
@@ -1068,6 +1143,7 @@ N = -5;
 "@MMK_R_n" = -15;
 "@MMK_R_o" = -70;
 "@MMK_R_period" = -100;
+"@MMK_R_question" = -20;
 "@MMK_R_v" = -20;
 "@MMK_R_x" = -20;
 A = -85;
@@ -1114,6 +1190,12 @@ J = -50;
 "@MMK_R_t" = -30;
 "@MMK_R_u" = -15;
 };
+"@MMK_L_dotCAT" = {
+"@MMK_R_l" = -10;
+};
+"@MMK_L_dotCAT.case" = {
+"@MMK_R_H" = 123;
+};
 "@MMK_L_eight" = {
 "@MMK_R_parenright" = -5;
 };
@@ -1129,6 +1211,7 @@ J = -50;
 "@MMK_L_l" = {
 "@MMK_R_a" = 0;
 "@MMK_R_asterisk" = -20;
+"@MMK_R_dotCAT" = -53;
 "@MMK_R_l" = -5;
 "@MMK_R_n" = -5;
 "@MMK_R_o" = -5;
@@ -1140,6 +1223,17 @@ J = -50;
 };
 "@MMK_L_l.001" = {
 "@MMK_R_a.001" = 0;
+};
+"@MMK_L_lcaron" = {
+"@MMK_R_a" = -10;
+"@MMK_R_b" = -4;
+"@MMK_R_f" = -18;
+"@MMK_R_j" = -10;
+"@MMK_R_l" = -4;
+"@MMK_R_o" = -20;
+"@MMK_R_t" = -20;
+"@MMK_R_v" = -6;
+"@MMK_R_x" = -16;
 };
 "@MMK_L_n" = {
 "@MMK_R_T" = -40;
@@ -1180,6 +1274,11 @@ J = -50;
 };
 "@MMK_L_period" = {
 "@MMK_R_O" = -20;
+"@MMK_R_T" = -100;
+};
+"@MMK_L_questiondown" = {
+"@MMK_R_O" = -40;
+"@MMK_R_T" = -60;
 };
 "@MMK_L_r" = {
 "@MMK_R_A" = -30;
@@ -1190,7 +1289,7 @@ J = -50;
 "@MMK_R_f" = -10;
 "@MMK_R_j" = -20;
 "@MMK_R_n" = -10;
-"@MMK_R_o" = -30;
+"@MMK_R_o" = -40;
 "@MMK_R_period" = -60;
 "@MMK_R_t" = -20;
 a.ss01 = -25;
@@ -1264,8 +1363,14 @@ F = {
 "Softsign-cy" = {
 "softsign-cy" = 0;
 };
-r = {
-"@MMK_R_o" = -40;
+fraction = {
+four.dnom = -60;
+};
+one.numr = {
+fraction = 40;
+};
+seven.numr = {
+fraction = -30;
 };
 };
 "6C190511-B94A-4F5A-B519-D6E9DB0E7B93" = {
@@ -1339,6 +1444,7 @@ N = -10;
 "@MMK_R_V" = -80;
 "@MMK_R_Y" = -70;
 "@MMK_R_asterisk" = -120;
+"@MMK_R_dotCAT.case" = -259;
 "@MMK_R_o" = -39;
 "@MMK_R_question" = -60;
 "@MMK_R_t" = -30;
@@ -1394,6 +1500,7 @@ N = -10;
 "@MMK_R_n" = -20;
 "@MMK_R_o" = -70;
 "@MMK_R_period" = -100;
+"@MMK_R_question" = -20;
 "@MMK_R_u" = -44;
 "@MMK_R_v" = -25;
 "@MMK_R_x" = -20;
@@ -1448,6 +1555,12 @@ J = -50;
 "@MMK_R_t" = -40;
 "@MMK_R_u" = -20;
 };
+"@MMK_L_dotCAT" = {
+"@MMK_R_l" = -20;
+};
+"@MMK_L_dotCAT.case" = {
+"@MMK_R_H" = 52;
+};
 "@MMK_L_eight" = {
 "@MMK_R_parenright" = -8;
 };
@@ -1464,6 +1577,7 @@ J = -50;
 "@MMK_L_l" = {
 "@MMK_R_a" = 0;
 "@MMK_R_asterisk" = -20;
+"@MMK_R_dotCAT" = -59;
 "@MMK_R_l" = -10;
 "@MMK_R_n" = -5;
 "@MMK_R_o" = -10;
@@ -1475,6 +1589,17 @@ J = -50;
 };
 "@MMK_L_l.001" = {
 "@MMK_R_a.001" = 0;
+};
+"@MMK_L_lcaron" = {
+"@MMK_R_a" = -10;
+"@MMK_R_b" = 2;
+"@MMK_R_f" = -12;
+"@MMK_R_j" = -10;
+"@MMK_R_l" = -4;
+"@MMK_R_o" = -20;
+"@MMK_R_t" = -10;
+"@MMK_R_v" = -6;
+"@MMK_R_x" = -12;
 };
 "@MMK_L_n" = {
 "@MMK_R_T" = -40;
@@ -1524,6 +1649,11 @@ J = -50;
 };
 "@MMK_L_period" = {
 "@MMK_R_O" = -20;
+"@MMK_R_T" = -100;
+};
+"@MMK_L_questiondown" = {
+"@MMK_R_O" = -50;
+"@MMK_R_T" = -80;
 };
 "@MMK_L_r" = {
 "@MMK_R_A" = -30;
@@ -1615,8 +1745,14 @@ F = {
 "Softsign-cy" = {
 "softsign-cy" = 0;
 };
-r = {
-"@MMK_R_o" = -30;
+fraction = {
+four.dnom = -50;
+};
+one.numr = {
+fraction = 40;
+};
+seven.numr = {
+fraction = -30;
 };
 };
 "3507EE3D-0D92-4546-A145-3A991F0A2B71" = {
@@ -1690,6 +1826,7 @@ N = -3;
 "@MMK_R_V" = -80;
 "@MMK_R_Y" = -70;
 "@MMK_R_asterisk" = -120;
+"@MMK_R_dotCAT.case" = -265;
 "@MMK_R_o" = -22;
 "@MMK_R_question" = -60;
 "@MMK_R_t" = -30;
@@ -1743,6 +1880,7 @@ N = -3;
 "@MMK_R_n" = -20;
 "@MMK_R_o" = -77;
 "@MMK_R_period" = -78;
+"@MMK_R_question" = -20;
 "@MMK_R_u" = -12;
 "@MMK_R_v" = -15;
 "@MMK_R_x" = -20;
@@ -1800,6 +1938,9 @@ J = -50;
 "@MMK_R_t" = -22;
 "@MMK_R_u" = -16;
 };
+"@MMK_L_dotCAT.case" = {
+"@MMK_R_H" = 10;
+};
 "@MMK_L_eight" = {
 "@MMK_R_parenright" = -10;
 };
@@ -1816,6 +1957,7 @@ J = -50;
 "@MMK_L_l" = {
 "@MMK_R_a" = -4;
 "@MMK_R_asterisk" = -30;
+"@MMK_R_dotCAT" = -52;
 "@MMK_R_l" = -10;
 "@MMK_R_n" = -2;
 "@MMK_R_o" = -6;
@@ -1827,6 +1969,17 @@ J = -50;
 };
 "@MMK_L_l.001" = {
 "@MMK_R_a.001" = -2;
+};
+"@MMK_L_lcaron" = {
+"@MMK_R_a" = -10;
+"@MMK_R_b" = 18;
+"@MMK_R_f" = -6;
+"@MMK_R_j" = -20;
+"@MMK_R_l" = 10;
+"@MMK_R_o" = -20;
+"@MMK_R_t" = 12;
+"@MMK_R_v" = 10;
+"@MMK_R_x" = -8;
 };
 "@MMK_L_n" = {
 "@MMK_R_T" = -40;
@@ -1877,7 +2030,12 @@ J = -50;
 };
 "@MMK_L_period" = {
 "@MMK_R_O" = -20;
+"@MMK_R_T" = -78;
 two = 14;
+};
+"@MMK_L_questiondown" = {
+"@MMK_R_O" = -60;
+"@MMK_R_T" = -100;
 };
 "@MMK_L_r" = {
 "@MMK_R_A" = -30;
@@ -1888,7 +2046,7 @@ two = 14;
 "@MMK_R_f" = -10;
 "@MMK_R_j" = -70;
 "@MMK_R_n" = -15;
-"@MMK_R_o" = -8;
+"@MMK_R_o" = -40;
 "@MMK_R_period" = -46;
 "@MMK_R_t" = -8;
 a.ss01 = -25;
@@ -1979,11 +2137,17 @@ Y = {
 "@MMK_R_o" = -130;
 "@MMK_R_u" = -60;
 };
+fraction = {
+four.dnom = -40;
+};
 k = {
 "@MMK_R_o" = -86;
 };
-r = {
-"@MMK_R_o" = -40;
+one.numr = {
+fraction = 20;
+};
+seven.numr = {
+fraction = -30;
 };
 };
 };

@@ -23,7 +23,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (130,10);
+pos = (130,0);
 ref = gravecomb;
 }
 );

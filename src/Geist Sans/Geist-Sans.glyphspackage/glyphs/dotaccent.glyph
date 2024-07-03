@@ -42,7 +42,6 @@ ref = dotaccentcomb;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
 ref = dotaccentcomb;
 }
 );
@@ -66,11 +65,10 @@ ref = dotaccentcomb;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
 ref = dotaccentcomb;
 }
 );
-width = 182.33333;
+width = 182;
 }
 );
 metricLeft = o;

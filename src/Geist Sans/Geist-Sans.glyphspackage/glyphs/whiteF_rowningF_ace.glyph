@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = whiteFrowningFace;
 layers = (
 {
@@ -129,7 +130,7 @@ nodes = (
 );
 }
 );
-width = 853;
+width = 852;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -192,7 +193,7 @@ nodes = (
 );
 }
 );
-width = 832.2;
+width = 834;
 }
 );
 metricLeft = o;

@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = k;
-kernLeft = n;
+kernLeft = b;
 kernRight = x;
 layers = (
 {
@@ -12,7 +12,7 @@ pos = (299,0);
 },
 {
 name = top;
-pos = (100,710);
+pos = (100,670);
 }
 );
 background = {
@@ -149,7 +149,7 @@ pos = (331,0);
 },
 {
 name = top;
-pos = (153,723);
+pos = (153,700);
 }
 );
 background = {
@@ -209,11 +209,11 @@ width = 685;
 anchors = (
 {
 name = bottom;
-pos = (298,0);
+pos = (295,0);
 },
 {
 name = top;
-pos = (122,710);
+pos = (122,670);
 }
 );
 background = {

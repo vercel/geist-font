@@ -23,7 +23,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (112,10);
+pos = (112,0);
 ref = brevecomb;
 }
 );

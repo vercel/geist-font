@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = Eogonek;
 kernLeft = b;
 kernRight = E;
@@ -10,6 +11,7 @@ shapes = (
 ref = E;
 },
 {
+anchor = ogonek;
 pos = (383,0);
 ref = ogonekcomb;
 }
@@ -23,7 +25,8 @@ shapes = (
 ref = E;
 },
 {
-pos = (358,0);
+anchor = ogonek;
+pos = (354,0);
 ref = ogonekcomb;
 }
 );
@@ -36,7 +39,8 @@ shapes = (
 ref = E;
 },
 {
-pos = (357,0);
+anchor = ogonek;
+pos = (355,0);
 ref = ogonekcomb;
 }
 );

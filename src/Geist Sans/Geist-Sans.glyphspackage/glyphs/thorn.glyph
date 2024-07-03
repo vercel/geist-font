@@ -1,9 +1,19 @@
 {
 glyphname = thorn;
-kernLeft = n;
+kernLeft = b;
 kernRight = o;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (286,0);
+},
+{
+name = top;
+pos = (286,530);
+}
+);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -49,6 +59,16 @@ nodes = (
 width = 572;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (322,0);
+},
+{
+name = top;
+pos = (322,540);
+}
+);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -94,6 +114,16 @@ nodes = (
 width = 644;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (299,0);
+},
+{
+name = top;
+pos = (299,530);
+}
+);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {

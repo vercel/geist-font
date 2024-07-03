@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = aogonek.ss01;
 kernLeft = a;
 kernRight = n;
@@ -10,6 +11,7 @@ shapes = (
 ref = a.ss01;
 },
 {
+anchor = ogonek;
 pos = (309,0);
 ref = ogonekcomb;
 }
@@ -23,7 +25,8 @@ shapes = (
 ref = a.ss01;
 },
 {
-pos = (329,0);
+anchor = ogonek;
+pos = (325,0);
 ref = ogonekcomb;
 }
 );
@@ -36,7 +39,8 @@ shapes = (
 ref = a.ss01;
 },
 {
-pos = (292,0);
+anchor = ogonek;
+pos = (290,0);
 ref = ogonekcomb;
 }
 );

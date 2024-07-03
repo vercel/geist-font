@@ -1,7 +1,17 @@
 {
+color = 0;
 glyphname = cornerbracketright;
 layers = (
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (381,722);
+ref = cornerbracketleft;
+}
+);
+};
 guides = (
 {
 pos = (144,-105);
@@ -18,6 +28,16 @@ ref = cornerbracketleft;
 width = 381;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (376,723);
+ref = cornerbracketleft;
+}
+);
+};
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -30,6 +50,16 @@ ref = cornerbracketleft;
 width = 376;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (396,723);
+ref = cornerbracketleft;
+}
+);
+};
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {

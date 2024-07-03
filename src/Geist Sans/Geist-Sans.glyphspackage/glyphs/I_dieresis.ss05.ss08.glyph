@@ -21,7 +21,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (16,180);
+pos = (8,170);
 ref = dieresiscomb.ss08;
 }
 );
@@ -34,7 +34,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (36,180);
+pos = (32,180);
 ref = dieresiscomb.ss08;
 }
 );

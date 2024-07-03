@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = one.ss09;
 layers = (
 {
@@ -83,19 +84,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(542,0,l),
-(542,139,l),
-(29,139,l),
-(29,0,l)
+(528,0,l),
+(528,157,l),
+(20,157,l),
+(20,0,l)
 );
 },
 {
 alignment = -1;
-pos = (-2,0);
+pos = (-16,0);
 ref = one;
 }
 );
-width = 570.12207;
+width = 548;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -103,19 +104,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(408,0,l),
-(408,84,l),
-(25,84,l),
-(25,0,l)
+(394,0,l),
+(394,84,l),
+(24,84,l),
+(24,0,l)
 );
 },
 {
 alignment = -1;
-pos = (-2,0);
+pos = (-16,0);
 ref = one;
 }
 );
-width = 432.73333;
+width = 418;
 }
 );
 metricLeft = T;

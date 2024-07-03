@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = six.blackCircled;
 layers = (
 {
@@ -16,7 +17,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (239,-163);
+pos = (241,-163);
 ref = sixsuperior;
 }
 );
@@ -49,7 +50,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (212,-163);
+pos = (190,-163);
 ref = sixsuperior;
 }
 );
@@ -64,7 +65,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (236,-163);
+pos = (238,-163);
 ref = sixsuperior;
 }
 );

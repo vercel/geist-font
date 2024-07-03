@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = lslash;
 kernLeft = l;
 kernRight = l;
@@ -7,60 +8,40 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-closed = 1;
-nodes = (
-(238,427,l),
-(225,454,l),
-(15,358,l),
-(28,331,l)
-);
+ref = l;
 },
 {
-pos = (23,0);
-ref = l;
+pos = (-18,-46);
+ref = slashshortcomb;
 }
 );
-width = 268;
+width = 243;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-closed = 1;
-nodes = (
-(335,401,l),
-(309,486,l),
-(-14,387,l),
-(13,302,l)
-);
+ref = l;
 },
 {
-alignment = -1;
-pos = (-8,0);
-ref = l;
+pos = (-40,-17);
+ref = slashshortcomb;
 }
 );
-width = 354;
+width = 358;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-closed = 1;
-nodes = (
-(267,408,l),
-(236,475,l),
-(10,372,l),
-(42,304,l)
-);
+ref = l;
 },
 {
-alignment = -1;
-pos = (9,0);
-ref = l;
+pos = (-34,16);
+ref = slashshortcomb;
 }
 );
-width = 297;
+width = 283;
 }
 );
 metricLeft = "=l-70";

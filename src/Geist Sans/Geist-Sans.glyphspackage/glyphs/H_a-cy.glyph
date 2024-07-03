@@ -4,6 +4,20 @@ kernLeft = X;
 kernRight = X;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (309,0);
+},
+{
+name = bottomright;
+pos = (598,0);
+},
+{
+name = top;
+pos = (309,710);
+}
+);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -13,24 +27,50 @@ ref = X;
 width = 618;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (390,0);
+},
+{
+name = bottomright;
+pos = (760,0);
+},
+{
+name = top;
+pos = (390,710);
+}
+);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
 ref = X;
 }
 );
-width = 780.46009;
+width = 780;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (314,0);
+},
+{
+name = bottomright;
+pos = (609,0);
+},
+{
+name = top;
+pos = (314,710);
+}
+);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
 ref = X;
 }
 );
-width = 628.63333;
+width = 630;
 }
 );
 unicode = 1061;

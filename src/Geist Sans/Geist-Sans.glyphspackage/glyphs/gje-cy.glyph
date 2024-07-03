@@ -24,7 +24,7 @@ shapes = (
 ref = "ge-cy";
 },
 {
-pos = (149,10);
+pos = (149,0);
 ref = acutecomb;
 }
 );

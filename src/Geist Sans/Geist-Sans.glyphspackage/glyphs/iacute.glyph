@@ -23,7 +23,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (31,10);
+pos = (31,0);
 ref = acutecomb;
 }
 );

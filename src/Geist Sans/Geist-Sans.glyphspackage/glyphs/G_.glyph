@@ -12,7 +12,7 @@ pos = (354,0);
 },
 {
 name = top;
-pos = (354,710);
+pos = (352,710);
 }
 );
 background = {
@@ -116,7 +116,7 @@ pos = (390,0);
 },
 {
 name = top;
-pos = (392,710);
+pos = (386,710);
 }
 );
 background = {
@@ -220,7 +220,7 @@ pos = (370,0);
 },
 {
 name = top;
-pos = (370,710);
+pos = (368,710);
 }
 );
 background = {

@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = l.ss03;
 kernLeft = b;
 kernRight = d;
@@ -11,7 +12,7 @@ pos = (111,0);
 },
 {
 name = center;
-pos = (111,265);
+pos = (111,348);
 },
 {
 name = top;
@@ -44,7 +45,7 @@ pos = (159,0);
 },
 {
 name = center;
-pos = (159,265);
+pos = (159,380);
 },
 {
 name = top;
@@ -67,7 +68,7 @@ nodes = (
 );
 }
 );
-width = 318.39437;
+width = 318;
 },
 {
 anchors = (
@@ -77,7 +78,7 @@ pos = (134,0);
 },
 {
 name = center;
-pos = (134,265);
+pos = (134,405);
 },
 {
 name = top;
@@ -100,7 +101,7 @@ nodes = (
 );
 }
 );
-width = 268.4;
+width = 268;
 }
 );
 metricLeft = H;

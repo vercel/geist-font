@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = Iogonek.ss05;
 layers = (
 {
@@ -8,6 +9,7 @@ shapes = (
 ref = I.ss05;
 },
 {
+anchor = ogonek;
 pos = (130,0);
 ref = ogonekcomb;
 }
@@ -21,7 +23,8 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (220,0);
+anchor = ogonek;
+pos = (216,0);
 ref = ogonekcomb;
 }
 );
@@ -34,7 +37,8 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (196,0);
+anchor = ogonek;
+pos = (194,0);
 ref = ogonekcomb;
 }
 );

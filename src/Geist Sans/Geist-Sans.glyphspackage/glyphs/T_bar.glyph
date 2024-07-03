@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = Tbar;
 kernLeft = T;
 kernRight = T;
@@ -10,8 +11,8 @@ shapes = (
 ref = T;
 },
 {
-pos = (-15,0);
-ref = strokeshortcomb;
+pos = (-8,0);
+ref = strokeshortcomb.case;
 }
 );
 width = 572;
@@ -23,11 +24,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (35,0);
-ref = strokeshortcomb;
+pos = (26,0);
+ref = strokeshortcomb.case;
 }
 );
-width = 668;
+width = 651;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,11 +37,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (-12,0);
-ref = strokeshortcomb;
+pos = (-16,0);
+ref = strokeshortcomb.case;
 }
 );
-width = 578;
+width = 576;
 }
 );
 metricLeft = T;

@@ -12,7 +12,7 @@ pos = (227,0);
 },
 {
 name = center;
-pos = (176,265);
+pos = (186,325);
 },
 {
 name = top;
@@ -20,7 +20,7 @@ pos = (176,530);
 },
 {
 name = topright;
-pos = (203,607);
+pos = (312,530);
 }
 );
 background = {
@@ -110,7 +110,7 @@ pos = (280,0);
 },
 {
 name = center;
-pos = (241,270);
+pos = (238,278);
 },
 {
 name = top;
@@ -118,7 +118,7 @@ pos = (241,540);
 },
 {
 name = topright;
-pos = (328,678);
+pos = (458,540);
 }
 );
 background = {
@@ -208,7 +208,7 @@ pos = (234,0);
 },
 {
 name = center;
-pos = (198,265);
+pos = (203,290);
 },
 {
 name = top;
@@ -216,7 +216,7 @@ pos = (198,530);
 },
 {
 name = topright;
-pos = (226,616);
+pos = (358,530);
 }
 );
 background = {
