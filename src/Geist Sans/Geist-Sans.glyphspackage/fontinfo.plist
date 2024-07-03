@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acaron Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 I.ss05 Iacute.ss05 Icircumflex.ss05 Idieresis.ss05 Idotaccent.ss05 Igrave.ss05 Imacron.ss05 Iogonek.ss05 Itilde.ss05 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Adieresis.ss08 Cdotaccent.ss08 Edieresis.ss08 Edotaccent.ss08 Gdotaccent.ss08 Idieresis.ss08 Idotaccent.ss08 Odieresis.ss08 Udieresis.ss08 Wdieresis.ss08 Ydieresis.ss08 Zdotaccent.ss08 Idieresis.ss05.ss08 Idotaccent.ss05.ss08 Gdotaccent.ss06.ss08 A_I.dlig U_I.dlig A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy Lambda Omega eulerconstant";
+code = "A Aacute Abreve Acaron Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 I.ss05 Iacute.ss05 Icircumflex.ss05 Idieresis.ss05 Idotaccent.ss05 Igrave.ss05 Imacron.ss05 Iogonek.ss05 Itilde.ss05 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Adieresis.ss08 Cdotaccent.ss08 Edieresis.ss08 Edotaccent.ss08 Gdotaccent.ss08 Idieresis.ss08 Idotaccent.ss08 Odieresis.ss08 Udieresis.ss08 Wdieresis.ss08 Ydieresis.ss08 Zdotaccent.ss08 Idieresis.ss05.ss08 Idotaccent.ss05.ss08 Gdotaccent.ss06.ss08 A_I.dlig U_I.dlig A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy I-cy.ss05 Yi-cy.ss05 Palochka-cy.ss05 Io-cy.ss08 Yi-cy.ss08 Yi-cy.ss05.ss08 Lambda Omega eulerconstant";
 name = Uppercase;
 }
 );
@@ -385,6 +385,7 @@ sub amacron by amacron.ss01;
 sub aogonek by aogonek.ss01;
 sub aring by aring.ss01;
 sub atilde by atilde.ss01;
+sub a-cy by a-cy.ss01;
 ";
 labels = (
 {
@@ -407,6 +408,7 @@ sub amacron by amacron.ss02;
 sub aogonek by aogonek.ss02;
 sub aring by aring.ss02;
 sub atilde by atilde.ss02;
+sub a-cy by a-cy.ss02;
 ";
 labels = (
 {
@@ -458,6 +460,9 @@ sub Igrave by Igrave.ss05;
 sub Imacron by Imacron.ss05;
 sub Iogonek by Iogonek.ss05;
 sub Itilde by Itilde.ss05;
+sub I-cy by I-cy.ss05;
+sub Yi-cy by Yi-cy.ss05;
+sub Palochka-cy by Palochka-cy.ss05;
 ";
 labels = (
 {
@@ -540,6 +545,12 @@ sub ydieresis by ydieresis.ss08;
 sub zdotaccent by zdotaccent.ss08;
 sub adieresis.ss01 by adieresis.ss01.ss08;
 sub adieresis.ss02 by adieresis.ss02.ss08;
+sub Io-cy by Io-cy.ss08;
+sub Yi-cy by Yi-cy.ss08;
+sub Yi-cy.ss05 by Yi-cy.ss05.ss08;
+sub io-cy by io-cy.ss08;
+sub i-cy by i-cy.ss08;
+sub yi-cy by yi-cy.ss08;
 sub period by period.ss08;
 sub colon by colon.ss08;
 sub semicolon by semicolon.ss08;
