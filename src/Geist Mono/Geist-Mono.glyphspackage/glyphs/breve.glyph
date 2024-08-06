@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = breve;
 kernLeft = "0";
 kernRight = "0";

@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = grave;
 kernLeft = "0";
 kernRight = "0";

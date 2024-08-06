@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = dotaccentcomb;
 kernLeft = "0";
 kernRight = "0";
@@ -96,10 +96,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(373,598,l),
-(373,716,l),
-(227,716,l),
-(227,598,l)
+(385,594,l),
+(385,726,l),
+(215,726,l),
+(215,594,l)
 );
 }
 );

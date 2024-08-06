@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 0;
 glyphname = "gje-cy";
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = "ge-cy";
 },
 {
-pos = (78,0);
+pos = (71,0);
 ref = acutecomb;
 }
 );

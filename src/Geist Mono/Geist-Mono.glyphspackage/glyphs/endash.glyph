@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = endash;
 kernLeft = "0";
 kernRight = "0";
@@ -79,10 +79,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(510,234,l),
-(510,354,l),
-(90,354,l),
-(90,234,l)
+(510,216,l),
+(510,368,l),
+(90,368,l),
+(90,216,l)
 );
 }
 );

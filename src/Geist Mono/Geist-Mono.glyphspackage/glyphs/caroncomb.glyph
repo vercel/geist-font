@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = caroncomb;
 kernLeft = "0";
 kernRight = "0";
@@ -32,7 +32,7 @@ layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 alignment = -1;
-pos = (0,1328);
+pos = (0,1329);
 ref = circumflexcomb;
 scale = (1,-1);
 }
@@ -50,7 +50,7 @@ layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 alignment = -1;
-pos = (0,1334);
+pos = (0,1340);
 ref = circumflexcomb;
 scale = (1,-1);
 }

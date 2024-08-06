@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = quotedblright;
 kernLeft = "0";
 kernRight = "0";
@@ -7,7 +8,7 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (0,635);
+pos = (0,630);
 ref = quotedblbase;
 }
 );
@@ -18,7 +19,7 @@ layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 alignment = -1;
-pos = (0,595);
+pos = (0,588);
 ref = quotedblbase;
 }
 );
@@ -29,7 +30,7 @@ layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 alignment = -1;
-pos = (0,556);
+pos = (0,540);
 ref = quotedblbase;
 }
 );

@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = macroncomb;
 kernLeft = "0";
 kernRight = "0";
@@ -71,10 +71,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(444,604,l),
-(444,708,l),
-(156,708,l),
-(156,604,l)
+(450,598,l),
+(450,718,l),
+(150,718,l),
+(150,598,l)
 );
 }
 );

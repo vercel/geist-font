@@ -30,7 +30,7 @@ shapes = (
 ref = G.ss06;
 },
 {
-pos = (1,180);
+pos = (0,180);
 ref = brevecomb;
 }
 );

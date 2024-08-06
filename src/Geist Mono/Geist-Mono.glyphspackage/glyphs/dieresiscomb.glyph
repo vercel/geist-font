@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = dieresiscomb;
 kernLeft = "0";
 kernRight = "0";
@@ -59,12 +59,12 @@ layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 alignment = -1;
-pos = (-107,10);
+pos = (-107,-4);
 ref = dotaccentcomb;
 },
 {
 alignment = -1;
-pos = (107,10);
+pos = (107,-4);
 ref = dotaccentcomb;
 }
 );

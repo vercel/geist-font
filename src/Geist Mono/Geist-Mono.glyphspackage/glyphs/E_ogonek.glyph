@@ -36,7 +36,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (171,0);
+pos = (166,0);
 ref = ogonekcomb;
 }
 );

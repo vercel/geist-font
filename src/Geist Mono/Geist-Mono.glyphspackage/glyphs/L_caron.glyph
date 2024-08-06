@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = Lcaron;
 kernLeft = "0";
 kernRight = "0";
@@ -10,7 +11,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (36,0);
+pos = (86,0);
 ref = caroncomb.alt;
 }
 );
@@ -23,7 +24,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (56,0);
+pos = (110,0);
 ref = caroncomb.alt;
 }
 );
@@ -36,7 +37,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (102,0);
+pos = (162,0);
 ref = caroncomb.alt;
 }
 );

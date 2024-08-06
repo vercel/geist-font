@@ -10,7 +10,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (52,180);
+pos = (45,180);
 ref = acutecomb;
 }
 );

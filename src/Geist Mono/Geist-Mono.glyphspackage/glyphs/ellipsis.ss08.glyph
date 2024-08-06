@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = ellipsis.ss08;
 kernLeft = "0";
 kernRight = "0";
@@ -21,7 +22,7 @@ pos = (-1,0);
 ref = period.ss08;
 },
 {
-pos = (185,0);
+pos = (186,0);
 ref = period.ss08;
 }
 );
@@ -38,7 +39,7 @@ layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 alignment = -1;
-pos = (-185,0);
+pos = (-186,0);
 ref = period.ss08;
 },
 {
@@ -65,18 +66,21 @@ layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 alignment = -1;
-pos = (-199,0);
+pos = (-178,0);
 ref = period.ss08;
+scale = (0.94,1);
 },
 {
 alignment = -1;
-pos = (-1,0);
+pos = (21,0);
 ref = period.ss08;
+scale = (0.94,1);
 },
 {
 alignment = -1;
-pos = (200,0);
+pos = (220,0);
 ref = period.ss08;
+scale = (0.94,1);
 }
 );
 width = 600;

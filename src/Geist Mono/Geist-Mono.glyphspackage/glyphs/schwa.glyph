@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = schwa;
 kernLeft = "0";
 kernRight = "0";
@@ -18,7 +19,6 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-alignment = -1;
 angle = 180;
 pos = (600,530);
 ref = e;
@@ -30,9 +30,8 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-alignment = -1;
 angle = 180;
-pos = (600,530);
+pos = (600,540);
 ref = e;
 }
 );

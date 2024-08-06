@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = quotedblleft;
 kernLeft = "0";
 kernRight = "0";
@@ -8,7 +9,7 @@ layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 angle = 180;
-pos = (600,585);
+pos = (600,601);
 ref = quotedblbase;
 }
 );
@@ -20,7 +21,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (600,549);
+pos = (600,570);
 ref = quotedblbase;
 }
 );
@@ -32,7 +33,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (600,552);
+pos = (600,568);
 ref = quotedblbase;
 }
 );

@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = Eth;
 kernLeft = "0";
 kernRight = "0";
@@ -48,17 +49,11 @@ nodes = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-closed = 1;
-nodes = (
-(310,340,l),
-(310,370,l),
-(0,370,l),
-(0,340,l)
-);
+ref = D;
 },
 {
-pos = (39,0);
-ref = D;
+pos = (-110,7);
+ref = strokeshortcomb.case;
 }
 );
 width = 600;
@@ -67,18 +62,11 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-closed = 1;
-nodes = (
-(310,318,l),
-(310,392,l),
-(-10,392,l),
-(-10,318,l)
-);
+ref = D;
 },
 {
-alignment = -1;
-pos = (39,0);
-ref = D;
+pos = (-120,7);
+ref = strokeshortcomb.case;
 }
 );
 width = 600;
@@ -87,18 +75,11 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-closed = 1;
-nodes = (
-(331,309,l),
-(331,398,l),
-(-3,398,l),
-(-3,309,l)
-);
+ref = D;
 },
 {
-alignment = -1;
-pos = (40,0);
-ref = D;
+pos = (-120,43);
+ref = strokeshortcomb.case;
 }
 );
 width = 600;

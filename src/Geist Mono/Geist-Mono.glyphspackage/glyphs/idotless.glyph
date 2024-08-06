@@ -1,11 +1,15 @@
 {
-color = 5;
+color = 4;
 glyphname = idotless;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
 anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
 {
 name = ogonek;
 pos = (540,0);
@@ -81,6 +85,10 @@ width = 600;
 {
 anchors = (
 {
+name = bottom;
+pos = (300,0);
+},
+{
 name = ogonek;
 pos = (560,0);
 },
@@ -155,6 +163,10 @@ width = 600;
 {
 anchors = (
 {
+name = bottom;
+pos = (300,0);
+},
+{
 name = ogonek;
 pos = (580,0);
 },
@@ -199,28 +211,28 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(406,0,l),
-(406,540,l),
-(264,540,l),
-(264,0,l)
+(420,0,l),
+(420,540,l),
+(250,540,l),
+(250,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
 (580,0,l),
-(580,120,l),
-(60,120,l),
+(580,130,l),
+(60,130,l),
 (60,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(378,420,l),
+(378,410,l),
 (378,540,l),
 (70,540,l),
-(70,420,l)
+(70,410,l)
 );
 }
 );
