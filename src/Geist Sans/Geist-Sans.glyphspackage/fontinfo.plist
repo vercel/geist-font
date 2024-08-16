@@ -1,5 +1,5 @@
 {
-.appVersion = "3311";
+.appVersion = "3316";
 .formatVersion = 3;
 axes = (
 {
@@ -71,11 +71,10 @@ size = -12;
 {
 name = fsType;
 value = (
-3
 );
 }
 );
-date = "2024-07-03 18:27:36 +0000";
+date = "2024-08-16 13:51:25 +0000";
 familyName = Geist;
 featurePrefixes = (
 {
@@ -4492,5 +4491,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 310;
+versionMinor = 400;
 }
