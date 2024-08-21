@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = Tbar;
 layers = (
 {
@@ -8,8 +9,8 @@ shapes = (
 ref = T;
 },
 {
-pos = (0,64);
-ref = strokeshortcomb;
+pos = (0,1);
+ref = strokeshortcomb.case;
 }
 );
 width = 600;
@@ -21,8 +22,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (0,63);
-ref = strokeshortcomb;
+ref = strokeshortcomb.case;
 }
 );
 width = 600;
@@ -34,8 +34,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (0,30);
-ref = strokeshortcomb;
+ref = strokeshortcomb.case;
 }
 );
 width = 600;

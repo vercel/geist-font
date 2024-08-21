@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = five.blackCircled;
 layers = (
 {
@@ -16,7 +17,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (249,-161);
+pos = (251,-163);
 ref = fivesuperior;
 }
 );
@@ -36,7 +37,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (210,-161);
+pos = (204,-163);
 ref = fivesuperior;
 }
 );
@@ -51,7 +52,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (236,-161);
+pos = (242,-163);
 ref = fivesuperior;
 }
 );

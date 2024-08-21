@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = hcircumflex;
 kernLeft = b;
 kernRight = n;
@@ -10,7 +11,7 @@ shapes = (
 ref = h;
 },
 {
-pos = (-48,180);
+pos = (-48,160);
 ref = circumflexcomb;
 }
 );
@@ -20,12 +21,10 @@ width = 556;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
 ref = h;
 },
 {
-alignment = -1;
-pos = (-69,180);
+pos = (-66,150);
 ref = circumflexcomb;
 }
 );
@@ -38,7 +37,7 @@ shapes = (
 ref = h;
 },
 {
-pos = (-62,180);
+pos = (-62,160);
 ref = circumflexcomb;
 }
 );

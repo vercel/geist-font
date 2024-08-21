@@ -10,7 +10,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (79,0);
+pos = (72,0);
 ref = acutecomb;
 }
 );

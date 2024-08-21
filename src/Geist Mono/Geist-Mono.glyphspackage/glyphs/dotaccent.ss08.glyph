@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = dotaccent.ss08;
 kernLeft = "0";
 kernRight = "0";

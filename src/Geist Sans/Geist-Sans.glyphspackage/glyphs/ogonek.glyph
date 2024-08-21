@@ -34,7 +34,7 @@ alignment = -1;
 ref = ogonekcomb;
 }
 );
-width = 309;
+width = 313;
 },
 {
 background = {
@@ -52,7 +52,7 @@ alignment = -1;
 ref = ogonekcomb;
 }
 );
-width = 271;
+width = 273;
 }
 );
 metricLeft = o;

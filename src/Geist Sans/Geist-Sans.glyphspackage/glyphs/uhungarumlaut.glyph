@@ -10,8 +10,12 @@ shapes = (
 ref = u;
 },
 {
-pos = (168,0);
-ref = hungarumlautcomb;
+pos = (214,0);
+ref = acutecomb;
+},
+{
+pos = (214,0);
+ref = acutecomb;
 }
 );
 width = 556;
@@ -23,8 +27,14 @@ shapes = (
 ref = u;
 },
 {
+alignment = -1;
 pos = (107,10);
-ref = hungarumlautcomb;
+ref = acutecomb;
+},
+{
+alignment = -1;
+pos = (315,10);
+ref = acutecomb;
 }
 );
 width = 629;
@@ -36,8 +46,14 @@ shapes = (
 ref = u;
 },
 {
+alignment = -1;
 pos = (136,0);
-ref = hungarumlautcomb;
+ref = acutecomb;
+},
+{
+alignment = -1;
+pos = (267,0);
+ref = acutecomb;
 }
 );
 width = 575;

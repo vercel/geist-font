@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = commaturnedabovecomb;
 kernLeft = "0";
 kernRight = "0";
@@ -34,7 +34,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (600,559);
+pos = (600,549);
 ref = commaaccentcomb;
 }
 );
@@ -52,7 +52,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (600,541);
+pos = (600,538);
 ref = commaaccentcomb;
 }
 );

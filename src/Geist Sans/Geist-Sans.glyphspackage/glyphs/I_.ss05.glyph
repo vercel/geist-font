@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = I.ss05;
 layers = (
 {
@@ -94,7 +95,7 @@ nodes = (
 );
 }
 );
-width = 492.92019;
+width = 493;
 },
 {
 anchors = (
@@ -131,7 +132,7 @@ nodes = (
 );
 }
 );
-width = 434.06667;
+width = 434;
 }
 );
 metricLeft = O;

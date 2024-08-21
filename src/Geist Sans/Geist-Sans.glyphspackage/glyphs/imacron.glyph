@@ -23,7 +23,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-40,10);
+pos = (-40,0);
 ref = macroncomb;
 }
 );

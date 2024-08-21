@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = exclamdown.ss08;
 layers = (
 {
@@ -44,60 +45,87 @@ nodes = (
 width = 276;
 },
 {
-anchors = (
-{
-name = top;
-pos = (98,530);
-}
-);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 name = Regular;
 shapes = (
 {
 pos = (0,549);
-ref = exclam.ss08;
+ref = period.ss08;
 scale = (1,-1);
-}
-);
-width = 162;
 },
 {
-anchors = (
-{
-name = top;
-pos = (84,530);
+closed = 1;
+nodes = (
+(71,254,o),
+(68,171,o),
+(68,89,cs),
+(68,-161,l),
+(100,-161,l),
+(100,89,ls),
+(100,171,o),
+(97,254,o),
+(95,344,c),
+(73,344,l)
+);
 }
 );
+width = 168;
+},
+{
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 name = Regular;
 shapes = (
 {
 alignment = -1;
 pos = (0,548);
-ref = exclam.ss08;
+ref = period.ss08;
 scale = (1,-1);
-}
-);
-width = 266;
 },
 {
-anchors = (
-{
-name = top;
-pos = (98,530);
+closed = 1;
+nodes = (
+(59,240,o),
+(40,121,o),
+(40,41,cs),
+(40,-162,l),
+(235,-162,l),
+(235,41,ls),
+(235,121,o),
+(217,240,o),
+(205,306,c),
+(71,306,l)
+);
 }
 );
+width = 274;
+},
+{
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 name = Regular;
 shapes = (
 {
 alignment = -1;
 pos = (0,548);
-ref = exclam.ss08;
+ref = period.ss08;
 scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(78,273,o),
+(68,148,o),
+(68,68,cs),
+(68,-162,l),
+(154,-162,l),
+(154,68,ls),
+(154,148,o),
+(145,273,o),
+(139,343,c),
+(84,343,l)
+);
 }
 );
-width = 208.4;
+width = 222;
 }
 );
 metricLeft = o;

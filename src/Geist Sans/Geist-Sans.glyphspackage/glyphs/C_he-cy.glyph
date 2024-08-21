@@ -3,6 +3,16 @@ glyphname = "Che-cy";
 kernRight = H;
 layers = (
 {
+anchors = (
+{
+name = bottomright;
+pos = (500,0);
+},
+{
+name = top;
+pos = (275,710);
+}
+);
 background = {
 shapes = (
 {
@@ -65,6 +75,16 @@ nodes = (
 width = 596;
 },
 {
+anchors = (
+{
+name = bottomright;
+pos = (623,0);
+},
+{
+name = top;
+pos = (329,710);
+}
+);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -97,6 +117,16 @@ nodes = (
 width = 685.06103;
 },
 {
+anchors = (
+{
+name = bottomright;
+pos = (560,0);
+},
+{
+name = top;
+pos = (298,710);
+}
+);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {

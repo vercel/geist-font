@@ -1,10 +1,29 @@
 {
-color = 5;
+color = 4;
 glyphname = d;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = center;
+pos = (442,618);
+},
+{
+name = top;
+pos = (300,530);
+},
+{
+name = topright;
+pos = (518,530);
+}
+);
+background = {
 anchors = (
 {
 name = bottom;
@@ -23,7 +42,6 @@ name = topright;
 pos = (510,530);
 }
 );
-background = {
 shapes = (
 {
 pos = (600,0);
@@ -50,6 +68,25 @@ pos = (300,0);
 },
 {
 name = center;
+pos = (430,616);
+},
+{
+name = top;
+pos = (300,530);
+},
+{
+name = topright;
+pos = (530,530);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = center;
 pos = (300,265);
 },
 {
@@ -61,10 +98,8 @@ name = topright;
 pos = (520,530);
 }
 );
-background = {
 shapes = (
 {
-alignment = -1;
 pos = (600,0);
 ref = b;
 scale = (-1,1);
@@ -89,6 +124,25 @@ pos = (300,0);
 },
 {
 name = center;
+pos = (410,622);
+},
+{
+name = top;
+pos = (300,540);
+},
+{
+name = topright;
+pos = (550,540);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = center;
 pos = (300,270);
 },
 {
@@ -100,10 +154,8 @@ name = topright;
 pos = (540,540);
 }
 );
-background = {
 shapes = (
 {
-alignment = -1;
 pos = (600,0);
 ref = b;
 scale = (-1,1);

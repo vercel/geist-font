@@ -3,6 +3,12 @@ glyphname = "El-cy";
 kernRight = d;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (367,0);
+}
+);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -30,6 +36,12 @@ nodes = (
 width = 734;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (396,0);
+}
+);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -57,6 +69,12 @@ nodes = (
 width = 791.55869;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (382,0);
+}
+);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {

@@ -1,41 +1,43 @@
 {
+color = 4;
 glyphname = Oslash;
 kernLeft = O;
 kernRight = O;
 layers = (
 {
+guides = (
+{
+angle = 90;
+pos = (664,354);
+}
+);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-closed = 1;
-nodes = (
-(107,-16,l),
-(656,726,l),
-(619,726,l),
-(69,-16,l)
-);
+ref = O;
 },
 {
-ref = O;
+pos = (40,0);
+ref = slashlongcomb.case;
 }
 );
 width = 714;
 },
 {
+guides = (
+{
+angle = 90;
+pos = (755,354);
+}
+);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-closed = 1;
-nodes = (
-(179,-16,l),
-(736,726,l),
-(605,726,l),
-(48,-16,l)
-);
+ref = O;
 },
 {
-alignment = -1;
-ref = O;
+pos = (25,0);
+ref = slashlongcomb.case;
 }
 );
 width = 790;
@@ -44,21 +46,14 @@ width = 790;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-closed = 1;
-nodes = (
-(132,-16,l),
-(681,726,l),
-(599,726,l),
-(49,-16,l)
-);
+ref = O;
 },
 {
-alignment = -1;
-pos = (4,0);
-ref = O;
+pos = (39,0);
+ref = slashlongcomb.case;
 }
 );
-width = 751;
+width = 747;
 }
 );
 metricLeft = O;

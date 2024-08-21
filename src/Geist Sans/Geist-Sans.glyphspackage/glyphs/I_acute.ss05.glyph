@@ -21,7 +21,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (124,180);
+pos = (124,170);
 ref = acutecomb;
 }
 );

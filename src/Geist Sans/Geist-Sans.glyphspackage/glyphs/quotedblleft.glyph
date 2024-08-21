@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = quotedblleft;
 layers = (
 {
@@ -6,13 +7,13 @@ layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 angle = 180;
-pos = (162,595);
-ref = quotesinglbase;
+pos = (162,601);
+ref = comma;
 },
 {
 angle = 180;
-pos = (272,595);
-ref = quotesinglbase;
+pos = (272,601);
+ref = comma;
 }
 );
 width = 272;
@@ -23,14 +24,14 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (264,558);
-ref = quotesinglbase;
+pos = (264,566);
+ref = comma;
 },
 {
 alignment = -1;
 angle = 180;
-pos = (513,558);
-ref = quotesinglbase;
+pos = (513,566);
+ref = comma;
 }
 );
 width = 515;
@@ -41,14 +42,14 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (211,570);
-ref = quotesinglbase;
+pos = (209,570);
+ref = comma;
 },
 {
 alignment = -1;
 angle = 180;
-pos = (376,570);
-ref = quotesinglbase;
+pos = (374,570);
+ref = comma;
 }
 );
 width = 376;

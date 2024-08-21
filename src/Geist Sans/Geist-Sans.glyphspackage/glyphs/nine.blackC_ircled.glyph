@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = nine.blackCircled;
 layers = (
 {
@@ -16,8 +17,9 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (239,-163);
-ref = ninesuperior;
+angle = 180;
+pos = (596,870);
+ref = sixsuperior;
 }
 );
 userData = {
@@ -49,8 +51,9 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (212,-163);
-ref = ninesuperior;
+angle = 180;
+pos = (622,870);
+ref = sixsuperior;
 }
 );
 width = 804;
@@ -64,8 +67,9 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (236,-163);
-ref = ninesuperior;
+angle = 180;
+pos = (602,870);
+ref = sixsuperior;
 }
 );
 userData = {

@@ -10,7 +10,7 @@ shapes = (
 ref = R.ss04;
 },
 {
-pos = (31,180);
+pos = (24,180);
 ref = acutecomb;
 }
 );

@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = j;
 kernLeft = "0";
 kernRight = "0";
@@ -11,7 +11,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (380,30);
+pos = (103,0);
 ref = dotaccentcomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (103,0);
+pos = (102,0);
 ref = dotaccentcomb;
 }
 );
@@ -32,12 +32,10 @@ width = 600;
 background = {
 shapes = (
 {
-alignment = -1;
 ref = jdotless;
 },
 {
-alignment = -1;
-pos = (350,1);
+pos = (96,0);
 ref = dotaccentcomb;
 }
 );
@@ -48,7 +46,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (96,0);
+pos = (95,0);
 ref = dotaccentcomb;
 }
 );
@@ -61,7 +59,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (306,0);
+pos = (87,0);
 ref = dotaccentcomb;
 }
 );
@@ -72,7 +70,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (87,0);
+pos = (103,0);
 ref = dotaccentcomb;
 }
 );

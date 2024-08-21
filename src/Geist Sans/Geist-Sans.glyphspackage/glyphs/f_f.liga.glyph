@@ -1,10 +1,32 @@
 {
-color = 3;
+color = 4;
 glyphname = f_f.liga;
 kernLeft = f;
 kernRight = f;
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (161,0);
+},
+{
+name = bottom_2;
+pos = (414,0);
+},
+{
+name = caret_1;
+pos = (290,0);
+},
+{
+name = top_1;
+pos = (162,718);
+},
+{
+name = top_2;
+pos = (414,718);
+}
+);
 background = {
 shapes = (
 {
@@ -151,6 +173,28 @@ nodes = (
 width = 594;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (218,0);
+},
+{
+name = bottom_2;
+pos = (653,0);
+},
+{
+name = caret_1;
+pos = (406,0);
+},
+{
+name = top_1;
+pos = (218,710);
+},
+{
+name = top_2;
+pos = (633,710);
+}
+);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -159,13 +203,35 @@ ref = f;
 },
 {
 alignment = -1;
-pos = (408,0);
+pos = (388,0);
 ref = f;
 }
 );
-width = 890;
+width = 870;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (172,0);
+},
+{
+name = bottom_2;
+pos = (463,0);
+},
+{
+name = caret_1;
+pos = (319,0);
+},
+{
+name = top_1;
+pos = (172,710);
+},
+{
+name = top_2;
+pos = (463,710);
+}
+);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
@@ -174,11 +240,11 @@ ref = f;
 },
 {
 alignment = -1;
-pos = (289,0);
+pos = (288,0);
 ref = f;
 }
 );
-width = 687;
+width = 686;
 }
 );
 metricLeft = f;

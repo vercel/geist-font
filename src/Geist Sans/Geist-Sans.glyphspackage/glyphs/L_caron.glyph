@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = Lcaron;
 kernLeft = H;
 kernRight = L;
@@ -10,8 +11,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (182,0);
-ref = apostrophemod;
+pos = (310,0);
+ref = caroncomb.alt;
 }
 );
 width = 550;
@@ -20,31 +21,27 @@ width = 550;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
 ref = L;
 },
 {
-alignment = -1;
-pos = (284,0);
-ref = apostrophemod;
+pos = (320,0);
+ref = caroncomb.alt;
 }
 );
-width = 594.35681;
+width = 595;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
 ref = L;
 },
 {
-alignment = -1;
-pos = (214,0);
-ref = apostrophemod;
+pos = (350,0);
+ref = caroncomb.alt;
 }
 );
-width = 579.96667;
+width = 580;
 }
 );
 unicode = 317;

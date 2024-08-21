@@ -1,10 +1,20 @@
 {
-color = 5;
+color = 4;
 glyphname = q;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,530);
+}
+);
 background = {
 shapes = (
 {
@@ -25,10 +35,19 @@ scale = (-1,1);
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,530);
+}
+);
 background = {
 shapes = (
 {
-alignment = -1;
 pos = (600,0);
 ref = p;
 scale = (-1,1);
@@ -46,10 +65,19 @@ scale = (-1,1);
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,540);
+}
+);
 background = {
 shapes = (
 {
-alignment = -1;
 pos = (600,0);
 ref = p;
 scale = (-1,1);

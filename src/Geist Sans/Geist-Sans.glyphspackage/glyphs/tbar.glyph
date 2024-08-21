@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = tbar;
 kernLeft = t;
 kernRight = t;
@@ -7,16 +8,11 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-closed = 1;
-nodes = (
-(312,267,l),
-(312,297,l),
-(60,297,l),
-(60,267,l)
-);
+ref = t;
 },
 {
-ref = t;
+pos = (-114,-24);
+ref = strokeshortcomb;
 }
 );
 width = 352;
@@ -25,17 +21,12 @@ width = 352;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-closed = 1;
-nodes = (
-(455,225,l),
-(455,315,l),
-(31,315,l),
-(31,225,l)
-);
+ref = t;
 },
 {
-alignment = -1;
-ref = t;
+pos = (-48,-29);
+ref = strokeshortcomb;
+scale = (1.04,1);
 }
 );
 width = 481;
@@ -44,17 +35,11 @@ width = 481;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-closed = 1;
-nodes = (
-(358,245,l),
-(358,319,l),
-(55,319,l),
-(55,245,l)
-);
+ref = t;
 },
 {
-alignment = -1;
-ref = t;
+pos = (-71,-60);
+ref = strokeshortcomb;
 }
 );
 width = 395;

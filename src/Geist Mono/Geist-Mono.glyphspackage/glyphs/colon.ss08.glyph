@@ -1,18 +1,13 @@
 {
+color = 4;
 glyphname = colon.ss08;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
-anchors = (
-{
-name = top;
-pos = (300,530);
-}
-);
 guides = (
 {
-pos = (247,467);
+pos = (247,479);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -22,17 +17,16 @@ pos = (0,-6);
 ref = period.ss08;
 },
 {
-pos = (0,370);
+pos = (0,413);
 ref = period.ss08;
 }
 );
 width = 600;
 },
 {
-anchors = (
+guides = (
 {
-name = top;
-pos = (300,530);
+pos = (247,511);
 }
 );
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
@@ -43,17 +37,16 @@ ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (0,357);
+pos = (0,395);
 ref = period.ss08;
 }
 );
 width = 600;
 },
 {
-anchors = (
+guides = (
 {
-name = top;
-pos = (300,530);
+pos = (247,525);
 }
 );
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
@@ -64,7 +57,7 @@ ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (0,315);
+pos = (0,345);
 ref = period.ss08;
 }
 );

@@ -1,10 +1,17 @@
 {
-.appVersion = "3249";
+.appVersion = "3316";
 .formatVersion = 3;
 axes = (
 {
 name = Weight;
 tag = wght;
+}
+);
+classes = (
+{
+automatic = 1;
+code = "A Aacute Abreve Acaron Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Adieresis.ss08 Cdotaccent.ss08 Edieresis.ss08 Edotaccent.ss08 Gdotaccent.ss08 Idieresis.ss08 Idotaccent.ss08 Odieresis.ss08 Udieresis.ss08 Wdieresis.ss08 Ydieresis.ss08 Zdotaccent.ss08 Gdotaccent.ss06.ss08 A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy Lambda Omega eulerconstant";
+name = Uppercase;
 }
 );
 customParameters = (
@@ -60,9 +67,14 @@ pos = -150;
 size = -12;
 }
 );
+},
+{
+name = fsType;
+value = (
+);
 }
 );
-date = "2024-03-25 12:09:52 +0000";
+date = "2024-08-16 13:42:51 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -100,17 +112,34 @@ feature ss06;
 feature ss07;
 feature ss08;
 feature ss09;
+feature numr;
+feature dnom;
+feature case;
 ";
 tag = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
+code = "lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
+
+lookup ccmp_Other_1 {
+	lookupflag 0;
+	@Markscomb = [strokeshortcomb slashshortcomb slashlongcomb];
+	@MarkscombCase = [strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
 ";
 tag = ccmp;
 },
@@ -207,16 +236,46 @@ tag = sups;
 },
 {
 automatic = 1;
-code = "sub one slash eight by oneeighth;
-sub one slash four by onequarter;
-sub three slash eight by threeeighths;
-sub one slash two by onehalf;
-sub five slash eight by fiveeighths;
-sub three slash four by threequarters;
-sub seven slash eight by seveneighths;
-sub one slash three by onethird;
-sub two slash three by twothirds;
-sub one slash five by onefifth;
+code = "sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+";
+tag = numr;
+},
+{
+automatic = 1;
+code = "sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+";
+tag = dnom;
+},
+{
+automatic = 1;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
 ";
 tag = frac;
 },
@@ -314,6 +373,14 @@ sub slash equal by slash_equal.liga;
 
 ";
 tag = liga;
+},
+{
+automatic = 1;
+code = "sub strokeshortcomb by strokeshortcomb.case;
+sub slashshortcomb by slashshortcomb.case;
+sub slashlongcomb by slashlongcomb.case;
+";
+tag = case;
 },
 {
 automatic = 1;
@@ -503,27 +570,27 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 920;
+value = 955;
 },
 {
 name = hheaDescender;
-value = -220;
+value = -245;
 },
 {
 name = hheaLineGap;
-value = 100;
+value = 0;
 },
 {
 name = typoAscender;
-value = 920;
+value = 955;
 },
 {
 name = typoDescender;
-value = -220;
+value = -245;
 },
 {
 name = typoLineGap;
-value = 100;
+value = 0;
 },
 {
 name = winAscent;
@@ -531,7 +598,7 @@ value = 1012;
 },
 {
 name = winDescent;
-value = 258;
+value = 262;
 }
 );
 iconName = Light;
@@ -578,27 +645,27 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 920;
+value = 955;
 },
 {
 name = hheaDescender;
-value = -220;
+value = -245;
 },
 {
 name = hheaLineGap;
-value = 100;
+value = 0;
 },
 {
 name = typoAscender;
-value = 920;
+value = 955;
 },
 {
 name = typoDescender;
-value = -220;
+value = -245;
 },
 {
 name = typoLineGap;
-value = 100;
+value = 0;
 },
 {
 name = winAscent;
@@ -606,7 +673,7 @@ value = 1012;
 },
 {
 name = winDescent;
-value = 258;
+value = 262;
 }
 );
 id = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
@@ -644,27 +711,27 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 920;
+value = 955;
 },
 {
 name = hheaDescender;
-value = -220;
+value = -245;
 },
 {
 name = hheaLineGap;
-value = 100;
+value = 0;
 },
 {
 name = typoAscender;
-value = 920;
+value = 955;
 },
 {
 name = typoDescender;
-value = -220;
+value = -245;
 },
 {
 name = typoLineGap;
-value = 100;
+value = 0;
 },
 {
 name = winAscent;
@@ -672,15 +739,12 @@ value = 1012;
 },
 {
 name = winDescent;
-value = 258;
+value = 262;
 }
 );
 guides = (
 {
 pos = (0,-12);
-},
-{
-pos = (220,718);
 },
 {
 pos = (168,369);
@@ -873,20 +937,7 @@ weightClass = 900;
 );
 kerningLTR = {
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = {
-"@MMK_L_A" = {
-"@MMK_R_J" = -10;
-"@MMK_R_O" = -20;
-"@MMK_R_T" = -100;
-"@MMK_R_U" = -10;
-"@MMK_R_V" = -50;
-"@MMK_R_o" = -10;
-"@MMK_R_v" = -50;
-};
 "@MMK_L_B" = {
-"@MMK_R_T" = -20;
-"@MMK_R_V" = -20;
-"@MMK_R_f" = -20;
-"@MMK_R_j" = -10;
 t = -20;
 };
 "@MMK_L_C" = {
@@ -1037,9 +1088,6 @@ r = {
 };
 };
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = {
-"@MMK_L_0" = {
-"@MMK_R_0" = 0;
-};
 "@MMK_L_A" = {
 "@MMK_R_J" = -10;
 "@MMK_R_O" = -20;
@@ -1448,7 +1496,7 @@ oV = "174";
 tH = "130";
 };
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = {
-HH = "82";
+HH = "84";
 HV = "86";
 OH = "84";
 OV = "90";
@@ -1460,19 +1508,19 @@ oV = "88";
 tH = "74";
 };
 "58B1DC7A-69F8-4375-AD2E-AC5103CCF536" = {
-HH = "130";
-HV = "146";
-OH = "132";
-OV = "154";
+HH = "158";
+HV = "180";
+OH = "154";
+OV = "184";
 cydeH = "125";
-nV = "142";
-nd = "120";
-oH = "126";
-oV = "150";
-tH = "120";
+nV = "170";
+nd = "142";
+oH = "146";
+oV = "176";
+tH = "130";
 };
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = {
-HH = "28";
+HH = "30";
 HV = "32";
 OH = "32";
 OV = "34";
@@ -3696,5 +3744,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 200;
+versionMinor = 400;
 }

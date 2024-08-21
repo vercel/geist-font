@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = four.blackCircled;
 layers = (
 {
@@ -17,7 +18,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (222,-162);
+pos = (240,-163);
 ref = foursuperior;
 }
 );
@@ -51,7 +52,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (192,-162);
+pos = (196,-163);
 ref = foursuperior;
 }
 );
@@ -67,7 +68,7 @@ ref = blackCircled;
 },
 {
 alignment = -1;
-pos = (210,-162);
+pos = (222,-163);
 ref = foursuperior;
 }
 );

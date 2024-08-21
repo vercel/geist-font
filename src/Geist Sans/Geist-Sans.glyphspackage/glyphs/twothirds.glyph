@@ -1,67 +1,57 @@
 {
-color = 0;
+color = 4;
 glyphname = twothirds;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-alignment = -1;
-pos = (141,0);
+ref = two.numr;
+},
+{
+pos = (344,0);
 ref = fraction;
 },
 {
-pos = (474,0);
-ref = threeinferior;
-},
-{
-pos = (5,0);
-ref = twosuperior;
+pos = (483,0);
+ref = three.dnom;
 }
 );
-width = 846;
+width = 810;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-pos = (154,0);
+ref = two.numr;
+},
+{
+pos = (388,0);
 ref = fraction;
 },
 {
-alignment = -1;
-pos = (507,0);
-ref = threeinferior;
-},
-{
-alignment = -1;
-pos = (-10,0);
-ref = twosuperior;
+pos = (548,0);
+ref = three.dnom;
 }
 );
-width = 885;
+width = 942;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-pos = (141,0);
+ref = two.numr;
+},
+{
+pos = (348,0);
 ref = fraction;
 },
 {
-alignment = -1;
-pos = (492,0);
-ref = threeinferior;
-},
-{
-alignment = -1;
-pos = (4,0);
-ref = twosuperior;
+pos = (518,0);
+ref = three.dnom;
 }
 );
-width = 863;
+width = 850;
 }
 );
 unicode = 8532;

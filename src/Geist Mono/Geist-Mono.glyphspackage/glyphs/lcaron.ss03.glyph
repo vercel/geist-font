@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = lcaron.ss03;
 kernLeft = "0";
 kernRight = "0";

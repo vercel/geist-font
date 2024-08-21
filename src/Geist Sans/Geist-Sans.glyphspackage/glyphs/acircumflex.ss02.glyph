@@ -23,7 +23,7 @@ shapes = (
 ref = a.ss02;
 },
 {
-pos = (100,10);
+pos = (100,0);
 ref = circumflexcomb;
 }
 );

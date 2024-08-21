@@ -1,23 +1,17 @@
 {
-color = 5;
+color = 4;
 glyphname = i;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
 background = {
-anchors = (
-{
-name = top;
-pos = (-675,530);
-}
-);
 shapes = (
 {
 ref = idotless;
 },
 {
-pos = (320,30);
+pos = (35,0);
 ref = dotaccentcomb;
 }
 );
@@ -36,20 +30,12 @@ width = 600;
 },
 {
 background = {
-anchors = (
-{
-name = top;
-pos = (-1071,530);
-}
-);
 shapes = (
 {
-alignment = -1;
 ref = idotless;
 },
 {
-alignment = -1;
-pos = (288,1);
+pos = (29,0);
 ref = dotaccentcomb;
 }
 );
@@ -68,18 +54,12 @@ width = 600;
 },
 {
 background = {
-anchors = (
-{
-name = top;
-pos = (-278,530);
-}
-);
 shapes = (
 {
 ref = idotless;
 },
 {
-pos = (237,0);
+pos = (34,0);
 ref = dotaccentcomb;
 }
 );

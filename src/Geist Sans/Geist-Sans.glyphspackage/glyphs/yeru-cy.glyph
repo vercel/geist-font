@@ -60,7 +60,7 @@ ref = "softsign-cy";
 width = 794;
 }
 );
-metricLeft = n;
+metricLeft = "softsign-cy";
 metricRight = n;
 unicode = 1099;
 }

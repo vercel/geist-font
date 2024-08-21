@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = second;
 layers = (
 {
@@ -20,7 +20,7 @@ pos = (84,0);
 ref = minute;
 }
 );
-width = 290;
+width = 238;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -35,26 +35,25 @@ pos = (220,0);
 ref = minute;
 }
 );
-width = 520;
+width = 504;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (2,0);
 ref = minute;
 },
 {
 alignment = -1;
-pos = (124,0);
+pos = (122,0);
 ref = minute;
 }
 );
-width = 380;
+width = 333;
 }
 );
-metricLeft = quoteright;
-metricRight = quoteright;
+metricLeft = minute;
+metricRight = minute;
 unicode = 8243;
 }

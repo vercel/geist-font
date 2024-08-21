@@ -59,7 +59,7 @@ ref = "Zhe-cy";
 width = 970;
 }
 );
-metricLeft = X;
+metricLeft = "Zhe-cy";
 metricRight = "=X-5";
 unicode = 1174;
 }

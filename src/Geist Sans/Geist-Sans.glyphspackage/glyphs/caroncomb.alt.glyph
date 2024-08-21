@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = caroncomb.alt;
 layers = (
 {
@@ -32,37 +33,37 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(76,487,l),
-(122,710,l),
+(76,502,l),
+(116,710,l),
 (84,710,l),
-(50,487,l)
+(50,502,l)
 );
 }
 );
-width = 172;
+width = 166;
 },
 {
 anchors = (
 {
 name = _topright;
-pos = (41,530);
+pos = (30,540);
 }
 );
 background = {
 anchors = (
 {
 name = _topright;
-pos = (41,530);
+pos = (30,530);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(168,418,l),
-(226,710,l),
-(90,710,l),
-(61,418,l)
+(157,418,l),
+(215,710,l),
+(79,710,l),
+(50,418,l)
 );
 }
 );
@@ -72,37 +73,37 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(168,418,l),
-(226,710,l),
-(90,710,l),
-(61,418,l)
+(182,403,l),
+(238,710,l),
+(78,710,l),
+(50,403,l)
 );
 }
 );
-width = 266;
+width = 288;
 },
 {
 anchors = (
 {
 name = _topright;
-pos = (31,530);
+pos = (30,530);
 }
 );
 background = {
 anchors = (
 {
 name = _topright;
-pos = (31,530);
+pos = (30,530);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(112,468,l),
-(164,710,l),
-(81,710,l),
-(51,468,l)
+(111,468,l),
+(163,710,l),
+(80,710,l),
+(50,468,l)
 );
 }
 );
@@ -112,14 +113,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(112,468,l),
+(112,455,l),
 (164,710,l),
-(81,710,l),
-(51,468,l)
+(80,710,l),
+(50,455,l)
 );
 }
 );
-width = 250.46667;
+width = 214;
 }
 );
+metricLeft = "=50";
+metricRight = "=50";
 }

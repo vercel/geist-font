@@ -1,0 +1,46 @@
+{
+color = 0;
+glyphname = "Iigrave-cy";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (-53,180);
+ref = gravecomb;
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (-40,180);
+ref = gravecomb;
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (-40,170);
+ref = gravecomb;
+}
+);
+width = 600;
+}
+);
+unicode = 1037;
+}

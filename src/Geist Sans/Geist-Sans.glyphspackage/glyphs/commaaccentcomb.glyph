@@ -6,23 +6,23 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (81,0);
+pos = (87,0);
 },
 {
 name = bottom;
-pos = (81,-169);
+pos = (87,-169);
 }
 );
 background = {
 anchors = (
 {
 name = _bottom;
-pos = (98,0);
+pos = (104,0);
 }
 );
 shapes = (
 {
-pos = (-28,-798);
+pos = (-22,-798);
 ref = acutecomb;
 }
 );
@@ -48,24 +48,24 @@ width = 162;
 anchors = (
 {
 name = _bottom;
-pos = (116,0);
+pos = (124,0);
 },
 {
 name = bottom;
-pos = (116,-262);
+pos = (124,-262);
 }
 );
 background = {
 anchors = (
 {
 name = _bottom;
-pos = (130,0);
+pos = (138,0);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (-21,-799);
+pos = (-13,-799);
 ref = acutecomb;
 }
 );
@@ -91,24 +91,24 @@ width = 232;
 anchors = (
 {
 name = _bottom;
-pos = (107,0);
+pos = (116,0);
 },
 {
 name = bottom;
-pos = (107,-211);
+pos = (116,-240);
 }
 );
 background = {
 anchors = (
 {
 name = _bottom;
-pos = (132,0);
+pos = (141,0);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (-10,-799);
+pos = (-1,-799);
 ref = acutecomb;
 }
 );
@@ -118,13 +118,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(105,-211,l),
-(166,-106,l),
-(166,-24,l),
-(66,-24,l),
-(66,-114,l),
-(102,-114,l),
-(47,-211,l)
+(105,-240,l),
+(166,-135,l),
+(166,-53,l),
+(66,-53,l),
+(66,-143,l),
+(102,-143,l),
+(47,-240,l)
 );
 }
 );

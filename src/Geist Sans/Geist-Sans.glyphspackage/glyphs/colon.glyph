@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = colon;
+kernLeft = colon;
+kernRight = colon;
 layers = (
 {
 background = {

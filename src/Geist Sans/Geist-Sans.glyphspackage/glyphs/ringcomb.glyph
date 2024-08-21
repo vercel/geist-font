@@ -96,7 +96,7 @@ width = 243;
 anchors = (
 {
 name = _top;
-pos = (143,530);
+pos = (143,540);
 }
 );
 background = {

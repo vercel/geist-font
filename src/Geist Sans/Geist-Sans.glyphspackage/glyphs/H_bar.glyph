@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = Hbar;
 kernLeft = b;
 kernRight = d;
@@ -7,127 +8,40 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-closed = 1;
-nodes = (
-(639,0,l),
-(639,710,l),
-(607,710,l),
-(607,0,l)
-);
+ref = H;
 },
 {
-closed = 1;
-nodes = (
-(169,0,l),
-(169,710,l),
-(137,710,l),
-(137,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(624,347,l),
-(624,377,l),
-(152,377,l),
-(152,347,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(730,556,l),
-(730,586,l),
-(46,586,l),
-(46,556,l)
-);
+pos = (-2,-11);
+ref = strokelongcomb;
 }
 );
-width = 776;
+width = 676;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-closed = 1;
-nodes = (
-(713,0,l),
-(713,710,l),
-(516,710,l),
-(516,0,l)
-);
+ref = H;
 },
 {
-closed = 1;
-nodes = (
-(269,0,l),
-(269,710,l),
-(72,710,l),
-(72,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(650,204,l),
-(650,362,l),
-(135,362,l),
-(135,204,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(773,456,l),
-(773,614,l),
-(12,614,l),
-(12,456,l)
-);
+pos = (-27,45);
+ref = strokelongcomb;
 }
 );
-width = 785;
+width = 727;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-closed = 1;
-nodes = (
-(662,0,l),
-(662,710,l),
-(576,710,l),
-(576,0,l)
-);
+ref = H;
 },
 {
-closed = 1;
-nodes = (
-(192,0,l),
-(192,710,l),
-(106,710,l),
-(106,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(641,320,l),
-(641,404,l),
-(127,404,l),
-(127,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(726,529,l),
-(726,613,l),
-(42,613,l),
-(42,529,l)
-);
+pos = (-3,-3);
+ref = strokelongcomb;
 }
 );
-width = 768;
+width = 713;
 }
 );
 metricLeft = "=H-50";

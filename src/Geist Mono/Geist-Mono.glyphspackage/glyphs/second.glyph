@@ -1,31 +1,23 @@
 {
+color = 4;
 glyphname = second;
 layers = (
 {
+background = {
+shapes = (
+{
+ref = hungarumlautcomb;
+}
+);
+};
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (-61,0);
+pos = (-42,0);
 ref = minute;
 },
 {
-pos = (62,0);
-ref = minute;
-}
-);
-width = 600;
-},
-{
-layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
-shapes = (
-{
-alignment = -1;
-pos = (-80,0);
-ref = minute;
-},
-{
-alignment = -1;
-pos = (81,0);
+pos = (42,0);
 ref = minute;
 }
 );
@@ -36,12 +28,28 @@ layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 alignment = -1;
-pos = (-93,0);
+pos = (-110,0);
 ref = minute;
 },
 {
 alignment = -1;
-pos = (100,0);
+pos = (110,0);
+ref = minute;
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-61,0);
+ref = minute;
+},
+{
+alignment = -1;
+pos = (61,0);
 ref = minute;
 }
 );

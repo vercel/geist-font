@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = exclam.ss08;
 kernLeft = "0";
 kernRight = "0";
@@ -46,12 +47,6 @@ nodes = (
 width = 276;
 },
 {
-anchors = (
-{
-name = top;
-pos = (300,530);
-}
-);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 name = Regular;
 shapes = (
@@ -77,12 +72,6 @@ ref = period.ss08;
 width = 600;
 },
 {
-anchors = (
-{
-name = top;
-pos = (301,530);
-}
-);
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 name = Regular;
 shapes = (
@@ -109,28 +98,22 @@ ref = period.ss08;
 width = 600;
 },
 {
-anchors = (
-{
-name = top;
-pos = (300,530);
-}
-);
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 name = Regular;
 shapes = (
 {
 closed = 1;
 nodes = (
-(367,243,l),
-(378,326,o),
-(397,423,o),
-(397,507,c),
-(397,710,l),
-(203,710,l),
-(203,507,l),
-(203,423,o),
-(222,326,o),
-(233,243,c)
+(365,243,l),
+(376,326,o),
+(395,423,o),
+(395,507,c),
+(395,710,l),
+(205,710,l),
+(205,507,l),
+(205,423,o),
+(224,326,o),
+(235,243,c)
 );
 },
 {

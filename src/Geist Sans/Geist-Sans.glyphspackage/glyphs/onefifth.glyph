@@ -1,68 +1,57 @@
 {
-color = 0;
+color = 4;
 glyphname = onefifth;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-alignment = -1;
-pos = (80,0);
+ref = one.numr;
+},
+{
+pos = (246,0);
 ref = fraction;
 },
 {
-alignment = -1;
-pos = (20,0);
-ref = onesuperior;
-},
-{
-pos = (373,0);
-ref = fiveinferior;
+pos = (385,0);
+ref = five.dnom;
 }
 );
-width = 719;
+width = 720;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-pos = (138,0);
+ref = one.numr;
+},
+{
+pos = (328,0);
 ref = fraction;
 },
 {
-alignment = -1;
-pos = (5,0);
-ref = onesuperior;
-},
-{
-alignment = -1;
-pos = (518,0);
-ref = fiveinferior;
+pos = (488,0);
+ref = five.dnom;
 }
 );
-width = 892;
+width = 893;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-pos = (99,0);
+ref = one.numr;
+},
+{
+pos = (282,0);
 ref = fraction;
 },
 {
-alignment = -1;
-pos = (19,0);
-ref = onesuperior;
-},
-{
-alignment = -1;
-pos = (481,0);
-ref = fiveinferior;
+pos = (452,0);
+ref = five.dnom;
 }
 );
-width = 846;
+width = 797;
 }
 );
 unicode = 8533;

@@ -12,8 +12,9 @@ ref = "El-cy";
 },
 {
 alignment = -1;
-pos = (510,0);
-ref = "Softsign-cy";
+pos = (510,710);
+ref = P;
+scale = (1,-1);
 }
 );
 width = 1138;
@@ -26,8 +27,9 @@ ref = "El-cy";
 },
 {
 alignment = -1;
-pos = (472,0);
-ref = "Softsign-cy";
+pos = (472,710);
+ref = P;
+scale = (1,-1);
 }
 );
 width = 1168;
@@ -40,8 +42,9 @@ ref = "El-cy";
 },
 {
 alignment = -1;
-pos = (495,0);
-ref = "Softsign-cy";
+pos = (495,710);
+ref = P;
+scale = (1,-1);
 }
 );
 width = 1155;

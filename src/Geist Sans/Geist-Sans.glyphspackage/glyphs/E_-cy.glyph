@@ -4,6 +4,12 @@ kernLeft = O;
 kernRight = C;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (353,710);
+}
+);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -15,6 +21,12 @@ scale = (-1,1);
 width = 705;
 },
 {
+anchors = (
+{
+name = top;
+pos = (390,710);
+}
+);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -27,6 +39,12 @@ scale = (-1,1);
 width = 780.78873;
 },
 {
+anchors = (
+{
+name = top;
+pos = (368,710);
+}
+);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {

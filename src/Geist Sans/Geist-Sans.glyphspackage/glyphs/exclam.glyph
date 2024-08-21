@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = exclam;
+kernLeft = exclam;
+kernRight = exclam;
 layers = (
 {
 anchors = (

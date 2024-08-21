@@ -1,35 +1,60 @@
 {
+color = 4;
 glyphname = saltillo;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-ref = Saltillo;
+closed = 1;
+nodes = (
+(113,390,l),
+(117,680,l),
+(117,710,l),
+(85,710,l),
+(85,680,l),
+(89,390,l)
+);
 }
 );
-width = 140;
+width = 202;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-ref = Saltillo;
+closed = 1;
+nodes = (
+(212,336,l),
+(226,596,l),
+(226,710,l),
+(56,710,l),
+(56,596,l),
+(70,336,l)
+);
 }
 );
-width = 201.91549;
+width = 282;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-ref = Saltillo;
+closed = 1;
+nodes = (
+(150,370,l),
+(162,630,l),
+(162,710,l),
+(80,710,l),
+(80,630,l),
+(92,370,l)
+);
 }
 );
-width = 186.4;
+width = 242;
 }
 );
+metricLeft = l;
+metricRight = "=|l";
 unicode = 42892;
 }
