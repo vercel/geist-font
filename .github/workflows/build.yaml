@@ -1,0 +1,116 @@
+name: Build font and specimen
+
+on: push
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+    - name: Install sys tools/deps
+      run: |
+        sudo apt-get update
+        sudo apt-get install ttfautohint
+        sudo snap install yq
+    - uses: actions/cache@v4
+      with:
+        path: ./venv/
+        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-venv-
+    - name: gen zip file name
+      id: zip-name
+      shell: bash
+      # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
+      run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
+
+    # If a new release is cut, use the release tag to auto-bump the source files
+    # - name: Bump release
+    #   if: github.event_name == 'release'
+    #   run: |
+    #     . venv/bin/activate
+    #     SRCS=$(yq e ".sources[]" sources/config.yaml)
+    #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
+    #     echo "Bumping $SRCS to $TAG_NAME"
+    #     for src in $SRCS
+    #     do
+    #       bumpfontversion sources/$src --new-version $TAG_NAME;
+    #     done
+
+    - name: Build font
+      run: make build
+    - name: Check with fontbakery
+      run: make test
+      continue-on-error: true
+    - name: proof
+      run: make proof
+    - name: setup site
+      run: cp scripts/index.html out/index.html
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      if: ${{ github.ref == 'refs/heads/main' }}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ env.ZIP_NAME }}
+        path: |
+          fonts
+          out
+    outputs:
+      zip_name: ${{ env.ZIP_NAME }}
+
+  # There are two ways a release can be created: either by pushing a tag, or by
+  # creating a release from the GitHub UI. Pushing a tag does not automatically
+  # create a release, so we have to do that ourselves. However, creating a
+  # release from the GitHub UI *does* push a tag, and we don't want to create
+  # a new release in that case because one already exists!
+
+  release:
+    name: Create and populate release
+    needs: build
+    runs-on: ubuntu-latest
+    if: contains(github.ref, 'refs/tags/')
+    env:
+      ZIP_NAME: ${{ needs.build.outputs.zip_name }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download font artefact files
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.ZIP_NAME }}
+          path: ${{ env.ZIP_NAME }}
+      - name: Copy DESCRIPTION.en_us.html to artefact directory
+        run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
+      - name: Copy ARTICLE.en_us.html to artefact directory
+        run: cp documentation/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
+        continue-on-error: true
+      - name: Copy OFL.txt to artefact directory
+        run: cp OFL.txt ${{ env.ZIP_NAME }}/OFL.txt
+      - name: Remove proof/fontbakery stuff from release
+        run: rm -rf ${{ env.ZIP_NAME }}/out
+      - name: gen release file name
+        shell: bash
+        run: echo "RELEASE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
+      - name: Create release bundle
+        run: mv ${{ env.ZIP_NAME }} ${{ env.RELEASE_ZIP_NAME }}; zip -r ${{ env.RELEASE_ZIP_NAME }}.zip ${{ env.RELEASE_ZIP_NAME }}
+      - name: Check for release
+        id: create_release
+        run: |
+          if ! gh release view ${{ github.ref_name }}; then
+          git show -s --format=%B ${{ github.ref_name }} | tail -n +4 | gh release create ${{ github.ref_name }} -t ${{ github.ref_name }} -F -
+          fi
+      - name: Populate release
+        run: |
+          gh release upload ${{ github.ref_name }} ${{ env.RELEASE_ZIP_NAME }}.zip --clobber
+      - name: Set release live
+        run: |
+          gh release edit ${{ github.ref_name }} --draft=false

@@ -1,0 +1,72 @@
+{
+color = 9;
+glyphname = period_period_equal.liga;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (-1269,228);
+ref = period;
+scale = (1.3,1.3);
+},
+{
+pos = (-868,228);
+ref = period;
+scale = (1.3,1.3);
+},
+{
+pos = (-218,0);
+ref = equal;
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-1254,206);
+ref = period;
+scale = (1.3,1.3);
+},
+{
+alignment = -1;
+pos = (-853,206);
+ref = period;
+scale = (1.3,1.3);
+},
+{
+alignment = -1;
+pos = (-203,0);
+ref = equal;
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (-1243,184);
+ref = period;
+scale = (1.3,1.3);
+},
+{
+alignment = -1;
+pos = (-842,184);
+ref = period;
+scale = (1.3,1.3);
+},
+{
+alignment = -1;
+pos = (-192,0);
+ref = equal;
+}
+);
+width = 600;
+}
+);
+}

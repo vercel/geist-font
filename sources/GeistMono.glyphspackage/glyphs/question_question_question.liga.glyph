@@ -1,0 +1,69 @@
+{
+color = 8;
+glyphname = question_question_question.liga;
+layers = (
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-1143,0);
+ref = question;
+},
+{
+alignment = -1;
+pos = (-593,0);
+ref = question;
+},
+{
+alignment = -1;
+pos = (-48,0);
+ref = question;
+}
+);
+width = 600;
+},
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+alignment = -1;
+pos = (-1143,0);
+ref = question;
+},
+{
+alignment = -1;
+pos = (-593,0);
+ref = question;
+},
+{
+alignment = -1;
+pos = (-48,0);
+ref = question;
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (-1143,0);
+ref = question;
+},
+{
+alignment = -1;
+pos = (-593,0);
+ref = question;
+},
+{
+alignment = -1;
+pos = (-48,0);
+ref = question;
+}
+);
+width = 600;
+}
+);
+}
