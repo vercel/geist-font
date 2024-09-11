@@ -6,20 +6,41 @@ layers = (
 background = {
 shapes = (
 {
-ref = one.circled;
+closed = 1;
+nodes = (
+(422,446,l),
+(324,446,l),
+(324,468,l),
+(337,468,ls),
+(398,468,o),
+(428,494,o),
+(428,547,c),
+(450,547,l),
+(450,160,l),
+(422,160,l)
+);
 }
 );
 };
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-locked = 1;
-ref = blackCircled;
+closed = 1;
+nodes = (
+(422,446,l),
+(324,446,l),
+(324,468,l),
+(337,468,ls),
+(398,468,o),
+(428,494,o),
+(428,547,c),
+(450,547,l),
+(450,160,l),
+(422,160,l)
+);
 },
 {
-alignment = -1;
-pos = (304,-163);
-ref = onesuperior;
+ref = blackCircled;
 }
 );
 userData = {
@@ -33,22 +54,56 @@ width = 838;
 background = {
 shapes = (
 {
-pos = (-23,0);
-ref = one.circled;
+closed = 1;
+nodes = (
+(487,160,l),
+(487,547,l),
+(385,547,l),
+(385,489,o),
+(352,452,o),
+(289,452,cs),
+(259,452,l),
+(259,362,l),
+(367,362,l),
+(367,160,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(487,160,l),
+(487,547,l),
+(385,547,l),
+(385,489,o),
+(352,452,o),
+(289,452,cs),
+(259,452,l),
+(259,362,l),
+(367,362,l),
+(367,160,l)
+);
 }
 );
 };
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-locked = 1;
-ref = blackCircled;
+closed = 1;
+nodes = (
+(367,362,l),
+(259,362,l),
+(259,452,l),
+(289,452,ls),
+(352,452,o),
+(385,489,o),
+(385,547,c),
+(487,547,l),
+(487,160,l),
+(367,160,l)
+);
 },
 {
-alignment = -1;
-pos = (239,-163);
-ref = onesuperior;
+ref = blackCircled;
 }
 );
 width = 804;
@@ -57,22 +112,41 @@ width = 804;
 background = {
 shapes = (
 {
-pos = (-23,0);
-ref = one.circled;
+closed = 1;
+nodes = (
+(401,414,l),
+(305,413,l),
+(305,463,l),
+(329,463,ls),
+(387,463,o),
+(418,495,o),
+(418,548,c),
+(467,548,l),
+(467,160,l),
+(401,160,l)
+);
 }
 );
 };
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-locked = 1;
-ref = blackCircled;
+closed = 1;
+nodes = (
+(401,414,l),
+(305,413,l),
+(305,463,l),
+(329,463,ls),
+(387,463,o),
+(418,495,o),
+(418,548,c),
+(467,548,l),
+(467,160,l),
+(401,160,l)
+);
 },
 {
-alignment = -1;
-pos = (285,-163);
-ref = onesuperior;
+ref = blackCircled;
 }
 );
 userData = {
@@ -80,7 +154,7 @@ assembly = "NPUSHB[ ]	/* 47 values pushed */
 21 20 17 3 3 2 1 76 0 0 0 2 3 0 2 103 0 3 1 1 3 87 0 3 3 1 97 4 1 1 3 1 81 0 0 27 26 25 24 0 15 0 14 38 5 6 23 
 CALL[ ]	/* CallFunction */";
 };
-width = 832.2;
+width = 832;
 }
 );
 metricLeft = o;

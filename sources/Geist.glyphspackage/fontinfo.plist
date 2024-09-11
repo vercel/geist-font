@@ -72,6 +72,19 @@ size = -12;
 name = fsType;
 value = (
 );
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Cyr;
+tag = slng;
+}
+);
 }
 );
 date = "2024-07-03 18:28:01 +0000";
@@ -625,6 +638,15 @@ value = 1012;
 {
 name = winDescent;
 value = 262;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+}
+);
 }
 );
 guides = (
@@ -723,6 +745,15 @@ value = 1012;
 {
 name = winDescent;
 value = 262;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
 }
 );
 guides = (
@@ -824,6 +855,15 @@ value = 1012;
 {
 name = winDescent;
 value = 262;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+}
+);
 }
 );
 guides = (
@@ -903,8 +943,13 @@ axesValues = (
 );
 customParameters = (
 {
-name = PreFilter;
-value = "RemoveOverlap; include:zerosuperior";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -919,8 +964,13 @@ axesValues = (
 );
 customParameters = (
 {
-name = PreFilter;
-value = "RemoveOverlap; include:zerosuperior";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -936,8 +986,13 @@ axesValues = (
 );
 customParameters = (
 {
-name = PreFilter;
-value = "RemoveOverlap; include:zerosuperior";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -953,8 +1008,13 @@ axesValues = (
 );
 customParameters = (
 {
-name = PreFilter;
-value = "RemoveOverlap; include:zerosuperior";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -968,8 +1028,13 @@ axesValues = (
 );
 customParameters = (
 {
-name = PreFilter;
-value = "RemoveOverlap; include:zerosuperior";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -985,8 +1050,13 @@ axesValues = (
 );
 customParameters = (
 {
-name = PreFilter;
-value = "RemoveOverlap; include:zerosuperior";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -1002,8 +1072,13 @@ axesValues = (
 );
 customParameters = (
 {
-name = PreFilter;
-value = "RemoveOverlap; include:zerosuperior";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -1020,8 +1095,13 @@ axesValues = (
 );
 customParameters = (
 {
-name = PreFilter;
-value = "RemoveOverlap; include:zerosuperior";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -1037,8 +1117,13 @@ axesValues = (
 );
 customParameters = (
 {
-name = PreFilter;
-value = "RemoveOverlap; include:zerosuperior";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -4510,5 +4595,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 400;
+versionMinor = 310;
 }

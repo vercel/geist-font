@@ -13,12 +13,23 @@ ref = seven.circled;
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-ref = blackCircled;
+closed = 1;
+nodes = (
+(384,279,o),
+(443,417,o),
+(517,519,c),
+(298,519,l),
+(298,547,l),
+(544,547,l),
+(544,519,l),
+(472,419,o),
+(416,282,o),
+(416,160,c),
+(384,160,l)
+);
 },
 {
-alignment = -1;
-pos = (278,-163);
-ref = sevensuperior;
+ref = blackCircled;
 }
 );
 userData = {
@@ -32,13 +43,23 @@ width = 838;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-ref = blackCircled;
+closed = 1;
+nodes = (
+(326,262,o),
+(368,368,o),
+(432,448,c),
+(264,448,l),
+(264,548,l),
+(550,548,l),
+(550,454,l),
+(473,365,o),
+(446,285,o),
+(446,160,c),
+(326,160,l)
+);
 },
 {
-alignment = -1;
-pos = (244,-162);
-ref = sevensuperior;
+ref = blackCircled;
 }
 );
 width = 804;
@@ -47,13 +68,23 @@ width = 804;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-ref = blackCircled;
+closed = 1;
+nodes = (
+(362,281,o),
+(403,394,o),
+(477,490,c),
+(292,490,l),
+(292,548,l),
+(552,548,l),
+(552,504,l),
+(474,404,o),
+(426,298,o),
+(426,160,c),
+(362,160,l)
+);
 },
 {
-alignment = -1;
-pos = (272,-162);
-ref = sevensuperior;
+ref = blackCircled;
 }
 );
 userData = {
@@ -61,7 +92,7 @@ assembly = "NPUSHB[ ]	/* 61 values pushed */
 24 1 2 3 1 76 0 2 3 4 3 2 4 128 0 0 0 3 2 0 3 103 6 1 4 1 1 4 87 6 1 4 4 1 97 5 1 1 4 1 81 16 16 0 0 16 27 16 27 23 22 21 19 0 15 0 14 38 7 6 23 
 CALL[ ]	/* CallFunction */";
 };
-width = 832.2;
+width = 832;
 }
 );
 metricLeft = o;
