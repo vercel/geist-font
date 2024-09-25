@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Proofer</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+
+	  
+
+	  
+	    @font-face{
+    src: url("GeistMono-UltraLight.ttf");
+    font-family: "Geist Mono";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+
+	  
+	    .UltraLight{
+    font-family: "Geist Mono", "Adobe NotDef";
+    font-weight: 200;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 200;
+}
+	  
+	
+#toolbar {
+    float:right;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    cursor: default;
+    user-select: none; /* Standard */
+    border: 1px solid black;
+    font-size: 9pt;
+}
+#view-button {
+}
+#pt-dropdown {
+    padding: 5px;
+}
+#pt-selector {
+    background-color: black;
+    color: white;
+}
+#side-by-side {
+    width: 6000px;
+}
+.box-side-by-side {
+    word-break: break-all;
+    float: left;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+    <div class="nav-item" id="view-button">Line by line</div>
+    <div class="nav-item" id="pt-dropdown">
+        <label for="pt-size">Font Size:</label>
+            <select id="pt-selector" name="pt">
+            <option value="10pt">10pt</option>
+            <option selected="selected" value="20pt">20pt</option>
+            <option value="48pt">48pt</option>
+            <option value="96pt">96pt</option>
+        </select>
+    </div>
+
+	</div>
+    <div id="content">
+	<h2>
+<b>Proofer</b>
+</h2>
+	
+<div id="line-by-line" style="display: block;">
+        
+        <h3>Glyphset: GF_Latin_Core</h3>
+        
+            <div class="box">
+            <div class="box-title">Letter Groups</div>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    EFHIJLTU AVWXZ KMNY<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    COQS BPRDGÞẞ<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    hmnu ceogðsß abdpqþ<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    kvwxyz fijltr<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    0123456789<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    .,:;/|?!-–—&@%([{}])°<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    +−×÷=≠><≥≤±≈~¬∞<br>
+                </div>
+            
+            <br>
+            
+        </div>
+        
+            <div class="box">
+            <div class="box-title">Spacing</div>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    HHOHHOOHOO HIHOIO<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    uuonouonoo ninoioolonlniuo<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    010 080 030 020 050 060 070<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="ca">
+                    L·L l·l<br>
+                </div>
+            
+            <br>
+            
+        </div>
+        
+            <div class="box">
+            <div class="box-title">Kerning</div>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    ¿o,O? w@y «n•n» n*<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    080 076 474 973 94 7078 54 24 272 679<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    P4T47A .47,9.7-»4<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    42°21′29″N 71°03′49″W<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    d² m³ 15°C/26°F<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                    0/0\0<br>
+                </div>
+            
+            <br>
+            
+        </div>
+        
+    
+    </div>
+
+    
+
+<div id="font-by-font" style="display: none;">
+
+    <h3>Glyphset: GF_Latin_Core</h3>
+    
+        <div class="box-title">UltraLight 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        EFHIJLTU AVWXZ KMNY</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        COQS BPRDGÞẞ</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        hmnu ceogðsß abdpqþ</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        kvwxyz fijltr</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        0123456789</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        .,:;/|?!-–—&@%([{}])°</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        +−×÷=≠><≥≤±≈~¬∞</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        010 080 030 020 050 060 070</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="ca">
+                        L·L l·l</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        ¿o,O? w@y «n•n» n*</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        080 076 474 973 94 7078 54 24 272 679</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text UltraLight" style="font-size: 20pt" lang="en">
+                        0/0\0</div>
+                
+            </div>
+        
+    
+ 
+</div>
+
+
+<div id="side-by-side" style="display: none;">
+
+    <h3>Glyphset: GF_Latin_Core</h3>
+    
+        <div class="box-side-by-side">
+            <div class="box-title">UltraLight 20pt</div>
+            
+                <div class="box">
+                    <div class="box-title">Letter Groups</div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            EFHIJLTU AVWXZ KMNY
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            COQS BPRDGÞẞ
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            hmnu ceogðsß abdpqþ
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            kvwxyz fijltr
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            0123456789
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            .,:;/|?!-–—&@%([{}])°
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            +−×÷=≠><≥≤±≈~¬∞
+                        </div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Spacing</div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            HHOHHOOHOO HIHOIO
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            uuonouonoo ninoioolonlniuo
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            010 080 030 020 050 060 070
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            3+4=7 5>2 2x²−(8×7)÷9≈1
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="ca">
+                            L·L l·l
+                        </div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Kerning</div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            ďá ďu gj ľk włw yły ółr fħ ílïlîl
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            ¿o,O? w@y «n•n» n*
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            080 076 474 973 94 7078 54 24 272 679
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            P4T47A .47,9.7-»4
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            42°21′29″N 71°03′49″W
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            d² m³ 15°C/26°F
+                        </div>
+                    
+                        <div class="box-text UltraLight box-text" style="font-size: 20pt" lang="en">
+                            0/0\0
+                        </div>
+                    
+                </div>
+            
+        </div>
+    
+ 
+</div>
+
+
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+    
+state = "line-by-line"
+function viewMode() {
+    var viewButton = document.getElementById("view-button")
+    if (state === "line-by-line") {
+        document.getElementById("line-by-line").style.display = "none"
+        document.getElementById("font-by-font").style.display = "block"
+        document.getElementById("side-by-side").style.display = "none"
+        state = "font-by-font"
+        viewButton.innerHTML = "Font by font"
+    } else if (state === "font-by-font") {
+        document.getElementById("line-by-line").style.display = "none"
+        document.getElementById("font-by-font").style.display = "none"
+        document.getElementById("side-by-side").style.display = "block"
+        state = "side-by-side"
+        setWidth()
+        viewButton.innerHTML = "Side by side"
+    } else if (state === "side-by-side") {
+        document.getElementById("line-by-line").style.display = "block"
+        document.getElementById("font-by-font").style.display = "none"
+        document.getElementById("side-by-side").style.display = "none"
+        state = "line-by-line"
+        viewButton.innerHTML = "Line by line"
+    }
+}
+document.getElementById("view-button").addEventListener("click", viewMode)
+    
+    var ptSelector = document.getElementById("pt-selector");
+    ptSelector.addEventListener("change", function(e) {
+        var newPtSize = e.target.value
+        textBoxes = document.getElementsByClassName("box-text")
+        for (i=0; i<textBoxes.length; i++) {
+            var textBox = textBoxes[i]
+            textBox.style.fontSize = newPtSize
+        }
+        setWidth()
+    })
+
+// break text for side by side view
+async function breakText() {
+var boxContent = document.getElementsByClassName("box-side-by-side")
+var paragraphs = boxContent[0].getElementsByClassName("box-text")
+
+for (j=0; j<paragraphs.length; j++) {
+    res = []
+    for (i=0; i<boxContent.length; i++) {
+        box = boxContent[i]
+        paras = box.getElementsByClassName("box-text")
+        para = paras[j]
+        breaks = getLineBreaks(para)
+        // populate if empty
+        if (res.length === 0) {
+            res = breaks
+        // replace tighter linebreaks
+        } else {
+            for (k=0; k<breaks.length; k++) {
+                if (k >= res.length) {
+                    res.push(breaks[k])
+                } else if (breaks[k] <= res[k]) {
+                    res[k] = breaks[k]
+                }
+            }
+        }
+
+    }
+    for (ii=0; ii<boxContent.length; ii++) {
+        box = boxContent[ii]
+        paras = box.getElementsByClassName("box-text")
+        para = paras[j]
+        insertBreaks(para, res)
+    }
+}
+}
+
+
+function getLineBreaks(elem) {
+const nodes = grabTextNodes(elem);
+for (const node of nodes) { // each node is a big block of text
+    let rangeIndex = 1;
+    let textIndex = 0;
+    let nodeText = node.textContent;
+    const textLength = nodeText.length;
+
+    linebreaks = []
+    prevTop = 0;
+    while (rangeIndex <= textLength) {
+        const range = document.createRange();
+        range.setStart(node, rangeIndex-1);
+        range.setEnd(node, rangeIndex)
+        currentTop = range.getBoundingClientRect().top
+    if (currentTop > prevTop) {
+        if (rangeIndex-2 !== -1) {
+            linebreaks.push(rangeIndex-2)
+        }
+    }
+    rangeIndex += 1;
+    prevTop = currentTop
+    }
+}
+return linebreaks
+}
+
+function grabTextNodes(elem) {
+const walker = document.createTreeWalker(elem, NodeFilter.SHOW_TEXT, null);
+const nodes = [];
+while (walker.nextNode()) {
+    nodes.push(walker.currentNode);
+}
+return nodes;
+}
+
+function insertBreaks(node, breaks) {
+console.log(node.innerHTML, breaks)
+newText = ""
+currentText = node.textContent
+for (jj=0; jj<currentText.length; jj++) {
+    if (breaks.includes(jj)) {
+        newText += "<br>"
+    } else {
+        newText += currentText[jj]
+    }
+}
+node.innerHTML = newText
+}
+
+function longestLine() {
+    var paragraphs = document.getElementsByClassName("box-text")
+    var res = 0
+    for (i=0; i<paragraphs.length; i++) {
+        var cur = lineLength(paragraphs[i])
+        res = Math.max(cur, res)
+    }
+    return res
+}
+
+function lineLength(elem) {
+    var node = grabTextNodes(elem)[0]
+    var range = document.createRange()
+    var width = 0
+    for (j=1; j<=node.textContent.length; j++) {
+        var p = j - 1
+        range.setStart(node, p)
+        range.setEnd(node, j)
+        width += range.getBoundingClientRect().width
+    }
+    return width
+}
+
+function setWidth() {
+    var width = longestLine()
+    var container = document.getElementById("side-by-side")
+    var subContainers = container.getElementsByClassName("box-side-by-side")
+    
+    var containerWidth = (width * subContainers.length) + 100
+    container.style.width = containerWidth + "pt"
+
+    for (i=0; i<subContainers.length; i++) {
+        subContainer = subContainers[i]
+        var dist = Math.ceil(width) + "pt"
+        subContainer.style.maxWidth = dist
+    }
+}
+
+
+
+
+    </script>
+</html>

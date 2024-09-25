@@ -1,0 +1,52 @@
+{
+color = 8;
+glyphname = colon_equal.liga;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (-637,60);
+ref = colon;
+},
+{
+pos = (-164,0);
+ref = equal;
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-625,46);
+ref = colon;
+},
+{
+alignment = -1;
+pos = (-152,0);
+ref = equal;
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (-616,55);
+ref = colon;
+},
+{
+alignment = -1;
+pos = (-143,0);
+ref = equal;
+}
+);
+width = 600;
+}
+);
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Text</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+
+	  
+
+	  
+	    @font-face{
+    src: url("GeistMono-Regular.ttf");
+    font-family: "Geist Mono";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+
+	  
+	    .Regular{
+    font-family: "Geist Mono", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+	
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Text</b>
+</h2>
+	
+  
+    <div class="box">
+      <div class="box-title">Regular 20pt</div>
+	<div contenteditable=true spellcheck="false" class="box-text Regular" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948 Da die Anerkennung angeborenen Würde gleichen unveräußerlichen Mitglieder Gemeinschaft Freiheit, Nichtanerkennung Verachtung zu Barbarei Gewissen Empörung Streben Herrschaft Tyrannei Unterdrückung Charta Person Lebensbedingungen Zusammenarbeit jeder Organe Jeder Überzeugung, werden; Kulthandlungen Ämtern Existenz que intrínseca aspiración más régimen común enseñanza izzet-hörmitini aylan'ghanliqi, ijtima’iy qilidu: Yora ¿Un huatiromanmun? senenhas"honra IQUl, JONÍ Él barbàrie consciència creença, rebel·lió autònom, països TUÁKAR AÚJMATISAMU pu]ustinrin, thë wã ĩhĩ maõpë, rẽ Ĩhĩ TOTIHITAWË Ã owëmayõũ kuŋ en’thi/ Considerînd că recunoașterea demnității GENERALĂ DECLARAȚIE În ce6 Birleşmiş Asambleyasının Basılêr İlerlemä Deklaraţlyasını Aylä— tegnì dùthchannan, KEDEŊGA Xiskuamana, sẽn [Missing] pœga, Considerând гӯнмувнэ, гавча̄ резолюцият Генеральнай Ассамблеян откӣ дягӣ тырганӣдук анңанӣду Эрэвэр упкатту Буга дёгордук, һэгды; Объединеннаил Нациял Уставду – общества Декларациява Илэтыкин Ңи-вэл Тар гражданствоват Международнай Һавамнӣтыкин Техническайды, профессиональнайды Pieņemta pasludināta Ģenerālās rezolūciju Ņemot vērā sabiedrības locekļiem piemītošās reliģiskās, atšķirības ierobežota Šīs Īstenojot щыӏам Къэрал Зэгухьэныгъэм зэгухьэныгъэшхуэм Цӏыху зэхащІэ Псэуныр, Хэти Сабийхэм iđi Đalo WALINKAÑAPATAKI E'~mbi čačipa bipaćape “raica qali.” иалахәу изинқәеи, изымычҳаша Еиду аамҷыдрахаз. џьара УСВОЈЕНА ГЕНЕРАЛНОЈ СКУПШТИНИ УЈЕДИЊЕНИХ БУДУЋИ признавање уроћеног достојанства људске Чланице hō'ē 3-'E tina¿;¡ju ďekesi ‘bukuluŋ. Ďeďekarikin juỳu & kamanzəga Övertügen, nateûre égåls, s-ôtes vre̊ymint secretario.general@interlingua.com Көдэ GWIRIOÙ СНЕЖНЯ Арганізацыі Абʼяднаных правоў «яе тэрыторый». ГЕНЕРАЛЬНАЯ үйелменінің құқықтарының алынбайтындығын Ұлттар Әр Құлдық Өзінің Ҳар kǎ nüxü̃́ ĨXẼ qaỹaỹateeta nai>>ctaxa ƏBİLOV ləyoğətə Çəvon po'ñoc̈h DPI/876/Rev3-07–07-30950-Shundunthule-2007.40M manuśenqe famělia aspirŕcia trąden rňdel teritorűqesqiri, maźutipen naśărdől Âaj procedůra. d´fhiacha Южно-Сахалинск кʼикр̌ Ыткғун Генеральнай į žmonių giminės sąžinę, Įgyvendindamas урођеног Òmma Фэдэр Ês Ĝenerala ĉiuj efektiviĝo kontraŭ Ĉarto Ŝtatoj-Membroj paŝoj posedaĵoj, tjuta! Ó KU`OTENESE đồng Åtta Үөрэхтээһин éyaltai{ab Enyiń atâ Það þetta réttlætis lýst, озодӣ, ӯхдадор Ғайр ese_ejja UNIVERSÈLE DREÛTS eşit İnsan BAŞ ASSAMBLEÝA HUKUKLARYNYŇ maafucꞌakꞌwa d’Ànerkannùng Ìn Ïa ľných tešiť SHROMAŽDENIE Čo tia;\ui. bekjentgjøre VERDENSERKLÆRING i%anique raryijnty£ryanityaniy rirva½arvurva ła Ła ОБЩОТО СЪБРАНИЕ Бидејќи неотуѓиви = Ǎl OPĆOJ AÐALFUNDURIN Øll ‘Ōlelo NĀ n° přirozené wónÿuú deaŧalaš дереҗели Җенаят © людської невід'ємних обґрунтованості għall-maskil, tal-paċi ż-żebliħ ġabu tal-Ġnus Ħadd enupa,…) pruckamakir+t ZWAŻYWSZY, ƒe Йй правьдѣ. сѫть | KkÕõ ЦцӀӏ ĘęGg БУДУЂИ Ǧrawən Panru̸ji Hh₂Ó dh₃tóy h₁stés ŨũMm TtÔô ,ÁL,ÁLŦ. Śś</div>
+    </div>
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+	// break text so that no reflow happens
+async function breakText() {
+	boxContent = document.getElementsByClassName("box-text")
+	for (let box of boxContent) {
+		switchFonts()
+		await sleep(1)
+		break1 = getLineBreaks(box)
+		switchFonts()
+		await sleep(1)
+		break2 = getLineBreaks(box)
+
+		if (break1.length >= break2.length) {
+		breaks = break1
+		} else {
+		breaks = break2
+		}
+		insertBreaks(box, breaks)
+		box.style.whiteSpace = "pre"
+		console.log("set to pre")
+	}
+	}
+
+function getLineBreaks(elem) {
+	const nodes = grabTextNodes(elem);
+	for (const node of nodes) { // each node is a big block of text
+		let rangeIndex = 1;
+		let textIndex = 0;
+		let nodeText = node.textContent;
+		const textLength = nodeText.length;
+
+		linebreaks = []
+		prevTop = 0;
+		while (rangeIndex <= textLength) {
+			const range = document.createRange();
+			range.setStart(node, rangeIndex-1);
+			range.setEnd(node, rangeIndex)
+			currentTop = range.getBoundingClientRect().top
+		if (currentTop > prevTop) {
+			linebreaks.push(rangeIndex-2)
+		}
+		rangeIndex += 1;
+		prevTop = currentTop
+		}
+	}
+	return linebreaks
+}
+
+function grabTextNodes(elem) {
+	const walker = document.createTreeWalker(elem, NodeFilter.SHOW_TEXT, null);
+	const nodes = [];
+	while (walker.nextNode()) {
+		nodes.push(walker.currentNode);
+	}
+	return nodes;
+}
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+function insertBreaks(node, breaks) {
+	console.log(node, breaks)
+	newText = ""
+	currentText = node.textContent
+	for (i=0; i<currentText.length; i++) {
+		if (breaks.includes(i)) {
+		newText += "<br>"
+		} else {
+		newText += currentText[i]
+		}
+	}
+	node.innerHTML = newText
+}
+
+	if (fontToggle !== null) {
+		breakText()
+}
+
+	
+
+
+    </script>
+</html>

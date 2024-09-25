@@ -1,0 +1,94 @@
+# The configuration for the builder is in YAML format. You can use
+# https://www.yamllint.com/ to make sure that your configuration
+# file is correctly formatted.
+
+# First we need to define the source files to build. Please list
+# all sources in the same family. These are expected to be in the
+# sources/ directory, so all paths should be relative to that
+# directory.
+sources:
+  - Geist.glyphspackage
+outputDir: ../fonts/Geist
+familyName: "Geist"
+
+# Next you can supply alternative paths for where you want the
+# binaries to live. But we'd recommend you stick to the defaults
+# especially if you are planning to upload your font to Google Fonts.
+
+# outputDir: ../fonts
+# vfDir: $outputDir/variable
+# ttDir: $outputDir/ttf
+# otDir: $outputDir/otf
+# woffDir: $outputDir/webfonts
+
+# The following entries, which are either "true" or "false"
+# determine which targets to build. We turn off OTFs for this demo.
+
+# buildVariable: true
+# buildStatic: true
+# buildTTF: true
+# buildOTF: true
+# buildSmallCap: false
+
+# The next flags control autohinting.
+# autohintTTF: true
+autohintOTF: true
+# ttfaUseScript: false  # Set this to true if your font is not Latin
+
+# The "fix" operation can optionally fix some problems which
+# are better dealt with in the font sources. Set this to true if you
+# want gftools-fix to automatically fix source problems.
+# includeSourceFixes: false
+
+# These options give fine-grained control over how fontmake builds
+# the fonts.
+# flattenComponents: true
+# decomposeTransformedComponents: true
+# checkCompatibility: true
+# overlaps: booleanOperations
+# expandFeaturesToInstances: false
+# reverseOutlineDirection: true
+# removeOutlineOverlaps: true
+# extraFontmakeArgs: ""
+# extraVariableFontmakeArgs: ""
+# extraStaticFontmakeArgs: ""
+# glyphData: GlyphData.xml
+
+# This control how STAT tables are generated. The STAT table is
+# specified here as a list of axis names, tags and values. You
+# can either map a list to each output VF, or provide a single
+# list which is used for all VFs. Note that the build will fail
+# if you specify a dictionary which does not contain an entry
+# for each VF file built.
+stat:
+  Geist[wght].ttf:
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 100
+    - name: ExtraLight
+      value: 200
+    - name: Light
+      value: 300
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+    - name: ExtraBold
+      value: 800
+    - name: Black
+      value: 900
+  - name: Italic
+    tag: ital
+    values:
+    - name: Roman
+      value: 0
+      linkedValue: 1
+      flags: 2

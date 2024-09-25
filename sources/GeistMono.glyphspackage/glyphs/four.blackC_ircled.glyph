@@ -1,0 +1,150 @@
+{
+color = 4;
+glyphname = four.blackCircled;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = four.circled;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,255,l),
+(159,255,l),
+(159,277,l),
+(350,547,l),
+(378,547,l),
+(378,281,l),
+(442,281,l),
+(442,255,l),
+(378,255,l),
+(378,160,l),
+(350,160,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,281,l),
+(350,507,l),
+(191,281,l)
+);
+},
+{
+ref = blackCircled;
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 7 values pushed */
+28 20 2 5 4 1 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+19 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 42 values pushed */
+9 7 2 5 4 3 4 5 3 128 6 1 3 2 2 3 112 0 0 0 4 5 0 4 103 0 2 1 1 2 87 0 2 2 1 98 8 1 1 2 1 82 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 43 values pushed */
+9 7 2 5 4 3 4 5 3 128 6 1 3 2 4 3 2 126 0 0 0 4 5 0 4 103 0 2 1 1 2 87 0 2 2 1 98 8 1 1 2 1 82 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 26 values pushed */
+27 27 0 0 27 35 27 34 26 25 24 23 22 21 19 18 17 16 0 15 0 14 38 10 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(310,227,l),
+(126,227,l),
+(126,311,l),
+(292,547,l),
+(430,547,l),
+(430,317,l),
+(476,317,l),
+(476,227,l),
+(430,227,l),
+(430,160,l),
+(310,160,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(310,317,l),
+(310,415,l),
+(234,317,l)
+);
+},
+{
+ref = blackCircled;
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(331,250,l),
+(151,250,l),
+(151,301,l),
+(335,547,l),
+(397,547,l),
+(397,308,l),
+(451,308,l),
+(451,250,l),
+(397,250,l),
+(397,160,l),
+(331,160,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(331,308,l),
+(331,451,l),
+(221,308,l)
+);
+},
+{
+ref = blackCircled;
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 7 values pushed */
+28 20 2 5 4 1 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+19 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 42 values pushed */
+9 7 2 5 4 3 4 5 3 128 6 1 3 2 2 3 112 0 0 0 4 5 0 4 103 0 2 1 1 2 87 0 2 2 1 98 8 1 1 2 1 82 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 43 values pushed */
+9 7 2 5 4 3 4 5 3 128 6 1 3 2 4 3 2 126 0 0 0 4 5 0 4 103 0 2 1 1 2 87 0 2 2 1 98 8 1 1 2 1 82 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 26 values pushed */
+27 27 0 0 27 35 27 34 26 25 24 23 22 21 19 18 17 16 0 15 0 14 38 10 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 600;
+}
+);
+note = uni2779;
+unicode = 10105;
+}
