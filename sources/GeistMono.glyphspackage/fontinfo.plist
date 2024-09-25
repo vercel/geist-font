@@ -111,7 +111,7 @@ tag = slng;
 );
 }
 );
-date = "2024-08-06 18:55:40 +0000";
+date = "2024-09-25 19:40:35 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -4672,5 +4672,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 310;
+versionMinor = 400;
 }
