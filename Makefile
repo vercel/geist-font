@@ -1,7 +1,5 @@
 SOURCES=$(shell python3 scripts/read-config.py --sources )
 FAMILY=$(shell python3 scripts/read-config.py --family )
-DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
-DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
 
 help:
 	@echo "###"
@@ -42,9 +40,8 @@ test: venv-test build.stamp
 	TOCHECK=$$(find fonts/GeistMono/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/GeistMono/ttf -type f 2>/dev/null); fi ; . venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/GeistMono-fontbakery-report.html --ghmarkdown out/fontbakery/GeistMono-fontbakery-report.md $$TOCHECK  || echo '::warning file=sources/config-GeistMono.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
-	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof
-
-images: venv $(DRAWBOT_OUTPUT)
+	TOCHECK=$$(find fonts/Geist/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/Geist/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof
+	TOCHECK=$$(find fonts/Geist/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/GeistMono/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof
 
 %.png: %.py build.stamp
 	. venv/bin/activate; python3 $< --output $@
