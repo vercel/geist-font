@@ -1,5 +1,5 @@
 {
-.appVersion = "3316";
+.appVersion = "3321";
 .formatVersion = 3;
 axes = (
 {
@@ -2353,6 +2353,15 @@ type = "italic angle";
 }
 );
 properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)";
+}
+);
+},
 {
 key = designers;
 values = (
