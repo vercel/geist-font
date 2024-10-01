@@ -88,8 +88,8 @@ jobs:
         with:
           name: ${{ env.ZIP_NAME }}
           path: ${{ env.ZIP_NAME }}
-      - name: Copy DESCRIPTION.en_us.html to artefact directory
-        run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
+      # - name: Copy DESCRIPTION.en_us.html to artefact directory
+      #   run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
       - name: Copy ARTICLE.en_us.html to artefact directory
         run: cp documentation/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
         continue-on-error: true
