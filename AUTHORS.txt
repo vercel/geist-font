@@ -5,3 +5,7 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
+Andrés Briganti <info@briganti.works>
+Mateo Zaragoza <mateo@basement.studio>
+Basement.studio <hello@basement.studio>
+Vercel <contactus@vercel.com>

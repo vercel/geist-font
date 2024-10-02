@@ -8,3 +8,12 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+Andrés Briganti <info@briganti.works>
+Mateo Zaragoza <mateo@basement.studio>
+Basement.studio <hello@basement.studio>
+Vercel <contactus@vercel.com>
+Evil Rabbit <evilrabbit@vercel.com>
+José Rago <jose@basement.studio>
+Facundo Santana <facundo@basement.studio>
+Guido Ferreyra <guido@tipografia.com.ar>
