@@ -1,5 +1,5 @@
 {
-.appVersion = "3321";
+.appVersion = "3316";
 .formatVersion = 3;
 axes = (
 {
@@ -111,7 +111,7 @@ tag = slng;
 );
 }
 );
-date = "2024-09-25 19:40:35 +0000";
+date = "2024-10-04 22:12:16 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -1455,6 +1455,11 @@ Axis = Weight;
 Location = 100;
 }
 );
+}
+);
+guides = (
+{
+pos = (552,36);
 }
 );
 iconName = Light;
@@ -4681,5 +4686,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 400;
+versionMinor = 401;
 }
