@@ -671,6 +671,9 @@ pos = (346,160);
 },
 {
 pos = (162,152);
+},
+{
+pos = (-33,339);
 }
 );
 iconName = Light;
@@ -762,7 +765,7 @@ angle = 180;
 pos = (0,-8);
 },
 {
-pos = (-34,393);
+pos = (-33,339);
 },
 {
 pos = (53,731);
@@ -818,6 +821,7 @@ GSExtrudeOffset = 15;
 GSOffsetHorizontal = 10;
 GSOffsetVertical = 8;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -924,6 +928,7 @@ stemValues = (
 userData = {
 GSCornerRadius = 95;
 };
+visible = 1;
 }
 );
 instances = (

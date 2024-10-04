@@ -23,7 +23,7 @@ shapes = (
 ref = R.ss04;
 },
 {
-pos = (225,0);
+pos = (227,0);
 ref = commaaccentcomb;
 }
 );

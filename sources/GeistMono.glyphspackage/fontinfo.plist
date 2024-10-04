@@ -1457,6 +1457,11 @@ Location = 100;
 );
 }
 );
+guides = (
+{
+pos = (326,348);
+}
+);
 iconName = Light;
 id = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 metricValues = (
@@ -1541,6 +1546,11 @@ Location = 400;
 );
 }
 );
+guides = (
+{
+pos = (326,348);
+}
+);
 id = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 metricValues = (
 {
@@ -1621,10 +1631,7 @@ guides = (
 pos = (0,-12);
 },
 {
-pos = (168,369);
-},
-{
-pos = (339,376);
+pos = (326,353);
 }
 );
 iconName = Bold;
