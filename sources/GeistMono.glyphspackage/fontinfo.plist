@@ -1,5 +1,5 @@
 {
-.appVersion = "3321";
+.appVersion = "3322";
 .formatVersion = 3;
 axes = (
 {
@@ -2380,7 +2380,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
