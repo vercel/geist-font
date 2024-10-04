@@ -821,7 +821,6 @@ GSExtrudeOffset = 15;
 GSOffsetHorizontal = 10;
 GSOffsetVertical = 8;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -928,7 +927,6 @@ stemValues = (
 userData = {
 GSCornerRadius = 95;
 };
-visible = 1;
 }
 );
 instances = (
