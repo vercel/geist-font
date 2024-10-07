@@ -111,7 +111,7 @@ tag = slng;
 );
 }
 );
-date = "2024-10-04 22:12:16 +0000";
+date = "2024-10-07 14:34:19 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -2385,7 +2385,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
