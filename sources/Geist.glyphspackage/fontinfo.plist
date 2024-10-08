@@ -1,5 +1,5 @@
 {
-.appVersion = "3321";
+.appVersion = "3316";
 .formatVersion = 3;
 axes = (
 {
@@ -87,7 +87,7 @@ tag = slng;
 );
 }
 );
-date = "2024-09-25 19:40:18 +0000";
+date = "2024-10-07 14:34:15 +0000";
 familyName = Geist;
 featurePrefixes = (
 {
@@ -671,6 +671,12 @@ pos = (346,160);
 },
 {
 pos = (162,152);
+},
+{
+pos = (512,28);
+},
+{
+pos = (690,23);
 }
 );
 iconName = Light;
@@ -2301,7 +2307,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
@@ -4604,5 +4610,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 400;
+versionMinor = 401;
 }

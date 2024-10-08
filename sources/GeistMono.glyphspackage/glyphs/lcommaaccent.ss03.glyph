@@ -10,6 +10,7 @@ shapes = (
 ref = l.ss03;
 },
 {
+pos = (-5,0);
 ref = commaaccentcomb;
 }
 );

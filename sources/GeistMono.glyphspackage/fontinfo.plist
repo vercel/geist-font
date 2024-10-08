@@ -1,5 +1,5 @@
 {
-.appVersion = "3321";
+.appVersion = "3316";
 .formatVersion = 3;
 axes = (
 {
@@ -111,7 +111,7 @@ tag = slng;
 );
 }
 );
-date = "2024-09-25 19:40:35 +0000";
+date = "2024-10-07 14:34:19 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -1457,6 +1457,11 @@ Location = 100;
 );
 }
 );
+guides = (
+{
+pos = (552,36);
+}
+);
 iconName = Light;
 id = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 metricValues = (
@@ -2380,7 +2385,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
@@ -4681,5 +4686,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 400;
+versionMinor = 401;
 }
