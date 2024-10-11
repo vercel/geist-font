@@ -22,7 +22,7 @@ shapes = (
 ref = "ka-cy";
 },
 {
-pos = (212,0);
+pos = (213,0);
 ref = acutecomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = "ka-cy";
 },
 {
-pos = (206,0);
+pos = (209,0);
 ref = acutecomb;
 }
 );

@@ -20,7 +20,7 @@ shapes = (
 ref = Schwa;
 }
 );
-width = 777;
+width = 787;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -29,7 +29,7 @@ shapes = (
 ref = Schwa;
 }
 );
-width = 721;
+width = 713;
 }
 );
 unicode = 1240;

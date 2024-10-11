@@ -1,5 +1,6 @@
 {
 color = 9;
+export = 0;
 glyphname = less_exclam_hyphen_hyphen_hyphen.liga;
 layers = (
 {

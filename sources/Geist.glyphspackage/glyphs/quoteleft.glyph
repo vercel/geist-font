@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = quoteleft;
+kernLeft = quoteleft;
+kernRight = quoteleft;
 layers = (
 {
 guides = (
@@ -24,11 +26,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (264,566);
+pos = (268,566);
 ref = comma;
 }
 );
-width = 266;
+width = 276;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,11 +38,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (209,570);
+pos = (202,570);
 ref = comma;
 }
 );
-width = 211;
+width = 203;
 }
 );
 metricLeft = O;

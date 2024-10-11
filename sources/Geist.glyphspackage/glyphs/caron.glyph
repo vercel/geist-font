@@ -29,13 +29,13 @@ background = {
 anchors = (
 {
 name = _bottom;
-pos = (216,530);
+pos = (217,530);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (0,-1);
+pos = (1,-1);
 ref = caroncomb;
 }
 );
@@ -46,19 +46,20 @@ shapes = (
 ref = caroncomb;
 }
 );
-width = 444;
+width = 442;
 },
 {
 background = {
 anchors = (
 {
 name = _bottom;
-pos = (188,530);
+pos = (191,530);
 }
 );
 shapes = (
 {
 alignment = -1;
+pos = (3,0);
 ref = caroncomb;
 }
 );
@@ -69,7 +70,7 @@ shapes = (
 ref = caroncomb;
 }
 );
-width = 368;
+width = 362;
 }
 );
 metricLeft = o;

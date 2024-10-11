@@ -8,7 +8,7 @@ layers = (
 background = {
 shapes = (
 {
-pos = (524,0);
+pos = (534,0);
 ref = greater;
 scale = (-1,1);
 }
@@ -17,18 +17,18 @@ scale = (-1,1);
 guides = (
 {
 angle = 270;
-pos = (484,314);
+pos = (494,314);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (524,0);
+pos = (534,0);
 ref = greater;
 scale = (-1,1);
 }
 );
-width = 524;
+width = 534;
 },
 {
 background = {
@@ -45,19 +45,19 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (544,0);
+pos = (554,0);
 ref = greater;
 scale = (-1,1);
 }
 );
-width = 544;
+width = 554;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
-pos = (534,0);
+pos = (544,0);
 ref = greater;
 scale = (-1,1);
 }
@@ -67,15 +67,15 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (534,0);
+pos = (544,0);
 ref = greater;
 scale = (-1,1);
 }
 );
-width = 534;
+width = 544;
 }
 );
 metricLeft = plus;
-metricRight = plus;
+metricRight = "=plus+10";
 unicode = 60;
 }

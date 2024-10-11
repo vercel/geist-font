@@ -28,6 +28,7 @@ background = {
 shapes = (
 {
 alignment = -1;
+pos = (1,0);
 ref = cedillacomb;
 }
 );
@@ -39,13 +40,14 @@ alignment = -1;
 ref = cedillacomb;
 }
 );
-width = 338;
+width = 336;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
+pos = (3,0);
 ref = cedillacomb;
 }
 );
@@ -57,7 +59,7 @@ alignment = -1;
 ref = cedillacomb;
 }
 );
-width = 323;
+width = 317;
 }
 );
 metricLeft = o;

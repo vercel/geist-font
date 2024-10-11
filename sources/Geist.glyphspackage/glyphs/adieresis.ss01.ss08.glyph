@@ -27,7 +27,7 @@ pos = (65,0);
 ref = dieresiscomb.ss08;
 }
 );
-width = 623;
+width = 622;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -40,7 +40,7 @@ pos = (83,0);
 ref = dieresiscomb.ss08;
 }
 );
-width = 561;
+width = 558;
 }
 );
 }

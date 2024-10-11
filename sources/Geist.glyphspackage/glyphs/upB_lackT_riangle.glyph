@@ -32,13 +32,13 @@ fillColor = (0,255);
 };
 closed = 1;
 nodes = (
-(846,0,l),
-(436,710,l),
-(27,0,l)
+(837,0,l),
+(427,710,l),
+(18,0,l)
 );
 }
 );
-width = 873;
+width = 855;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -49,9 +49,9 @@ fillColor = (0,255);
 };
 closed = 1;
 nodes = (
-(840,0,l),
-(430,710,l),
-(21,0,l)
+(839,0,l),
+(429,710,l),
+(20,0,l)
 );
 }
 );
@@ -60,7 +60,7 @@ assembly = "NPUSHB[ ]	/* 12 values pushed */
 2 1 0 74 0 0 0 118 16 1 6 23 
 CALL[ ]	/* CallFunction */";
 };
-width = 861.2;
+width = 859;
 }
 );
 metricLeft = A;

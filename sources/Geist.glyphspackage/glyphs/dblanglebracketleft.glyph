@@ -29,7 +29,7 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (707,0);
+pos = (708,0);
 ref = dblanglebracketright;
 scale = (-1,1);
 }
@@ -47,14 +47,14 @@ pos = (285,0);
 ref = anglebracketleft;
 }
 );
-width = 707.33803;
+width = 705;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
-pos = (525,0);
+pos = (528,0);
 ref = dblanglebracketright;
 scale = (-1,1);
 }
@@ -72,7 +72,7 @@ pos = (167,0);
 ref = anglebracketleft;
 }
 );
-width = 524.6;
+width = 519;
 }
 );
 metricLeft = o;

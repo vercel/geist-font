@@ -22,7 +22,7 @@ pos = (0,61);
 ref = periodcentered;
 }
 );
-width = 207;
+width = 201;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -32,7 +32,7 @@ pos = (0,95);
 ref = periodcentered;
 }
 );
-width = 262;
+width = 260;
 }
 );
 }

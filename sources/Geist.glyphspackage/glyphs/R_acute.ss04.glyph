@@ -23,7 +23,7 @@ shapes = (
 ref = R.ss04;
 },
 {
-pos = (227,170);
+pos = (228,170);
 ref = acutecomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = R.ss04;
 },
 {
-pos = (248,180);
+pos = (251,180);
 ref = acutecomb;
 }
 );

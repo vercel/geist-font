@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 4;
 glyphname = tcaron;
 kernLeft = t;
 kernRight = lcaron;
@@ -12,12 +12,16 @@ alignment = -1;
 ref = t;
 },
 {
-alignment = -1;
-pos = (297,0);
-ref = caroncomb.alt;
+closed = 1;
+nodes = (
+(312,552,l),
+(352,730,l),
+(320,730,l),
+(286,552,l)
+);
 }
 );
-width = 403;
+width = 362;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -27,12 +31,16 @@ alignment = -1;
 ref = t;
 },
 {
-alignment = -1;
-pos = (438,0);
-ref = caroncomb.alt;
+closed = 1;
+nodes = (
+(458,562,l),
+(514,819,l),
+(370,819,l),
+(342,562,l)
+);
 }
 );
-width = 626;
+width = 484;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -42,15 +50,19 @@ alignment = -1;
 ref = t;
 },
 {
-alignment = -1;
-pos = (338,0);
-ref = caroncomb.alt;
+closed = 1;
+nodes = (
+(357,552,l),
+(409,757,l),
+(325,757,l),
+(295,552,l)
+);
 }
 );
-width = 472;
+width = 399;
 }
 );
 metricLeft = t;
-metricRight = "=lcaron-10";
+metricRight = "=lcaron+10";
 unicode = 357;
 }

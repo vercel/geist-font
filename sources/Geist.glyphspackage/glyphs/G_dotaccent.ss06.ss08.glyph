@@ -23,11 +23,11 @@ shapes = (
 ref = G.ss06;
 },
 {
-pos = (260,170);
+pos = (266,170);
 ref = dotaccentcomb.ss08;
 }
 );
-width = 744;
+width = 754;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,11 +36,11 @@ shapes = (
 ref = G.ss06;
 },
 {
-pos = (275,180);
+pos = (274,180);
 ref = dotaccentcomb.ss08;
 }
 );
-width = 698;
+width = 690;
 }
 );
 }

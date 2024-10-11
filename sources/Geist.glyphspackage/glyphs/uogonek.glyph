@@ -26,7 +26,7 @@ ref = u;
 },
 {
 anchor = ogonek;
-pos = (331,0);
+pos = (332,0);
 ref = ogonekcomb;
 }
 );
@@ -40,7 +40,7 @@ ref = u;
 },
 {
 anchor = ogonek;
-pos = (304,0);
+pos = (307,0);
 ref = ogonekcomb;
 }
 );

@@ -24,7 +24,7 @@ shapes = (
 ref = h;
 },
 {
-pos = (-66,150);
+pos = (-65,150);
 ref = circumflexcomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = h;
 },
 {
-pos = (-62,160);
+pos = (-59,160);
 ref = circumflexcomb;
 }
 );

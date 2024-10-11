@@ -23,6 +23,7 @@ background = {
 shapes = (
 {
 alignment = -1;
+pos = (1,0);
 ref = hungarumlautcomb;
 }
 );
@@ -33,13 +34,14 @@ shapes = (
 ref = hungarumlautcomb;
 }
 );
-width = 508;
+width = 506;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
+pos = (3,0);
 ref = hungarumlautcomb;
 }
 );
@@ -50,7 +52,7 @@ shapes = (
 ref = hungarumlautcomb;
 }
 );
-width = 385;
+width = 379;
 }
 );
 metricLeft = o;

@@ -28,12 +28,12 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (29,0);
+pos = (30,0);
 ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (29,337);
+pos = (30,337);
 ref = period.ss08;
 }
 );
@@ -44,12 +44,12 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (45,0);
+pos = (48,0);
 ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (45,395);
+pos = (48,395);
 ref = period.ss08;
 }
 );

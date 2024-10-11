@@ -29,12 +29,12 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (26,0);
+pos = (27,0);
 ref = dotaccentcomb.ss08;
 },
 {
 anchor = ogonek;
-pos = (8,0);
+pos = (9,0);
 ref = ogonekcomb;
 }
 );
@@ -47,12 +47,12 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (28,0);
+pos = (31,0);
 ref = dotaccentcomb.ss08;
 },
 {
 anchor = ogonek;
-pos = (-27,0);
+pos = (-24,0);
 ref = ogonekcomb;
 }
 );

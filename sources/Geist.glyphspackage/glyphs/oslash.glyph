@@ -27,7 +27,7 @@ width = 550;
 guides = (
 {
 angle = 90;
-pos = (617,270);
+pos = (616,270);
 }
 );
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -36,17 +36,17 @@ shapes = (
 ref = o;
 },
 {
-pos = (23,2);
+pos = (22,2);
 ref = slashlongcomb;
 }
 );
-width = 650;
+width = 648;
 },
 {
 guides = (
 {
 angle = 90;
-pos = (47,265);
+pos = (44,265);
 }
 );
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -55,11 +55,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (25,2);
+pos = (22,2);
 ref = slashlongcomb;
 }
 );
-width = 579;
+width = 573;
 }
 );
 unicode = 248;

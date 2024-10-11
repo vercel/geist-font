@@ -30,7 +30,7 @@ pos = (-84,43);
 ref = strokeshortcomb.case;
 }
 );
-width = 729;
+width = 734;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -45,7 +45,7 @@ pos = (-104,7);
 ref = strokeshortcomb.case;
 }
 );
-width = 702;
+width = 698;
 }
 );
 metricRight = D;

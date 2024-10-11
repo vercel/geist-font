@@ -23,7 +23,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (104,0);
+pos = (105,0);
 ref = acutecomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (54,0);
+pos = (57,0);
 ref = acutecomb;
 }
 );

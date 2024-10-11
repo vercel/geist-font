@@ -512,16 +512,6 @@ sub SPC greater' greater by SPC;
 sub hyphen' greater greater by SPC;
 } hyphen_greater_greater.liga;
 
-# --->
-lookup hyphen_hyphen_hyphen_greater.liga {
-ignore sub bracketleft hyphen' hyphen hyphen greater;
-ignore sub hyphen hyphen' hyphen greater;
-ignore sub hyphen' hyphen greater greater;
-sub SPC SPC SPC greater' by hyphen_hyphen_hyphen_greater.liga;
-sub SPC SPC hyphen' greater by SPC;
-sub SPC hyphen' hyphen greater by SPC;
-sub hyphen' hyphen hyphen greater by SPC;
-} hyphen_hyphen_hyphen_greater.liga;
 
 
 # -->
@@ -984,13 +974,34 @@ sub colon' equal by SPC;
 } colon_equal.liga;
 
 
+# ..=
+lookup period_period_equal.liga {
+sub SPC SPC equal' by period_period_equal.liga;
+sub SPC period' equal by SPC;
+sub period' period equal by SPC;
+} period_period_equal.liga;
+
 # .=
 lookup period_equal.liga {
+ignore sub period period' equal;
+ignore sub period' period equal;
 sub SPC equal' by period_equal.liga;
 sub period' equal by SPC;
 } period_equal.liga;
 ";
-notes = "lookup intial_run {
+notes = "# --->
+lookup hyphen_hyphen_hyphen_greater.liga {
+ignore sub bracketleft hyphen' hyphen hyphen greater;
+ignore sub hyphen hyphen' hyphen greater;
+ignore sub hyphen' hyphen greater greater;
+sub SPC SPC SPC greater' by hyphen_hyphen_hyphen_greater.liga;
+sub SPC SPC hyphen' greater by SPC;
+sub SPC hyphen' hyphen greater by SPC;
+sub hyphen' hyphen hyphen greater by SPC;
+} hyphen_hyphen_hyphen_greater.liga;
+
+
+lookup intial_run {
 sub @Default' @Default by @Initial;
 } intial_run;
 
@@ -1546,6 +1557,11 @@ Location = 400;
 );
 }
 );
+guides = (
+{
+pos = (520,-78);
+}
+);
 id = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 metricValues = (
 {
@@ -1623,13 +1639,10 @@ Location = 900;
 );
 guides = (
 {
-pos = (0,-12);
-},
-{
 pos = (168,369);
 },
 {
-pos = (339,376);
+pos = (0,-12);
 }
 );
 iconName = Bold;

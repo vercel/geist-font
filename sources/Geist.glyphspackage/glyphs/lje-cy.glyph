@@ -29,7 +29,7 @@ ref = "softsign-cy";
 ref = "el-cy";
 }
 );
-width = 1010;
+width = 1009;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -43,7 +43,7 @@ ref = "softsign-cy";
 ref = "el-cy";
 }
 );
-width = 1014;
+width = 1011;
 }
 );
 metricLeft = "=n-20";

@@ -48,7 +48,7 @@ nodes = (
 );
 }
 );
-width = 799;
+width = 790;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -75,7 +75,7 @@ assembly = "PUSHB[ ]	/* 6 values pushed */
 4 3 2 1 2 50 
 CALL[ ]	/* CallFunction */";
 };
-width = 823.23333;
+width = 822;
 }
 );
 metricLeft = H;

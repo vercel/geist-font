@@ -24,7 +24,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (-69,160);
+pos = (-68,160);
 ref = caroncomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (-62,140);
+pos = (-59,140);
 ref = caroncomb;
 }
 );

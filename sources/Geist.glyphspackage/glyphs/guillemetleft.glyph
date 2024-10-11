@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = guillemetleft;
+kernLeft = guillemetleft;
+kernRight = guillemetleft;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -25,36 +27,36 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (416,0);
+pos = (414,0);
 ref = guilsinglright;
 scale = (-1,1);
 },
 {
 alignment = -1;
-pos = (721,0);
+pos = (719,0);
 ref = guilsinglright;
 scale = (-1,1);
 }
 );
-width = 721;
+width = 719;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (337,0);
+pos = (331,0);
 ref = guilsinglright;
 scale = (-1,1);
 },
 {
 alignment = -1;
-pos = (539,0);
+pos = (533,0);
 ref = guilsinglright;
 scale = (-1,1);
 }
 );
-width = 539;
+width = 533;
 }
 );
 metricLeft = o;

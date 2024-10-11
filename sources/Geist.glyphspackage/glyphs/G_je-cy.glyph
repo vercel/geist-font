@@ -14,7 +14,7 @@ pos = (261,180);
 ref = acutecomb;
 }
 );
-width = 583;
+width = 569;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -23,11 +23,11 @@ shapes = (
 ref = "Ge-cy";
 },
 {
-pos = (219,170);
+pos = (220,170);
 ref = acutecomb;
 }
 );
-width = 642;
+width = 632;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,11 +36,11 @@ shapes = (
 ref = "Ge-cy";
 },
 {
-pos = (244,180);
+pos = (247,180);
 ref = acutecomb;
 }
 );
-width = 588;
+width = 576;
 }
 );
 unicode = 1027;

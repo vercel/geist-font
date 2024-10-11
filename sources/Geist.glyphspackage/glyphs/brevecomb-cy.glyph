@@ -35,7 +35,6 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (-1,0);
 ref = brevecomb;
 }
 );
@@ -47,7 +46,7 @@ alignment = -1;
 ref = brevecomb;
 }
 );
-width = 402;
+width = 400;
 },
 {
 anchors = (
@@ -60,6 +59,7 @@ background = {
 shapes = (
 {
 alignment = -1;
+pos = (3,0);
 ref = brevecomb;
 }
 );
@@ -71,7 +71,7 @@ alignment = -1;
 ref = brevecomb;
 }
 );
-width = 373;
+width = 367;
 }
 );
 metricLeft = brevecomb;

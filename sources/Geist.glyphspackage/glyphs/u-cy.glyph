@@ -22,7 +22,7 @@ width = 497;
 anchors = (
 {
 name = top;
-pos = (310,540);
+pos = (309,540);
 }
 );
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -31,7 +31,7 @@ shapes = (
 ref = y;
 }
 );
-width = 620;
+width = 619;
 },
 {
 anchors = (

@@ -23,11 +23,11 @@ shapes = (
 ref = G.ss06;
 },
 {
-pos = (266,0);
+pos = (272,0);
 ref = commaaccentcomb;
 }
 );
-width = 744;
+width = 754;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,11 +36,11 @@ shapes = (
 ref = G.ss06;
 },
 {
-pos = (255,0);
+pos = (254,0);
 ref = commaaccentcomb;
 }
 );
-width = 698;
+width = 690;
 }
 );
 }

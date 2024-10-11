@@ -56,18 +56,18 @@ shapes = (
 {
 alignment = -1;
 angle = -90;
-pos = (358,699);
+pos = (363,699);
 ref = upArrow;
 },
 {
 alignment = -1;
 angle = 90;
-pos = (745,699);
+pos = (750,699);
 ref = upArrow;
 scale = (-1,1);
 }
 );
-width = 1103;
+width = 1113;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -75,18 +75,18 @@ shapes = (
 {
 alignment = -1;
 angle = -90;
-pos = (285,714);
+pos = (281,714);
 ref = upArrow;
 },
 {
 alignment = -1;
 angle = 90;
-pos = (759,714);
+pos = (755,714);
 ref = upArrow;
 scale = (-1,1);
 }
 );
-width = 1044.46667;
+width = 1036;
 }
 );
 metricLeft = O;

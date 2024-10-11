@@ -23,6 +23,7 @@ background = {
 shapes = (
 {
 alignment = -1;
+pos = (1,0);
 ref = circumflexcomb;
 }
 );
@@ -34,13 +35,14 @@ alignment = -1;
 ref = circumflexcomb;
 }
 );
-width = 444;
+width = 442;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
+pos = (3,0);
 ref = circumflexcomb;
 }
 );
@@ -52,7 +54,7 @@ alignment = -1;
 ref = circumflexcomb;
 }
 );
-width = 368;
+width = 362;
 }
 );
 metricLeft = o;

@@ -1,5 +1,6 @@
 {
 color = 9;
+export = 0;
 glyphname = slash_equal_equal.liga;
 layers = (
 {

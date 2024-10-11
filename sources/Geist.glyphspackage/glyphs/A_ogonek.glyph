@@ -26,11 +26,11 @@ ref = A;
 },
 {
 anchor = ogonek;
-pos = (520,0);
+pos = (512,0);
 ref = ogonekcomb;
 }
 );
-width = 789;
+width = 771;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -40,11 +40,11 @@ ref = A;
 },
 {
 anchor = ogonek;
-pos = (458,0);
+pos = (460,0);
 ref = ogonekcomb;
 }
 );
-width = 670;
+width = 668;
 }
 );
 metricRight = A;
