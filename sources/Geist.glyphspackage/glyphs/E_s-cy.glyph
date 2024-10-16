@@ -17,20 +17,22 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
+pos = (5,0);
 ref = C;
 }
 );
-width = 746.19718;
+width = 751;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
+pos = (-4,0);
 ref = C;
 }
 );
-width = 700.8;
+width = 697;
 }
 );
 unicode = 1057;

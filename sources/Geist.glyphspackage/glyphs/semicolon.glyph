@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = semicolon;
+kernLeft = colon;
+kernRight = colon;
 layers = (
 {
 background = {
@@ -39,12 +41,12 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (29,302);
+pos = (30,302);
 ref = period;
 },
 {
 alignment = -1;
-pos = (29,0);
+pos = (30,0);
 ref = comma;
 }
 );
@@ -53,12 +55,12 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (29,332);
+pos = (30,332);
 ref = period;
 },
 {
 alignment = -1;
-pos = (29,0);
+pos = (30,0);
 ref = comma;
 }
 );
@@ -69,12 +71,12 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (45,353);
+pos = (48,353);
 ref = period;
 },
 {
 alignment = -1;
-pos = (45,0);
+pos = (48,0);
 ref = comma;
 }
 );
@@ -83,12 +85,12 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (45,393);
+pos = (48,393);
 ref = period;
 },
 {
 alignment = -1;
-pos = (45,0);
+pos = (48,0);
 ref = comma;
 }
 );

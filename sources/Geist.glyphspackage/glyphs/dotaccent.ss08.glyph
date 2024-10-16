@@ -29,12 +29,13 @@ background = {
 anchors = (
 {
 name = _top;
-pos = (113,530);
+pos = (114,530);
 }
 );
 shapes = (
 {
 alignment = -1;
+pos = (1,0);
 ref = dotaccentcomb.ss08;
 }
 );
@@ -46,19 +47,20 @@ alignment = -1;
 ref = dotaccentcomb.ss08;
 }
 );
-width = 254;
+width = 252;
 },
 {
 background = {
 anchors = (
 {
 name = _top;
-pos = (93,530);
+pos = (96,530);
 }
 );
 shapes = (
 {
 alignment = -1;
+pos = (3,0);
 ref = dotaccentcomb.ss08;
 }
 );
@@ -70,7 +72,7 @@ alignment = -1;
 ref = dotaccentcomb.ss08;
 }
 );
-width = 190;
+width = 184;
 }
 );
 metricLeft = o;

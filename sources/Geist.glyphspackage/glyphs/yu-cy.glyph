@@ -71,7 +71,7 @@ pos = (266,0);
 ref = o;
 }
 );
-width = 916;
+width = 914;
 },
 {
 anchors = (
@@ -106,7 +106,7 @@ pos = (209,0);
 ref = o;
 }
 );
-width = 788;
+width = 782;
 }
 );
 metricLeft = n;

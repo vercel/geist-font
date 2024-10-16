@@ -1,6 +1,7 @@
 {
 glyphname = A_I.dlig;
 kernLeft = A;
+kernRight = I.ss05;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -22,11 +23,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (789,0);
+pos = (771,0);
 ref = I.ss05;
 }
 );
-width = 1282;
+width = 1274;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -35,11 +36,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (670,0);
+pos = (668,0);
 ref = I.ss05;
 }
 );
-width = 1104;
+width = 1094;
 }
 );
 }

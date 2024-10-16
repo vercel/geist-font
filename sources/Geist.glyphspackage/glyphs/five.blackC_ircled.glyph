@@ -102,7 +102,7 @@ nodes = (
 ref = blackCircled;
 }
 );
-width = 804;
+width = 802;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -152,7 +152,7 @@ assembly = "NPUSHB[ ]	/* 87 values pushed */
 39 1 4 8 1 76 0 0 0 6 7 0 6 103 0 7 0 8 4 7 8 105 0 5 0 2 3 5 2 103 0 4 0 3 9 4 3 105 11 1 9 1 1 9 89 11 1 9 9 1 97 10 1 1 9 1 81 16 16 0 0 16 47 16 46 42 40 36 35 34 33 32 31 29 27 23 21 19 18 0 15 0 14 38 12 6 23 
 CALL[ ]	/* CallFunction */";
 };
-width = 832;
+width = 826;
 }
 );
 metricLeft = o;

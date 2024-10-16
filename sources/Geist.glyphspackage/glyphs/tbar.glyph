@@ -29,7 +29,7 @@ ref = strokeshortcomb;
 scale = (1.04,1);
 }
 );
-width = 481;
+width = 480;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -42,7 +42,7 @@ pos = (-71,-60);
 ref = strokeshortcomb;
 }
 );
-width = 395;
+width = 392;
 }
 );
 metricLeft = t;

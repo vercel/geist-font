@@ -23,11 +23,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (210,0);
+pos = (216,0);
 ref = cedillacomb;
 }
 );
-width = 745;
+width = 755;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,11 +36,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (196,0);
+pos = (195,0);
 ref = cedillacomb;
 }
 );
-width = 711;
+width = 703;
 }
 );
 unicode = 199;

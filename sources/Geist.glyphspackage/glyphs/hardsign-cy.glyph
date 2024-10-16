@@ -52,7 +52,7 @@ pos = (62,0);
 ref = "softsign-cy";
 }
 );
-width = 693;
+width = 692;
 },
 {
 anchors = (
@@ -78,7 +78,7 @@ pos = (65,0);
 ref = "softsign-cy";
 }
 );
-width = 648;
+width = 645;
 }
 );
 metricLeft = "=n-20";

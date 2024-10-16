@@ -22,7 +22,7 @@ ref = upArrow;
 scale = (1,-1);
 }
 );
-width = 692;
+width = 702;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -34,7 +34,7 @@ ref = upArrow;
 scale = (1,-1);
 }
 );
-width = 720.26667;
+width = 712;
 }
 );
 metricLeft = O;

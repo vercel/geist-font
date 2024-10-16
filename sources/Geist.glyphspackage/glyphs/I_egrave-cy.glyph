@@ -23,7 +23,7 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (152,170);
+pos = (153,170);
 ref = gravecomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = "Ie-cy";
 },
 {
-pos = (152,180);
+pos = (155,180);
 ref = gravecomb;
 }
 );

@@ -17,21 +17,21 @@ width = 80;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-pos = (-7,60);
+pos = (-10,60);
 ref = periodcentered.ss08;
 }
 );
-width = 208;
+width = 196;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-pos = (0,95);
+pos = (-1,95);
 ref = periodcentered.ss08;
 }
 );
-width = 274;
+width = 270;
 }
 );
 metricRight = "=|";

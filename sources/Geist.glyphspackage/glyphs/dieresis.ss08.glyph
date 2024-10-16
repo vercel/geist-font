@@ -23,6 +23,7 @@ background = {
 shapes = (
 {
 alignment = -1;
+pos = (1,0);
 ref = dieresiscomb.ss08;
 }
 );
@@ -34,13 +35,14 @@ alignment = -1;
 ref = dieresiscomb.ss08;
 }
 );
-width = 476;
+width = 474;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
+pos = (3,0);
 ref = dieresiscomb.ss08;
 }
 );
@@ -52,7 +54,7 @@ alignment = -1;
 ref = dieresiscomb.ss08;
 }
 );
-width = 370;
+width = 364;
 }
 );
 metricLeft = o;

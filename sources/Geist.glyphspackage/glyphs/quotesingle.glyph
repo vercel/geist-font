@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = quotesingle;
+kernLeft = quotesingle;
+kernRight = quotesingle;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -25,16 +27,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(161,422,l),
-(175,624,l),
-(175,710,l),
-(35,710,l),
-(35,624,l),
-(49,422,l)
+(166,422,l),
+(180,624,l),
+(180,710,l),
+(40,710,l),
+(40,624,l),
+(54,422,l)
 );
 }
 );
-width = 210;
+width = 220;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -42,16 +44,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(121,444,l),
-(137,630,l),
-(137,710,l),
-(49,710,l),
-(49,630,l),
-(65,444,l)
+(117,444,l),
+(133,630,l),
+(133,710,l),
+(45,710,l),
+(45,630,l),
+(61,444,l)
 );
 }
 );
-width = 186;
+width = 178;
 }
 );
 metricLeft = O;

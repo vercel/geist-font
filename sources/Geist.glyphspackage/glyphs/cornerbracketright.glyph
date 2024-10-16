@@ -33,7 +33,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (376,723);
+pos = (375,723);
 ref = cornerbracketleft;
 }
 );
@@ -43,11 +43,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (376,723);
+pos = (374,723);
 ref = cornerbracketleft;
 }
 );
-width = 376;
+width = 374;
 },
 {
 background = {
@@ -55,7 +55,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (396,723);
+pos = (393,723);
 ref = cornerbracketleft;
 }
 );
@@ -65,11 +65,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (396,723);
+pos = (390,723);
 ref = cornerbracketleft;
 }
 );
-width = 396.46667;
+width = 390;
 }
 );
 metricLeft = o;

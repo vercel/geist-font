@@ -27,7 +27,7 @@ width = 714;
 guides = (
 {
 angle = 90;
-pos = (755,354);
+pos = (760,354);
 }
 );
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -36,11 +36,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (25,0);
+pos = (30,0);
 ref = slashlongcomb.case;
 }
 );
-width = 790;
+width = 800;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -49,11 +49,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (39,0);
+pos = (35,0);
 ref = slashlongcomb.case;
 }
 );
-width = 747;
+width = 739;
 }
 );
 metricLeft = O;

@@ -23,7 +23,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (170,0);
+pos = (171,0);
 ref = ringcomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (145,0);
+pos = (148,0);
 ref = ringcomb;
 }
 );

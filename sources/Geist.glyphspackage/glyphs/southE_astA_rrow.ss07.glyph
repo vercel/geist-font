@@ -18,11 +18,11 @@ shapes = (
 {
 alignment = -1;
 angle = -135;
-pos = (275,677);
+pos = (283,677);
 ref = upArrow.ss07;
 }
 );
-width = 615.18779;
+width = 624;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -30,11 +30,11 @@ shapes = (
 {
 alignment = -1;
 angle = -135;
-pos = (214,642);
+pos = (207,642);
 ref = upArrow.ss07;
 }
 );
-width = 605.46667;
+width = 597;
 }
 );
 metricLeft = O;

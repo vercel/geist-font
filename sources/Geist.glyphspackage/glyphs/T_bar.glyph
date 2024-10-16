@@ -11,11 +11,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (-8,0);
+pos = (-22,0);
 ref = strokeshortcomb.case;
 }
 );
-width = 572;
+width = 544;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -24,11 +24,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (26,0);
+pos = (16,0);
 ref = strokeshortcomb.case;
 }
 );
-width = 651;
+width = 631;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -37,11 +37,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (-16,0);
+pos = (-28,0);
 ref = strokeshortcomb.case;
 }
 );
-width = 576;
+width = 552;
 }
 );
 metricLeft = T;

@@ -34,19 +34,19 @@ ref = period.ss08;
 scale = (1.5899,1.5899);
 }
 );
-width = 397;
+width = 395;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (-35,217);
+pos = (-33,217);
 ref = period.ss08;
 scale = (1.7494,1.7494);
 }
 );
-width = 318;
+width = 312;
 }
 );
 metricLeft = o;

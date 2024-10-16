@@ -22,11 +22,11 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (148,170);
+pos = (140,170);
 ref = macroncomb;
 }
 );
-width = 678;
+width = 660;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -35,11 +35,11 @@ shapes = (
 ref = "U-cy";
 },
 {
-pos = (90,180);
+pos = (92,180);
 ref = macroncomb;
 }
 );
-width = 542;
+width = 540;
 }
 );
 unicode = 1262;

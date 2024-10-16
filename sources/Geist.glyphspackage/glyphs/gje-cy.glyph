@@ -24,11 +24,11 @@ shapes = (
 ref = "ge-cy";
 },
 {
-pos = (149,0);
+pos = (150,0);
 ref = acutecomb;
 }
 );
-width = 508;
+width = 507;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -37,11 +37,11 @@ shapes = (
 ref = "ge-cy";
 },
 {
-pos = (181,0);
+pos = (184,0);
 ref = acutecomb;
 }
 );
-width = 488;
+width = 485;
 }
 );
 unicode = 1107;

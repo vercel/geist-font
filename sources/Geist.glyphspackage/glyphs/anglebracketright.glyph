@@ -27,7 +27,7 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (422,0);
+pos = (421,0);
 ref = anglebracketleft;
 scale = (-1,1);
 }
@@ -37,19 +37,19 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (422,0);
+pos = (420,0);
 ref = anglebracketleft;
 scale = (-1,1);
 }
 );
-width = 422;
+width = 420;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
-pos = (358,0);
+pos = (355,0);
 ref = anglebracketleft;
 scale = (-1,1);
 }
@@ -59,12 +59,12 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (358,0);
+pos = (352,0);
 ref = anglebracketleft;
 scale = (-1,1);
 }
 );
-width = 357.6;
+width = 352;
 }
 );
 metricLeft = o;

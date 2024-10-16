@@ -23,6 +23,7 @@ background = {
 shapes = (
 {
 alignment = -1;
+pos = (1,0);
 ref = acutecomb;
 }
 );
@@ -33,13 +34,14 @@ shapes = (
 ref = acutecomb;
 }
 );
-width = 300;
+width = 298;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
+pos = (3,0);
 ref = acutecomb;
 }
 );
@@ -50,7 +52,7 @@ shapes = (
 ref = acutecomb;
 }
 );
-width = 254;
+width = 248;
 }
 );
 metricLeft = o;

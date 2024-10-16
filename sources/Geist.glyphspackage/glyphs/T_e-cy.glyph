@@ -10,27 +10,29 @@ shapes = (
 ref = T;
 }
 );
-width = 572;
+width = 544;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
+pos = (-10,0);
 ref = T;
 }
 );
-width = 668.4507;
+width = 658;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
+pos = (-12,0);
 ref = T;
 }
 );
-width = 577.8;
+width = 566;
 }
 );
 unicode = 1058;

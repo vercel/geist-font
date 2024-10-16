@@ -27,7 +27,7 @@ pos = (254,0);
 ref = gravecomb;
 }
 );
-width = 870;
+width = 869;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,7 +36,7 @@ shapes = (
 ref = w;
 },
 {
-pos = (242,0);
+pos = (245,0);
 ref = gravecomb;
 }
 );

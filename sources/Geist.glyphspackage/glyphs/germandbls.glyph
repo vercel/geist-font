@@ -2,6 +2,7 @@
 color = 4;
 glyphname = germandbls;
 kernLeft = b;
+kernRight = s;
 layers = (
 {
 anchors = (
@@ -221,7 +222,7 @@ nodes = (
 );
 }
 );
-width = 703;
+width = 702;
 },
 {
 anchors = (
@@ -331,7 +332,7 @@ nodes = (
 );
 }
 );
-width = 590;
+width = 587;
 }
 );
 metricLeft = h;

@@ -23,11 +23,11 @@ shapes = (
 ref = G.ss06;
 },
 {
-pos = (186,170);
+pos = (192,170);
 ref = brevecomb;
 }
 );
-width = 744;
+width = 754;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,11 +36,11 @@ shapes = (
 ref = G.ss06;
 },
 {
-pos = (182,180);
+pos = (181,180);
 ref = brevecomb;
 }
 );
-width = 698;
+width = 690;
 }
 );
 }

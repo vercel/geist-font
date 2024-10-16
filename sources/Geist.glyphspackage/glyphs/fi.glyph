@@ -1,11 +1,13 @@
 {
 glyphname = fi;
+kernLeft = f;
+kernRight = d;
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-pos = (282,0);
+pos = (272,0);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -14,21 +16,21 @@ shapes = (
 ref = f;
 },
 {
-pos = (364,0);
+pos = (358,0);
 ref = idotless;
 },
 {
-pos = (397,0);
+pos = (391,0);
 ref = dotaccentcomb;
 }
 );
-width = 564;
+width = 558;
 },
 {
 anchors = (
 {
 name = caret_1;
-pos = (321,0);
+pos = (311,0);
 }
 );
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -37,21 +39,21 @@ shapes = (
 ref = f;
 },
 {
-pos = (398,0);
+pos = (379,0);
 ref = idotless;
 },
 {
-pos = (429,0);
+pos = (413,0);
 ref = dotaccentcomb;
 }
 );
-width = 642;
+width = 623;
 },
 {
 anchors = (
 {
 name = caret_1;
-pos = (394,0);
+pos = (384,0);
 }
 );
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -60,15 +62,15 @@ shapes = (
 ref = f;
 },
 {
-pos = (482,0);
+pos = (471,0);
 ref = idotless;
 },
 {
-pos = (502,0);
+pos = (492,0);
 ref = dotaccentcomb;
 }
 );
-width = 788;
+width = 777;
 }
 );
 metricLeft = f;

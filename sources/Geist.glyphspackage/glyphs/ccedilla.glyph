@@ -27,7 +27,7 @@ pos = (153,0);
 ref = cedillacomb;
 }
 );
-width = 634;
+width = 632;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -40,7 +40,7 @@ pos = (116,0);
 ref = cedillacomb;
 }
 );
-width = 552;
+width = 546;
 }
 );
 unicode = 231;

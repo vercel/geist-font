@@ -1,5 +1,7 @@
 {
 glyphname = Idotaccent.ss05;
+kernLeft = I.ss05;
+kernRight = I.ss05;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -21,11 +23,11 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (113,170);
+pos = (119,170);
 ref = dotaccentcomb;
 }
 );
-width = 493;
+width = 503;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -34,11 +36,11 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (126,180);
+pos = (125,180);
 ref = dotaccentcomb;
 }
 );
-width = 434;
+width = 426;
 }
 );
 }

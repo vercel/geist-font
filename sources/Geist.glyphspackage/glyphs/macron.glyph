@@ -29,12 +29,13 @@ background = {
 anchors = (
 {
 name = _top;
-pos = (191,530);
+pos = (192,530);
 }
 );
 shapes = (
 {
 alignment = -1;
+pos = (1,0);
 ref = macroncomb;
 }
 );
@@ -46,19 +47,20 @@ alignment = -1;
 ref = macroncomb;
 }
 );
-width = 386;
+width = 384;
 },
 {
 background = {
 anchors = (
 {
 name = _top;
-pos = (178,530);
+pos = (181,530);
 }
 );
 shapes = (
 {
 alignment = -1;
+pos = (3,0);
 ref = macroncomb;
 }
 );
@@ -70,7 +72,7 @@ alignment = -1;
 ref = macroncomb;
 }
 );
-width = 362;
+width = 356;
 }
 );
 metricLeft = o;

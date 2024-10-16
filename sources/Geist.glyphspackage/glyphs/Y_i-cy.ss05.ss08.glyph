@@ -21,11 +21,11 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (32,180);
+pos = (31,180);
 ref = dieresiscomb.ss08;
 }
 );
-width = 434;
+width = 426;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -34,11 +34,11 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (8,170);
+pos = (14,170);
 ref = dieresiscomb.ss08;
 }
 );
-width = 493;
+width = 503;
 }
 );
 }

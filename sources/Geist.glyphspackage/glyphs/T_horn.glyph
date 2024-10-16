@@ -2,6 +2,7 @@
 color = 4;
 glyphname = Thorn;
 kernLeft = b;
+kernRight = O;
 layers = (
 {
 anchors = (

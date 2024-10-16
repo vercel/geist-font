@@ -23,11 +23,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (213,170);
+pos = (219,170);
 ref = gravecomb;
 }
 );
-width = 790;
+width = 800;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,11 +36,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (205,180);
+pos = (204,180);
 ref = gravecomb;
 }
 );
-width = 747;
+width = 739;
 }
 );
 unicode = 210;
