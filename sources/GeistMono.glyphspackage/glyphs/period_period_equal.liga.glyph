@@ -1,6 +1,5 @@
 {
 color = 9;
-export = 0;
 glyphname = period_period_equal.liga;
 layers = (
 {
