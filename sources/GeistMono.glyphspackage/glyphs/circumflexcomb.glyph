@@ -9,6 +9,14 @@ anchors = (
 {
 name = _top;
 pos = (300,530);
+},
+{
+name = circumflexcomb_top;
+pos = (390,734);
+},
+{
+name = circumflexcomb_top_2;
+pos = (300,734);
 }
 );
 background = {
@@ -51,6 +59,14 @@ anchors = (
 {
 name = _top;
 pos = (301,530);
+},
+{
+name = circumflexcomb_top;
+pos = (420,731);
+},
+{
+name = circumflexcomb_top_2;
+pos = (300,731);
 }
 );
 background = {
@@ -93,6 +109,14 @@ anchors = (
 {
 name = _top;
 pos = (300,540);
+},
+{
+name = circumflexcomb_top;
+pos = (450,753);
+},
+{
+name = circumflexcomb_top_2;
+pos = (300,753);
 }
 );
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
