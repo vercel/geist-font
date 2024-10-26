@@ -15,6 +15,10 @@ name = center;
 pos = (300,265);
 },
 {
+name = horn_top;
+pos = (374,530);
+},
+{
 name = ogonek;
 pos = (375,0);
 },
@@ -121,6 +125,10 @@ name = center;
 pos = (300,265);
 },
 {
+name = horn_top;
+pos = (379,530);
+},
+{
 name = ogonek;
 pos = (377,0);
 },
@@ -225,6 +233,10 @@ pos = (300,0);
 {
 name = center;
 pos = (300,270);
+},
+{
+name = horn_top;
+pos = (339,540);
 },
 {
 name = ogonek;
