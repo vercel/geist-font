@@ -9,6 +9,10 @@ anchors = (
 {
 name = _top;
 pos = (300,530);
+},
+{
+name = brevecomb_top;
+pos = (300,734);
 }
 );
 background = {
@@ -63,6 +67,10 @@ anchors = (
 {
 name = _top;
 pos = (300,530);
+},
+{
+name = brevecomb_top;
+pos = (300,731);
 }
 );
 background = {
@@ -117,6 +125,10 @@ anchors = (
 {
 name = _top;
 pos = (300,540);
+},
+{
+name = brevecomb_top;
+pos = (300,784);
 }
 );
 background = {
