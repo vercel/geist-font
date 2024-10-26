@@ -5,6 +5,14 @@ layers = (
 {
 anchors = (
 {
+name = _brevecomb_top;
+pos = (73,610);
+},
+{
+name = _circumflexcomb_top;
+pos = (40,650);
+},
+{
 name = _top;
 pos = (64,530);
 }
@@ -50,8 +58,16 @@ width = 206;
 {
 anchors = (
 {
+name = _brevecomb_top;
+pos = (105,587);
+},
+{
+name = _circumflexcomb_top;
+pos = (40,650);
+},
+{
 name = _top;
-pos = (121,540);
+pos = (105,540);
 }
 );
 background = {
@@ -78,20 +94,28 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(176,587,l),
-(266,747,l),
-(86,747,l),
-(32,587,l)
+(177,587,l),
+(267,747,l),
+(87,747,l),
+(33,587,l)
 );
 }
 );
-width = 298;
+width = 300;
 },
 {
 anchors = (
 {
+name = _brevecomb_top;
+pos = (84,588);
+},
+{
+name = _circumflexcomb_top;
+pos = (40,642);
+},
+{
 name = _top;
-pos = (81,530);
+pos = (84,530);
 }
 );
 background = {
@@ -118,14 +142,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(114,598,l),
-(204,726,l),
-(110,726,l),
-(44,598,l)
+(117,598,l),
+(207,726,l),
+(113,726,l),
+(47,598,l)
 );
 }
 );
-width = 248;
+width = 254;
 }
 );
 metricLeft = o;
