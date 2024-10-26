@@ -1,5 +1,5 @@
 {
-.appVersion = "3324";
+.appVersion = "3134";
 .formatVersion = 3;
 axes = (
 {
@@ -65,11 +65,11 @@ size = 12;
 },
 {
 pos = 0;
-size = -16;
+size = "-16";
 },
 {
-pos = -150;
-size = -12;
+pos = "-150";
+size = "-12";
 }
 );
 },
@@ -512,6 +512,16 @@ sub SPC greater' greater by SPC;
 sub hyphen' greater greater by SPC;
 } hyphen_greater_greater.liga;
 
+# --->
+lookup hyphen_hyphen_hyphen_greater.liga {
+ignore sub bracketleft hyphen' hyphen hyphen greater;
+ignore sub hyphen hyphen' hyphen greater;
+ignore sub hyphen' hyphen greater greater;
+sub SPC SPC SPC greater' by hyphen_hyphen_hyphen_greater.liga;
+sub SPC SPC hyphen' greater by SPC;
+sub SPC hyphen' hyphen greater by SPC;
+sub hyphen' hyphen hyphen greater by SPC;
+} hyphen_hyphen_hyphen_greater.liga;
 
 
 # -->
@@ -974,262 +984,13 @@ sub colon' equal by SPC;
 } colon_equal.liga;
 
 
-# ..=
-lookup period_period_equal.liga {
-sub SPC SPC equal' by period_period_equal.liga;
-sub SPC period' equal by SPC;
-sub period' period equal by SPC;
-} period_period_equal.liga;
-
 # .=
 lookup period_equal.liga {
-ignore sub period period' equal;
-ignore sub period' period equal;
 sub SPC equal' by period_equal.liga;
 sub period' equal by SPC;
 } period_equal.liga;
 ";
-notes = "# --->
-lookup hyphen_hyphen_hyphen_greater.liga {
-ignore sub bracketleft hyphen' hyphen hyphen greater;
-ignore sub hyphen hyphen' hyphen greater;
-ignore sub hyphen' hyphen greater greater;
-sub SPC SPC SPC greater' by hyphen_hyphen_hyphen_greater.liga;
-sub SPC SPC hyphen' greater by SPC;
-sub SPC hyphen' hyphen greater by SPC;
-sub hyphen' hyphen hyphen greater by SPC;
-} hyphen_hyphen_hyphen_greater.liga;
-
-
-lookup intial_run {
-sub @Default' @Default by @Initial;
-} intial_run;
-
-lookup medial_run {
-sub @Medial @Initial' by @Medial;
-sub @Initial @Initial' by @Medial;
-} medial_run;
-
-lookup final_run {
-sub @Initial @Default' by @Final;
-sub @Medial @Default' by @Final;
-} final_run;
-
-# [|
-lookup bracketleft_bar.liga {
-ignore sub bracketleft bracketleft' bar;
-sub SPC bar' by bracketleft_bar.liga;
-sub bracketleft' bar by SPC;
-} bracketleft_bar.liga;
-
-# |]
-lookup bar_bracketright.liga {
-ignore sub bar' bracketright bracketright;
-sub SPC bracketright' by bar_bracketright.liga;
-sub bar' bracketright by SPC;
-} bar_bracketright.liga;
-
-# ***
-lookup asterisk_asterisk_asterisk.liga {
-ignore sub asterisk asterisk' asterisk asterisk;
-ignore sub asterisk' asterisk asterisk asterisk;
-sub SPC SPC asterisk' by asterisk_asterisk_asterisk.liga;
-sub SPC asterisk' asterisk by SPC;
-sub asterisk' asterisk asterisk by SPC;
-} asterisk_asterisk_asterisk.liga;
-
-# .?
-lookup period_question.liga {
-ignore sub period period' question;
-ignore sub period' question question;
-sub SPC question' by period_question.liga;
-sub period' question by SPC;
-} period_question.liga;
-
-# ..
-lookup period_period.liga {
-ignore sub period period' period;
-ignore sub period' period period;
-ignore sub period' period less;
-sub SPC period' by period_period.liga;
-sub period' period by SPC;
-} period_period.liga;
-
-# ..<
-lookup period_period_less.liga {
-ignore sub period period' period less;
-ignore sub period' period less less;
-sub SPC SPC less' by period_period_less.liga;
-sub SPC period' less by SPC;
-sub period' period less by SPC;
-} period_period_less.liga;
-
-# <#--
-lookup less_numbersign_hyphen_hyphen.liga {
-ignore sub less less' numbersign hyphen hyphen;
-ignore sub less' numbersign hyphen hyphen hyphen;
-sub SPC SPC SPC hyphen' by less_numbersign_hyphen_hyphen.liga;
-sub SPC SPC hyphen' hyphen by SPC;
-sub SPC numbersign' hyphen hyphen by SPC;
-sub less' numbersign hyphen hyphen by SPC;
-} less_numbersign_hyphen_hyphen.liga;
-
-# <<~
-lookup less_less_asciitilde.liga {
-ignore sub less less' less asciitilde;
-ignore sub less' less asciitilde asciitilde;
-sub SPC SPC asciitilde' by less_less_asciitilde.liga;
-sub SPC less' asciitilde by SPC;
-sub less' less asciitilde by SPC;
-} less_less_asciitilde.liga;
-
-# -|
-lookup hyphen_bar.liga {
-ignore sub hyphen hyphen' bar;
-ignore sub less hyphen' bar;
-ignore sub hyphen' bar bar;
-sub SPC bar' by hyphen_bar.liga;
-sub hyphen' bar by SPC;
-} hyphen_bar.liga;
-
-# _|_
-lookup underscore_bar_underscore.liga {
-ignore sub underscore underscore' bar underscore;
-ignore sub underscore' bar underscore underscore;
-sub SPC SPC underscore' by underscore_bar_underscore.liga;
-sub SPC bar' underscore by SPC;
-sub underscore' bar underscore by SPC;
-} underscore_bar_underscore.liga;
-
-# !!
-lookup exclam_exclam.liga {
-ignore sub exclam exclam' exclam;
-ignore sub parenleft question exclam' exclam;
-ignore sub parenleft question less exclam' exclam;
-ignore sub exclam' exclam exclam;
-sub SPC exclam' by exclam_exclam.liga;
-sub exclam' exclam by SPC;
-} exclam_exclam.liga;
-
-# =!=
-lookup equal_exclam_equal.liga{
-ignore sub equal equal' exclam equal;
-ignore sub parenleft question equal' exclam equal;
-ignore sub equal' exclam equal equal;
-sub SPC SPC equal' by equal_exclam_equal.liga;
-sub SPC exclam' equal by SPC;
-sub equal' exclam equal by SPC;
-} equal_exclam_equal.liga;
-
-# ::
-lookup colon_colon.liga {
-ignore sub colon colon' colon;
-ignore sub colon' colon colon;
-ignore sub colon' colon equal;
-sub SPC colon' by colon_colon.liga;
-sub colon' colon by SPC;
-} colon_colon.liga;
-
-# ;;
-lookup semicolon_semicolon.liga {
-ignore sub semicolon semicolon' semicolon;
-ignore sub semicolon' semicolon semicolon;
-sub SPC semicolon' by semicolon_semicolon.liga;
-sub semicolon' semicolon by SPC;
-} semicolon_semicolon.liga;
-
-# ;;;
-lookup semicolon_semicolon_semicolon.liga {
-ignore sub semicolon semicolon' semicolon semicolon;
-ignore sub semicolon' semicolon semicolon semicolon;
-sub SPC SPC semicolon' by semicolon_semicolon_semicolon.liga;
-sub SPC semicolon' semicolon by SPC;
-sub semicolon' semicolon semicolon by SPC;
-} semicolon_semicolon_semicolon.liga;
-
-# :::
-lookup colon_colon_colon.liga {
-ignore sub colon colon' colon colon;
-ignore sub colon' colon colon colon;
-sub SPC SPC colon' by colon_colon_colon.liga;
-sub SPC colon' colon by SPC;
-sub colon' colon colon by SPC;
-} colon_colon_colon.liga;
-
- ||-
-lookup bar_bar_hyphen.liga {
-ignore sub bar bar' bar hyphen hyphen;
-ignore sub bar' bar bar hyphen;
-sub SPC SPC hyphen' by bar_bar_hyphen.liga;
-sub SPC bar' hyphen by SPC;
-sub bar' bar hyphen by SPC;
-} bar_bar_hyphen.liga;
-
-# ||
-lookup bar_bar.liga {
-ignore sub bar bar' bar;
-ignore sub bar' bar bar;
-ignore sub bracketleft bar' bar;
-ignore sub bar' bar bracketright;
-sub SPC bar' by bar_bar.liga;
-sub bar' bar by SPC;
-} bar_bar.liga;
-
-# |-
-lookup bar_hyphen.liga {
-ignore sub bar bar' hyphen;
-ignore sub bar' hyphen hyphen;
-ignore sub bar' hyphen greater;
-sub SPC hyphen' by bar_hyphen.liga;
-sub bar' hyphen by SPC;
-} bar_hyphen.liga;
-
-# ?.
-lookup question_period.liga {
-ignore sub question question' period;
-ignore sub question' period period;
-sub SPC period' by question_period.liga;
-sub question' period by SPC;
-} question_period.liga;
-
-# <-|
-lookup less_hyphen_bar.liga {
-ignore sub less less' hyphen bar;
-ignore sub less' hyphen bar bar;
-sub SPC SPC bar' by less_hyphen_bar.liga;
-sub SPC hyphen' bar by SPC;
-sub less' hyphen bar by SPC;
-} less_hyphen_bar.liga;
-
-# <=|
-lookup less_equal_bar.liga {
-ignore sub less less' equal bar;
-ignore sub parenleft question less' equal bar;
-ignore sub less' equal bar bar;
-sub SPC SPC bar' by less_equal_bar.liga;
-sub SPC equal' bar by SPC;
-sub less' equal bar by SPC;
-} less_equal_bar.liga;
-
-# |=>
-lookup bar_equal_greater.liga {
-ignore sub bar bar' equal greater;
-ignore sub bar' equal greater greater;
-sub SPC SPC greater' by bar_equal_greater.liga;
-sub SPC equal' greater by SPC;
-sub bar' equal greater by SPC;
-} bar_equal_greater.liga;
-
-# : @UppercaseRelated : 
-lookup colon_UppercaseRelated_colon {
-ignore sub @UppercaseRelated colon' @NotUppercaseRelated;
-ignore sub @NotUppercaseRelated colon' @UppercaseRelated;
-sub @UppercaseRelated colon' by colon.case;
-sub colon' @UppercaseRelated by colon.case;
-} colon_UppercaseRelated_colon;
-
-
-";
+notes = "lookup intial_run {\012sub @Default' @Default by @Initial;\012} intial_run;\012\012lookup medial_run {\012sub @Medial @Initial' by @Medial;\012sub @Initial @Initial' by @Medial;\012} medial_run;\012\012lookup final_run {\012sub @Initial @Default' by @Final;\012sub @Medial @Default' by @Final;\012} final_run;\012\012# [|\012lookup bracketleft_bar.liga {\012ignore sub bracketleft bracketleft' bar;\012sub SPC bar' by bracketleft_bar.liga;\012sub bracketleft' bar by SPC;\012} bracketleft_bar.liga;\012\012# |]\012lookup bar_bracketright.liga {\012ignore sub bar' bracketright bracketright;\012sub SPC bracketright' by bar_bracketright.liga;\012sub bar' bracketright by SPC;\012} bar_bracketright.liga;\012\012# ***\012lookup asterisk_asterisk_asterisk.liga {\012ignore sub asterisk asterisk' asterisk asterisk;\012ignore sub asterisk' asterisk asterisk asterisk;\012sub SPC SPC asterisk' by asterisk_asterisk_asterisk.liga;\012sub SPC asterisk' asterisk by SPC;\012sub asterisk' asterisk asterisk by SPC;\012} asterisk_asterisk_asterisk.liga;\012\012# .?\012lookup period_question.liga {\012ignore sub period period' question;\012ignore sub period' question question;\012sub SPC question' by period_question.liga;\012sub period' question by SPC;\012} period_question.liga;\012\012# ..\012lookup period_period.liga {\012ignore sub period period' period;\012ignore sub period' period period;\012ignore sub period' period less;\012sub SPC period' by period_period.liga;\012sub period' period by SPC;\012} period_period.liga;\012\012# ..<\012lookup period_period_less.liga {\012ignore sub period period' period less;\012ignore sub period' period less less;\012sub SPC SPC less' by period_period_less.liga;\012sub SPC period' less by SPC;\012sub period' period less by SPC;\012} period_period_less.liga;\012\012# <#--\012lookup less_numbersign_hyphen_hyphen.liga {\012ignore sub less less' numbersign hyphen hyphen;\012ignore sub less' numbersign hyphen hyphen hyphen;\012sub SPC SPC SPC hyphen' by less_numbersign_hyphen_hyphen.liga;\012sub SPC SPC hyphen' hyphen by SPC;\012sub SPC numbersign' hyphen hyphen by SPC;\012sub less' numbersign hyphen hyphen by SPC;\012} less_numbersign_hyphen_hyphen.liga;\012\012# <<~\012lookup less_less_asciitilde.liga {\012ignore sub less less' less asciitilde;\012ignore sub less' less asciitilde asciitilde;\012sub SPC SPC asciitilde' by less_less_asciitilde.liga;\012sub SPC less' asciitilde by SPC;\012sub less' less asciitilde by SPC;\012} less_less_asciitilde.liga;\012\012# -|\012lookup hyphen_bar.liga {\012ignore sub hyphen hyphen' bar;\012ignore sub less hyphen' bar;\012ignore sub hyphen' bar bar;\012sub SPC bar' by hyphen_bar.liga;\012sub hyphen' bar by SPC;\012} hyphen_bar.liga;\012\012# _|_\012lookup underscore_bar_underscore.liga {\012ignore sub underscore underscore' bar underscore;\012ignore sub underscore' bar underscore underscore;\012sub SPC SPC underscore' by underscore_bar_underscore.liga;\012sub SPC bar' underscore by SPC;\012sub underscore' bar underscore by SPC;\012} underscore_bar_underscore.liga;\012\012# !!\012lookup exclam_exclam.liga {\012ignore sub exclam exclam' exclam;\012ignore sub parenleft question exclam' exclam;\012ignore sub parenleft question less exclam' exclam;\012ignore sub exclam' exclam exclam;\012sub SPC exclam' by exclam_exclam.liga;\012sub exclam' exclam by SPC;\012} exclam_exclam.liga;\012\012# =!=\012lookup equal_exclam_equal.liga{\012ignore sub equal equal' exclam equal;\012ignore sub parenleft question equal' exclam equal;\012ignore sub equal' exclam equal equal;\012sub SPC SPC equal' by equal_exclam_equal.liga;\012sub SPC exclam' equal by SPC;\012sub equal' exclam equal by SPC;\012} equal_exclam_equal.liga;\012\012# ::\012lookup colon_colon.liga {\012ignore sub colon colon' colon;\012ignore sub colon' colon colon;\012ignore sub colon' colon equal;\012sub SPC colon' by colon_colon.liga;\012sub colon' colon by SPC;\012} colon_colon.liga;\012\012# ;;\012lookup semicolon_semicolon.liga {\012ignore sub semicolon semicolon' semicolon;\012ignore sub semicolon' semicolon semicolon;\012sub SPC semicolon' by semicolon_semicolon.liga;\012sub semicolon' semicolon by SPC;\012} semicolon_semicolon.liga;\012\012# ;;;\012lookup semicolon_semicolon_semicolon.liga {\012ignore sub semicolon semicolon' semicolon semicolon;\012ignore sub semicolon' semicolon semicolon semicolon;\012sub SPC SPC semicolon' by semicolon_semicolon_semicolon.liga;\012sub SPC semicolon' semicolon by SPC;\012sub semicolon' semicolon semicolon by SPC;\012} semicolon_semicolon_semicolon.liga;\012\012# :::\012lookup colon_colon_colon.liga {\012ignore sub colon colon' colon colon;\012ignore sub colon' colon colon colon;\012sub SPC SPC colon' by colon_colon_colon.liga;\012sub SPC colon' colon by SPC;\012sub colon' colon colon by SPC;\012} colon_colon_colon.liga;\012\012 ||-\012lookup bar_bar_hyphen.liga {\012ignore sub bar bar' bar hyphen hyphen;\012ignore sub bar' bar bar hyphen;\012sub SPC SPC hyphen' by bar_bar_hyphen.liga;\012sub SPC bar' hyphen by SPC;\012sub bar' bar hyphen by SPC;\012} bar_bar_hyphen.liga;\012\012# ||\012lookup bar_bar.liga {\012ignore sub bar bar' bar;\012ignore sub bar' bar bar;\012ignore sub bracketleft bar' bar;\012ignore sub bar' bar bracketright;\012sub SPC bar' by bar_bar.liga;\012sub bar' bar by SPC;\012} bar_bar.liga;\012\012# |-\012lookup bar_hyphen.liga {\012ignore sub bar bar' hyphen;\012ignore sub bar' hyphen hyphen;\012ignore sub bar' hyphen greater;\012sub SPC hyphen' by bar_hyphen.liga;\012sub bar' hyphen by SPC;\012} bar_hyphen.liga;\012\012# ?.\012lookup question_period.liga {\012ignore sub question question' period;\012ignore sub question' period period;\012sub SPC period' by question_period.liga;\012sub question' period by SPC;\012} question_period.liga;\012\012# <-|\012lookup less_hyphen_bar.liga {\012ignore sub less less' hyphen bar;\012ignore sub less' hyphen bar bar;\012sub SPC SPC bar' by less_hyphen_bar.liga;\012sub SPC hyphen' bar by SPC;\012sub less' hyphen bar by SPC;\012} less_hyphen_bar.liga;\012\012# <=|\012lookup less_equal_bar.liga {\012ignore sub less less' equal bar;\012ignore sub parenleft question less' equal bar;\012ignore sub less' equal bar bar;\012sub SPC SPC bar' by less_equal_bar.liga;\012sub SPC equal' bar by SPC;\012sub less' equal bar by SPC;\012} less_equal_bar.liga;\012\012# |=>\012lookup bar_equal_greater.liga {\012ignore sub bar bar' equal greater;\012ignore sub bar' equal greater greater;\012sub SPC SPC greater' by bar_equal_greater.liga;\012sub SPC equal' greater by SPC;\012sub bar' equal greater by SPC;\012} bar_equal_greater.liga;\012\012# : @UppercaseRelated : \012lookup colon_UppercaseRelated_colon {\012ignore sub @UppercaseRelated colon' @NotUppercaseRelated;\012ignore sub @NotUppercaseRelated colon' @UppercaseRelated;\012sub @UppercaseRelated colon' by colon.case;\012sub colon' @UppercaseRelated by colon.case;\012} colon_UppercaseRelated_colon;\012\012\012";
 tag = liga;
 },
 {
@@ -1557,11 +1318,6 @@ Location = 400;
 );
 }
 );
-guides = (
-{
-pos = (520,-78);
-}
-);
 id = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 metricValues = (
 {
@@ -1639,10 +1395,13 @@ Location = 900;
 );
 guides = (
 {
+pos = (0,-12);
+},
+{
 pos = (168,369);
 },
 {
-pos = (0,-12);
+pos = (339,376);
 }
 );
 iconName = Bold;
