@@ -40,6 +40,15 @@ If you want to build fonts manually on your own computer:
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://guidoferreyra.github.io/Geist.git.
 
+## Changelog
+
+When you update your font (new version or new release), please report all notable changes here, with a date.
+Changelog example:
+
+**26 May 2021. Version 2.13**
+- MAJOR Font turned to a variable font.
+- SIGNIFICANT New Stylistic sets added.
+
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
