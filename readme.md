@@ -43,7 +43,6 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Changelog
 
 When you update your font (new version or new release), please report all notable changes here, with a date.
-Font Versioning is based on semver. 
 Changelog example:
 
 **26 May 2021. Version 2.13**
