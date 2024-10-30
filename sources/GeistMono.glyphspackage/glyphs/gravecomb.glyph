@@ -7,6 +7,14 @@ layers = (
 {
 anchors = (
 {
+name = _brevecomb_top;
+pos = (337,610);
+},
+{
+name = _circumflexcomb_top;
+pos = (284,650);
+},
+{
 name = _top;
 pos = (345,530);
 },
@@ -45,6 +53,14 @@ width = 600;
 {
 anchors = (
 {
+name = _brevecomb_top;
+pos = (340,593);
+},
+{
+name = _circumflexcomb_top;
+pos = (252,658);
+},
+{
 name = _top;
 pos = (340,530);
 },
@@ -69,6 +85,14 @@ width = 600;
 },
 {
 anchors = (
+{
+name = _brevecomb_top;
+pos = (340,590);
+},
+{
+name = _circumflexcomb_top;
+pos = (225,654);
+},
 {
 name = _top;
 pos = (340,540);

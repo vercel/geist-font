@@ -1,0 +1,98 @@
+{
+category = Mark;
+color = 2;
+glyphname = horn;
+layers = (
+{
+anchors = (
+{
+name = _horn_top;
+pos = (50,630);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(63,610,ls),
+(100,610,o),
+(140,628,o),
+(140,682,cs),
+(140,734,l),
+(110,734,l),
+(110,686,ls),
+(110,648,o),
+(90,630,o),
+(57,630,cs),
+(50,630,l),
+(50,610,l)
+);
+}
+);
+width = 190;
+},
+{
+anchors = (
+{
+name = _horn_top;
+pos = (33,682);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,595,ls),
+(232,595,o),
+(287,653,o),
+(287,759,cs),
+(287,785,l),
+(142,785,l),
+(142,763,ls),
+(142,713,o),
+(122,682,o),
+(62,682,cs),
+(33,682,l),
+(33,595,l)
+);
+}
+);
+width = 320;
+},
+{
+anchors = (
+{
+name = _horn_top;
+pos = (47,642);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(69,598,ls),
+(165,598,o),
+(203,635,o),
+(203,719,cs),
+(203,751,l),
+(119,751,l),
+(119,723,ls),
+(119,659,o),
+(99,642,o),
+(61,642,cs),
+(47,642,l),
+(47,598,l)
+);
+}
+);
+width = 250;
+}
+);
+metricLeft = o;
+metricRight = o;
+note = middot;
+subCategory = Nonspacing;
+}

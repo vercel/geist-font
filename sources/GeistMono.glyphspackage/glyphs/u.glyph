@@ -11,6 +11,10 @@ name = bottom;
 pos = (293,0);
 },
 {
+name = horn_top;
+pos = (457,530);
+},
+{
 name = ogonek;
 pos = (486,0);
 },
@@ -101,6 +105,10 @@ name = bottom;
 pos = (293,0);
 },
 {
+name = horn_top;
+pos = (431,530);
+},
+{
 name = ogonek;
 pos = (504,0);
 },
@@ -189,6 +197,10 @@ anchors = (
 {
 name = bottom;
 pos = (297,0);
+},
+{
+name = horn_top;
+pos = (377,540);
 },
 {
 name = ogonek;
