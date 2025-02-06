@@ -1,0 +1,65 @@
+{
+color = 8;
+glyphname = "chedescender-cy";
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(514,-150,l),
+(514,23,l),
+(484,23,l),
+(484,-150,l)
+);
+},
+{
+ref = "che-cy";
+}
+);
+width = 584;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(719,-150,l),
+(719,75,l),
+(525,75,l),
+(525,-150,l)
+);
+},
+{
+ref = "che-cy";
+}
+);
+width = 760;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(599,-150,l),
+(599,74,l),
+(515,74,l),
+(515,-150,l)
+);
+},
+{
+ref = "che-cy";
+}
+);
+width = 664;
+}
+);
+metricLeft = u;
+metricRight = "=u-15";
+unicode = 1207;
+}

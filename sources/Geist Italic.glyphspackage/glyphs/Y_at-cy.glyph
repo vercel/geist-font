@@ -1,0 +1,72 @@
+{
+glyphname = "Yat-cy";
+kernLeft = H;
+kernRight = B;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(331,550,l),
+(331,580,l),
+(66,580,l),
+(66,550,l)
+);
+},
+{
+pos = (86,710);
+ref = P;
+scale = (1,-1);
+}
+);
+width = 714;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(395,530,l),
+(395,623,l),
+(32,623,l),
+(32,530,l)
+);
+},
+{
+alignment = -1;
+pos = (53,710);
+ref = P;
+scale = (1,-1);
+}
+);
+width = 749;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(381,530,l),
+(381,614,l),
+(62,614,l),
+(62,530,l)
+);
+},
+{
+alignment = -1;
+pos = (86,710);
+ref = P;
+scale = (1,-1);
+}
+);
+width = 746;
+}
+);
+metricLeft = "=H-30";
+metricRight = B;
+unicode = 1122;
+}

@@ -1,0 +1,90 @@
+{
+glyphname = Eth;
+kernLeft = O;
+kernRight = D;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(262,0,l),
+(488,0,ls),
+(689,0,o),
+(824,151,o),
+(824,354,cs),
+(824,560,o),
+(688,710,o),
+(482,710,cs),
+(262,710,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(350,624,l),
+(482,624,ls),
+(664,624,o),
+(732,506,o),
+(732,354,cs),
+(732,203,o),
+(663,86,o),
+(482,86,cs),
+(350,86,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(178,317,l),
+(548,317,l),
+(548,393,l),
+(178,393,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-74,7);
+ref = strokeshortcomb.case;
+}
+);
+width = 676;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-59,43);
+ref = strokeshortcomb.case;
+}
+);
+width = 742;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-84,7);
+ref = strokeshortcomb.case;
+}
+);
+width = 692;
+}
+);
+metricLeft = O;
+metricRight = O;
+unicode = 208;
+}

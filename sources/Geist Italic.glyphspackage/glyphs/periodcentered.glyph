@@ -1,0 +1,46 @@
+{
+color = 3;
+glyphname = periodcentered;
+layers = (
+{
+guides = (
+{
+pos = (304,353);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (55,259);
+ref = period;
+}
+);
+width = 159;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+pos = (45,210);
+ref = period;
+}
+);
+width = 261;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+pos = (52,248);
+ref = period;
+}
+);
+width = 204;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 183;
+}

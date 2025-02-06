@@ -1,0 +1,72 @@
+{
+glyphname = "Yeru-cy";
+kernLeft = b;
+kernRight = H;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(678,0,l),
+(678,710,l),
+(648,710,l),
+(648,0,l)
+);
+},
+{
+pos = (0,710);
+ref = P;
+scale = (1,-1);
+}
+);
+width = 774;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(913,0,l),
+(913,710,l),
+(718,710,l),
+(718,0,l)
+);
+},
+{
+alignment = -1;
+pos = (0,710);
+ref = P;
+scale = (1,-1);
+}
+);
+width = 975.16432;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(763,0,l),
+(763,710,l),
+(677,710,l),
+(677,0,l)
+);
+},
+{
+alignment = -1;
+pos = (0,710);
+ref = P;
+scale = (1,-1);
+}
+);
+width = 855;
+}
+);
+metricLeft = H;
+metricRight = H;
+unicode = 1067;
+}

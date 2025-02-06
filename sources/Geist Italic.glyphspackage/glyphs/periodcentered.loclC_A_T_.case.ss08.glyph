@@ -1,0 +1,38 @@
+{
+glyphname = periodcentered.loclCAT.case.ss08;
+kernLeft = dotCAT.case;
+kernRight = dotCAT.case;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (-44,79);
+ref = periodcentered.ss08;
+}
+);
+width = 80;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+pos = (-10,60);
+ref = periodcentered.ss08;
+}
+);
+width = 196;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+pos = (-1,95);
+ref = periodcentered.ss08;
+}
+);
+width = 270;
+}
+);
+metricRight = "=|";
+}

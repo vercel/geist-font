@@ -1,0 +1,123 @@
+{
+glyphname = one.ss09;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-138,560,l),
+(-14,560,l),
+(-14,0,l),
+(18,0,l),
+(18,710,l),
+(-7,710,l),
+(-7,630,o),
+(-43,590,o),
+(-116,590,c),
+(-138,590,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(325,0,l),
+(325,30,l),
+(14,30,l),
+(14,0,l)
+);
+},
+{
+alignment = -1;
+pos = (-36,0);
+ref = one;
+}
+);
+width = 339;
+},
+{
+associatedMasterId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(46,512,l),
+(192,620,l),
+(160,647,l),
+(160,0,l),
+(246,0,l),
+(246,710,l),
+(172,710,l),
+(-8,577,l)
+);
+}
+);
+};
+layerId = "62097056-30DA-40BF-A05F-DD5AA35C8A84";
+name = "4 de may. de 23 16:51";
+shapes = (
+{
+closed = 1;
+nodes = (
+(25,590,l),
+(143,678,l),
+(143,0,l),
+(173,0,l),
+(173,710,l),
+(137,710,l),
+(5,611,l)
+);
+}
+);
+width = 269;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(518,0,l),
+(518,157,l),
+(10,157,l),
+(10,0,l)
+);
+},
+{
+alignment = -1;
+pos = (-26,0);
+ref = one;
+}
+);
+width = 528;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(382,0,l),
+(382,84,l),
+(12,84,l),
+(12,0,l)
+);
+},
+{
+alignment = -1;
+pos = (-28,0);
+ref = one;
+}
+);
+width = 394;
+}
+);
+metricLeft = T;
+metricRight = T;
+}

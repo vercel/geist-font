@@ -1,0 +1,67 @@
+{
+color = 8;
+glyphname = "hadescender-cy";
+kernLeft = x;
+kernRight = x;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,-150,l),
+(500,23,l),
+(470,23,l),
+(470,-150,l)
+);
+},
+{
+ref = x;
+}
+);
+width = 549;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(699,-153,l),
+(699,75,l),
+(505,75,l),
+(505,-153,l)
+);
+},
+{
+alignment = -1;
+ref = x;
+}
+);
+width = 744;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(569,-150,l),
+(569,74,l),
+(485,74,l),
+(485,-150,l)
+);
+},
+{
+alignment = -1;
+ref = x;
+}
+);
+width = 616;
+}
+);
+metricLeft = x;
+metricRight = x;
+unicode = 1203;
+}

@@ -1,0 +1,89 @@
+{
+glyphname = dagger;
+layers = (
+{
+guides = (
+{
+pos = (463,269);
+},
+{
+angle = 270;
+pos = (286,587);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(292,0,l),
+(292,710,l),
+(260,710,l),
+(260,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(456,500,l),
+(456,530,l),
+(96,530,l),
+(96,500,l)
+);
+}
+);
+width = 552;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(384,0,l),
+(384,710,l),
+(204,710,l),
+(204,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(526,400,l),
+(526,540,l),
+(62,540,l),
+(62,400,l)
+);
+}
+);
+width = 588;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(332,0,l),
+(332,710,l),
+(252,710,l),
+(252,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(492,454,l),
+(492,530,l),
+(92,530,l),
+(92,454,l)
+);
+}
+);
+width = 584;
+}
+);
+metricLeft = H;
+metricRight = H;
+unicode = 8224;
+}

@@ -1,0 +1,43 @@
+{
+glyphname = rightArrow;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+angle = -90;
+pos = (50,721);
+ref = upArrow;
+}
+);
+width = 810;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (40,699);
+ref = upArrow;
+}
+);
+width = 790;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (45,714);
+ref = upArrow;
+}
+);
+width = 800;
+}
+);
+metricLeft = O;
+metricRight = O;
+unicode = 8594;
+}

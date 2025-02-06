@@ -1,0 +1,57 @@
+{
+glyphname = seveneighths;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (256,0);
+ref = fraction;
+},
+{
+pos = (395,0);
+ref = eight.dnom;
+}
+);
+width = 737;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (296,0);
+ref = fraction;
+},
+{
+pos = (456,0);
+ref = eight.dnom;
+}
+);
+width = 866;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (270,0);
+ref = fraction;
+},
+{
+pos = (440,0);
+ref = eight.dnom;
+}
+);
+width = 790;
+}
+);
+unicode = 8542;
+}
