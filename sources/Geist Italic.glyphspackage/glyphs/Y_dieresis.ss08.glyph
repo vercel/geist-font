@@ -10,7 +10,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (205,180);
+pos = (149,180);
 ref = dieresiscomb.ss08;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (190,170);
+pos = (135,170);
 ref = dieresiscomb.ss08;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (197,180);
+pos = (141,180);
 ref = dieresiscomb.ss08;
 }
 );

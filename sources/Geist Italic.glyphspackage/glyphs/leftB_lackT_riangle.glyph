@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = leftBlackTriangle;
 layers = (
 {
@@ -6,7 +7,7 @@ layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 alignment = 1;
-pos = (717,0);
+pos = (793,0);
 ref = rightBlackTriangle;
 scale = (-1,1);
 }
@@ -16,7 +17,7 @@ assembly = "PUSHB[ ]	/* 4 values pushed */
 1 0 1 50 
 CALL[ ]	/* CallFunction */";
 };
-width = 830;
+width = 906;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";

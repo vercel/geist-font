@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = twothirds;
 layers = (
 {
@@ -12,11 +13,11 @@ pos = (344,0);
 ref = fraction;
 },
 {
-pos = (483,0);
+pos = (482,0);
 ref = three.dnom;
 }
 );
-width = 810;
+width = 808;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -25,7 +26,7 @@ shapes = (
 ref = two.numr;
 },
 {
-pos = (388,0);
+pos = (389,0);
 ref = fraction;
 },
 {
@@ -33,7 +34,7 @@ pos = (548,0);
 ref = three.dnom;
 }
 );
-width = 942;
+width = 938;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -42,15 +43,15 @@ shapes = (
 ref = two.numr;
 },
 {
-pos = (348,0);
+pos = (350,0);
 ref = fraction;
 },
 {
-pos = (518,0);
+pos = (519,0);
 ref = three.dnom;
 }
 );
-width = 850;
+width = 853;
 }
 );
 unicode = 8532;

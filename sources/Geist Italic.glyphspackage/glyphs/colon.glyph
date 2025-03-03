@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = colon;
 kernLeft = colon;
 kernRight = colon;
@@ -70,12 +70,12 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (46,0);
+pos = (48,0);
 ref = period;
 },
 {
 alignment = -1;
-pos = (46,353);
+pos = (48,353);
 ref = period;
 }
 );
@@ -84,12 +84,12 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (46,0);
+pos = (48,0);
 ref = period;
 },
 {
 alignment = -1;
-pos = (130,393);
+pos = (132,393);
 ref = period;
 }
 );

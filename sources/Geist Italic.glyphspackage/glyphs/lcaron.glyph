@@ -63,7 +63,7 @@ pos = (135,0);
 ref = caroncomb.alt;
 }
 );
-width = 251;
+width = 250;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -74,11 +74,11 @@ ref = l;
 },
 {
 alignment = -1;
-pos = (240,0);
+pos = (246,0);
 ref = caroncomb.alt;
 }
 );
-width = 438;
+width = 444;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -93,7 +93,7 @@ pos = (174,0);
 ref = caroncomb.alt;
 }
 );
-width = 318;
+width = 317;
 }
 );
 metricLeft = l;

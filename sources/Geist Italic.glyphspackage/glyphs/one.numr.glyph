@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = one.numr;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = onesuperior;
 }
 );
-width = 206;
+width = 207;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -26,7 +27,7 @@ shapes = (
 ref = onesuperior;
 }
 );
-width = 242;
+width = 243;
 }
 );
 }

@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = quoteleft;
 kernLeft = quoteleft;
 kernRight = quoteleft;
@@ -38,7 +38,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (213,570);
+pos = (211,570);
 ref = comma;
 }
 );

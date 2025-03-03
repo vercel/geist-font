@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = tilde;
 layers = (
 {
@@ -34,7 +35,7 @@ alignment = -1;
 ref = tildecomb;
 }
 );
-width = 425;
+width = 426;
 },
 {
 background = {
@@ -53,7 +54,7 @@ alignment = -1;
 ref = tildecomb;
 }
 );
-width = 403;
+width = 402;
 }
 );
 metricLeft = o;

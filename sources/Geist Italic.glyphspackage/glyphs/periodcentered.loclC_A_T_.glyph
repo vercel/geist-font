@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = periodcentered.loclCAT;
 kernLeft = dotCAT;
 kernRight = dotCAT;
@@ -17,22 +18,23 @@ width = 99;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-pos = (-27,0);
+pos = (-24,0);
 ref = periodcentered;
 }
 );
-width = 147;
+width = 153;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-pos = (-13,0);
+pos = (-12,0);
 ref = periodcentered;
 }
 );
-width = 234;
+width = 237;
 }
 );
-metricRight = "=|";
+metricLeft = "=20";
+metricRight = "=20";
 }

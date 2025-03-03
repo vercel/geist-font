@@ -10,7 +10,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-18,0);
+pos = (-75,0);
 ref = macroncomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (20,0);
+pos = (-38,0);
 ref = macroncomb;
 }
 );
@@ -36,6 +36,7 @@ shapes = (
 ref = idotless;
 },
 {
+pos = (-57,0);
 ref = macroncomb;
 }
 );

@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = ellipsis;
 kernLeft = period;
 kernRight = period;
@@ -59,7 +59,7 @@ pos = (370,0);
 ref = period;
 }
 );
-width = 574;
+width = 571;
 }
 );
 metricLeft = o;

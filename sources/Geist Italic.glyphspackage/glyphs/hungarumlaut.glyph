@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = hungarumlaut;
 layers = (
 {
@@ -15,7 +16,7 @@ shapes = (
 ref = hungarumlautcomb;
 }
 );
-width = 300;
+width = 299;
 },
 {
 background = {
@@ -51,7 +52,7 @@ shapes = (
 ref = hungarumlautcomb;
 }
 );
-width = 379;
+width = 380;
 }
 );
 metricLeft = o;

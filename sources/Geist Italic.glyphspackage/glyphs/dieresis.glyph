@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = dieresis;
 layers = (
 {
@@ -15,7 +16,7 @@ shapes = (
 ref = dieresiscomb;
 }
 );
-width = 262;
+width = 263;
 },
 {
 background = {
@@ -34,7 +35,7 @@ alignment = -1;
 ref = dieresiscomb;
 }
 );
-width = 486;
+width = 487;
 },
 {
 background = {
@@ -53,7 +54,7 @@ alignment = -1;
 ref = dieresiscomb;
 }
 );
-width = 350;
+width = 351;
 }
 );
 metricLeft = o;

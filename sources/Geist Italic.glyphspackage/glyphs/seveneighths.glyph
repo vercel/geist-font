@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = seveneighths;
 layers = (
 {
@@ -12,11 +13,11 @@ pos = (256,0);
 ref = fraction;
 },
 {
-pos = (395,0);
+pos = (394,0);
 ref = eight.dnom;
 }
 );
-width = 737;
+width = 738;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -29,7 +30,7 @@ pos = (296,0);
 ref = fraction;
 },
 {
-pos = (456,0);
+pos = (455,0);
 ref = eight.dnom;
 }
 );
@@ -42,7 +43,7 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (270,0);
+pos = (271,0);
 ref = fraction;
 },
 {
@@ -50,7 +51,7 @@ pos = (440,0);
 ref = eight.dnom;
 }
 );
-width = 790;
+width = 796;
 }
 );
 unicode = 8542;

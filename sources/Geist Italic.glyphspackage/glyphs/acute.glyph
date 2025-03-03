@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = acute;
 layers = (
 {
@@ -15,7 +16,7 @@ shapes = (
 ref = acutecomb;
 }
 );
-width = 206;
+width = 205;
 },
 {
 background = {
@@ -51,7 +52,7 @@ shapes = (
 ref = acutecomb;
 }
 );
-width = 248;
+width = 249;
 }
 );
 metricLeft = o;

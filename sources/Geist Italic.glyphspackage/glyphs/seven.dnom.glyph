@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = seven.dnom;
 layers = (
 {
@@ -29,7 +30,7 @@ pos = (-68,-322);
 ref = sevensuperior;
 }
 );
-width = 300;
+width = 301;
 }
 );
 }

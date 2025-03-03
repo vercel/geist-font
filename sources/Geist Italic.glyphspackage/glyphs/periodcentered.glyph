@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = periodcentered;
 layers = (
 {
@@ -37,7 +37,7 @@ pos = (52,248);
 ref = period;
 }
 );
-width = 204;
+width = 201;
 }
 );
 metricLeft = o;

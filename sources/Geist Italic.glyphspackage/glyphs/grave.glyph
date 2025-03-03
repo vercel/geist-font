@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = grave;
 layers = (
 {
@@ -15,7 +16,7 @@ shapes = (
 ref = gravecomb;
 }
 );
-width = 206;
+width = 207;
 },
 {
 background = {
@@ -53,7 +54,7 @@ alignment = -1;
 ref = gravecomb;
 }
 );
-width = 248;
+width = 247;
 }
 );
 metricLeft = o;

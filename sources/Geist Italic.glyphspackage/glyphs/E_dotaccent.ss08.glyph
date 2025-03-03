@@ -10,7 +10,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (325,180);
+pos = (268,180);
 ref = dotaccentcomb.ss08;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (299,170);
+pos = (241,170);
 ref = dotaccentcomb.ss08;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (321,180);
+pos = (264,180);
 ref = dotaccentcomb.ss08;
 }
 );

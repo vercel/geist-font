@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = numero;
 layers = (
 {
@@ -8,20 +9,20 @@ shapes = (
 ref = N;
 },
 {
-pos = (653,-230);
+pos = (594,-230);
 ref = ordmasculine;
 },
 {
 closed = 1;
 nodes = (
-(969,0,l),
-(969,28,l),
-(709,28,l),
-(709,0,l)
+(907,0,l),
+(913,28,l),
+(653,28,l),
+(647,0,l)
 );
 }
 );
-width = 1080;
+width = 1074;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -31,16 +32,16 @@ alignment = -1;
 ref = N;
 },
 {
-pos = (683,-210);
+pos = (633,-210);
 ref = ordmasculine;
 },
 {
 closed = 1;
 nodes = (
-(1033,0,l),
-(1033,74,l),
-(753,74,l),
-(753,0,l)
+(975,0,l),
+(991,74,l),
+(711,74,l),
+(695,0,l)
 );
 }
 );
@@ -54,20 +55,20 @@ alignment = -1;
 ref = N;
 },
 {
-pos = (693,-200);
+pos = (660,-200);
 ref = ordmasculine;
 },
 {
 closed = 1;
 nodes = (
-(1087,0,l),
-(1087,120,l),
-(763,120,l),
-(763,0,l)
+(1043,0,l),
+(1069,120,l),
+(745,120,l),
+(719,0,l)
 );
 }
 );
-width = 1179;
+width = 1202;
 }
 );
 metricLeft = N;

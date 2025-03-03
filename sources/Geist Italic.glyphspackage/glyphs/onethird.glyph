@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = onethird;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (246,0);
+pos = (247,0);
 ref = fraction;
 },
 {
@@ -16,7 +17,7 @@ pos = (385,0);
 ref = three.dnom;
 }
 );
-width = 712;
+width = 711;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -29,11 +30,11 @@ pos = (328,0);
 ref = fraction;
 },
 {
-pos = (488,0);
+pos = (487,0);
 ref = three.dnom;
 }
 );
-width = 882;
+width = 877;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -42,7 +43,7 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (282,0);
+pos = (283,0);
 ref = fraction;
 },
 {
@@ -50,7 +51,7 @@ pos = (452,0);
 ref = three.dnom;
 }
 );
-width = 784;
+width = 786;
 }
 );
 unicode = 8531;

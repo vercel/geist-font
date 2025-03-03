@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = seven.numr;
 layers = (
 {
@@ -26,7 +27,7 @@ shapes = (
 ref = sevensuperior;
 }
 );
-width = 300;
+width = 301;
 }
 );
 }

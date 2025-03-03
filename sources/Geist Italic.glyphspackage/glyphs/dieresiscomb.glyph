@@ -1,27 +1,28 @@
 {
+color = 4;
 glyphname = dieresiscomb;
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (131,530);
+pos = (188,530);
 }
 );
 background = {
 anchors = (
 {
 name = _top;
-pos = (131,530);
+pos = (216,530);
 }
 );
 shapes = (
 {
-pos = (0,14);
+pos = (85,14);
 ref = dotaccentcomb;
 },
 {
-pos = (127,14);
+pos = (212,14);
 ref = dotaccentcomb;
 }
 );
@@ -31,47 +32,47 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(84,628,l),
-(84,698,l),
-(50,698,l),
-(50,628,l)
+(162,628,l),
+(176,698,l),
+(142,698,l),
+(128,628,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(212,628,l),
-(212,698,l),
-(178,698,l),
-(178,628,l)
+(290,628,l),
+(304,698,l),
+(270,698,l),
+(256,628,l)
 );
 }
 );
-width = 262;
+width = 263;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (243,540);
+pos = (301,540);
 }
 );
 background = {
 anchors = (
 {
 name = _top;
-pos = (245,530);
+pos = (328,530);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (-12,0);
+pos = (71,0);
 ref = dotaccentcomb;
 },
 {
 alignment = -1;
-pos = (235,0);
+pos = (318,0);
 ref = dotaccentcomb;
 }
 );
@@ -81,46 +82,47 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(212,590,l),
-(212,726,l),
-(32,726,l),
-(32,590,l)
+(281,590,l),
+(309,726,l),
+(129,726,l),
+(101,590,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(454,590,l),
-(454,726,l),
-(274,726,l),
-(274,590,l)
+(523,590,l),
+(551,726,l),
+(371,726,l),
+(343,590,l)
 );
 }
 );
-width = 486;
+width = 487;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (175,530);
+pos = (232,530);
 }
 );
 background = {
 anchors = (
 {
 name = _top;
-pos = (178,530);
+pos = (263,530);
 }
 );
 shapes = (
 {
 alignment = -1;
+pos = (85,0);
 ref = dotaccentcomb;
 },
 {
 alignment = -1;
-pos = (173,0);
+pos = (258,0);
 ref = dotaccentcomb;
 }
 );
@@ -130,23 +132,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(132,613,l),
-(132,711,l),
-(44,711,l),
-(44,613,l)
+(207,613,l),
+(227,711,l),
+(139,711,l),
+(119,613,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(306,613,l),
-(306,711,l),
-(218,711,l),
-(218,613,l)
+(381,613,l),
+(401,711,l),
+(313,711,l),
+(293,613,l)
 );
 }
 );
-width = 350;
+width = 351;
 }
 );
 metricLeft = o;

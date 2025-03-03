@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = less;
 kernLeft = plus;
 kernRight = plus;
@@ -7,7 +8,7 @@ layers = (
 background = {
 shapes = (
 {
-pos = (534,0);
+pos = (546,0);
 ref = greater;
 scale = (-1,1);
 }
@@ -16,25 +17,25 @@ scale = (-1,1);
 guides = (
 {
 angle = 270;
-pos = (494,314);
+pos = (506,314);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (534,0);
+angle = 180;
+pos = (546,584);
 ref = greater;
-scale = (-1,1);
 }
 );
-width = 534;
+width = 535;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
-pos = (544,0);
+pos = (555,0);
 ref = greater;
 scale = (-1,1);
 }
@@ -44,19 +45,19 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (554,0);
+angle = 180;
+pos = (565,588);
 ref = greater;
-scale = (-1,1);
 }
 );
-width = 554;
+width = 555;
 },
 {
 background = {
 shapes = (
 {
 alignment = -1;
-pos = (544,0);
+pos = (555,0);
 ref = greater;
 scale = (-1,1);
 }
@@ -66,12 +67,12 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (544,0);
+angle = 180;
+pos = (555,578);
 ref = greater;
-scale = (-1,1);
 }
 );
-width = 544;
+width = 545;
 }
 );
 metricLeft = plus;

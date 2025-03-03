@@ -10,7 +10,7 @@ ref = N;
 scale = (-1,1);
 },
 {
-pos = (1,180);
+pos = (-56,180);
 ref = gravecomb;
 }
 );
@@ -26,7 +26,7 @@ ref = N;
 scale = (-1,1);
 },
 {
-pos = (96,180);
+pos = (40,180);
 ref = gravecomb;
 }
 );
@@ -42,7 +42,7 @@ ref = N;
 scale = (-1,1);
 },
 {
-pos = (100,170);
+pos = (42,170);
 ref = gravecomb;
 }
 );

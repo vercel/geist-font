@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = quotedblright;
 kernLeft = quoteright;
 kernRight = quoteright;
@@ -39,12 +39,12 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (291,597);
+pos = (293,597);
 ref = comma;
 },
 {
 alignment = -1;
-pos = (126,597);
+pos = (128,597);
 ref = comma;
 }
 );

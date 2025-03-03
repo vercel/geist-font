@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = two.circled;
 layers = (
 {
@@ -9,7 +10,7 @@ ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (248,-163);
+pos = (227,-163);
 ref = twosuperior;
 }
 );
@@ -29,33 +30,31 @@ NPUSHB[ ]	/* 32 values pushed */
 32 32 16 16 0 0 32 58 32 58 57 56 49 47 45 44 42 40 16 31 16 30 24 22 0 15 0 14 38 12 6 23 
 CALL[ ]	/* CallFunction */";
 };
-width = 838;
+width = 843;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
 ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (230,-163);
+pos = (209,-163);
 ref = twosuperior;
 }
 );
-width = 850;
+width = 857;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
 ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (242,-163);
+pos = (219,-163);
 ref = twosuperior;
 }
 );
@@ -75,7 +74,7 @@ NPUSHB[ ]	/* 32 values pushed */
 32 32 16 16 0 0 32 58 32 58 57 56 49 47 45 44 42 40 16 31 16 30 24 22 0 15 0 14 38 12 6 23 
 CALL[ ]	/* CallFunction */";
 };
-width = 828;
+width = 835;
 }
 );
 metricLeft = o;

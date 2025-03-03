@@ -10,7 +10,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (12,-8);
+pos = (-14,-8);
 ref = slashshortcomb.case;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (-15,-8);
+pos = (-40,-8);
 ref = slashshortcomb.case;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (5,-17);
+pos = (-24,-17);
 ref = slashshortcomb.case;
 }
 );

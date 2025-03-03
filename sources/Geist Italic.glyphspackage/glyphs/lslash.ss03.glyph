@@ -10,7 +10,7 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (-10,-46);
+pos = (-38,-46);
 ref = slashshortcomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (-28,-17);
+pos = (-55,-17);
 ref = slashshortcomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (10,16);
+pos = (-17,16);
 ref = slashshortcomb;
 }
 );

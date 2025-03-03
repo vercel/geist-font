@@ -1,27 +1,28 @@
 {
+color = 4;
 glyphname = periodcentered.ss08;
 layers = (
 {
 guides = (
 {
-pos = (-4,290);
+pos = (58,290);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (0,261);
+pos = (55,261);
 ref = period.ss08;
 }
 );
-width = 168;
+width = 167;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (0,213);
+pos = (45,213);
 ref = period.ss08;
 }
 );
@@ -32,7 +33,7 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (0,251);
+pos = (53,251);
 ref = period.ss08;
 }
 );

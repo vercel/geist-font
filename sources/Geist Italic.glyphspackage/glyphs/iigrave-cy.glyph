@@ -10,7 +10,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (129,0);
+pos = (72,0);
 ref = gravecomb;
 }
 );

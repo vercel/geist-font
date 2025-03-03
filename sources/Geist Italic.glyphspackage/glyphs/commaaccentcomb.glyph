@@ -1,27 +1,28 @@
 {
+color = 4;
 glyphname = commaaccentcomb;
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-pos = (87,0);
+pos = (31,0);
 },
 {
 name = bottom;
-pos = (87,-169);
+pos = (-5,-169);
 }
 );
 background = {
 anchors = (
 {
 name = _bottom;
-pos = (104,0);
+pos = (25,0);
 }
 );
 shapes = (
 {
-pos = (-22,-798);
+pos = (-101,-798);
 ref = acutecomb;
 }
 );
@@ -31,13 +32,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(72,-169,l),
-(112,-89,l),
-(112,-46,l),
-(62,-46,l),
-(62,-94,l),
-(86,-94,l),
-(50,-169,l)
+(-20,-169,l),
+(37,-89,l),
+(46,-46,l),
+(-4,-46,l),
+(-14,-94,l),
+(10,-94,l),
+(-42,-169,l)
 );
 }
 );
@@ -47,24 +48,24 @@ width = 162;
 anchors = (
 {
 name = _bottom;
-pos = (123,0);
+pos = (66,0);
 },
 {
 name = bottom;
-pos = (123,-262);
+pos = (10,-262);
 }
 );
 background = {
 anchors = (
 {
 name = _bottom;
-pos = (138,0);
+pos = (48,0);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (-13,-799);
+pos = (-103,-799);
 ref = acutecomb;
 }
 );
@@ -74,13 +75,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(140,-262,l),
-(198,-166,l),
-(198,-46,l),
-(48,-46,l),
-(48,-180,l),
-(82,-180,l),
-(32,-262,l)
+(27,-262,l),
+(105,-166,l),
+(131,-46,l),
+(-19,-46,l),
+(-48,-180,l),
+(-14,-180,l),
+(-81,-262,l)
 );
 }
 );
@@ -90,24 +91,24 @@ width = 230;
 anchors = (
 {
 name = _bottom;
-pos = (113,0);
+pos = (57,0);
 },
 {
 name = bottom;
-pos = (113,-240);
+pos = (6,-240);
 }
 );
 background = {
 anchors = (
 {
 name = _bottom;
-pos = (141,0);
+pos = (54,0);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (-1,-799);
+pos = (-88,-799);
 ref = acutecomb;
 }
 );
@@ -117,17 +118,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(102,-240,l),
-(163,-135,l),
-(163,-53,l),
-(63,-53,l),
-(63,-143,l),
-(99,-143,l),
-(44,-240,l)
+(-5,-240,l),
+(78,-135,l),
+(96,-53,l),
+(-4,-53,l),
+(-23,-143,l),
+(13,-143,l),
+(-63,-240,l)
 );
 }
 );
-width = 207;
+width = 208;
 }
 );
 metricLeft = o;

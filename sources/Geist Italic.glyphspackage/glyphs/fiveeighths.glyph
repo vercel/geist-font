@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = fiveeighths;
 layers = (
 {
@@ -8,11 +9,11 @@ shapes = (
 ref = five.numr;
 },
 {
-pos = (335,0);
+pos = (334,0);
 ref = fraction;
 },
 {
-pos = (474,0);
+pos = (472,0);
 ref = eight.dnom;
 }
 );
@@ -25,15 +26,15 @@ shapes = (
 ref = five.numr;
 },
 {
-pos = (405,0);
+pos = (402,0);
 ref = fraction;
 },
 {
-pos = (565,0);
+pos = (561,0);
 ref = eight.dnom;
 }
 );
-width = 975;
+width = 972;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -42,15 +43,15 @@ shapes = (
 ref = five.numr;
 },
 {
-pos = (345,0);
+pos = (344,0);
 ref = fraction;
 },
 {
-pos = (515,0);
+pos = (513,0);
 ref = eight.dnom;
 }
 );
-width = 865;
+width = 869;
 }
 );
 unicode = 8541;

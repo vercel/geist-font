@@ -11,7 +11,7 @@ ref = a.ss02;
 },
 {
 anchor = ogonek;
-pos = (275,0);
+pos = (330,0);
 ref = ogonekcomb;
 }
 );
@@ -25,7 +25,7 @@ ref = a.ss02;
 },
 {
 anchor = ogonek;
-pos = (287,0);
+pos = (339,0);
 ref = ogonekcomb;
 }
 );
@@ -39,11 +39,11 @@ ref = a.ss02;
 },
 {
 anchor = ogonek;
-pos = (256,0);
+pos = (309,0);
 ref = ogonekcomb;
 }
 );
-width = 580;
+width = 578;
 }
 );
 }

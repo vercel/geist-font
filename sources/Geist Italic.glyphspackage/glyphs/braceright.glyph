@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = braceright;
 layers = (
 {
@@ -6,7 +7,7 @@ background = {
 shapes = (
 {
 alignment = 1;
-pos = (418,0);
+pos = (585,0);
 ref = braceleft;
 scale = (-1,1);
 }
@@ -15,20 +16,20 @@ scale = (-1,1);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-alignment = 1;
-pos = (245,0);
+alignment = -1;
+angle = 180;
+pos = (412,637);
 ref = braceleft;
-scale = (-1,1);
 }
 );
-width = 358;
+width = 389;
 },
 {
 background = {
 shapes = (
 {
 alignment = 1;
-pos = (450,0);
+pos = (667,0);
 ref = braceleft;
 scale = (-1,1);
 }
@@ -37,20 +38,20 @@ scale = (-1,1);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = 1;
-pos = (305,0);
+alignment = -1;
+angle = 180;
+pos = (462,632);
 ref = braceleft;
-scale = (-1,1);
 }
 );
-width = 420;
+width = 434;
 },
 {
 background = {
 shapes = (
 {
 alignment = 1;
-pos = (451,0);
+pos = (647,0);
 ref = braceleft;
 scale = (-1,1);
 }
@@ -59,13 +60,13 @@ scale = (-1,1);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = 1;
-pos = (276,0);
+alignment = -1;
+angle = 180;
+pos = (441,637);
 ref = braceleft;
-scale = (-1,1);
 }
 );
-width = 389;
+width = 418;
 }
 );
 metricLeft = o;

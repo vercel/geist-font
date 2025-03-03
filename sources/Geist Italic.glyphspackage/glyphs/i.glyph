@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = i;
 kernLeft = b;
 kernRight = d;
@@ -70,7 +70,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (31,0);
+pos = (33,0);
 ref = dotaccentcomb;
 }
 );

@@ -10,7 +10,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (270,180);
+pos = (213,180);
 ref = dieresiscomb;
 }
 );
@@ -24,7 +24,7 @@ alignment = -1;
 ref = E;
 },
 {
-pos = (182,170);
+pos = (124,170);
 ref = dieresiscomb;
 }
 );
@@ -38,7 +38,7 @@ alignment = -1;
 ref = E;
 },
 {
-pos = (237,180);
+pos = (180,180);
 ref = dieresiscomb;
 }
 );

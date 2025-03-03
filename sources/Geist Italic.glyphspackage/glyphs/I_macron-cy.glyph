@@ -10,7 +10,7 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (181,180);
+pos = (124,180);
 ref = macroncomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (185,170);
+pos = (127,170);
 ref = macroncomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (174,180);
+pos = (117,180);
 ref = macroncomb;
 }
 );

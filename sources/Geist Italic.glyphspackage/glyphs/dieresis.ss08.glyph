@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = dieresis.ss08;
 layers = (
 {
@@ -34,7 +35,7 @@ alignment = -1;
 ref = dieresiscomb.ss08;
 }
 );
-width = 474;
+width = 473;
 },
 {
 background = {

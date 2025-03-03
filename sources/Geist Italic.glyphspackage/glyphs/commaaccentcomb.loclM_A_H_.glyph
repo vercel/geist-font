@@ -1,7 +1,14 @@
 {
+color = 4;
 glyphname = commaaccentcomb.loclMAH;
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+pos = (25,0);
+}
+);
 background = {
 shapes = (
 {
@@ -18,6 +25,12 @@ ref = commaaccentcomb;
 width = 162;
 },
 {
+anchors = (
+{
+name = _bottom;
+pos = (148,0);
+}
+);
 background = {
 shapes = (
 {
@@ -37,6 +50,12 @@ ref = commaaccentcomb;
 width = 230;
 },
 {
+anchors = (
+{
+name = _bottom;
+pos = (135,0);
+}
+);
 background = {
 shapes = (
 {
@@ -53,7 +72,7 @@ alignment = -1;
 ref = commaaccentcomb;
 }
 );
-width = 207;
+width = 208;
 }
 );
 metricLeft = o;

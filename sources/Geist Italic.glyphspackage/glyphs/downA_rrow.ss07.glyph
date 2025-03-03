@@ -1,35 +1,36 @@
 {
+color = 4;
 glyphname = downArrow.ss07;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (0,712);
+pos = (-75,712);
 ref = upArrow.ss07;
 scale = (1,-1);
 }
 );
-width = 347;
+width = 350;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (0,712);
+pos = (-28,712);
 ref = upArrow.ss07;
 scale = (1,-1);
 }
 );
-width = 536;
+width = 535;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (0,712);
+pos = (-61,712);
 ref = upArrow.ss07;
 scale = (1,-1);
 }

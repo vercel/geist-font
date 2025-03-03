@@ -12,7 +12,7 @@ ref = N;
 scale = (-1,1);
 },
 {
-pos = (-30,180);
+pos = (-87,180);
 ref = brevecomb;
 }
 );

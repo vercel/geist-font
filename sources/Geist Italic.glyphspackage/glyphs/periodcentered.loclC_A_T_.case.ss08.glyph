@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = periodcentered.loclCAT.case.ss08;
 kernLeft = dotCAT.case;
 kernRight = dotCAT.case;
@@ -7,32 +8,36 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (-44,79);
+pos = (91,79);
 ref = periodcentered.ss08;
+slant = (-12,0);
 }
 );
-width = 80;
+width = 191;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-pos = (-10,60);
+pos = (96,60);
 ref = periodcentered.ss08;
+slant = (-12,0);
 }
 );
-width = 196;
+width = 253;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-pos = (-1,95);
+pos = (116,95);
 ref = periodcentered.ss08;
+slant = (-12,0);
 }
 );
-width = 270;
+width = 336;
 }
 );
-metricRight = "=|";
+metricLeft = "=60";
+metricRight = "=60";
 }

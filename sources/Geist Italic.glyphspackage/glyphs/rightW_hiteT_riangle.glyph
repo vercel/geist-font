@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = rightWhiteTriangle;
 layers = (
 {
@@ -7,17 +8,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(806,356,l),
-(96,712,l),
-(96,-1,l)
+(901,356,l),
+(191,712,l),
+(191,-1,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(126,664,l),
-(739,356,l),
-(126,47,l)
+(221,664,l),
+(834,356,l),
+(221,47,l)
 );
 }
 );
@@ -26,7 +27,7 @@ assembly = "PUSHB[ ]	/* 6 values pushed */
 4 3 2 1 2 50 
 CALL[ ]	/* CallFunction */";
 };
-width = 830;
+width = 906;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -34,21 +35,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(772,356,l),
-(62,712,l),
-(62,-1,l)
+(872,356,l),
+(162,712,l),
+(162,-1,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(184,513,l),
-(498,356,l),
-(184,198,l)
+(284,513,l),
+(598,356,l),
+(284,198,l)
 );
 }
 );
-width = 790;
+width = 872;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -56,17 +57,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(802,356,l),
-(92,712,l),
-(92,-1,l)
+(897,356,l),
+(187,712,l),
+(187,-1,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(170,586,l),
-(627,356,l),
-(170,125,l)
+(265,586,l),
+(722,356,l),
+(265,125,l)
 );
 }
 );
@@ -75,7 +76,7 @@ assembly = "PUSHB[ ]	/* 6 values pushed */
 4 3 2 1 2 50 
 CALL[ ]	/* CallFunction */";
 };
-width = 822;
+width = 898;
 }
 );
 metricLeft = H;

@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = ogonek;
 layers = (
 {
@@ -15,7 +16,7 @@ shapes = (
 ref = ogonekcomb;
 }
 );
-width = 233;
+width = 235;
 },
 {
 background = {
@@ -34,7 +35,7 @@ alignment = -1;
 ref = ogonekcomb;
 }
 );
-width = 311;
+width = 316;
 },
 {
 background = {
@@ -53,7 +54,7 @@ alignment = -1;
 ref = ogonekcomb;
 }
 );
-width = 267;
+width = 268;
 }
 );
 metricLeft = o;

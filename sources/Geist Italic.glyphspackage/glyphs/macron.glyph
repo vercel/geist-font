@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = macron;
 layers = (
 {
@@ -46,7 +47,7 @@ alignment = -1;
 ref = macroncomb;
 }
 );
-width = 384;
+width = 385;
 },
 {
 background = {
@@ -71,7 +72,7 @@ alignment = -1;
 ref = macroncomb;
 }
 );
-width = 356;
+width = 357;
 }
 );
 metricLeft = o;

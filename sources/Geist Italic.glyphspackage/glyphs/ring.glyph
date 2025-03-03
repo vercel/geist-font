@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = ring;
 layers = (
 {
@@ -15,7 +16,7 @@ shapes = (
 ref = ringcomb;
 }
 );
-width = 243;
+width = 246;
 },
 {
 background = {
@@ -34,7 +35,7 @@ alignment = -1;
 ref = ringcomb;
 }
 );
-width = 284;
+width = 288;
 },
 {
 background = {
@@ -53,7 +54,7 @@ alignment = -1;
 ref = ringcomb;
 }
 );
-width = 272;
+width = 275;
 }
 );
 metricLeft = o;

@@ -10,7 +10,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (8,0);
+pos = (-48,0);
 ref = circumflexcomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-9,0);
+pos = (-66,0);
 ref = circumflexcomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-3,0);
+pos = (-59,0);
 ref = circumflexcomb;
 }
 );

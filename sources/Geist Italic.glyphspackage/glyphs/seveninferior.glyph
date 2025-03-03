@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = seveninferior;
 layers = (
 {
@@ -29,7 +30,7 @@ pos = (-90,-422);
 ref = sevensuperior;
 }
 );
-width = 300;
+width = 301;
 }
 );
 unicode = 8327;

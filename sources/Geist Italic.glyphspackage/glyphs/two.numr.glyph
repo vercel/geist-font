@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = two.numr;
 layers = (
 {
@@ -17,7 +18,7 @@ shapes = (
 ref = twosuperior;
 }
 );
-width = 388;
+width = 389;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -26,7 +27,7 @@ shapes = (
 ref = twosuperior;
 }
 );
-width = 348;
+width = 350;
 }
 );
 }

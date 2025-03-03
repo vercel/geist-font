@@ -1,11 +1,12 @@
 {
+color = 4;
 glyphname = hungarumlautcomb;
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (110,530);
+pos = (168,530);
 }
 );
 background = {
@@ -36,13 +37,13 @@ pos = (94,0);
 ref = acutecomb;
 }
 );
-width = 300;
+width = 299;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (206,540);
+pos = (268,540);
 }
 );
 background = {
@@ -83,7 +84,7 @@ width = 506;
 anchors = (
 {
 name = _top;
-pos = (148,530);
+pos = (208,530);
 }
 );
 background = {
@@ -118,7 +119,7 @@ pos = (131,0);
 ref = acutecomb;
 }
 );
-width = 379;
+width = 380;
 }
 );
 metricLeft = o;

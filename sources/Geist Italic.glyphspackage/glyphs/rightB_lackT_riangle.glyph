@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = rightBlackTriangle;
 layers = (
 {
@@ -7,9 +8,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(806,356,l),
-(96,712,l),
-(96,-1,l)
+(901,356,l),
+(191,712,l),
+(191,-1,l)
 );
 }
 );
@@ -18,7 +19,7 @@ assembly = "PUSHB[ ]	/* 4 values pushed */
 2 1 1 50 
 CALL[ ]	/* CallFunction */";
 };
-width = 830;
+width = 906;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -26,13 +27,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(772,356,l),
-(62,712,l),
-(62,-1,l)
+(872,356,l),
+(162,712,l),
+(162,-1,l)
 );
 }
 );
-width = 790;
+width = 872;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -40,9 +41,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(802,356,l),
-(92,712,l),
-(92,-1,l)
+(897,356,l),
+(187,712,l),
+(187,-1,l)
 );
 }
 );
@@ -51,7 +52,7 @@ assembly = "PUSHB[ ]	/* 4 values pushed */
 2 1 1 50 
 CALL[ ]	/* CallFunction */";
 };
-width = 822;
+width = 898;
 }
 );
 metricLeft = H;

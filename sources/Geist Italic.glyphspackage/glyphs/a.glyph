@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = a;
 kernLeft = a;
 kernRight = l;
@@ -12,7 +12,7 @@ pos = (192,0);
 },
 {
 name = ogonek;
-pos = (438,0);
+pos = (432,0);
 },
 {
 name = top;
@@ -303,7 +303,7 @@ pos = (233,0);
 },
 {
 name = ogonek;
-pos = (538,0);
+pos = (526,0);
 },
 {
 name = top;
@@ -452,7 +452,7 @@ pos = (201,0);
 },
 {
 name = ogonek;
-pos = (466,0);
+pos = (458,0);
 },
 {
 name = top;

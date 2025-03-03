@@ -10,7 +10,7 @@ shapes = (
 ref = W;
 },
 {
-pos = (400,180);
+pos = (344,180);
 ref = circumflexcomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = W;
 },
 {
-pos = (398,170);
+pos = (341,170);
 ref = circumflexcomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = W;
 },
 {
-pos = (378,180);
+pos = (322,180);
 ref = circumflexcomb;
 }
 );

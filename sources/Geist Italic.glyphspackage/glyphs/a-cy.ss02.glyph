@@ -19,7 +19,7 @@ shapes = (
 ref = a.ss02;
 }
 );
-width = 580;
+width = 578;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";

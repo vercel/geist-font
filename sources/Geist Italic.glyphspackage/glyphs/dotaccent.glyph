@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = dotaccent;
 layers = (
 {
@@ -21,7 +22,7 @@ shapes = (
 ref = dotaccentcomb;
 }
 );
-width = 134;
+width = 135;
 },
 {
 background = {
@@ -45,7 +46,7 @@ shapes = (
 ref = dotaccentcomb;
 }
 );
-width = 264;
+width = 265;
 },
 {
 background = {
@@ -69,7 +70,7 @@ shapes = (
 ref = dotaccentcomb;
 }
 );
-width = 176;
+width = 177;
 }
 );
 metricLeft = o;

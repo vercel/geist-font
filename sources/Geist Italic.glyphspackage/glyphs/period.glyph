@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = period;
 kernLeft = period;
 kernRight = period;
@@ -61,14 +61,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(103,0,l),
-(127,113,l),
-(14,113,l),
-(-10,0,l)
+(101,0,l),
+(125,113,l),
+(12,113,l),
+(-12,0,l)
 );
 }
 );
-width = 204;
+width = 201;
 }
 );
 metricLeft = o;

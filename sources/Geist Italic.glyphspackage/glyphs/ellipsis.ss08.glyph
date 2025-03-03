@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = ellipsis.ss08;
 kernLeft = period;
 kernRight = period;
@@ -29,16 +30,16 @@ ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (248,0);
+pos = (250,0);
 ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (496,0);
+pos = (500,0);
 ref = period.ss08;
 }
 );
-width = 768;
+width = 772;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

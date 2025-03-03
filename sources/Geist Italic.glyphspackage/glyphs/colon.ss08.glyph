@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = colon.ss08;
 kernLeft = colon;
 kernRight = colon;
@@ -6,7 +7,7 @@ layers = (
 {
 guides = (
 {
-pos = (248,413);
+pos = (344,413);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -16,7 +17,7 @@ pos = (46,0);
 ref = period.ss08;
 },
 {
-pos = (46,413);
+pos = (134,413);
 ref = period.ss08;
 }
 );
@@ -27,32 +28,32 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (30,0);
+pos = (36,0);
 ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (30,337);
+pos = (108,337);
 ref = period.ss08;
 }
 );
-width = 332;
+width = 345;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (48,0);
+pos = (49,0);
 ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (48,395);
+pos = (132,395);
 ref = period.ss08;
 }
 );
-width = 312;
+width = 313;
 }
 );
 metricLeft = colon;

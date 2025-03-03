@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = leftArrow;
 layers = (
 {
@@ -6,12 +7,12 @@ layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 angle = 90;
-pos = (760,721);
+pos = (774,721);
 ref = upArrow;
 scale = (-1,1);
 }
 );
-width = 810;
+width = 814;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -19,12 +20,12 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (750,699);
+pos = (761,699);
 ref = upArrow;
 scale = (-1,1);
 }
 );
-width = 790;
+width = 811;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -32,12 +33,12 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (755,714);
+pos = (769,714);
 ref = upArrow;
 scale = (-1,1);
 }
 );
-width = 800;
+width = 809;
 }
 );
 metricLeft = O;

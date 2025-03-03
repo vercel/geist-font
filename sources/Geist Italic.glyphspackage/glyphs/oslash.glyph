@@ -16,7 +16,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (34,2);
+pos = (35,2);
 ref = slashlongcomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (12,2);
+pos = (13,2);
 ref = slashlongcomb;
 }
 );
@@ -54,7 +54,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (8,2);
+pos = (9,2);
 ref = slashlongcomb;
 }
 );
