@@ -57,7 +57,7 @@ width = 803;
 anchors = (
 {
 name = top;
-pos = (450,710);
+pos = (485,710);
 }
 );
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -72,11 +72,11 @@ nodes = (
 );
 },
 {
-pos = (56,0);
+pos = (91,0);
 ref = "Softsign-cy";
 }
 );
-width = 709;
+width = 744;
 }
 );
 metricLeft = "=H-20";

@@ -10,7 +10,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (175,0);
+pos = (179,0);
 ref = commaaccentcomb;
 }
 );
@@ -40,7 +40,7 @@ pos = (152,0);
 ref = commaaccentcomb;
 }
 );
-width = 524;
+width = 520;
 }
 );
 unicode = 537;
