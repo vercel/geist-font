@@ -1,6 +1,7 @@
 {
 color = 4;
 glyphname = one.ss09;
+kernLeft = one;
 layers = (
 {
 background = {
@@ -8,16 +9,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-138,560,l),
-(-14,560,l),
-(-14,0,l),
-(18,0,l),
-(18,710,l),
-(-7,710,l),
-(-7,630,o),
-(-43,590,o),
-(-116,590,c),
-(-138,590,l)
+(-102,560,l),
+(22,560,l),
+(22,0,l),
+(54,0,l),
+(54,710,l),
+(29,710,l),
+(29,630,o),
+(-7,590,o),
+(-80,590,c),
+(-102,590,l)
 );
 }
 );
@@ -27,19 +28,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(270,0,l),
-(276,30,l),
-(-35,30,l),
-(-41,0,l)
+(302,0,l),
+(308,30,l),
+(-11,30,l),
+(-17,0,l)
 );
 },
 {
 alignment = -1;
-pos = (-36,0);
 ref = one;
 }
 );
-width = 340;
+width = 368;
 },
 {
 associatedMasterId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -84,19 +84,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(462,0,l),
-(496,157,l),
-(-12,157,l),
-(-46,0,l)
+(440,0,l),
+(474,157,l),
+(7,157,l),
+(-27,0,l)
 );
 },
 {
 alignment = -1;
-pos = (-26,0);
 ref = one;
 }
 );
-width = 530;
+width = 488;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -104,21 +103,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(328,0,l),
-(346,84,l),
-(-24,84,l),
-(-42,0,l)
+(344,0,l),
+(362,84,l),
+(-11,84,l),
+(-29,0,l)
 );
 },
 {
 alignment = -1;
-pos = (-28,0);
 ref = one;
 }
 );
-width = 396;
+width = 400;
 }
 );
-metricLeft = T;
-metricRight = T;
+metricLeft = "=one";
+metricRight = "=one-100";
 }

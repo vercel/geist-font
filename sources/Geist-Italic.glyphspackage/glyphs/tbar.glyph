@@ -14,7 +14,7 @@ pos = (-119,-24);
 ref = strokeshortcomb;
 }
 );
-width = 352;
+width = 356;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -23,12 +23,12 @@ shapes = (
 ref = t;
 },
 {
-pos = (-79,-29);
+pos = (-81,-29);
 ref = strokeshortcomb;
 scale = (1.04,1);
 }
 );
-width = 482;
+width = 484;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -41,7 +41,7 @@ pos = (-109,-60);
 ref = strokeshortcomb;
 }
 );
-width = 393;
+width = 397;
 }
 );
 metricLeft = t;

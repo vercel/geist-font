@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = "Hardsign-cy";
 kernRight = B;
 layers = (
@@ -6,7 +7,7 @@ layers = (
 anchors = (
 {
 name = top;
-pos = (356,710);
+pos = (453,710);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -14,25 +15,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(205,680,l),
-(205,710,l),
-(76,710,l),
-(76,680,l)
+(294,680,l),
+(300,710,l),
+(171,710,l),
+(165,680,l)
 );
 },
 {
-pos = (93,710);
-ref = P;
-scale = (1,-1);
+pos = (96,0);
+ref = "Softsign-cy";
 }
 );
-width = 711;
+width = 716;
 },
 {
 anchors = (
 {
 name = top;
-pos = (383,710);
+pos = (496,710);
 }
 );
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -40,26 +40,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(260,553,l),
-(260,710,l),
-(42,710,l),
-(42,553,l)
+(320,553,l),
+(354,710,l),
+(136,710,l),
+(102,553,l)
 );
 },
 {
-alignment = -1;
-pos = (80,710);
-ref = P;
-scale = (1,-1);
+pos = (114,0);
+ref = "Softsign-cy";
 }
 );
-width = 766.30516;
+width = 803;
 },
 {
 anchors = (
 {
 name = top;
-pos = (370,710);
+pos = (450,710);
 }
 );
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -67,20 +65,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(267,626,l),
-(267,710,l),
-(72,710,l),
-(72,626,l)
+(345,626,l),
+(362,710,l),
+(167,710,l),
+(150,626,l)
 );
 },
 {
-alignment = -1;
-pos = (89,710);
-ref = P;
-scale = (1,-1);
+pos = (56,0);
+ref = "Softsign-cy";
 }
 );
-width = 739.03333;
+width = 709;
 }
 );
 metricLeft = "=H-20";

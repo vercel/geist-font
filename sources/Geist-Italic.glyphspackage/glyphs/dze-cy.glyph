@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 3;
 glyphname = "dze-cy";
 kernLeft = o;
 kernRight = o;
@@ -11,7 +11,7 @@ shapes = (
 ref = s;
 }
 );
-width = 478;
+width = 476;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";

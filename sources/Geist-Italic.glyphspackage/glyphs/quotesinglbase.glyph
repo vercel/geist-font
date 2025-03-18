@@ -11,7 +11,7 @@ shapes = (
 ref = comma;
 }
 );
-width = 162;
+width = 142;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -21,7 +21,7 @@ alignment = -1;
 ref = comma;
 }
 );
-width = 261;
+width = 237;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -31,7 +31,7 @@ alignment = -1;
 ref = comma;
 }
 );
-width = 201;
+width = 173;
 }
 );
 metricLeft = period;

@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = "En-cy";
 kernLeft = b;
 kernRight = d;
@@ -19,7 +20,7 @@ shapes = (
 ref = H;
 }
 );
-width = 728;
+width = 716;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

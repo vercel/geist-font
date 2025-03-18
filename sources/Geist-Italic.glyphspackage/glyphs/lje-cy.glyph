@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = "lje-cy";
 kernLeft = "el-cy";
 kernRight = b;
@@ -15,7 +16,7 @@ ref = "softsign-cy";
 ref = "el-cy";
 }
 );
-width = 961;
+width = 962;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -29,7 +30,7 @@ ref = "softsign-cy";
 ref = "el-cy";
 }
 );
-width = 1009;
+width = 1011;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -43,7 +44,7 @@ ref = "softsign-cy";
 ref = "el-cy";
 }
 );
-width = 1011;
+width = 1013;
 }
 );
 metricLeft = "=n-20";

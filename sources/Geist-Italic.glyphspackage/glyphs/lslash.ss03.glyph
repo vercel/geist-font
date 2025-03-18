@@ -10,7 +10,7 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (-38,-46);
+pos = (-41,-46);
 ref = slashshortcomb;
 }
 );
@@ -23,11 +23,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (-55,-17);
+pos = (-69,-17);
 ref = slashshortcomb;
 }
 );
-width = 331;
+width = 319;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,7 +36,7 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (-17,16);
+pos = (-18,16);
 ref = slashshortcomb;
 }
 );

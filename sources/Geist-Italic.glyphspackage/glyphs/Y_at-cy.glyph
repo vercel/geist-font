@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = "Yat-cy";
 kernLeft = H;
 kernRight = B;
@@ -9,19 +10,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(331,550,l),
-(331,580,l),
-(66,580,l),
-(66,550,l)
+(392,550,l),
+(398,580,l),
+(133,580,l),
+(127,550,l)
 );
 },
 {
-pos = (86,710);
-ref = P;
-scale = (1,-1);
+pos = (86,0);
+ref = "Softsign-cy";
 }
 );
-width = 714;
+width = 716;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -29,20 +29,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(395,530,l),
-(395,623,l),
-(32,623,l),
-(32,530,l)
+(450,530,l),
+(470,623,l),
+(107,623,l),
+(87,530,l)
 );
 },
 {
-alignment = -1;
-pos = (53,710);
-ref = P;
-scale = (1,-1);
+pos = (66,0);
+ref = "Softsign-cy";
 }
 );
-width = 749;
+width = 765;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -50,20 +48,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(381,530,l),
-(381,614,l),
-(62,614,l),
-(62,530,l)
+(437,530,l),
+(455,614,l),
+(136,614,l),
+(118,530,l)
 );
 },
 {
-alignment = -1;
-pos = (86,710);
-ref = P;
-scale = (1,-1);
+pos = (81,0);
+ref = "Softsign-cy";
 }
 );
-width = 746;
+width = 744;
 }
 );
 metricLeft = "=H-30";

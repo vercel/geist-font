@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 3;
 glyphname = "kje-cy";
 layers = (
 {
@@ -9,11 +9,11 @@ shapes = (
 ref = "ka-cy";
 },
 {
-pos = (145,0);
+pos = (201,0);
 ref = acutecomb;
 }
 );
-width = 536;
+width = 521;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -22,11 +22,11 @@ shapes = (
 ref = "ka-cy";
 },
 {
-pos = (156,0);
+pos = (213,0);
 ref = acutecomb;
 }
 );
-width = 691;
+width = 676;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -35,11 +35,11 @@ shapes = (
 ref = "ka-cy";
 },
 {
-pos = (152,0);
+pos = (208,0);
 ref = acutecomb;
 }
 );
-width = 592;
+width = 577;
 }
 );
 unicode = 1116;

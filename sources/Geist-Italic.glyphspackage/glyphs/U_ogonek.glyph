@@ -189,11 +189,11 @@ ref = U;
 },
 {
 anchor = ogonek;
-pos = (250,0);
+pos = (244,0);
 ref = ogonekcomb;
 }
 );
-width = 726;
+width = 714;
 },
 {
 background = {

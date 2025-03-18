@@ -1,12 +1,12 @@
 {
-color = 0;
+color = 3;
 glyphname = "brevecomb-cy";
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (174,530);
+pos = (231,530);
 }
 );
 background = {
@@ -28,7 +28,7 @@ width = 348;
 anchors = (
 {
 name = _top;
-pos = (201,540);
+pos = (258,540);
 }
 );
 background = {
@@ -52,7 +52,7 @@ width = 400;
 anchors = (
 {
 name = _top;
-pos = (187,530);
+pos = (240,530);
 }
 );
 background = {

@@ -7,53 +7,53 @@ layers = (
 {
 guides = (
 {
-pos = (344,413);
+pos = (318,413);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (46,0);
+pos = (20,0);
 ref = period.ss08;
 },
 {
-pos = (134,413);
+pos = (108,413);
 ref = period.ss08;
 }
 );
-width = 260;
+width = 188;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (36,0);
+pos = (20,0);
 ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (108,337);
+pos = (92,337);
 ref = period.ss08;
 }
 );
-width = 345;
+width = 289;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (49,0);
+pos = (21,0);
 ref = period.ss08;
 },
 {
 alignment = -1;
-pos = (132,395);
+pos = (104,395);
 ref = period.ss08;
 }
 );
-width = 313;
+width = 229;
 }
 );
 metricLeft = colon;

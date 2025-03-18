@@ -17,7 +17,7 @@ alignment = -1;
 ref = guilsinglright;
 }
 );
-width = 501;
+width = 521;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -32,7 +32,7 @@ alignment = -1;
 ref = guilsinglright;
 }
 );
-width = 722;
+width = 738;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -47,10 +47,10 @@ alignment = -1;
 ref = guilsinglright;
 }
 );
-width = 535;
+width = 547;
 }
 );
-metricLeft = guilsinglright;
-metricRight = guilsinglright;
+metricLeft = hyphen;
+metricRight = hyphen;
 unicode = 187;
 }

@@ -16,7 +16,7 @@ pos = (-1,-6);
 ref = comma;
 }
 );
-width = 272;
+width = 252;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -32,7 +32,7 @@ pos = (-2,-8);
 ref = comma;
 }
 );
-width = 509;
+width = 485;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -47,7 +47,7 @@ alignment = -1;
 ref = comma;
 }
 );
-width = 366;
+width = 338;
 }
 );
 metricLeft = period;

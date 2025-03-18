@@ -72,48 +72,48 @@ width = 223;
 anchors = (
 {
 name = bottom;
-pos = (109,0);
+pos = (103,0);
 },
 {
 name = center;
-pos = (189,380);
+pos = (183,380);
 },
 {
 name = top;
-pos = (259,710);
+pos = (253,710);
 },
 {
 name = topright;
-pos = (328,530);
+pos = (322,530);
 }
 );
 background = {
 anchors = (
 {
 name = bottom;
-pos = (109,0);
+pos = (103,0);
 },
 {
 name = center;
-pos = (189,380);
+pos = (183,380);
 },
 {
 name = top;
-pos = (259,710);
+pos = (253,710);
 },
 {
 name = topright;
-pos = (328,530);
+pos = (322,530);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(206,0,l),
-(356,710,l),
-(162,710,l),
-(12,0,l)
+(200,0,l),
+(350,710,l),
+(156,710,l),
+(6,0,l)
 );
 }
 );
@@ -123,14 +123,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(206,0,l),
-(356,710,l),
-(162,710,l),
-(12,0,l)
+(200,0,l),
+(350,710,l),
+(156,710,l),
+(6,0,l)
 );
 }
 );
-width = 331;
+width = 319;
 },
 {
 anchors = (

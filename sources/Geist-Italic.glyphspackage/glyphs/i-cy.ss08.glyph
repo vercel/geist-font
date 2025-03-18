@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = "i-cy.ss08";
 kernLeft = b;
 kernRight = d;
@@ -28,7 +29,7 @@ shapes = (
 ref = i.ss08;
 }
 );
-width = 310;
+width = 306;
 }
 );
 }

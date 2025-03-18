@@ -64,40 +64,40 @@ width = 225;
 anchors = (
 {
 name = bottom;
-pos = (110,0);
+pos = (104,0);
 },
 {
 name = ogonek;
-pos = (208,0);
+pos = (202,0);
 },
 {
 name = top;
-pos = (260,710);
+pos = (254,710);
 }
 );
 background = {
 anchors = (
 {
 name = bottom;
-pos = (110,0);
+pos = (104,0);
 },
 {
 name = ogonek;
-pos = (208,0);
+pos = (202,0);
 },
 {
 name = top;
-pos = (260,710);
+pos = (254,710);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(208,0,l),
-(358,710,l),
-(162,710,l),
-(12,0,l)
+(202,0,l),
+(352,710,l),
+(156,710,l),
+(6,0,l)
 );
 }
 );
@@ -107,14 +107,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(208,0,l),
-(358,710,l),
-(162,710,l),
-(12,0,l)
+(202,0,l),
+(352,710,l),
+(156,710,l),
+(6,0,l)
 );
 }
 );
-width = 333;
+width = 321;
 },
 {
 anchors = (

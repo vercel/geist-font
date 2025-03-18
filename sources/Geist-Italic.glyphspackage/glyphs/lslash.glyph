@@ -10,7 +10,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (-27,-46);
+pos = (-37,-46);
 ref = slashshortcomb;
 }
 );
@@ -23,11 +23,11 @@ shapes = (
 ref = l;
 },
 {
-pos = (-41,-17);
+pos = (-56,-17);
 ref = slashshortcomb;
 }
 );
-width = 346;
+width = 344;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,7 +36,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (-30,16);
+pos = (-29,16);
 ref = slashshortcomb;
 }
 );

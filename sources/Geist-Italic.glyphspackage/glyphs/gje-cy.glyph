@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 3;
 glyphname = "gje-cy";
 kernLeft = n;
 kernRight = r;
@@ -11,7 +11,7 @@ shapes = (
 ref = "ge-cy";
 },
 {
-pos = (131,0);
+pos = (187,0);
 ref = acutecomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = "ge-cy";
 },
 {
-pos = (93,0);
+pos = (150,0);
 ref = acutecomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = "ge-cy";
 },
 {
-pos = (127,0);
+pos = (183,0);
 ref = acutecomb;
 }
 );

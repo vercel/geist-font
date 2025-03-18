@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 3;
 glyphname = "imacron-cy";
 kernLeft = n;
 kernRight = u;
@@ -11,7 +11,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (41,0);
+pos = (97,0);
 ref = macroncomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (56,0);
+pos = (113,0);
 ref = macroncomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (52,0);
+pos = (108,0);
 ref = macroncomb;
 }
 );

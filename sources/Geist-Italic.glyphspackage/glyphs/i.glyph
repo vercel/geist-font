@@ -46,11 +46,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (22,0);
+pos = (20,0);
 ref = dotaccentcomb;
 }
 );
-width = 310;
+width = 306;
 },
 {
 background = {

@@ -55,7 +55,7 @@ nodes = (
 ref = Y;
 }
 );
-width = 530;
+width = 540;
 },
 {
 background = {
@@ -110,7 +110,7 @@ alignment = -1;
 ref = Y;
 }
 );
-width = 658;
+width = 668;
 },
 {
 background = {
@@ -165,10 +165,10 @@ alignment = -1;
 ref = Y;
 }
 );
-width = 568;
+width = 578;
 }
 );
 metricLeft = Y;
-metricRight = Y;
+metricRight = "=Y+10";
 unicode = 165;
 }

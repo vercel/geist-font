@@ -10,7 +10,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (54,180);
+pos = (56,180);
 ref = gravecomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (105,170);
+pos = (107,170);
 ref = gravecomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (87,180);
+pos = (88,180);
 ref = gravecomb;
 }
 );

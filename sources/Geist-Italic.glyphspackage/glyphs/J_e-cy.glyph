@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 3;
 glyphname = "Je-cy";
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = J;
 }
 );
-width = 548;
+width = 538;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -18,7 +18,7 @@ shapes = (
 ref = J;
 }
 );
-width = 654;
+width = 632;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -27,7 +27,7 @@ shapes = (
 ref = J;
 }
 );
-width = 592;
+width = 582;
 }
 );
 unicode = 1032;

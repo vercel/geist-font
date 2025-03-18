@@ -7,7 +7,7 @@ background = {
 shapes = (
 {
 alignment = 1;
-pos = (585,0);
+pos = (565,0);
 ref = braceleft;
 scale = (-1,1);
 }
@@ -18,18 +18,18 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (412,637);
+pos = (392,637);
 ref = braceleft;
 }
 );
-width = 389;
+width = 369;
 },
 {
 background = {
 shapes = (
 {
 alignment = 1;
-pos = (667,0);
+pos = (655,0);
 ref = braceleft;
 scale = (-1,1);
 }
@@ -40,18 +40,18 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (462,632);
+pos = (450,632);
 ref = braceleft;
 }
 );
-width = 434;
+width = 430;
 },
 {
 background = {
 shapes = (
 {
 alignment = 1;
-pos = (647,0);
+pos = (628,0);
 ref = braceleft;
 scale = (-1,1);
 }
@@ -62,14 +62,14 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (441,637);
+pos = (422,637);
 ref = braceleft;
 }
 );
-width = 418;
+width = 400;
 }
 );
-metricLeft = o;
-metricRight = o;
+metricLeft = "=|braceleft";
+metricRight = "=|braceleft";
 unicode = 125;
 }

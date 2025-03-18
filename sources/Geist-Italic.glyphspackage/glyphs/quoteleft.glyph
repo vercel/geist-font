@@ -7,14 +7,14 @@ layers = (
 {
 guides = (
 {
-pos = (204,446);
+pos = (194,446);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 angle = 180;
-pos = (177,601);
+pos = (167,601);
 ref = comma;
 }
 );
@@ -26,11 +26,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (274,566);
+pos = (252,566);
 ref = comma;
 }
 );
-width = 276;
+width = 256;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -38,14 +38,14 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (211,570);
+pos = (192,570);
 ref = comma;
 }
 );
-width = 203;
+width = 193;
 }
 );
-metricLeft = O;
-metricRight = O;
+metricLeft = quotesingle;
+metricRight = quotesingle;
 unicode = 8216;
 }

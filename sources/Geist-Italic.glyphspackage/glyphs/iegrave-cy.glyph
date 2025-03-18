@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = "iegrave-cy";
 kernLeft = o;
 kernRight = o;
@@ -23,7 +24,7 @@ shapes = (
 ref = "ie-cy";
 },
 {
-pos = (133,-2);
+pos = (129,0);
 ref = gravecomb;
 }
 );
@@ -36,7 +37,7 @@ shapes = (
 ref = "ie-cy";
 },
 {
-pos = (120,-2);
+pos = (113,0);
 ref = gravecomb;
 }
 );

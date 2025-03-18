@@ -25,11 +25,11 @@ ref = I;
 },
 {
 anchor = ogonek;
-pos = (19,0);
+pos = (13,0);
 ref = ogonekcomb;
 }
 );
-width = 333;
+width = 321;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

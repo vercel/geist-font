@@ -23,11 +23,11 @@ shapes = (
 ref = n;
 },
 {
-pos = (102,0);
+pos = (100,0);
 ref = tildecomb;
 }
 );
-width = 632;
+width = 630;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

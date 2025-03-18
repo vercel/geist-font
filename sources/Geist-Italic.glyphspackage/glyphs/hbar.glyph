@@ -23,11 +23,11 @@ shapes = (
 ref = h;
 },
 {
-pos = (-50,315);
+pos = (-52,315);
 ref = strokeshortcomb;
 }
 );
-width = 633;
+width = 631;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

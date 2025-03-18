@@ -10,7 +10,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (201,180);
+pos = (203,180);
 ref = gravecomb;
 }
 );
@@ -23,11 +23,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (186,170);
+pos = (182,170);
 ref = gravecomb;
 }
 );
-width = 641;
+width = 635;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,7 +36,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (191,180);
+pos = (192,180);
 ref = gravecomb;
 }
 );

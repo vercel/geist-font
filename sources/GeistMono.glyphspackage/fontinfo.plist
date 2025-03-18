@@ -1,5 +1,5 @@
 {
-.appVersion = "3324";
+.appVersion = "3337";
 .formatVersion = 3;
 axes = (
 {
@@ -1414,10 +1414,31 @@ code = "sub zero by zero.ss09;
 labels = (
 {
 language = dflt;
-value = "Slashed zero";
+value = "Non-slashed zero";
 }
 );
 tag = ss09;
+},
+{
+code = "sub parenleft by parenleft.alt;
+sub parenright by parenright.alt;
+sub bracketleft by bracketleft.alt;
+sub bracketright by bracketright.alt;
+sub guillemetleft by guillemetleft.alt;
+sub guillemetright by guillemetright.alt;
+sub less by less.alt;
+sub greater by greater.alt;
+
+sub less.alt less.alt by guillemetleft.alt;
+sub greater.alt greater.alt by guillemetright.alt;
+";
+labels = (
+{
+language = dflt;
+value = "Alternative enclosing shapes";
+}
+);
+tag = ss10;
 }
 );
 fontMaster = (

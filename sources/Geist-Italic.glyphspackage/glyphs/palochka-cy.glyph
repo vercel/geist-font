@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 3;
 glyphname = "palochka-cy";
 kernLeft = b;
 kernRight = d;
@@ -20,7 +20,7 @@ shapes = (
 ref = l.ss03;
 }
 );
-width = 331;
+width = 319;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

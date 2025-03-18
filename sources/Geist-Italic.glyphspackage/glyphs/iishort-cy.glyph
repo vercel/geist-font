@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = "iishort-cy";
 kernLeft = n;
 kernRight = u;
@@ -10,7 +11,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (41,0);
+pos = (97,0);
 ref = brevecomb;
 }
 );

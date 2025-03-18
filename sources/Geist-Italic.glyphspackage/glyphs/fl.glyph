@@ -35,11 +35,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (376,0);
+pos = (372,0);
 ref = l;
 }
 );
-width = 644;
+width = 640;
 },
 {
 anchors = (
@@ -54,11 +54,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (471,0);
+pos = (463,0);
 ref = l;
 }
 );
-width = 817;
+width = 807;
 }
 );
 metricLeft = f;

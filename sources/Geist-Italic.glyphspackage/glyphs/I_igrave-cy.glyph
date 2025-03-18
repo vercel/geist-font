@@ -1,52 +1,45 @@
 {
+color = 3;
 glyphname = "Iigrave-cy";
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (591,0);
-ref = N;
-scale = (-1,1);
+ref = "Ii-cy";
 },
 {
-pos = (-56,180);
+pos = (252,180);
 ref = gravecomb;
 }
 );
-width = 704;
+width = 712;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-pos = (738,0);
-ref = N;
-scale = (-1,1);
+ref = "Ii-cy";
 },
 {
-pos = (40,180);
+pos = (232,180);
 ref = gravecomb;
 }
 );
-width = 738;
+width = 744;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-pos = (755,0);
-ref = N;
-scale = (-1,1);
+ref = "Ii-cy";
 },
 {
-pos = (42,170);
+pos = (234,170);
 ref = gravecomb;
 }
 );
-width = 755;
+width = 756;
 }
 );
 unicode = 1037;
