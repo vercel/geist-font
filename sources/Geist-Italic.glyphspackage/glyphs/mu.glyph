@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = micro;
+glyphname = mu;
 layers = (
 {
 background = {
@@ -219,5 +219,5 @@ width = 576;
 );
 metricLeft = n;
 metricRight = n;
-unicode = (181,956);
+unicode = (956,181);
 }

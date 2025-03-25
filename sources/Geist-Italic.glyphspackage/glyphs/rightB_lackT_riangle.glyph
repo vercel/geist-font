@@ -8,9 +8,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(901,356,l),
-(191,712,l),
-(191,-1,l)
+(847,356,l),
+(137,712,l),
+(137,-1,l)
 );
 }
 );
@@ -19,7 +19,7 @@ assembly = "PUSHB[ ]	/* 4 values pushed */
 2 1 1 50 
 CALL[ ]	/* CallFunction */";
 };
-width = 906;
+width = 870;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -27,13 +27,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(866,356,l),
-(156,712,l),
-(156,-1,l)
+(846,356,l),
+(136,712,l),
+(136,-1,l)
 );
 }
 );
-width = 866;
+width = 870;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -41,9 +41,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(897,356,l),
-(187,712,l),
-(187,-1,l)
+(847,356,l),
+(137,712,l),
+(137,-1,l)
 );
 }
 );
@@ -52,11 +52,10 @@ assembly = "PUSHB[ ]	/* 4 values pushed */
 2 1 1 50 
 CALL[ ]	/* CallFunction */";
 };
-width = 898;
+width = 870;
 }
 );
-metricLeft = H;
-metricRight = A;
+metricWidth = upBlackTriangle;
 note = uni25B6;
 unicode = 9654;
 }

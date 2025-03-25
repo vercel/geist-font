@@ -11,17 +11,17 @@ fillColor = (0,255);
 };
 closed = 1;
 nodes = (
-(787,0,l),
-(377,710,l),
-(-32,0,l)
+(802,0,l),
+(392,710,l),
+(-17,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(378,650,l),
-(734,30,l),
-(21,30,l)
+(393,650,l),
+(749,30,l),
+(36,30,l)
 );
 }
 );
@@ -30,7 +30,7 @@ assembly = "NPUSHB[ ]	/* 25 values pushed */
 2 1 1 74 0 1 0 0 1 87 0 1 1 0 95 0 0 1 0 79 19 16 2 6 24 
 CALL[ ]	/* CallFunction */";
 };
-width = 867;
+width = 870;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -41,21 +41,21 @@ fillColor = (0,255);
 };
 closed = 1;
 nodes = (
-(780,0,l),
-(370,710,l),
-(-39,0,l)
+(801,0,l),
+(391,710,l),
+(-18,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(369,474,l),
-(546,153,l),
-(195,153,l)
+(390,474,l),
+(567,153,l),
+(216,153,l)
 );
 }
 );
-width = 855;
+width = 870;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -66,17 +66,17 @@ fillColor = (0,255);
 };
 closed = 1;
 nodes = (
-(783,0,l),
-(373,710,l),
-(-36,0,l)
+(802,0,l),
+(392,710,l),
+(-17,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(373,554,l),
-(647,78,l),
-(101,78,l)
+(392,554,l),
+(666,78,l),
+(120,78,l)
 );
 }
 );
@@ -85,11 +85,11 @@ assembly = "NPUSHB[ ]	/* 25 values pushed */
 2 1 1 74 0 1 0 0 1 87 0 1 1 0 95 0 0 1 0 79 19 16 2 6 24 
 CALL[ ]	/* CallFunction */";
 };
-width = 859;
+width = 870;
 }
 );
-metricLeft = A;
-metricRight = A;
+metricLeft = upBlackTriangle;
+metricWidth = upBlackTriangle;
 note = uni25B3;
 unicode = 9651;
 }

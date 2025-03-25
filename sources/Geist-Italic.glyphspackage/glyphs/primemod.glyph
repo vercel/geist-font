@@ -1,5 +1,4 @@
 {
-color = 7;
 glyphname = primemod;
 layers = (
 {
@@ -34,7 +33,7 @@ alignment = -1;
 ref = minute;
 }
 );
-width = 267.37089;
+width = 267;
 },
 {
 background = {
@@ -52,7 +51,7 @@ alignment = -1;
 ref = minute;
 }
 );
-width = 250.46667;
+width = 250;
 }
 );
 unicode = 697;

@@ -1,5 +1,6 @@
 {
 color = 0;
+export = 0;
 glyphname = eulerconstant;
 kernLeft = eight;
 kernRight = C;
