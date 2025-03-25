@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = bracketleft.alt2.white;
+glyphname = braceleft.alt.white;
 layers = (
 {
 background = {

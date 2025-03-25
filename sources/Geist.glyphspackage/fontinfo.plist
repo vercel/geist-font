@@ -133,8 +133,11 @@ feature ss08;
 feature ss09;
 feature ss10;
 
-sub bracketleft from [bracketleft.alt bracketleft.alt.white bracketleft.alt2 bracketleft.alt2.white];
-sub bracketright from [bracketright.alt bracketright.alt.white bracketright.alt2 bracketright.alt2.white];";
+sub bracketleft from [bracketleft.alt bracketleft.alt.white];
+sub bracketright from [bracketright.alt bracketright.alt.white];
+sub braceleft from [braceleft.alt braceleft.alt.white];
+sub braceright from [braceright.alt braceright.alt.white];
+";
 tag = aalt;
 },
 {
@@ -607,6 +610,8 @@ code = "sub parenleft by parenleft.alt;
 sub parenright by parenright.alt;
 sub bracketleft by bracketleft.alt;
 sub bracketright by bracketright.alt;
+sub braceleft by braceleft.alt;
+sub braceright by braceright.alt;
 sub guillemetleft by guillemetleft.alt;
 sub guillemetright by guillemetright.alt;
 sub less by less.alt;

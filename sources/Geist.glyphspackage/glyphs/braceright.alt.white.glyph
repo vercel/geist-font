@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = bracketright.alt2.white;
+glyphname = braceright.alt.white;
 layers = (
 {
 background = {
@@ -8,7 +8,7 @@ shapes = (
 {
 angle = 180;
 pos = (403,723);
-ref = bracketleft.alt2.white;
+ref = braceleft.alt.white;
 }
 );
 };
@@ -17,7 +17,7 @@ shapes = (
 {
 angle = 180;
 pos = (403,723);
-ref = bracketleft.alt2.white;
+ref = braceleft.alt.white;
 }
 );
 width = 403;
@@ -29,7 +29,7 @@ shapes = (
 alignment = -1;
 angle = 180;
 pos = (368,733);
-ref = bracketleft.alt2.white;
+ref = braceleft.alt.white;
 }
 );
 };
@@ -39,7 +39,7 @@ shapes = (
 alignment = -1;
 angle = 180;
 pos = (367,733);
-ref = bracketleft.alt2.white;
+ref = braceleft.alt.white;
 }
 );
 width = 367;
@@ -51,7 +51,7 @@ shapes = (
 alignment = -1;
 angle = 180;
 pos = (394,723);
-ref = bracketleft.alt2.white;
+ref = braceleft.alt.white;
 }
 );
 };
@@ -61,7 +61,7 @@ shapes = (
 alignment = -1;
 angle = 180;
 pos = (391,723);
-ref = bracketleft.alt2.white;
+ref = braceleft.alt.white;
 }
 );
 width = 391;

@@ -1,31 +1,26 @@
 {
 color = 4;
-glyphname = bracketright.alt2;
+glyphname = braceright.alt.white;
 layers = (
 {
 background = {
 shapes = (
 {
 angle = 180;
-pos = (381,722);
-ref = bracketleft.alt2;
+pos = (478,723);
+ref = braceleft.alt.white;
 }
 );
 };
-guides = (
-{
-pos = (144,-105);
-}
-);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 angle = 180;
-pos = (381,722);
-ref = bracketleft.alt2;
+pos = (478,723);
+ref = braceleft.alt.white;
 }
 );
-width = 381;
+width = 437;
 },
 {
 background = {
@@ -33,8 +28,8 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (375,723);
-ref = bracketleft.alt2;
+pos = (443,733);
+ref = braceleft.alt.white;
 }
 );
 };
@@ -43,11 +38,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (374,723);
-ref = bracketleft.alt2;
+pos = (442,733);
+ref = braceleft.alt.white;
 }
 );
-width = 374;
+width = 401;
 },
 {
 background = {
@@ -55,8 +50,8 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (393,723);
-ref = bracketleft.alt2;
+pos = (469,723);
+ref = braceleft.alt.white;
 }
 );
 };
@@ -65,11 +60,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (390,723);
-ref = bracketleft.alt2;
+pos = (466,723);
+ref = braceleft.alt.white;
 }
 );
-width = 390;
+width = 425;
 }
 );
 metricLeft = o;
