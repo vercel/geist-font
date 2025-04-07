@@ -1,0 +1,150 @@
+{
+color = 4;
+glyphname = upArrow.ss07;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(127,18,l),
+(207,18,l),
+(207,623,l),
+(127,623,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-80,398,l),
+(-143,500,l),
+(477,499,l),
+(414,397,l),
+(167,694,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(265,694,l),
+(108,540,l),
+(355,539,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(137,18,l),
+(269,638,l),
+(237,638,l),
+(105,18,l)
+);
+}
+);
+width = 347;
+},
+{
+associatedMasterId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(295,18,l),
+(375,18,l),
+(375,623,l),
+(295,623,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(88,398,l),
+(25,500,l),
+(645,499,l),
+(582,397,l),
+(335,694,l)
+);
+}
+);
+};
+layerId = "E8295BEC-29C5-47AD-AFAD-EDFD642D482F";
+name = "3 de abr. de 23 12:07";
+shapes = (
+{
+closed = 1;
+nodes = (
+(319,18,l),
+(351,18,l),
+(351,658,l),
+(319,658,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(98,398,l),
+(25,540,l),
+(645,539,l),
+(572,397,l),
+(335,694,l)
+);
+}
+);
+width = 670;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(358,694,l),
+(72,421,l),
+(528,420,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(308,18,l),
+(412,506,l),
+(224,506,l),
+(120,18,l)
+);
+}
+);
+width = 536;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(297,694,l),
+(95,501,l),
+(416,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(194,18,l),
+(317,594,l),
+(235,594,l),
+(112,18,l)
+);
+}
+);
+width = 411;
+}
+);
+metricLeft = O;
+metricRight = O;
+}

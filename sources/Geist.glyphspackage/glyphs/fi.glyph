@@ -16,15 +16,15 @@ shapes = (
 ref = f;
 },
 {
-pos = (358,0);
+pos = (348,0);
 ref = idotless;
 },
 {
-pos = (391,0);
+pos = (381,0);
 ref = dotaccentcomb;
 }
 );
-width = 558;
+width = 548;
 },
 {
 anchors = (
@@ -39,15 +39,15 @@ shapes = (
 ref = f;
 },
 {
-pos = (379,0);
+pos = (355,0);
 ref = idotless;
 },
 {
-pos = (413,0);
+pos = (389,0);
 ref = dotaccentcomb;
 }
 );
-width = 623;
+width = 599;
 },
 {
 anchors = (
@@ -62,15 +62,15 @@ shapes = (
 ref = f;
 },
 {
-pos = (471,0);
+pos = (465,0);
 ref = idotless;
 },
 {
-pos = (492,0);
+pos = (486,0);
 ref = dotaccentcomb;
 }
 );
-width = 777;
+width = 771;
 }
 );
 metricLeft = f;

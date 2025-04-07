@@ -1,0 +1,54 @@
+{
+color = 3;
+glyphname = "Schwa-cy";
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (447,710);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = Schwa;
+}
+);
+width = 704;
+},
+{
+anchors = (
+{
+name = top;
+pos = (486,710);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = Schwa;
+}
+);
+width = 784;
+},
+{
+anchors = (
+{
+name = top;
+pos = (452,710);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = Schwa;
+}
+);
+width = 714;
+}
+);
+unicode = 1240;
+}

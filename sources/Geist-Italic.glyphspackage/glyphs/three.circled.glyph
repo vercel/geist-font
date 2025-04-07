@@ -1,0 +1,88 @@
+{
+color = 4;
+glyphname = three.circled;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (235,-163);
+ref = threesuperior;
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+64 1 6 7 1 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+26 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 66 values pushed */
+0 9 8 7 8 9 114 0 4 6 5 5 4 114 0 0 0 2 10 0 2 105 0 10 0 8 9 10 8 105 0 7 0 6 4 7 6 105 0 5 14 1 11 3 5 11 106 13 1 3 1 1 3 89 13 1 3 3 1 97 12 1 1 3 1 81 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 68 values pushed */
+0 9 8 7 8 9 7 128 0 4 6 5 6 4 5 128 0 0 0 2 10 0 2 105 0 10 0 8 9 10 8 105 0 7 0 6 4 7 6 105 0 5 14 1 11 3 5 11 106 13 1 3 1 1 3 89 13 1 3 3 1 97 12 1 1 3 1 81 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 38 values pushed */
+32 32 16 16 0 0 32 70 32 69 59 57 55 54 53 51 47 45 44 42 39 37 35 34 16 31 16 30 24 22 0 15 0 14 38 15 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 843;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (211,-163);
+ref = threesuperior;
+}
+);
+width = 857;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (230,-163);
+ref = threesuperior;
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+64 1 6 7 1 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+26 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 66 values pushed */
+0 9 8 7 8 9 114 0 4 6 5 5 4 114 0 0 0 2 10 0 2 105 0 10 0 8 9 10 8 105 0 7 0 6 4 7 6 105 0 5 14 1 11 3 5 11 106 13 1 3 1 1 3 89 13 1 3 3 1 97 12 1 1 3 1 81 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 68 values pushed */
+0 9 8 7 8 9 7 128 0 4 6 5 6 4 5 128 0 0 0 2 10 0 2 105 0 10 0 8 9 10 8 105 0 7 0 6 4 7 6 105 0 5 14 1 11 3 5 11 106 13 1 3 1 1 3 89 13 1 3 3 1 97 12 1 1 3 1 81 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 38 values pushed */
+32 32 16 16 0 0 32 70 32 69 59 57 55 54 53 51 47 45 44 42 39 37 35 34 16 31 16 30 24 22 0 15 0 14 38 15 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 835;
+}
+);
+metricLeft = o;
+metricRight = o;
+note = uni2462;
+unicode = 9314;
+}

@@ -1,0 +1,81 @@
+{
+color = 3;
+glyphname = "obarred-cy";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (325,530);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(474,250,l),
+(480,280,l),
+(63,280,l),
+(57,250,l)
+);
+},
+{
+ref = o;
+}
+);
+width = 538;
+},
+{
+anchors = (
+{
+name = top;
+pos = (371,540);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(505,202,l),
+(533,338,l),
+(146,338,l),
+(118,202,l)
+);
+},
+{
+ref = o;
+}
+);
+width = 628;
+},
+{
+anchors = (
+{
+name = top;
+pos = (329,530);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(465,228,l),
+(481,302,l),
+(94,302,l),
+(78,228,l)
+);
+},
+{
+ref = o;
+}
+);
+width = 546;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 1257;
+}

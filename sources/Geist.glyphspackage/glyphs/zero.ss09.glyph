@@ -1,8 +1,8 @@
 {
 color = 4;
 glyphname = zero.ss09;
-kernLeft = O;
-kernRight = O;
+kernLeft = zero;
+kernRight = zero;
 layers = (
 {
 background = {
@@ -58,7 +58,7 @@ nodes = (
 ref = zero;
 }
 );
-width = 638;
+width = 648;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -77,7 +77,7 @@ alignment = -1;
 ref = zero;
 }
 );
-width = 723;
+width = 713;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -99,6 +99,6 @@ ref = zero;
 width = 663;
 }
 );
-metricLeft = "=O+5";
-metricRight = "=O+5";
+metricLeft = zero;
+metricRight = zero;
 }

@@ -1,0 +1,77 @@
+{
+color = 4;
+glyphname = northWestArrow.ss07;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(328,648,l),
+(136,670,l),
+(117,473,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(170,656,l),
+(143,633,l),
+(499,180,l),
+(526,203,l)
+);
+}
+);
+width = 589;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(475,652,l),
+(128,684,l),
+(85,329,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(285,652,l),
+(124,520,l),
+(424,139,l),
+(585,272,l)
+);
+}
+);
+width = 625;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(379,656,l),
+(133,679,l),
+(104,428,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(207,658,l),
+(137,600,l),
+(474,172,l),
+(545,230,l)
+);
+}
+);
+width = 597;
+}
+);
+metricLeft = O;
+metricRight = O;
+}

@@ -29,7 +29,7 @@ shapes = (
 ref = s;
 }
 );
-width = 524;
+width = 520;
 }
 );
 unicode = 1109;

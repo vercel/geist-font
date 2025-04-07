@@ -1,0 +1,77 @@
+{
+color = 4;
+glyphname = southWestArrow.ss07;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(574,427,l),
+(556,450,l),
+(7,-3,l),
+(25,-26,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(187,-17,l),
+(48,157,l),
+(-15,-40,l)
+);
+}
+);
+width = 590;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(608,387,l),
+(504,520,l),
+(42,139,l),
+(147,6,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(338,8,l),
+(84,329,l),
+(-23,-25,l)
+);
+}
+);
+width = 623;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(585,418,l),
+(539,476,l),
+(20,48,l),
+(65,-10,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(238,-7,l),
+(58,220,l),
+(-18,-31,l)
+);
+}
+);
+width = 597;
+}
+);
+metricLeft = O;
+metricRight = O;
+}

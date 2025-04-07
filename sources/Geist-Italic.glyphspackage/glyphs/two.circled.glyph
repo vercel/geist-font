@@ -1,0 +1,84 @@
+{
+color = 4;
+glyphname = two.circled;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (227,-163);
+ref = twosuperior;
+}
+);
+userData = {
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+24 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 51 values pushed */
+0 5 4 7 4 5 114 0 0 0 2 6 0 2 105 0 6 0 4 5 6 4 105 0 7 11 1 8 3 7 8 103 10 1 3 1 1 3 89 10 1 3 3 1 97 9 1 1 3 1 81 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 52 values pushed */
+0 5 4 7 4 5 7 128 0 0 0 2 6 0 2 105 0 6 0 4 5 6 4 105 0 7 11 1 8 3 7 8 103 10 1 3 1 1 3 89 10 1 3 3 1 97 9 1 1 3 1 81 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 32 values pushed */
+32 32 16 16 0 0 32 58 32 58 57 56 49 47 45 44 42 40 16 31 16 30 24 22 0 15 0 14 38 12 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 843;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (209,-163);
+ref = twosuperior;
+}
+);
+width = 857;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (219,-163);
+ref = twosuperior;
+}
+);
+userData = {
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+24 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 51 values pushed */
+0 5 4 7 4 5 114 0 0 0 2 6 0 2 105 0 6 0 4 5 6 4 105 0 7 11 1 8 3 7 8 103 10 1 3 1 1 3 89 10 1 3 3 1 97 9 1 1 3 1 81 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 52 values pushed */
+0 5 4 7 4 5 7 128 0 0 0 2 6 0 2 105 0 6 0 4 5 6 4 105 0 7 11 1 8 3 7 8 103 10 1 3 1 1 3 89 10 1 3 3 1 97 9 1 1 3 1 81 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 32 values pushed */
+32 32 16 16 0 0 32 58 32 58 57 56 49 47 45 44 42 40 16 31 16 30 24 22 0 15 0 14 38 12 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 835;
+}
+);
+metricLeft = o;
+metricRight = o;
+note = uni2461;
+unicode = 9313;
+}

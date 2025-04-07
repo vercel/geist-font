@@ -1,0 +1,179 @@
+{
+color = 4;
+glyphname = circumflexcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (204,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (234,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(172,609,l),
+(242,707,l),
+(226,707,l),
+(297,609,l),
+(333,609,l),
+(246,729,l),
+(222,729,l),
+(136,609,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(153,610,l),
+(251,716,l),
+(241,716,l),
+(295,610,l),
+(321,610,l),
+(259,734,l),
+(237,734,l),
+(123,610,l)
+);
+}
+);
+width = 298;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (285,530);
+}
+);
+associatedMasterId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+layerId = "880EDF1A-A22E-45B2-86F6-42CFEB2ABF9B";
+name = "30 de ene. de 23 17:09";
+shapes = (
+{
+closed = 1;
+nodes = (
+(411,609,l),
+(337,720,l),
+(232,720,l),
+(160,609,l),
+(237,609,l),
+(285,687,l),
+(333,609,l)
+);
+}
+);
+width = 565;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (278,540);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (307,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(246,609,l),
+(316,707,l),
+(298,707,l),
+(368,609,l),
+(496,609,l),
+(409,729,l),
+(204,729,l),
+(118,609,l)
+);
+}
+);
+};
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(229,587,l),
+(334,703,l),
+(296,703,l),
+(351,587,l),
+(477,587,l),
+(413,753,l),
+(235,753,l),
+(99,587,l)
+);
+}
+);
+width = 442;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (237,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (270,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(209,609,l),
+(279,707,l),
+(261,707,l),
+(331,609,l),
+(407,609,l),
+(320,729,l),
+(218,729,l),
+(132,609,l)
+);
+}
+);
+};
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,598,l),
+(283,698,l),
+(267,698,l),
+(321,598,l),
+(389,598,l),
+(327,731,l),
+(233,731,l),
+(115,598,l)
+);
+}
+);
+width = 362;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 770;
+}

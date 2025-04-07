@@ -1,0 +1,62 @@
+{
+color = 4;
+glyphname = eight.circled;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (226,-163);
+ref = eightsuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 103 values pushed */
+49 37 2 8 7 1 76 0 0 0 2 4 0 2 105 0 4 0 6 7 4 6 105 13 1 7 0 8 9 7 8 105 14 1 9 12 1 5 3 9 5 105 11 1 3 1 1 3 89 11 1 3 3 1 97 10 1 1 3 1 81 68 68 56 56 32 32 16 16 0 0 68 79 68 78 74 72 56 67 56 66 62 60 32 55 32 54 44 42 16 31 16 30 24 22 0 15 0 14 38 15 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 843;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (199,-163);
+ref = eightsuperior;
+}
+);
+width = 857;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (216,-163);
+ref = eightsuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 103 values pushed */
+49 37 2 8 7 1 76 0 0 0 2 4 0 2 105 0 4 0 6 7 4 6 105 13 1 7 0 8 9 7 8 105 14 1 9 12 1 5 3 9 5 105 11 1 3 1 1 3 89 11 1 3 3 1 97 10 1 1 3 1 81 68 68 56 56 32 32 16 16 0 0 68 79 68 78 74 72 56 67 56 66 62 60 32 55 32 54 44 42 16 31 16 30 24 22 0 15 0 14 38 15 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 835;
+}
+);
+metricLeft = o;
+metricRight = o;
+note = uni2467;
+unicode = 9319;
+}

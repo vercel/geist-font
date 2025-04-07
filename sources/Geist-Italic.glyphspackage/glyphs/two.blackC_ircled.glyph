@@ -1,0 +1,69 @@
+{
+color = 4;
+glyphname = two.blackCircled;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = two.circled;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+alignment = -1;
+pos = (227,-163);
+ref = twosuperior;
+},
+{
+ref = blackCircled;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 67 values pushed */
+0 3 2 5 2 3 5 128 0 0 0 4 2 0 4 105 0 2 0 5 6 2 5 103 8 1 6 1 1 6 87 8 1 6 6 1 97 7 1 1 6 1 81 16 16 0 0 16 43 16 43 42 41 33 31 29 28 26 24 0 15 0 14 38 9 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 843;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+pos = (184,-163);
+ref = twosuperior;
+},
+{
+ref = blackCircled;
+}
+);
+width = 807;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+pos = (217,-163);
+ref = twosuperior;
+},
+{
+ref = blackCircled;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 67 values pushed */
+0 3 2 5 2 3 5 128 0 0 0 4 2 0 4 105 0 2 0 5 6 2 5 103 8 1 6 1 1 6 87 8 1 6 6 1 97 7 1 1 6 1 81 16 16 0 0 16 43 16 43 42 41 33 31 29 28 26 24 0 15 0 14 38 9 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 831;
+}
+);
+metricLeft = o;
+metricRight = o;
+note = uni2777;
+unicode = 10103;
+}

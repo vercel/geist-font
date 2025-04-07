@@ -1,0 +1,62 @@
+{
+color = 4;
+glyphname = seven.circled;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (226,-163);
+ref = sevensuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 78 values pushed */
+40 1 4 5 1 76 9 1 6 4 3 4 6 3 128 0 0 0 2 5 0 2 105 0 5 0 4 6 5 4 103 8 1 3 1 1 3 89 8 1 3 3 1 97 7 1 1 3 1 81 32 32 16 16 0 0 32 43 32 43 39 38 37 35 16 31 16 30 24 22 0 15 0 14 38 10 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 843;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (227,-163);
+ref = sevensuperior;
+}
+);
+width = 857;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (228,-163);
+ref = sevensuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 78 values pushed */
+40 1 4 5 1 76 9 1 6 4 3 4 6 3 128 0 0 0 2 5 0 2 105 0 5 0 4 6 5 4 103 8 1 3 1 1 3 89 8 1 3 3 1 97 7 1 1 3 1 81 32 32 16 16 0 0 32 43 32 43 39 38 37 35 16 31 16 30 24 22 0 15 0 14 38 10 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 835;
+}
+);
+metricLeft = o;
+metricRight = o;
+note = uni2466;
+unicode = 9318;
+}

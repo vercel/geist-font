@@ -1,0 +1,63 @@
+{
+color = 4;
+glyphname = ogonek;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = ogonekcomb;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = ogonekcomb;
+}
+);
+width = 235;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (1,0);
+ref = ogonekcomb;
+}
+);
+};
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+ref = ogonekcomb;
+}
+);
+width = 316;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (3,0);
+ref = ogonekcomb;
+}
+);
+};
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+ref = ogonekcomb;
+}
+);
+width = 268;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 731;
+}

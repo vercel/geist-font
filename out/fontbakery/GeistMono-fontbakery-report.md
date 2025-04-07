@@ -1,6 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.12.10
+fontbakery version: 0.13.2
+
+
 
 
 
@@ -10,10 +12,10 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[9] GeistMono[wght].ttf</summary>
+<details><summary>[11] GeistMono[wght].ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-monospace">opentype/monospace</a></summary>
     <div>
 
 
@@ -22,7 +24,7 @@ fontbakery version: 0.12.10
 
 
 
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 833 instead.
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 829 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
  [code: bad-numberOfHMetrics]
 
@@ -32,7 +34,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#alt-caron">alt_caron</a></summary>
     <div>
 
 
@@ -57,7 +59,65 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-avar-table">mandatory_avar_table</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This variable font does not have an avar table. Most variable fonts should include an avar table to correctly define axes progression rates.</p>
+ [code: missing-avar]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* uni041A (U+041A): L&lt;&lt;248.0,355.0&gt;--&lt;137.0,355.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni040C (U+040C): L&lt;&lt;248.0,355.0&gt;--&lt;137.0,355.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni049A (U+049A): L&lt;&lt;238.0,355.0&gt;--&lt;127.0,355.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0436 (U+0436): L&lt;&lt;432.0,265.0&gt;--&lt;336.0,265.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0436 (U+0436): L&lt;&lt;264.0,265.0&gt;--&lt;168.0,265.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni043A (U+043A): L&lt;&lt;283.0,265.0&gt;--&lt;170.0,265.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni045C (U+045C): L&lt;&lt;283.0,265.0&gt;--&lt;170.0,265.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0497 (U+0497): L&lt;&lt;432.0,265.0&gt;--&lt;336.0,265.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0497 (U+0497): L&lt;&lt;264.0,265.0&gt;--&lt;168.0,265.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni049B (U+049B): L&lt;&lt;282.0,265.0&gt;--&lt;169.0,265.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asciitilde_at.liga: L&lt;&lt;-150.0,221.0&gt;--&lt;-150.0,143.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
 
@@ -69,15 +129,19 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- blackCircled
 
-- less_exclam_hyphen_hyphen_hyphen.liga
+- bracketleft.alt.white
 
-- numbersign_underscore.liga
+- bracketleft.alt2
 
-- numbersign_underscore_parenleft.liga
+- bracketleft.alt2.white
 
-- period_period_equal.liga
+- bracketright.alt.white
 
-- slash_equal_equal.liga
+- bracketright.alt2
+
+- bracketright.alt2.white
+
+- hyphen_hyphen_hyphen_greater.liga
 
 - uni0306.cy
 </code></pre>
@@ -89,7 +153,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphnames.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#valid-glyphnames">valid_glyphnames</a></summary>
     <div>
 
 
@@ -99,7 +163,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 * ⚠️ **WARN** <p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-characters length limit:
-asciitilde_asciitilde_greater.liga, hyphen_hyphen_hyphen_greater.liga, less_exclam_hyphen_hyphen_hyphen.liga, numbersign_numbersign_numbersign.liga and numbersign_underscore_parenleft.liga</p>
+asciitilde_asciitilde_greater.liga, hyphen_hyphen_hyphen_greater.liga and numbersign_numbersign_numbersign.liga</p>
  [code: legacy-long-names]
 
 
@@ -108,7 +172,7 @@ asciitilde_asciitilde_greater.liga, hyphen_hyphen_hyphen_greater.liga, less_excl
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -126,7 +190,7 @@ asciitilde_asciitilde_greater.liga, hyphen_hyphen_hyphen_greater.liga, less_excl
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -141,69 +205,67 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02B9 MODIFIER LETTER PRIME: not included in any glyphset definition</li>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
-<li>U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition</li>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, tifinagh, tai-le, old-permic, canadian-aboriginal, coptic, syriac, math</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, old-permic, todhri, coptic, canadian-aboriginal, duployan, tai-le, syriac, math, tifinagh, malayalam</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
-<li>U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
+<li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, elbasan, math</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
-<li>U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition</li>
-<li>U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition</li>
-<li>U+2076 SUPERSCRIPT SIX: not included in any glyphset definition</li>
-<li>U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition</li>
-<li>U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition</li>
-<li>U+2079 SUPERSCRIPT NINE: not included in any glyphset definition</li>
-<li>U+2080 SUBSCRIPT ZERO: not included in any glyphset definition</li>
-<li>U+2081 SUBSCRIPT ONE: not included in any glyphset definition</li>
-<li>U+2082 SUBSCRIPT TWO: not included in any glyphset definition</li>
-<li>U+2083 SUBSCRIPT THREE: not included in any glyphset definition</li>
-<li>U+2084 SUBSCRIPT FOUR: not included in any glyphset definition</li>
-<li>U+2085 SUBSCRIPT FIVE: not included in any glyphset definition</li>
-<li>U+2086 SUBSCRIPT SIX: not included in any glyphset definition</li>
-<li>U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition</li>
-<li>U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition</li>
-<li>U+2089 SUBSCRIPT NINE: not included in any glyphset definition</li>
-<li>U+2107 EULER CONSTANT: not included in any glyphset definition</li>
-<li>U+2117 SOUND RECORDING COPYRIGHT: not included in any glyphset definition</li>
-<li>U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition</li>
-<li>U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition</li>
-<li>U+2155 VULGAR FRACTION ONE FIFTH: not included in any glyphset definition</li>
-<li>U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition</li>
-<li>U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition</li>
-<li>U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition</li>
-<li>U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
+<li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
+<li>U+2075 SUPERSCRIPT FIVE: try adding math</li>
+<li>U+2076 SUPERSCRIPT SIX: try adding math</li>
+<li>U+2077 SUPERSCRIPT SEVEN: try adding math</li>
+<li>U+2078 SUPERSCRIPT EIGHT: try adding math</li>
+<li>U+2079 SUPERSCRIPT NINE: try adding math</li>
+<li>U+2080 SUBSCRIPT ZERO: try adding math</li>
+<li>U+2081 SUBSCRIPT ONE: try adding math</li>
+<li>U+2082 SUBSCRIPT TWO: try adding math</li>
+<li>U+2083 SUBSCRIPT THREE: try adding math</li>
+<li>U+2084 SUBSCRIPT FOUR: try adding math</li>
+<li>U+2085 SUBSCRIPT FIVE: try adding math</li>
+<li>U+2086 SUBSCRIPT SIX: try adding math</li>
+<li>U+2087 SUBSCRIPT SEVEN: try adding math</li>
+<li>U+2088 SUBSCRIPT EIGHT: try adding math</li>
+<li>U+2089 SUBSCRIPT NINE: try adding math</li>
+<li>U+2107 EULER CONSTANT: try adding math</li>
+<li>U+2117 SOUND RECORDING COPYRIGHT: try adding math</li>
+<li>U+2153 VULGAR FRACTION ONE THIRD: try adding symbols</li>
+<li>U+2154 VULGAR FRACTION TWO THIRDS: try adding symbols</li>
+<li>U+2155 VULGAR FRACTION ONE FIFTH: try adding symbols</li>
+<li>U+215B VULGAR FRACTION ONE EIGHTH: try adding symbols</li>
+<li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
+<li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
+<li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
 <li>U+219D RIGHTWARDS WAVE ARROW: try adding math</li>
 <li>U+21A9 LEFTWARDS ARROW WITH HOOK: try adding math</li>
 <li>U+21AA RIGHTWARDS ARROW WITH HOOK: try adding math</li>
@@ -233,33 +295,33 @@ definitions.</p>
 <li>U+240B SYMBOL FOR VERTICAL TABULATION: try adding symbols</li>
 <li>U+240C SYMBOL FOR FORM FEED: try adding symbols</li>
 <li>U+2423 OPEN BOX: try adding symbols</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: mongolian, yi, symbols</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: mongolian, yi, symbols</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: mongolian, yi, symbols</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: mongolian, yi, symbols</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: mongolian, yi, symbols</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: mongolian, yi, symbols</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: mongolian, yi, symbols</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: mongolian, yi, symbols</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: mongolian, yi, symbols</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: yi, symbols, mongolian</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: yi, symbols, mongolian</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: yi, symbols, mongolian</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: yi, symbols, mongolian</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: yi, symbols, mongolian</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: yi, symbols, mongolian</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: yi, symbols, mongolian</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: yi, symbols, mongolian</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: yi, symbols, mongolian</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
-<li>U+2500 BOX DRAWINGS LIGHT HORIZONTAL: not included in any glyphset definition</li>
-<li>U+2502 BOX DRAWINGS LIGHT VERTICAL: not included in any glyphset definition</li>
-<li>U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT: not included in any glyphset definition</li>
-<li>U+2514 BOX DRAWINGS LIGHT UP AND RIGHT: not included in any glyphset definition</li>
-<li>U+251C BOX DRAWINGS LIGHT VERTICAL AND RIGHT: not included in any glyphset definition</li>
+<li>U+2500 BOX DRAWINGS LIGHT HORIZONTAL: try adding symbols2</li>
+<li>U+2502 BOX DRAWINGS LIGHT VERTICAL: try adding symbols2</li>
+<li>U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT: try adding symbols2</li>
+<li>U+2514 BOX DRAWINGS LIGHT UP AND RIGHT: try adding symbols2</li>
+<li>U+251C BOX DRAWINGS LIGHT VERTICAL AND RIGHT: try adding symbols2</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: elbasan, newa, sinhala, nko, khmer, modi, thaana, meetei-mayek, lao, buginese, tai-tham, javanese, masaram-gondi, oriya, mandaic, lepcha, takri, osage, symbols, tirhuta, zanabazar-square, rejang, grantha, khudawadi, music, bengali, tai-viet, kannada, gurmukhi, marchen, balinese, kayah-li, armenian, hebrew, chakma, buhid, telugu, duployan, coptic, syriac, wancho, tagalog, thai, tifinagh, canadian-aboriginal, miao, caucasian-albanian, hanifi-rohingya, adlam, gujarati, limbu, math, syloti-nagri, new-tai-lue, dogra, ahom, kharoshthi, kaithi, khojki, phags-pa, sogdian, batak, siddham, mahajani, sharada, brahmi, pahawh-hmong, hanunoo, malayalam, psalter-pahlavi, yi, warang-citi, bhaiksuki, manichaean, old-permic, soyombo, mongolian, tibetan, saurashtra, tai-le, myanmar, devanagari, sundanese, gunjala-gondi, cham, tagbanwa, tamil, bassa-vah, mende-kikakui</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: buginese, tamil, balinese, caucasian-albanian, tai-viet, wancho, syloti-nagri, tifinagh, tirhuta, old-permic, ahom, coptic, tai-le, cham, thaana, khojki, math, tagbanwa, meetei-mayek, lepcha, oriya, newa, mongolian, tibetan, brahmi, bengali, adlam, saurashtra, takri, phags-pa, telugu, new-tai-lue, rejang, duployan, hanifi-rohingya, grantha, khudawadi, sinhala, armenian, hanunoo, hebrew, limbu, warang-citi, mende-kikakui, soyombo, khmer, bassa-vah, psalter-pahlavi, music, sogdian, thai, chakma, kaithi, javanese, tai-tham, devanagari, nko, syriac, manichaean, masaram-gondi, yi, malayalam, elbasan, mahajani, canadian-aboriginal, tagalog, myanmar, kharoshthi, zanabazar-square, siddham, gurmukhi, bhaiksuki, pahawh-hmong, symbols, sundanese, sharada, kayah-li, osage, kannada, marchen, gujarati, buhid, mandaic, miao, dogra, modi, gunjala-gondi, batak, lao</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
 <li>U+2777 DINGBAT NEGATIVE CIRCLED DIGIT TWO: try adding symbols</li>
@@ -270,21 +332,7 @@ definitions.</p>
 <li>U+277C DINGBAT NEGATIVE CIRCLED DIGIT SEVEN: try adding symbols</li>
 <li>U+277D DINGBAT NEGATIVE CIRCLED DIGIT EIGHT: try adding symbols</li>
 <li>U+277E DINGBAT NEGATIVE CIRCLED DIGIT NINE: try adding symbols</li>
-<li>U+3003 DITTO MARK: try adding one of: yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+3008 LEFT ANGLE BRACKET: try adding one of: yi, chinese-simplified, chinese-traditional, tai-le, chinese-hongkong, phags-pa, japanese</li>
-<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: yi, chinese-simplified, chinese-traditional, tai-le, chinese-hongkong, phags-pa, japanese</li>
-<li>U+300A LEFT DOUBLE ANGLE BRACKET: try adding one of: lisu, mongolian, yi, chinese-simplified, chinese-traditional, tai-le, chinese-hongkong, phags-pa, japanese</li>
-<li>U+300B RIGHT DOUBLE ANGLE BRACKET: try adding one of: lisu, mongolian, yi, chinese-simplified, chinese-traditional, tai-le, chinese-hongkong, phags-pa, japanese</li>
-<li>U+300C LEFT CORNER BRACKET: try adding one of: mongolian, yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+300D RIGHT CORNER BRACKET: try adding one of: mongolian, yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+300E LEFT WHITE CORNER BRACKET: try adding one of: mongolian, yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+300F RIGHT WHITE CORNER BRACKET: try adding one of: mongolian, yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+3010 LEFT BLACK LENTICULAR BRACKET: try adding one of: yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+3011 RIGHT BLACK LENTICULAR BRACKET: try adding one of: yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+3014 LEFT TORTOISE SHELL BRACKET: try adding one of: yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+3015 RIGHT TORTOISE SHELL BRACKET: try adding one of: yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+3016 LEFT WHITE LENTICULAR BRACKET: try adding one of: yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
-<li>U+3017 RIGHT WHITE LENTICULAR BRACKET: try adding one of: yi, chinese-simplified, chinese-traditional, chinese-hongkong, phags-pa, japanese</li>
+<li>U+3003 DITTO MARK: try adding one of: chinese-hongkong, chinese-simplified, japanese, yi, phags-pa, chinese-traditional</li>
 <li>U+301C WAVE DASH: try adding japanese</li>
 <li>U+F8FF : not included in any glyphset definition</li>
 </ul>
@@ -297,7 +345,135 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044B when shaping the text 'ы́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044D when shaping the text 'э́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044E when shaping the text 'ю́'</td>
+<td align="left">ru_Cyrl (Russian) and be_Cyrl (Belarusian)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0454 when shaping the text 'є́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044E when shaping the text 'ю́'</td>
+<td align="left">uk_Cyrl (Ukrainian)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to uni044A when shaping the text 'ъ̀'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to uni044E when shaping the text 'ю̀'</td>
+<td align="left">bg_Cyrl (Bulgarian)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŀ</td>
+<td align="left">ca_Latn (Catalan)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ſ</td>
+<td align="left">de_Latn (German) and fr_Latn (French)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
+<td align="left">en_Latn (English)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ĳ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ĳ</td>
+<td align="left">nl_Latn (Dutch)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
 
@@ -308,8 +484,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ і́</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Koonzime (Latn, 40,000 speakers), Southern Kisi (Latn, 360,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Nateni (Latn, 100,000 speakers), Kom (Latn, 360,685 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ekpeye (Latn, 226,000 speakers), Zapotec (Latn, 490,000 speakers), Basaa (Latn, 332,940 speakers), Ma’di (Latn, 584,000 speakers), Vute (Latn, 21,000 speakers), Gulay (Latn, 250,478 speakers), Avokaya (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Mundani (Latn, 34,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Cicipu (Latn, 44,000 speakers), Makaa (Latn, 221,000 speakers), Fur (Latn, 1,230,163 speakers), Mango (Latn, 77,000 speakers), Aghem (Latn, 38,843 speakers), Mfumte (Latn, 79,000 speakers), Yala (Latn, 200,000 speakers), Dii (Latn, 71,000 speakers), Sar (Latn, 500,000 speakers), Bafut (Latn, 158,146 speakers), Dan (Latn, 1,099,244 speakers), Kpelle, Guinea (Latn, 622,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -318,25 +492,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This variable font does not have an avar table.</p>
- [code: missing-avar]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vendor-id">googlefonts/vendor_id</a></summary>
     <div>
 
 
@@ -362,8 +518,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 0 | 9 | 95 | 9 | 138 | 0 | 
-| 0% | 0% | 0% | 4% | 38% | 4% | 55% | 0% | 
+| 0 | 0 | 0 | 11 | 87 | 8 | 130 | 0 | 
+| 0% | 0% | 0% | 5% | 37% | 3% | 55% | 0% | 
 
 
 

@@ -1,0 +1,59 @@
+{
+color = 3;
+glyphname = "Shha-cy";
+kernLeft = b;
+layers = (
+{
+anchors = (
+{
+name = bottomright;
+pos = (546,0);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+angle = 180;
+pos = (615,710);
+ref = "Che-cy";
+}
+);
+width = 577;
+},
+{
+anchors = (
+{
+name = bottomright;
+pos = (652,0);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+angle = 180;
+pos = (703,710);
+ref = "Che-cy";
+}
+);
+width = 667;
+},
+{
+anchors = (
+{
+name = bottomright;
+pos = (612,0);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+angle = 180;
+pos = (671,710);
+ref = "Che-cy";
+}
+);
+width = 633;
+}
+);
+unicode = 1210;
+}

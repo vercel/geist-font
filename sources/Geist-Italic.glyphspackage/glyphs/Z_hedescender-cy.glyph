@@ -1,0 +1,65 @@
+{
+color = 3;
+glyphname = "Zhedescender-cy";
+kernLeft = X;
+kernRight = X;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(747,-150,l),
+(785,30,l),
+(753,30,l),
+(715,-150,l)
+);
+},
+{
+ref = "Zhe-cy";
+}
+);
+width = 850;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1095,-150,l),
+(1151,110,l),
+(955,110,l),
+(899,-150,l)
+);
+},
+{
+ref = "Zhe-cy";
+}
+);
+width = 1190;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(833,-150,l),
+(879,70,l),
+(793,70,l),
+(747,-150,l)
+);
+},
+{
+ref = "Zhe-cy";
+}
+);
+width = 931;
+}
+);
+metricLeft = "Zhe-cy";
+metricRight = "=X-5";
+unicode = 1174;
+}

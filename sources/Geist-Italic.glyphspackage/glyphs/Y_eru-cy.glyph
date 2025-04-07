@@ -1,0 +1,83 @@
+{
+color = 3;
+glyphname = "Yeru-cy";
+kernLeft = b;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (493,710);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(643,0,l),
+(793,710,l),
+(763,710,l),
+(613,0,l)
+);
+},
+{
+ref = "Softsign-cy";
+}
+);
+width = 795;
+},
+{
+anchors = (
+{
+name = top;
+pos = (588,710);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(868,0,l),
+(1018,710,l),
+(823,710,l),
+(673,0,l)
+);
+},
+{
+ref = "Softsign-cy";
+}
+);
+width = 987;
+},
+{
+anchors = (
+{
+name = top;
+pos = (523,710);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(708,0,l),
+(858,710,l),
+(772,710,l),
+(622,0,l)
+);
+},
+{
+ref = "Softsign-cy";
+}
+);
+width = 856;
+}
+);
+metricLeft = H;
+metricRight = H;
+unicode = 1067;
+}

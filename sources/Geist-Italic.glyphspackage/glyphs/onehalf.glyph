@@ -1,0 +1,58 @@
+{
+color = 4;
+glyphname = onehalf;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (247,0);
+ref = fraction;
+},
+{
+pos = (385,0);
+ref = two.dnom;
+}
+);
+width = 729;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (328,0);
+ref = fraction;
+},
+{
+pos = (487,0);
+ref = two.dnom;
+}
+);
+width = 876;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (283,0);
+ref = fraction;
+},
+{
+pos = (452,0);
+ref = two.dnom;
+}
+);
+width = 802;
+}
+);
+unicode = 189;
+}

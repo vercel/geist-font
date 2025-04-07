@@ -1,0 +1,77 @@
+{
+color = 4;
+glyphname = leftArrow.ss07;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(247,468,l),
+(67,344,l),
+(196,221,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(146,360,l),
+(139,328,l),
+(739,328,l),
+(746,360,l)
+);
+}
+);
+width = 776;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(370,542,l),
+(49,314,l),
+(275,86,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(247,408,l),
+(207,220,l),
+(705,220,l),
+(745,408,l)
+);
+}
+);
+width = 756;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(284,481,l),
+(57,320,l),
+(217,160,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(176,361,l),
+(158,279,l),
+(724,279,l),
+(742,361,l)
+);
+}
+);
+width = 767;
+}
+);
+metricLeft = O;
+metricRight = O;
+}

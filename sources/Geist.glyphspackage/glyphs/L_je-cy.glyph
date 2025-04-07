@@ -12,12 +12,12 @@ ref = "El-cy";
 },
 {
 alignment = -1;
-pos = (480,710);
+pos = (510,710);
 ref = P;
 scale = (1,-1);
 }
 );
-width = 1108;
+width = 1138;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -27,12 +27,12 @@ ref = "El-cy";
 },
 {
 alignment = -1;
-pos = (442,710);
+pos = (472,710);
 ref = P;
 scale = (1,-1);
 }
 );
-width = 1138;
+width = 1168;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -42,12 +42,12 @@ ref = "El-cy";
 },
 {
 alignment = -1;
-pos = (465,710);
+pos = (495,710);
 ref = P;
 scale = (1,-1);
 }
 );
-width = 1125;
+width = 1155;
 }
 );
 metricLeft = J;

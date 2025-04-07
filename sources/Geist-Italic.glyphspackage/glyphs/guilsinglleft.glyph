@@ -1,0 +1,78 @@
+{
+color = 4;
+glyphname = guilsinglleft;
+kernLeft = guillemetleft;
+kernRight = guillemetleft;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+angle = 180;
+pos = (324,552);
+ref = guilsinglright;
+}
+);
+width = 319;
+},
+{
+associatedMasterId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+guides = (
+{
+angle = 50;
+pos = (93,272);
+}
+);
+layerId = "E324890E-59F6-4B9D-9036-33F6B718E4A7";
+name = "26 de ene. de 23 12:15";
+shapes = (
+{
+closed = 1;
+nodes = (
+(270,279,l),
+(270,157,l),
+(507,436,l),
+(402,436,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(507,36,l),
+(270,315,l),
+(270,193,l),
+(402,36,l)
+);
+}
+);
+width = 557;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (436,552);
+ref = guilsinglright;
+}
+);
+width = 433;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (349,552);
+ref = guilsinglright;
+}
+);
+width = 344;
+}
+);
+metricLeft = hyphen;
+metricRight = hyphen;
+unicode = 8249;
+}

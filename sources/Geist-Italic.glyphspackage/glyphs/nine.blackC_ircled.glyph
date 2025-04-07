@@ -1,0 +1,98 @@
+{
+color = 4;
+glyphname = nine.blackCircled;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = nine.circled;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (677,870);
+ref = sixsuperior;
+},
+{
+ref = blackCircled;
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+26 1 4 8 1 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+32 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 51 values pushed */
+0 3 2 6 2 3 114 0 0 0 5 7 0 5 105 0 7 11 1 8 4 7 8 105 0 4 0 2 3 4 2 103 10 1 6 1 1 6 89 10 1 6 6 1 97 9 1 1 6 1 81 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 52 values pushed */
+0 3 2 6 2 3 6 128 0 0 0 5 7 0 5 105 0 7 11 1 8 4 7 8 105 0 4 0 2 3 4 2 103 10 1 6 1 1 6 89 10 1 6 6 1 97 9 1 1 6 1 81 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 32 values pushed */
+41 41 16 16 0 0 41 52 41 51 47 45 16 40 16 39 35 33 29 27 23 21 19 18 0 15 0 14 38 12 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 843;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (697,870);
+ref = sixsuperior;
+},
+{
+ref = blackCircled;
+}
+);
+width = 807;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (681,870);
+ref = sixsuperior;
+},
+{
+ref = blackCircled;
+}
+);
+userData = {
+assembly = "PUSHB[ ]	/* 6 values pushed */
+26 1 4 8 1 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+32 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 51 values pushed */
+0 3 2 6 2 3 114 0 0 0 5 7 0 5 105 0 7 11 1 8 4 7 8 105 0 4 0 2 3 4 2 103 10 1 6 1 1 6 89 10 1 6 6 1 97 9 1 1 6 1 81 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 52 values pushed */
+0 3 2 6 2 3 6 128 0 0 0 5 7 0 5 105 0 7 11 1 8 4 7 8 105 0 4 0 2 3 4 2 103 10 1 6 1 1 6 89 10 1 6 6 1 97 9 1 1 6 1 81 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 32 values pushed */
+41 41 16 16 0 0 41 52 41 51 47 45 16 40 16 39 35 33 29 27 23 21 19 18 0 15 0 14 38 12 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 831;
+}
+);
+metricLeft = o;
+metricRight = o;
+note = uni277E;
+unicode = 10110;
+}

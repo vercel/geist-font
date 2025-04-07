@@ -1,0 +1,39 @@
+{
+color = 4;
+glyphname = nine.numr;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+angle = 180;
+pos = (461,1033);
+ref = sixsuperior;
+}
+);
+width = 354;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+angle = 180;
+pos = (535,1033);
+ref = sixsuperior;
+}
+);
+width = 430;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+angle = 180;
+pos = (483,1033);
+ref = sixsuperior;
+}
+);
+width = 376;
+}
+);
+}

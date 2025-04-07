@@ -1,0 +1,48 @@
+{
+color = 3;
+glyphname = "tshe-cy";
+kernLeft = b;
+kernRight = n;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (-102,269);
+ref = strokeshortcomb;
+}
+);
+width = 545;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (-52,315);
+ref = strokeshortcomb;
+}
+);
+width = 631;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (-83,266);
+ref = strokeshortcomb;
+}
+);
+width = 569;
+}
+);
+unicode = 1115;
+}

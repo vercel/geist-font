@@ -15,7 +15,7 @@ jobs:
     - name: Install sys tools/deps
       run: |
         sudo apt-get update
-        sudo apt-get install ttfautohint
+        sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
         sudo snap install yq
     - uses: actions/cache@v4
       with:
@@ -88,8 +88,8 @@ jobs:
         with:
           name: ${{ env.ZIP_NAME }}
           path: ${{ env.ZIP_NAME }}
-      # - name: Copy DESCRIPTION.en_us.html to artefact directory
-      #   run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
+      - name: Copy DESCRIPTION.en_us.html to artefact directory
+        run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
       - name: Copy ARTICLE.en_us.html to artefact directory
         run: cp documentation/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
         continue-on-error: true
