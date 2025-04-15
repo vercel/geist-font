@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[12] GeistMono[wght].ttf</summary>
+<details><summary>[11] GeistMono[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
@@ -100,46 +100,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* uni041A (U+041A): L&lt;&lt;248.0,355.0&gt;--&lt;137.0,355.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni040C (U+040C): L&lt;&lt;248.0,355.0&gt;--&lt;137.0,355.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni049A (U+049A): L&lt;&lt;238.0,355.0&gt;--&lt;127.0,355.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0436 (U+0436): L&lt;&lt;432.0,265.0&gt;--&lt;336.0,265.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0436 (U+0436): L&lt;&lt;264.0,265.0&gt;--&lt;168.0,265.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni043A (U+043A): L&lt;&lt;283.0,265.0&gt;--&lt;170.0,265.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni045C (U+045C): L&lt;&lt;283.0,265.0&gt;--&lt;170.0,265.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0497 (U+0497): L&lt;&lt;432.0,265.0&gt;--&lt;336.0,265.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni0497 (U+0497): L&lt;&lt;264.0,265.0&gt;--&lt;168.0,265.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni049B (U+049B): L&lt;&lt;282.0,265.0&gt;--&lt;169.0,265.0&gt;&gt; has the same coordinates as a previous segment.
-
-* asciitilde_at.liga: L&lt;&lt;-150.0,221.0&gt;--&lt;-150.0,143.0&gt;&gt; has the same coordinates as a previous segment.
-</code></pre>
- [code: overlapping-path-segments]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
@@ -151,18 +111,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- blackCircled
-
-- bracketleft.alt.white
-
-- bracketleft.alt2
-
-- bracketleft.alt2.white
-
-- bracketright.alt.white
-
-- bracketright.alt2
-
-- bracketright.alt2.white
 
 - hyphen_hyphen_hyphen_greater.liga
 
@@ -228,15 +176,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, canadian-aboriginal, hebrew, duployan, tifinagh, tai-le, todhri, math, coptic, syriac</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, syriac, todhri, old-permic, tai-le, malayalam, math, canadian-aboriginal, tifinagh, hebrew</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -245,11 +193,11 @@ definitions.</p>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: elbasan, math, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, math, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, elbasan, math</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, math, yi</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
@@ -318,15 +266,15 @@ definitions.</p>
 <li>U+240B SYMBOL FOR VERTICAL TABULATION: try adding symbols</li>
 <li>U+240C SYMBOL FOR FORM FEED: try adding symbols</li>
 <li>U+2423 OPEN BOX: try adding symbols</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: mongolian, symbols, yi</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: mongolian, symbols, yi</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: mongolian, symbols, yi</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: mongolian, symbols, yi</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: mongolian, symbols, yi</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: mongolian, symbols, yi</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: mongolian, symbols, yi</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: mongolian, symbols, yi</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: mongolian, symbols, yi</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: symbols, mongolian, yi</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: symbols, mongolian, yi</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: symbols, mongolian, yi</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: symbols, mongolian, yi</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: symbols, mongolian, yi</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: symbols, mongolian, yi</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
@@ -339,7 +287,7 @@ definitions.</p>
 <li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tifinagh, mahajani, pahawh-hmong, ahom, meetei-mayek, gujarati, balinese, lepcha, bhaiksuki, batak, zanabazar-square, lao, old-permic, tibetan, limbu, khudawadi, kharoshthi, bassa-vah, myanmar, newa, tirhuta, wancho, sundanese, gurmukhi, tagbanwa, kaithi, marchen, sharada, khmer, masaram-gondi, chakma, symbols, manichaean, tai-viet, adlam, devanagari, thai, tai-le, mende-kikakui, tamil, takri, rejang, gunjala-gondi, buhid, new-tai-lue, sogdian, malayalam, elbasan, duployan, tai-tham, yi, phags-pa, buginese, mongolian, canadian-aboriginal, dogra, hanunoo, kannada, saurashtra, psalter-pahlavi, math, coptic, syriac, mandaic, warang-citi, modi, khojki, cham, hanifi-rohingya, thaana, sinhala, telugu, oriya, bengali, nko, brahmi, kayah-li, javanese, music, siddham, armenian, osage, caucasian-albanian, miao, soyombo, hebrew, tagalog, syloti-nagri, grantha</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: kharoshthi, elbasan, mahajani, balinese, buhid, khudawadi, miao, math, symbols, nko, siddham, wancho, old-permic, gurmukhi, kayah-li, tagalog, thai, hanunoo, new-tai-lue, buginese, masaram-gondi, dogra, tibetan, hebrew, ahom, devanagari, tagbanwa, oriya, meetei-mayek, malayalam, osage, cham, khojki, manichaean, tai-viet, hanifi-rohingya, lao, music, tai-le, tai-tham, zanabazar-square, javanese, warang-citi, canadian-aboriginal, soyombo, modi, adlam, takri, armenian, grantha, tirhuta, caucasian-albanian, phags-pa, chakma, bengali, mongolian, bassa-vah, sinhala, mandaic, yi, brahmi, psalter-pahlavi, marchen, tifinagh, coptic, batak, syloti-nagri, limbu, lepcha, tamil, rejang, duployan, sundanese, gujarati, bhaiksuki, pahawh-hmong, saurashtra, newa, kannada, sharada, khmer, myanmar, syriac, mende-kikakui, gunjala-gondi, kaithi, telugu, thaana, sogdian</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
 <li>U+2777 DINGBAT NEGATIVE CIRCLED DIGIT TWO: try adding symbols</li>
@@ -350,7 +298,7 @@ definitions.</p>
 <li>U+277C DINGBAT NEGATIVE CIRCLED DIGIT SEVEN: try adding symbols</li>
 <li>U+277D DINGBAT NEGATIVE CIRCLED DIGIT EIGHT: try adding symbols</li>
 <li>U+277E DINGBAT NEGATIVE CIRCLED DIGIT NINE: try adding symbols</li>
-<li>U+3003 DITTO MARK: try adding one of: chinese-traditional, yi, chinese-simplified, phags-pa, japanese, chinese-hongkong</li>
+<li>U+3003 DITTO MARK: try adding one of: chinese-hongkong, phags-pa, chinese-simplified, yi, japanese, chinese-traditional</li>
 <li>U+301C WAVE DASH: try adding japanese</li>
 <li>U+F8FF : not included in any glyphset definition</li>
 </ul>
@@ -536,8 +484,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 1 | 11 | 87 | 8 | 129 | 0 | 
-| 0% | 0% | 0% | 5% | 37% | 3% | 55% | 0% | 
+| 0 | 0 | 1 | 10 | 87 | 8 | 130 | 0 | 
+| 0% | 0% | 0% | 4% | 37% | 3% | 55% | 0% | 
 
 
 
