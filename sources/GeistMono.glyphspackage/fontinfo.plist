@@ -1,5 +1,5 @@
 {
-.appVersion = "3337";
+.appVersion = "3343";
 .formatVersion = 3;
 axes = (
 {
@@ -134,7 +134,6 @@ name = Languagesystems;
 );
 features = (
 {
-automatic = 1;
 code = "feature locl;
 feature subs;
 feature sinf;
@@ -152,7 +151,12 @@ feature ss06;
 feature ss07;
 feature ss08;
 feature ss09;
-";
+feature ss10;
+
+sub bracketleft from [bracketleft.alt bracketleft.alt.white];
+sub bracketright from [bracketright.alt bracketright.alt.white];
+sub braceleft from [braceleft.alt braceleft.alt.white];
+sub braceright from [braceright.alt braceright.alt.white];";
 tag = aalt;
 },
 {

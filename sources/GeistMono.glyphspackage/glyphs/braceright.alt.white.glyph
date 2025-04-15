@@ -1,20 +1,15 @@
 {
-glyphname = bracketright.alt2;
+glyphname = braceright.alt.white;
 kernLeft = "0";
 kernRight = "0";
 layers = (
 {
-guides = (
-{
-pos = (44,-105);
-}
-);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 angle = 180;
-pos = (600,722);
-ref = bracketleft.alt2;
+pos = (600,723);
+ref = braceleft.alt.white;
 }
 );
 width = 600;
@@ -26,7 +21,7 @@ shapes = (
 alignment = -1;
 angle = 180;
 pos = (600,723);
-ref = bracketleft.alt2;
+ref = braceleft.alt.white;
 }
 );
 width = 600;
@@ -37,8 +32,8 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (600,723);
-ref = bracketleft.alt2;
+pos = (600,733);
+ref = braceleft.alt.white;
 }
 );
 width = 600;

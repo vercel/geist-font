@@ -1,5 +1,5 @@
 {
-glyphname = bracketleft.alt2;
+glyphname = braceleft.alt;
 kernLeft = "0";
 kernRight = "0";
 layers = (
