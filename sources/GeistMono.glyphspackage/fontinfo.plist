@@ -329,6 +329,214 @@ sub N o period by numero;
 tag = ordn;
 },
 {
+automatic = 1;
+code = "sub strokeshortcomb by strokeshortcomb.case;
+sub slashshortcomb by slashshortcomb.case;
+sub slashlongcomb by slashlongcomb.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "sub a by a.ss01;
+sub aacute by aacute.ss01;
+sub abreve by abreve.ss01;
+sub acaron by acaron.ss01;
+sub acircumflex by acircumflex.ss01;
+sub adieresis by adieresis.ss01;
+sub agrave by agrave.ss01;
+sub amacron by amacron.ss01;
+sub aogonek by aogonek.ss01;
+sub aring by aring.ss01;
+sub atilde by atilde.ss01;
+";
+labels = (
+{
+language = dflt;
+value = "No tail a";
+}
+);
+tag = ss01;
+},
+{
+automatic = 1;
+code = "sub a by a.ss02;
+sub aacute by aacute.ss02;
+sub abreve by abreve.ss02;
+sub acaron by acaron.ss02;
+sub acircumflex by acircumflex.ss02;
+sub adieresis by adieresis.ss02;
+sub agrave by agrave.ss02;
+sub amacron by amacron.ss02;
+sub aogonek by aogonek.ss02;
+sub aring by aring.ss02;
+sub atilde by atilde.ss02;
+";
+labels = (
+{
+language = dflt;
+value = "Alt a";
+}
+);
+tag = ss02;
+},
+{
+automatic = 1;
+code = "sub l by l.ss03;
+sub lacute by lacute.ss03;
+sub lcaron by lcaron.ss03;
+sub lcommaaccent by lcommaaccent.ss03;
+sub lslash by lslash.ss03;
+";
+labels = (
+{
+language = dflt;
+value = "Alt l";
+}
+);
+tag = ss03;
+},
+{
+automatic = 1;
+code = "sub R by R.ss04;
+sub Racute by Racute.ss04;
+sub Rcaron by Rcaron.ss04;
+sub Rcommaaccent by Rcommaaccent.ss04;
+";
+labels = (
+{
+language = dflt;
+value = "Alt R";
+}
+);
+tag = ss04;
+},
+{
+automatic = 1;
+code = "sub G by G.ss06;
+sub Gbreve by Gbreve.ss06;
+sub Gcircumflex by Gcircumflex.ss06;
+sub Gcommaaccent by Gcommaaccent.ss06;
+sub Gdotaccent by Gdotaccent.ss06;
+sub Gmacron by Gmacron.ss06;
+";
+labels = (
+{
+language = dflt;
+value = "Alt G";
+}
+);
+tag = ss06;
+},
+{
+automatic = 1;
+code = "sub upArrow by upArrow.ss07;
+sub northEastArrow by northEastArrow.ss07;
+sub rightArrow by rightArrow.ss07;
+sub southEastArrow by southEastArrow.ss07;
+sub downArrow by downArrow.ss07;
+sub southWestArrow by southWestArrow.ss07;
+sub leftArrow by leftArrow.ss07;
+sub northWestArrow by northWestArrow.ss07;
+sub leftRightArrow by leftRightArrow.ss07;
+sub upDownArrow by upDownArrow.ss07;
+";
+labels = (
+{
+language = dflt;
+value = "Alt arrows";
+}
+);
+tag = ss07;
+},
+{
+automatic = 1;
+code = "sub Adieresis by Adieresis.ss08;
+sub Cdotaccent by Cdotaccent.ss08;
+sub Edieresis by Edieresis.ss08;
+sub Edotaccent by Edotaccent.ss08;
+sub Gdotaccent by Gdotaccent.ss08;
+sub Idieresis by Idieresis.ss08;
+sub Idotaccent by Idotaccent.ss08;
+sub Odieresis by Odieresis.ss08;
+sub Udieresis by Udieresis.ss08;
+sub Wdieresis by Wdieresis.ss08;
+sub Ydieresis by Ydieresis.ss08;
+sub Zdotaccent by Zdotaccent.ss08;
+sub Gdotaccent.ss06 by Gdotaccent.ss06.ss08;
+sub adieresis by adieresis.ss08;
+sub cdotaccent by cdotaccent.ss08;
+sub edieresis by edieresis.ss08;
+sub edotaccent by edotaccent.ss08;
+sub gdotaccent by gdotaccent.ss08;
+sub i by i.ss08;
+sub idieresis by idieresis.ss08;
+sub idotaccent by idotaccent.ss08;
+sub iogonek by iogonek.ss08;
+sub j by j.ss08;
+sub odieresis by odieresis.ss08;
+sub udieresis by udieresis.ss08;
+sub wdieresis by wdieresis.ss08;
+sub ydieresis by ydieresis.ss08;
+sub zdotaccent by zdotaccent.ss08;
+sub adieresis.ss01 by adieresis.ss01.ss08;
+sub adieresis.ss02 by adieresis.ss02.ss08;
+sub period by period.ss08;
+sub colon by colon.ss08;
+sub semicolon by semicolon.ss08;
+sub ellipsis by ellipsis.ss08;
+sub exclam by exclam.ss08;
+sub exclamdown by exclamdown.ss08;
+sub question by question.ss08;
+sub questiondown by questiondown.ss08;
+sub periodcentered by periodcentered.ss08;
+sub dieresiscomb by dieresiscomb.ss08;
+sub dotaccentcomb by dotaccentcomb.ss08;
+sub dieresis by dieresis.ss08;
+sub dotaccent by dotaccent.ss08;
+";
+labels = (
+{
+language = dflt;
+value = "Rounded dot";
+}
+);
+tag = ss08;
+},
+{
+automatic = 1;
+code = "sub zero by zero.ss09;
+";
+labels = (
+{
+language = dflt;
+value = "Non-slashed zero";
+}
+);
+tag = ss09;
+},
+{
+code = "sub parenleft by parenleft.alt;
+sub parenright by parenright.alt;
+sub bracketleft by bracketleft.alt;
+sub bracketright by bracketright.alt;
+sub guillemetleft by guillemetleft.alt;
+sub guillemetright by guillemetright.alt;
+sub less by less.alt;
+sub greater by greater.alt;
+
+sub less.alt less.alt by guillemetleft.alt;
+sub greater.alt greater.alt by guillemetright.alt;
+";
+labels = (
+{
+language = dflt;
+value = "Alternative enclosing shapes";
+}
+);
+tag = ss10;
+},
+{
 code = "# </>
 lookup less_slash_greater.liga {
 sub SPC SPC greater' by less_slash_greater.liga;
@@ -993,6 +1201,12 @@ sub SPC equal' by period_equal.liga;
 sub period' equal by SPC;
 } period_equal.liga;
 ";
+labels = (
+{
+language = dflt;
+value = "Coding ligatures";
+}
+);
 notes = "# --->
 lookup hyphen_hyphen_hyphen_greater.liga {
 ignore sub bracketleft hyphen' hyphen hyphen greater;
@@ -1234,215 +1448,7 @@ sub colon' @UppercaseRelated by colon.case;
 
 
 ";
-tag = liga;
-},
-{
-automatic = 1;
-code = "sub strokeshortcomb by strokeshortcomb.case;
-sub slashshortcomb by slashshortcomb.case;
-sub slashlongcomb by slashlongcomb.case;
-";
-tag = case;
-},
-{
-automatic = 1;
-code = "sub a by a.ss01;
-sub aacute by aacute.ss01;
-sub abreve by abreve.ss01;
-sub acaron by acaron.ss01;
-sub acircumflex by acircumflex.ss01;
-sub adieresis by adieresis.ss01;
-sub agrave by agrave.ss01;
-sub amacron by amacron.ss01;
-sub aogonek by aogonek.ss01;
-sub aring by aring.ss01;
-sub atilde by atilde.ss01;
-";
-labels = (
-{
-language = dflt;
-value = "No tail a";
-}
-);
-tag = ss01;
-},
-{
-automatic = 1;
-code = "sub a by a.ss02;
-sub aacute by aacute.ss02;
-sub abreve by abreve.ss02;
-sub acaron by acaron.ss02;
-sub acircumflex by acircumflex.ss02;
-sub adieresis by adieresis.ss02;
-sub agrave by agrave.ss02;
-sub amacron by amacron.ss02;
-sub aogonek by aogonek.ss02;
-sub aring by aring.ss02;
-sub atilde by atilde.ss02;
-";
-labels = (
-{
-language = dflt;
-value = "Alt a";
-}
-);
-tag = ss02;
-},
-{
-automatic = 1;
-code = "sub l by l.ss03;
-sub lacute by lacute.ss03;
-sub lcaron by lcaron.ss03;
-sub lcommaaccent by lcommaaccent.ss03;
-sub lslash by lslash.ss03;
-";
-labels = (
-{
-language = dflt;
-value = "Alt l";
-}
-);
-tag = ss03;
-},
-{
-automatic = 1;
-code = "sub R by R.ss04;
-sub Racute by Racute.ss04;
-sub Rcaron by Rcaron.ss04;
-sub Rcommaaccent by Rcommaaccent.ss04;
-";
-labels = (
-{
-language = dflt;
-value = "Alt R";
-}
-);
-tag = ss04;
-},
-{
-automatic = 1;
-code = "sub G by G.ss06;
-sub Gbreve by Gbreve.ss06;
-sub Gcircumflex by Gcircumflex.ss06;
-sub Gcommaaccent by Gcommaaccent.ss06;
-sub Gdotaccent by Gdotaccent.ss06;
-sub Gmacron by Gmacron.ss06;
-";
-labels = (
-{
-language = dflt;
-value = "Alt G";
-}
-);
-tag = ss06;
-},
-{
-automatic = 1;
-code = "sub upArrow by upArrow.ss07;
-sub northEastArrow by northEastArrow.ss07;
-sub rightArrow by rightArrow.ss07;
-sub southEastArrow by southEastArrow.ss07;
-sub downArrow by downArrow.ss07;
-sub southWestArrow by southWestArrow.ss07;
-sub leftArrow by leftArrow.ss07;
-sub northWestArrow by northWestArrow.ss07;
-sub leftRightArrow by leftRightArrow.ss07;
-sub upDownArrow by upDownArrow.ss07;
-";
-labels = (
-{
-language = dflt;
-value = "Alt arrows";
-}
-);
-tag = ss07;
-},
-{
-automatic = 1;
-code = "sub Adieresis by Adieresis.ss08;
-sub Cdotaccent by Cdotaccent.ss08;
-sub Edieresis by Edieresis.ss08;
-sub Edotaccent by Edotaccent.ss08;
-sub Gdotaccent by Gdotaccent.ss08;
-sub Idieresis by Idieresis.ss08;
-sub Idotaccent by Idotaccent.ss08;
-sub Odieresis by Odieresis.ss08;
-sub Udieresis by Udieresis.ss08;
-sub Wdieresis by Wdieresis.ss08;
-sub Ydieresis by Ydieresis.ss08;
-sub Zdotaccent by Zdotaccent.ss08;
-sub Gdotaccent.ss06 by Gdotaccent.ss06.ss08;
-sub adieresis by adieresis.ss08;
-sub cdotaccent by cdotaccent.ss08;
-sub edieresis by edieresis.ss08;
-sub edotaccent by edotaccent.ss08;
-sub gdotaccent by gdotaccent.ss08;
-sub i by i.ss08;
-sub idieresis by idieresis.ss08;
-sub idotaccent by idotaccent.ss08;
-sub iogonek by iogonek.ss08;
-sub j by j.ss08;
-sub odieresis by odieresis.ss08;
-sub udieresis by udieresis.ss08;
-sub wdieresis by wdieresis.ss08;
-sub ydieresis by ydieresis.ss08;
-sub zdotaccent by zdotaccent.ss08;
-sub adieresis.ss01 by adieresis.ss01.ss08;
-sub adieresis.ss02 by adieresis.ss02.ss08;
-sub period by period.ss08;
-sub colon by colon.ss08;
-sub semicolon by semicolon.ss08;
-sub ellipsis by ellipsis.ss08;
-sub exclam by exclam.ss08;
-sub exclamdown by exclamdown.ss08;
-sub question by question.ss08;
-sub questiondown by questiondown.ss08;
-sub periodcentered by periodcentered.ss08;
-sub dieresiscomb by dieresiscomb.ss08;
-sub dotaccentcomb by dotaccentcomb.ss08;
-sub dieresis by dieresis.ss08;
-sub dotaccent by dotaccent.ss08;
-";
-labels = (
-{
-language = dflt;
-value = "Rounded dot";
-}
-);
-tag = ss08;
-},
-{
-automatic = 1;
-code = "sub zero by zero.ss09;
-";
-labels = (
-{
-language = dflt;
-value = "Non-slashed zero";
-}
-);
-tag = ss09;
-},
-{
-code = "sub parenleft by parenleft.alt;
-sub parenright by parenright.alt;
-sub bracketleft by bracketleft.alt;
-sub bracketright by bracketright.alt;
-sub guillemetleft by guillemetleft.alt;
-sub guillemetright by guillemetright.alt;
-sub less by less.alt;
-sub greater by greater.alt;
-
-sub less.alt less.alt by guillemetleft.alt;
-sub greater.alt greater.alt by guillemetright.alt;
-";
-labels = (
-{
-language = dflt;
-value = "Alternative enclosing shapes";
-}
-);
-tag = ss10;
+tag = ss11;
 }
 );
 fontMaster = (
