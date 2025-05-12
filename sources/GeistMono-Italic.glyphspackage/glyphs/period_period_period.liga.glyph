@@ -1,0 +1,66 @@
+{
+color = 8;
+glyphname = period_period_period.liga;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (-1055,0);
+ref = period;
+},
+{
+pos = (-600,0);
+ref = period;
+},
+{
+pos = (-146,0);
+ref = period;
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-1045,0);
+ref = period;
+},
+{
+alignment = -1;
+pos = (-600,0);
+ref = period;
+},
+{
+alignment = -1;
+pos = (-156,0);
+ref = period;
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (-1058,0);
+ref = period;
+},
+{
+alignment = -1;
+pos = (-600,0);
+ref = period;
+},
+{
+alignment = -1;
+pos = (-142,0);
+ref = period;
+}
+);
+width = 600;
+}
+);
+}

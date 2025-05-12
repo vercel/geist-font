@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3337";
 .formatVersion = 3;
 axes = (
 {
@@ -1741,7 +1741,7 @@ instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 0.33333;
 "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14" = 0.66667;
 };
-name = UltraLight;
+name = ExtraLight;
 weightClass = 200;
 },
 {
@@ -1872,7 +1872,7 @@ instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 0.2;
 "58B1DC7A-69F8-4375-AD2E-AC5103CCF536" = 0.8;
 };
-name = Black;
+name = ExtraBold;
 weightClass = 800;
 },
 {
@@ -1893,7 +1893,7 @@ Location = 900;
 instanceInterpolations = {
 "58B1DC7A-69F8-4375-AD2E-AC5103CCF536" = 1;
 };
-name = UltraBlack;
+name = Black;
 weightClass = 900;
 }
 );
