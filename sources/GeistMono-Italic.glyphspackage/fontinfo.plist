@@ -111,7 +111,7 @@ tag = slng;
 );
 }
 );
-date = "2024-10-07 14:34:19 +0000";
+date = "2025-05-12 16:42:46 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -1242,18 +1242,7 @@ tag = case;
 },
 {
 automatic = 1;
-code = "sub a by a.ss01;
-sub aacute by aacute.ss01;
-sub abreve by abreve.ss01;
-sub acaron by acaron.ss01;
-sub acircumflex by acircumflex.ss01;
-sub adieresis by adieresis.ss01;
-sub agrave by agrave.ss01;
-sub amacron by amacron.ss01;
-sub aogonek by aogonek.ss01;
-sub aring by aring.ss01;
-sub atilde by atilde.ss01;
-";
+code = "";
 labels = (
 {
 language = dflt;
@@ -1286,8 +1275,7 @@ tag = ss02;
 },
 {
 automatic = 1;
-code = "sub l by l.ss03;
-sub lacute by lacute.ss03;
+code = "sub lacute by lacute.ss03;
 sub lcaron by lcaron.ss03;
 sub lcommaaccent by lcommaaccent.ss03;
 sub lslash by lslash.ss03;
@@ -1383,8 +1371,8 @@ sub udieresis by udieresis.ss08;
 sub wdieresis by wdieresis.ss08;
 sub ydieresis by ydieresis.ss08;
 sub zdotaccent by zdotaccent.ss08;
-sub adieresis.ss01 by adieresis.ss01.ss08;
 sub adieresis.ss02 by adieresis.ss02.ss08;
+sub gdotaccent.ss05 by gdotaccent.ss05.ss08;
 sub period by period.ss08;
 sub colon by colon.ss08;
 sub semicolon by semicolon.ss08;
@@ -1520,7 +1508,7 @@ pos = -150;
 pos = 12;
 }
 );
-name = Thin;
+name = "Thin Italic";
 stemValues = (
 32,
 30,
@@ -1616,7 +1604,7 @@ pos = -150;
 pos = 12;
 }
 );
-name = Regular;
+name = "Regular Italic";
 stemValues = (
 90,
 84,
@@ -1705,7 +1693,7 @@ pos = -150;
 pos = 12;
 }
 );
-name = UltraBlack;
+name = "UltraBlack Italic";
 stemValues = (
 154,
 142,
@@ -1802,7 +1790,7 @@ instanceInterpolations = {
 "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8" = 1;
 };
 isItalic = 1;
-name = Regular;
+name = Italic;
 },
 {
 axesValues = (
@@ -4744,5 +4732,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 401;
+versionMinor = 500;
 }
