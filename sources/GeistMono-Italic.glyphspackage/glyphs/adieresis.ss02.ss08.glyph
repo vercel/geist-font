@@ -1,5 +1,4 @@
 {
-color = 7;
 glyphname = adieresis.ss02.ss08;
 kernLeft = "0";
 kernRight = "0";
@@ -11,7 +10,7 @@ shapes = (
 ref = a.ss02;
 },
 {
-pos = (-64,0);
+pos = (-39,0);
 ref = dieresiscomb.ss08;
 }
 );
@@ -24,7 +23,7 @@ shapes = (
 ref = a.ss02;
 },
 {
-pos = (-69,0);
+pos = (-37,0);
 ref = dieresiscomb.ss08;
 }
 );
@@ -37,7 +36,7 @@ shapes = (
 ref = a.ss02;
 },
 {
-pos = (-52,0);
+pos = (-21,0);
 ref = dieresiscomb.ss08;
 }
 );

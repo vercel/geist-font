@@ -1,12 +1,12 @@
 {
-color = 8;
+color = 4;
 glyphname = bar_equal.liga;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (-334,0);
+pos = (-342,0);
 ref = equal;
 scale = (1.25,1);
 },
@@ -22,7 +22,7 @@ layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 alignment = -1;
-pos = (-312,0);
+pos = (-322,0);
 ref = equal;
 scale = (1.25,1);
 },

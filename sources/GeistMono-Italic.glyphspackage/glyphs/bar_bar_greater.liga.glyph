@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 4;
 glyphname = bar_bar_greater.liga;
 layers = (
 {
@@ -46,7 +46,7 @@ layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
 alignment = -1;
-pos = (-51,0);
+pos = (-48,0);
 ref = bar_greater.liga;
 },
 {

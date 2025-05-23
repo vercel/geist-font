@@ -1,12 +1,12 @@
 {
-color = 8;
+color = 4;
 glyphname = equal_equal.liga;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (-91,0);
+pos = (-90,0);
 ref = equal;
 },
 {
@@ -21,12 +21,12 @@ layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
 alignment = -1;
-pos = (-81,0);
+pos = (-80,0);
 ref = equal;
 },
 {
 alignment = -1;
-pos = (-519,0);
+pos = (-520,0);
 ref = equal;
 }
 );

@@ -1,5 +1,5 @@
 {
-color = 7;
+color = 1;
 glyphname = one.blackCircled;
 layers = (
 {
@@ -16,9 +16,19 @@ shapes = (
 ref = blackCircled;
 },
 {
-alignment = -1;
-pos = (-66,-163);
-ref = onesuperior;
+closed = 1;
+nodes = (
+(326,160,l),
+(408,547,l),
+(386,547,l),
+(374,493,o),
+(351,468,o),
+(280,468,cs),
+(222,468,l),
+(218,446,l),
+(359,446,l),
+(298,160,l)
+);
 }
 );
 userData = {
@@ -43,9 +53,19 @@ shapes = (
 ref = blackCircled;
 },
 {
-alignment = -1;
-pos = (-66,-163);
-ref = onesuperior;
+closed = 1;
+nodes = (
+(355,160,l),
+(437,547,l),
+(335,547,l),
+(323,489,o),
+(293,452,o),
+(230,452,cs),
+(177,452,l),
+(158,362,l),
+(278,362,l),
+(235,160,l)
+);
 }
 );
 width = 600;
@@ -65,9 +85,19 @@ shapes = (
 ref = blackCircled;
 },
 {
-alignment = -1;
-pos = (-66,-163);
-ref = onesuperior;
+closed = 1;
+nodes = (
+(346,160,l),
+(428,548,l),
+(379,548,l),
+(368,495,o),
+(333,463,o),
+(255,463,cs),
+(201,463,l),
+(191,413,l),
+(334,414,l),
+(280,160,l)
+);
 }
 );
 userData = {

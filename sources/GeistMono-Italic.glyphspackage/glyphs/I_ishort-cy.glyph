@@ -1,18 +1,16 @@
 {
-color = 6;
+color = 3;
 glyphname = "Iishort-cy";
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-pos = (487,0);
-ref = N;
-scale = (-1,1);
+ref = "Ii-cy";
 },
 {
-pos = (-273,180);
-ref = brevecomb;
+pos = (38,180);
+ref = "brevecomb-cy";
 }
 );
 width = 600;
@@ -21,13 +19,11 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-pos = (487,0);
-ref = N;
-scale = (-1,1);
+ref = "Ii-cy";
 },
 {
-pos = (-264,180);
-ref = brevecomb;
+pos = (39,180);
+ref = "brevecomb-cy";
 }
 );
 width = 600;
@@ -36,13 +32,11 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-pos = (485,0);
-ref = N;
-scale = (-1,1);
+ref = "Ii-cy";
 },
 {
-pos = (-267,170);
-ref = brevecomb;
+pos = (36,170);
+ref = "brevecomb-cy";
 }
 );
 width = 600;

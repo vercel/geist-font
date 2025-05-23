@@ -1,5 +1,4 @@
 {
-color = 7;
 glyphname = lacute.ss03;
 kernLeft = "0";
 kernRight = "0";
@@ -8,10 +7,10 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-ref = l;
+ref = l.ss03;
 },
 {
-pos = (56,180);
+pos = (76,180);
 ref = acutecomb;
 }
 );
@@ -21,10 +20,10 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-ref = l;
+ref = l.ss03;
 },
 {
-pos = (61,180);
+pos = (60,180);
 ref = acutecomb;
 }
 );
@@ -34,10 +33,10 @@ width = 600;
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
-ref = l;
+ref = l.ss03;
 },
 {
-pos = (62,170);
+pos = (61,170);
 ref = acutecomb;
 }
 );

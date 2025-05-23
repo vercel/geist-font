@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 3;
 glyphname = "iishort-cy";
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (-57,0);
+pos = (-1,0);
 ref = brevecomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (-55,0);
+pos = (1,0);
 ref = brevecomb;
 }
 );
@@ -35,7 +35,6 @@ shapes = (
 ref = "ii-cy";
 },
 {
-pos = (-57,0);
 ref = brevecomb;
 }
 );

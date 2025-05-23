@@ -1,8 +1,15 @@
 {
-color = 7;
+color = 1;
 glyphname = seven.circled;
 layers = (
 {
+background = {
+shapes = (
+{
+ref = seven.blackCircled;
+}
+);
+};
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -22,6 +29,13 @@ CALL[ ]	/* CallFunction */";
 width = 600;
 },
 {
+background = {
+shapes = (
+{
+ref = seven.blackCircled;
+}
+);
+};
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
@@ -29,13 +43,20 @@ ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (-36,-163);
+pos = (-43,-163);
 ref = sevensuperior;
 }
 );
 width = 600;
 },
 {
+background = {
+shapes = (
+{
+ref = seven.blackCircled;
+}
+);
+};
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
@@ -43,7 +64,7 @@ ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (-29,-163);
+pos = (-43,-163);
 ref = sevensuperior;
 }
 );

@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 3;
 glyphname = "Hardsign-cy";
 layers = (
 {
@@ -8,16 +8,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(175,680,l),
-(175,710,l),
-(46,710,l),
-(46,680,l)
+(252,680,l),
+(258,710,l),
+(129,710,l),
+(123,680,l)
 );
 },
 {
-pos = (43,710);
-ref = P;
-scale = (1,-1);
+alignment = -1;
+pos = (56,0);
+ref = "Softsign-cy";
 }
 );
 width = 600;
@@ -28,17 +28,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(194,626,l),
-(194,710,l),
-(30,710,l),
-(30,626,l)
+(271,626,l),
+(289,710,l),
+(125,710,l),
+(107,626,l)
 );
 },
 {
 alignment = -1;
-pos = (17,710);
-ref = P;
-scale = (1,-1);
+pos = (64,0);
+ref = "Softsign-cy";
 }
 );
 width = 600;
@@ -49,17 +48,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(232,579,l),
-(232,710,l),
-(15,710,l),
-(15,579,l)
+(294,579,l),
+(321,710,l),
+(104,710,l),
+(77,579,l)
 );
 },
 {
 alignment = -1;
-pos = (18,710);
-ref = P;
-scale = (1,-1);
+pos = (56,0);
+ref = "Softsign-cy";
 }
 );
 width = 600;
