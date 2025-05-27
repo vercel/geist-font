@@ -1,7 +1,5 @@
 {
 glyphname = tcaron;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 guides = (

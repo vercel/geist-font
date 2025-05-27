@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = backslash;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 background = {

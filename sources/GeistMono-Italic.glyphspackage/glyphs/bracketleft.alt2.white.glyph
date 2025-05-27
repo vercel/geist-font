@@ -1,7 +1,5 @@
 {
 glyphname = bracketleft.alt2.white;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 guides = (

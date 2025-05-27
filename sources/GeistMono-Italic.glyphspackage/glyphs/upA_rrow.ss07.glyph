@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = upArrow.ss07;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 background = {

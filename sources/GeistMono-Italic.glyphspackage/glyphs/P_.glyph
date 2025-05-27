@@ -1,7 +1,5 @@
 {
 glyphname = P;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 anchors = (

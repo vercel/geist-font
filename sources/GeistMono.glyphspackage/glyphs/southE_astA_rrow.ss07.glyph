@@ -1,7 +1,5 @@
 {
 glyphname = southEastArrow.ss07;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 background = {

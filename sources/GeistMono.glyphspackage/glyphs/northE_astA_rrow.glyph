@@ -1,14 +1,12 @@
 {
 glyphname = northEastArrow;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 angle = -45;
-pos = (-189,431);
+pos = (-189,321);
 ref = upArrow;
 }
 );
@@ -20,7 +18,7 @@ shapes = (
 {
 alignment = -1;
 angle = -45;
-pos = (-173,431);
+pos = (-173,329);
 ref = upArrow;
 }
 );
@@ -32,7 +30,7 @@ shapes = (
 {
 alignment = -1;
 angle = -45;
-pos = (-152,431);
+pos = (-152,338);
 ref = upArrow;
 }
 );
