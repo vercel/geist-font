@@ -111,7 +111,7 @@ tag = slng;
 );
 }
 );
-date = "2025-05-12 16:42:46 +0000";
+date = "2025-05-27 19:33:51 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -134,7 +134,6 @@ name = Languagesystems;
 );
 features = (
 {
-automatic = 1;
 code = "feature locl;
 feature subs;
 feature sinf;
@@ -144,15 +143,20 @@ feature dnom;
 feature frac;
 feature ordn;
 feature case;
-feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
+feature ss05;
 feature ss06;
 feature ss07;
 feature ss08;
 feature ss09;
-";
+feature ss10;
+
+sub bracketleft from [bracketleft.alt bracketleft.alt.white];
+sub bracketright from [bracketright.alt bracketright.alt.white];
+sub braceleft from [braceleft.alt braceleft.alt.white];
+sub braceright from [braceright.alt braceright.alt.white];";
 tag = aalt;
 },
 {
@@ -1481,11 +1485,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1012;
+value = 1041;
 },
 {
 name = winDescent;
-value = 262;
+value = 394;
 },
 {
 name = "Axis Location";
@@ -1575,11 +1579,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1012;
+value = 1041;
 },
 {
 name = winDescent;
-value = 262;
+value = 394;
 },
 {
 name = "Axis Location";
@@ -1624,7 +1628,7 @@ pos = -150;
 pos = 12;
 }
 );
-name = "Regular Italic";
+name = Italic;
 stemValues = (
 90,
 84,
@@ -1663,11 +1667,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1012;
+value = 1041;
 },
 {
 name = winDescent;
-value = 262;
+value = 394;
 },
 {
 name = "Axis Location";

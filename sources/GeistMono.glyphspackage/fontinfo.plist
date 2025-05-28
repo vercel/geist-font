@@ -111,7 +111,7 @@ tag = slng;
 );
 }
 );
-date = "2024-10-07 14:34:19 +0000";
+date = "2025-05-27 19:33:44 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -156,7 +156,8 @@ feature ss10;
 sub bracketleft from [bracketleft.alt bracketleft.alt.white];
 sub bracketright from [bracketright.alt bracketright.alt.white];
 sub braceleft from [braceleft.alt braceleft.alt.white];
-sub braceright from [braceright.alt braceright.alt.white];";
+sub braceright from [braceright.alt braceright.alt.white];
+";
 tag = aalt;
 },
 {
@@ -1477,11 +1478,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1012;
+value = 1041;
 },
 {
 name = winDescent;
-value = 262;
+value = 394;
 },
 {
 name = "Axis Location";
@@ -1566,11 +1567,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1012;
+value = 1041;
 },
 {
 name = winDescent;
-value = 262;
+value = 394;
 },
 {
 name = "Axis Location";
@@ -1646,11 +1647,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1012;
+value = 1041;
 },
 {
 name = winDescent;
-value = 262;
+value = 394;
 },
 {
 name = "Axis Location";
@@ -4560,5 +4561,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 401;
+versionMinor = 500;
 }
