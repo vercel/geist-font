@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = period.ss08;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 background = {

@@ -1,0 +1,216 @@
+{
+glyphname = L;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (241,0);
+},
+{
+name = center;
+pos = (155,382);
+},
+{
+name = top;
+pos = (201,710);
+},
+{
+name = topright;
+pos = (367,530);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (241,0);
+},
+{
+name = center;
+pos = (155,382);
+},
+{
+name = top;
+pos = (201,710);
+},
+{
+name = topright;
+pos = (367,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(454,0,l),
+(460,30,l),
+(64,30,l),
+(70,20,l),
+(217,710,l),
+(185,710,l),
+(34,0,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(464,0,l),
+(470,30,l),
+(64,30,l),
+(70,20,l),
+(217,710,l),
+(185,710,l),
+(34,0,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (245,0);
+},
+{
+name = center;
+pos = (189,380);
+},
+{
+name = top;
+pos = (218,710);
+},
+{
+name = topright;
+pos = (371,530);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (245,0);
+},
+{
+name = center;
+pos = (189,380);
+},
+{
+name = top;
+pos = (218,710);
+},
+{
+name = topright;
+pos = (371,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(464,0,l),
+(482,84,l),
+(85,84,l),
+(119,40,l),
+(261,710,l),
+(175,710,l),
+(24,0,l)
+);
+}
+);
+};
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(474,0,l),
+(492,84,l),
+(85,84,l),
+(119,40,l),
+(261,710,l),
+(175,710,l),
+(24,0,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (243,0);
+},
+{
+name = center;
+pos = (208,380);
+},
+{
+name = top;
+pos = (244,710);
+},
+{
+name = topright;
+pos = (397,540);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (243,0);
+},
+{
+name = center;
+pos = (208,380);
+},
+{
+name = top;
+pos = (244,710);
+},
+{
+name = topright;
+pos = (397,540);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(473,0,l),
+(506,158,l),
+(80,158,l),
+(201,41,l),
+(343,710,l),
+(163,710,l),
+(13,0,l)
+);
+}
+);
+};
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(483,0,l),
+(516,158,l),
+(81,158,l),
+(202,41,l),
+(344,710,l),
+(164,710,l),
+(14,0,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 76;
+}

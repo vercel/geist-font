@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = cedilla;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 background = {

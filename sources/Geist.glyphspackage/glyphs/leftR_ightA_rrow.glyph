@@ -38,12 +38,12 @@ layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 angle = -90;
-pos = (240,721);
+pos = (240,719);
 ref = upArrow;
 },
 {
 angle = 90;
-pos = (760,721);
+pos = (760,719);
 ref = upArrow;
 scale = (-1,1);
 }
@@ -56,13 +56,13 @@ shapes = (
 {
 alignment = -1;
 angle = -90;
-pos = (363,699);
+pos = (363,706);
 ref = upArrow;
 },
 {
 alignment = -1;
 angle = 90;
-pos = (750,699);
+pos = (750,706);
 ref = upArrow;
 scale = (-1,1);
 }
@@ -75,13 +75,13 @@ shapes = (
 {
 alignment = -1;
 angle = -90;
-pos = (281,714);
+pos = (281,711);
 ref = upArrow;
 },
 {
 alignment = -1;
 angle = 90;
-pos = (755,714);
+pos = (755,711);
 ref = upArrow;
 scale = (-1,1);
 }

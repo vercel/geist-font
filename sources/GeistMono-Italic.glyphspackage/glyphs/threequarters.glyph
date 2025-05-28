@@ -1,0 +1,220 @@
+{
+glyphname = threequarters;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(406,464,l),
+(526,710,l),
+(491,710,l),
+(371,464,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(107,0,l),
+(227,245,l),
+(192,245,l),
+(72,0,l)
+);
+},
+{
+pos = (131,0);
+ref = fourinferior;
+},
+{
+pos = (-130,0);
+ref = threesuperior;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+alignment = -1;
+pos = (-120,0);
+ref = three.numr;
+},
+{
+alignment = -1;
+pos = (21,0);
+ref = fraction;
+},
+{
+closed = 1;
+nodes = (
+(435,0,l),
+(455,95,l),
+(533,95,l),
+(539,121,l),
+(461,121,l),
+(517,387,l),
+(489,387,l),
+(227,117,l),
+(222,95,l),
+(427,95,l),
+(407,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(481,345,l),
+(433,121,l),
+(261,121,l)
+);
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(417,454,l),
+(556,710,l),
+(478,710,l),
+(339,454,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(118,0,l),
+(257,255,l),
+(179,255,l),
+(40,0,l)
+);
+},
+{
+alignment = -1;
+pos = (146,0);
+ref = fourinferior;
+},
+{
+alignment = -1;
+pos = (-143,0);
+ref = threesuperior;
+}
+);
+};
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-138,0);
+ref = three.numr;
+},
+{
+alignment = -1;
+pos = (14,0);
+ref = fraction;
+},
+{
+closed = 1;
+nodes = (
+(460,0,l),
+(479,90,l),
+(555,90,l),
+(567,148,l),
+(491,148,l),
+(542,387,l),
+(478,387,l),
+(222,141,l),
+(211,90,l),
+(413,90,l),
+(394,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(456,289,l),
+(425,148,l),
+(298,148,l)
+);
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(440,454,l),
+(565,710,l),
+(454,710,l),
+(329,454,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(139,0,l),
+(264,255,l),
+(153,255,l),
+(28,0,l)
+);
+},
+{
+alignment = -1;
+pos = (142,0);
+ref = fourinferior;
+},
+{
+alignment = -1;
+pos = (-150,0);
+ref = threesuperior;
+}
+);
+};
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (-138,0);
+ref = three.numr;
+},
+{
+alignment = -1;
+pos = (-4,0);
+ref = fraction;
+},
+{
+closed = 1;
+nodes = (
+(490,0,l),
+(504,67,l),
+(557,67,l),
+(576,157,l),
+(523,157,l),
+(572,387,l),
+(432,387,l),
+(223,151,l),
+(205,67,l),
+(384,67,l),
+(370,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(425,255,l),
+(403,157,l),
+(343,157,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 190;
+}

@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = E;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 anchors = (
@@ -12,7 +10,7 @@ pos = (306,0);
 },
 {
 name = ogonek;
-pos = (517,0);
+pos = (520,0);
 },
 {
 name = top;
@@ -84,7 +82,7 @@ pos = (318,0);
 },
 {
 name = ogonek;
-pos = (534,0);
+pos = (530,0);
 },
 {
 name = top;

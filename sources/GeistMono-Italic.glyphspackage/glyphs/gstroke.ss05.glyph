@@ -1,0 +1,59 @@
+{
+glyphname = gstroke.ss05;
+layers = (
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+ref = g.ss05;
+},
+{
+closed = 1;
+nodes = (
+(582,246,l),
+(596,316,l),
+(311,316,l),
+(297,246,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = g.ss05;
+},
+{
+closed = 1;
+nodes = (
+(600,266,l),
+(606,294,l),
+(321,294,l),
+(315,266,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+ref = g.ss05;
+},
+{
+closed = 1;
+nodes = (
+(592,232,l),
+(614,332,l),
+(310,332,l),
+(288,232,l)
+);
+}
+);
+width = 600;
+}
+);
+}

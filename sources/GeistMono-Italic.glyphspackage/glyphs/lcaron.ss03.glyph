@@ -1,0 +1,91 @@
+{
+glyphname = lcaron.ss03;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(53,710,l),
+(53,402,l),
+(25,482,o),
+(-51,539,o),
+(-131,539,cs),
+(-267,539,o),
+(-352,433,o),
+(-352,265,cs),
+(-352,95,o),
+(-267,-12,o),
+(-131,-12,cs),
+(-51,-12,o),
+(22,43,o),
+(58,130,c),
+(61,0,l),
+(83,0,l),
+(83,710,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(56,126,o),
+(-26,17,o),
+(-131,17,cs),
+(-247,17,o),
+(-320,113,o),
+(-320,265,cs),
+(-320,415,o),
+(-247,509,o),
+(-131,509,cs),
+(-26,509,o),
+(56,402,o),
+(56,265,cs)
+);
+},
+{
+pos = (102,0);
+ref = caroncomb.alt;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = l.ss03;
+},
+{
+pos = (167,0);
+ref = caroncomb.alt;
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+ref = l.ss03;
+},
+{
+pos = (186,0);
+ref = caroncomb.alt;
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+ref = l.ss03;
+},
+{
+pos = (208,0);
+ref = caroncomb.alt;
+}
+);
+width = 600;
+}
+);
+}

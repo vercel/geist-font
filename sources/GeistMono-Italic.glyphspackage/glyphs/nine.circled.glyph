@@ -1,0 +1,84 @@
+{
+color = 1;
+glyphname = nine.circled;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = nine.blackCircled;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+angle = 180;
+pos = (676,870);
+ref = sixsuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 107 values pushed */
+42 1 6 10 1 76 0 4 6 5 6 4 5 128 0 0 0 2 7 0 2 105 0 7 0 9 10 7 9 105 14 1 10 0 6 4 10 6 105 0 5 13 1 8 3 5 8 105 12 1 3 1 1 3 89 12 1 3 3 1 97 11 1 1 3 1 81 57 57 32 32 16 16 0 0 57 68 57 67 63 61 32 56 32 55 51 49 45 43 39 37 35 34 16 31 16 30 24 22 0 15 0 14 38 15 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+ref = nine.blackCircled;
+}
+);
+};
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+angle = 180;
+pos = (676,870);
+ref = sixsuperior;
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+ref = nine.blackCircled;
+}
+);
+};
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+angle = 180;
+pos = (676,870);
+ref = sixsuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 107 values pushed */
+42 1 6 10 1 76 0 4 6 5 6 4 5 128 0 0 0 2 7 0 2 105 0 7 0 9 10 7 9 105 14 1 10 0 6 4 10 6 105 0 5 13 1 8 3 5 8 105 12 1 3 1 1 3 89 12 1 3 3 1 97 11 1 1 3 1 81 57 57 32 32 16 16 0 0 57 68 57 67 63 61 32 56 32 55 51 49 45 43 39 37 35 34 16 31 16 30 24 22 0 15 0 14 38 15 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 600;
+}
+);
+note = uni2468;
+unicode = 9320;
+}

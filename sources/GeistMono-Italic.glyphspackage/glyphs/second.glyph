@@ -1,0 +1,65 @@
+{
+glyphname = second;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = hungarumlautcomb;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (-171,0);
+ref = minute;
+slant = (12,0);
+},
+{
+pos = (-80,0);
+ref = minute;
+slant = (12,0);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (-236,0);
+ref = minute;
+slant = (12,0);
+},
+{
+alignment = -1;
+pos = (-15,0);
+ref = minute;
+slant = (12,0);
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-189,0);
+ref = minute;
+slant = (12,0);
+},
+{
+alignment = -1;
+pos = (-64,0);
+ref = minute;
+slant = (12,0);
+}
+);
+width = 600;
+}
+);
+unicode = 8243;
+}

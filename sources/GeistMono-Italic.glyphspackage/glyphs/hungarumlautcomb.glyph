@@ -1,0 +1,106 @@
+{
+glyphname = hungarumlautcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (326,530);
+},
+{
+name = top;
+pos = (368,726);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(59,739,l),
+(-4,609,l),
+(63,609,l),
+(154,739,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(183,739,l),
+(120,609,l),
+(187,609,l),
+(278,739,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+alignment = -1;
+pos = (-67,0);
+ref = acutecomb;
+},
+{
+alignment = -1;
+pos = (67,0);
+ref = acutecomb;
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (324,530);
+},
+{
+name = top;
+pos = (366,726);
+}
+);
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-70,-2);
+ref = acutecomb;
+},
+{
+alignment = -1;
+pos = (70,-2);
+ref = acutecomb;
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (317,540);
+},
+{
+name = top;
+pos = (361,747);
+}
+);
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (-103,-3);
+ref = acutecomb;
+},
+{
+alignment = -1;
+pos = (101,-3);
+ref = acutecomb;
+}
+);
+width = 600;
+}
+);
+unicode = 779;
+}

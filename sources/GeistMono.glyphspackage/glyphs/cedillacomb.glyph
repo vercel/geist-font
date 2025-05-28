@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = cedillacomb;
-kernLeft = "0";
-kernRight = "0";
 layers = (
 {
 anchors = (

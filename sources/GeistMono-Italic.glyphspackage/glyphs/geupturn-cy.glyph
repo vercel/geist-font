@@ -1,0 +1,61 @@
+{
+color = 3;
+glyphname = "geupturn-cy";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(516,500,l),
+(554,685,l),
+(524,685,l),
+(486,500,l)
+);
+},
+{
+ref = "ge-cy";
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(526,456,l),
+(575,685,l),
+(489,685,l),
+(440,456,l)
+);
+},
+{
+ref = "ge-cy";
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(533,420,l),
+(592,697,l),
+(443,697,l),
+(384,420,l)
+);
+},
+{
+ref = "ge-cy";
+}
+);
+width = 600;
+}
+);
+unicode = 1169;
+}

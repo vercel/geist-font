@@ -1,0 +1,73 @@
+{
+glyphname = cedilla;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(124,-85,l),
+(167,-75,o),
+(200,-91,o),
+(200,-123,cs),
+(200,-149,o),
+(182,-166,o),
+(154,-166,cs),
+(120,-166,o),
+(96,-132,o),
+(82,-114,c),
+(40,-153,l),
+(79,-198,o),
+(110,-220,o),
+(158,-220,cs),
+(213,-220,o),
+(256,-179,o),
+(256,-127,cs),
+(256,-74,o),
+(216,-37,o),
+(159,-37,c),
+(202,10,l),
+(149,10,l),
+(96,-48,l)
+);
+}
+);
+};
+guides = (
+{
+pos = (202,10);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+alignment = 1;
+ref = cedillacomb;
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = 1;
+ref = cedillacomb;
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = 1;
+ref = cedillacomb;
+}
+);
+width = 600;
+}
+);
+unicode = 184;
+}

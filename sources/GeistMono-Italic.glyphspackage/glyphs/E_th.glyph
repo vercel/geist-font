@@ -1,0 +1,86 @@
+{
+glyphname = Eth;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(84,0,l),
+(310,0,ls),
+(511,0,o),
+(646,151,o),
+(646,354,cs),
+(646,560,o),
+(510,710,o),
+(304,710,cs),
+(84,710,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(172,624,l),
+(304,624,ls),
+(486,624,o),
+(554,506,o),
+(554,354,cs),
+(554,203,o),
+(485,86,o),
+(304,86,cs),
+(172,86,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,317,l),
+(370,317,l),
+(370,393,l),
+(0,393,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-135,7);
+ref = strokeshortcomb.case;
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-145,7);
+ref = strokeshortcomb.case;
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-125,43);
+ref = strokeshortcomb.case;
+}
+);
+width = 600;
+}
+);
+unicode = 208;
+}
