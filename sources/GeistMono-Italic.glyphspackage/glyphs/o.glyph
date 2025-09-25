@@ -18,6 +18,10 @@ pos = (319,0);
 {
 name = top;
 pos = (356,530);
+},
+{
+name = topright;
+pos = (420,530);
 }
 );
 background = {
@@ -114,6 +118,10 @@ pos = (321,0);
 {
 name = top;
 pos = (356,530);
+},
+{
+name = topright;
+pos = (418,530);
 }
 );
 background = {
@@ -209,7 +217,11 @@ pos = (485,10);
 },
 {
 name = top;
-pos = (357,540);
+pos = (355,540);
+},
+{
+name = topright;
+pos = (417,540);
 }
 );
 background = {

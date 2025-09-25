@@ -13,6 +13,9 @@ ref = two.circled;
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
+ref = blackCircled;
+},
+{
 closed = 1;
 nodes = (
 (296,244,o),
@@ -46,9 +49,6 @@ nodes = (
 (560,160,l),
 (296,160,l)
 );
-},
-{
-ref = blackCircled;
 }
 );
 userData = {
@@ -61,6 +61,9 @@ width = 838;
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
+{
+ref = blackCircled;
+},
 {
 closed = 1;
 nodes = (
@@ -95,9 +98,6 @@ nodes = (
 (561,160,l),
 (259,160,l)
 );
-},
-{
-ref = blackCircled;
 }
 );
 width = 802;
@@ -105,6 +105,9 @@ width = 802;
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
+{
+ref = blackCircled;
+},
 {
 closed = 1;
 nodes = (
@@ -139,9 +142,6 @@ nodes = (
 (549,160,l),
 (283,160,l)
 );
-},
-{
-ref = blackCircled;
 }
 );
 userData = {

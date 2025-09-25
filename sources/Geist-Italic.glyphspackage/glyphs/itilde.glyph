@@ -10,7 +10,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-89,0);
+pos = (-87,0);
 ref = tildecomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-61,0);
+pos = (-57,0);
 ref = tildecomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-80,0);
+pos = (-72,0);
 ref = tildecomb;
 }
 );

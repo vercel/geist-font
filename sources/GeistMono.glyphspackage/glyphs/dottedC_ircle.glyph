@@ -18,6 +18,10 @@ pos = (300,76);
 {
 name = top;
 pos = (300,640);
+},
+{
+name = topright;
+pos = (492,640);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -250,6 +254,10 @@ pos = (300,66);
 {
 name = top;
 pos = (300,651);
+},
+{
+name = topright;
+pos = (492,640);
 }
 );
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
@@ -482,6 +490,10 @@ pos = (300,66);
 {
 name = top;
 pos = (300,651);
+},
+{
+name = topright;
+pos = (492,640);
 }
 );
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";

@@ -1,0 +1,52 @@
+{
+glyphname = Uhorn;
+kernLeft = U;
+kernRight = Uhorn;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+metricRight = "=U-60";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (539,180);
+ref = horncomb;
+}
+);
+width = 663;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+metricRight = "=U-80";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (528,180);
+ref = horncomb;
+}
+);
+width = 691;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+metricRight = "=U-50";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (485,170);
+ref = horncomb;
+}
+);
+width = 714;
+}
+);
+metricLeft = U;
+metricRight = "=U-80";
+unicode = 431;
+}

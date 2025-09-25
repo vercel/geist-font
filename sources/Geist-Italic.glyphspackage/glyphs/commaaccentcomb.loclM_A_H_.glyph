@@ -3,12 +3,6 @@ color = 4;
 glyphname = commaaccentcomb.loclMAH;
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-pos = (25,0);
-}
-);
 background = {
 shapes = (
 {
@@ -19,18 +13,13 @@ ref = commaaccentcomb;
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
+alignment = 1;
 ref = commaaccentcomb;
 }
 );
 width = 162;
 },
 {
-anchors = (
-{
-name = _bottom;
-pos = (148,0);
-}
-);
 background = {
 shapes = (
 {
@@ -43,19 +32,13 @@ ref = commaaccentcomb;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
+alignment = 1;
 ref = commaaccentcomb;
 }
 );
 width = 230;
 },
 {
-anchors = (
-{
-name = _bottom;
-pos = (135,0);
-}
-);
 background = {
 shapes = (
 {
@@ -68,7 +51,7 @@ ref = commaaccentcomb;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
+alignment = 1;
 ref = commaaccentcomb;
 }
 );
