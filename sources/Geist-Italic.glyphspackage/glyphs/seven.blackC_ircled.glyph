@@ -13,9 +13,20 @@ ref = seven.circled;
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-alignment = -1;
-pos = (226,-163);
-ref = sevensuperior;
+closed = 1;
+nodes = (
+(373,284,o),
+(458,417,o),
+(554,519,c),
+(335,519,l),
+(341,547,l),
+(587,547,l),
+(581,519,l),
+(491,417,o),
+(403,282,o),
+(377,160,c),
+(345,160,l)
+);
 },
 {
 ref = blackCircled;
@@ -32,9 +43,20 @@ width = 843;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-pos = (196,-163);
-ref = sevensuperior;
+closed = 1;
+nodes = (
+(310,267,o),
+(375,367,o),
+(456,447,c),
+(289,447,l),
+(310,547,l),
+(596,547,l),
+(576,453,l),
+(480,364,o),
+(436,284,o),
+(410,159,c),
+(290,159,l)
+);
 },
 {
 ref = blackCircled;
@@ -46,9 +68,20 @@ width = 807;
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-pos = (226,-163);
-ref = sevensuperior;
+closed = 1;
+nodes = (
+(354,289,o),
+(420,393,o),
+(514,489,c),
+(329,489,l),
+(341,547,l),
+(601,547,l),
+(592,503,l),
+(493,403,o),
+(424,297,o),
+(394,159,c),
+(330,159,l)
+);
 },
 {
 ref = blackCircled;

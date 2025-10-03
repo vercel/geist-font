@@ -1,0 +1,59 @@
+{
+glyphname = Abrevedotbelow;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (231,0);
+ref = dotbelowcomb;
+},
+{
+pos = (162,180);
+ref = brevecomb;
+}
+);
+width = 600;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (240,0);
+ref = dotbelowcomb;
+},
+{
+pos = (182,180);
+ref = brevecomb;
+}
+);
+width = 658;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (269,0);
+ref = dotbelowcomb;
+},
+{
+pos = (214,170);
+ref = brevecomb;
+}
+);
+width = 760;
+}
+);
+unicode = 7862;
+}

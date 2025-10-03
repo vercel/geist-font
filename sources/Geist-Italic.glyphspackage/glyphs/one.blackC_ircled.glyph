@@ -25,12 +25,22 @@ nodes = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-alignment = -1;
-pos = (274,-163);
-ref = onesuperior;
+ref = blackCircled;
 },
 {
-ref = blackCircled;
+closed = 1;
+nodes = (
+(466,446,l),
+(368,446,l),
+(372,468,l),
+(392,468,ls),
+(458,468,o),
+(481,493,o),
+(493,547,c),
+(515,547,l),
+(433,160,l),
+(405,160,l)
+);
 }
 );
 userData = {
@@ -78,12 +88,22 @@ nodes = (
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-pos = (215,-163);
-ref = onesuperior;
+ref = blackCircled;
 },
 {
-ref = blackCircled;
+closed = 1;
+nodes = (
+(397,362,l),
+(289,362,l),
+(308,452,l),
+(339,452,ls),
+(402,452,o),
+(442,489,o),
+(454,547,c),
+(556,547,l),
+(474,160,l),
+(354,160,l)
+);
 }
 );
 width = 807;
@@ -111,12 +131,22 @@ nodes = (
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-pos = (253,-163);
-ref = onesuperior;
+ref = blackCircled;
 },
 {
-ref = blackCircled;
+closed = 1;
+nodes = (
+(436,414,l),
+(340,413,l),
+(350,463,l),
+(375,463,ls),
+(435,463,o),
+(470,495,o),
+(481,548,c),
+(530,548,l),
+(448,160,l),
+(382,160,l)
+);
 }
 );
 userData = {

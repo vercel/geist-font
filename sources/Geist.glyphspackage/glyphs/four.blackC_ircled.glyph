@@ -13,6 +13,9 @@ ref = four.circled;
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
+ref = blackCircled;
+},
+{
 closed = 1;
 nodes = (
 (451,255,l),
@@ -35,9 +38,6 @@ nodes = (
 (451,507,l),
 (292,281,l)
 );
-},
-{
-ref = blackCircled;
 }
 );
 userData = {
@@ -64,6 +64,9 @@ width = 838;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
+ref = blackCircled;
+},
+{
 closed = 1;
 nodes = (
 (397,227,l),
@@ -86,9 +89,6 @@ nodes = (
 (397,415,l),
 (321,317,l)
 );
-},
-{
-ref = blackCircled;
 }
 );
 width = 802;
@@ -96,6 +96,9 @@ width = 802;
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
+{
+ref = blackCircled;
+},
 {
 closed = 1;
 nodes = (
@@ -119,9 +122,6 @@ nodes = (
 (429,451,l),
 (319,308,l)
 );
-},
-{
-ref = blackCircled;
 }
 );
 userData = {

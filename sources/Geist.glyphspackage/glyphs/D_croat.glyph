@@ -1,51 +1,35 @@
 {
 color = 4;
 glyphname = Dcroat;
-kernLeft = O;
-kernRight = D;
+kernLeft = b;
+kernRight = O;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-ref = D;
-},
-{
-pos = (-94,7);
-ref = strokeshortcomb.case;
+ref = Eth;
 }
 );
-width = 676;
+width = 672;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-alignment = -1;
-ref = D;
-},
-{
-alignment = -1;
-pos = (-84,43);
-ref = strokeshortcomb.case;
+ref = Eth;
 }
 );
-width = 734;
+width = 730;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-alignment = -1;
-ref = D;
-},
-{
-alignment = -1;
-pos = (-104,7);
-ref = strokeshortcomb.case;
+ref = Eth;
 }
 );
-width = 698;
+width = 694;
 }
 );
 metricRight = D;
