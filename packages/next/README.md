@@ -94,6 +94,22 @@ export default function RootLayout({
   )
 }
 ```
+##### Tailwind CSS V4
+
+Then in `tailwind.css`:
+
+```css
+@theme {
+  /* rest of your theme config */
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* rest of your theme config */
+}
+```
+
+##### Tailwind CSS V3
 
 Then in `tailwind.config.js`:
 
