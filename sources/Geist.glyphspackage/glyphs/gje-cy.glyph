@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = "gje-cy";
 kernLeft = n;
 kernRight = r;
@@ -15,7 +15,7 @@ pos = (187,0);
 ref = acutecomb;
 }
 );
-width = 457;
+width = 440;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -28,7 +28,7 @@ pos = (150,0);
 ref = acutecomb;
 }
 );
-width = 507;
+width = 480;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -41,7 +41,7 @@ pos = (184,0);
 ref = acutecomb;
 }
 );
-width = 485;
+width = 460;
 }
 );
 unicode = 1107;

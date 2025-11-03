@@ -1,7 +1,8 @@
 {
-color = 8;
+color = 5;
 glyphname = "Dzhe-cy";
 kernLeft = b;
+kernRight = d;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -9,10 +10,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(354,-150,l),
-(354,15,l),
-(322,15,l),
-(322,-150,l)
+(353,-150,l),
+(353,15,l),
+(323,15,l),
+(323,-150,l)
 );
 },
 {
@@ -29,10 +30,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(461,-150,l),
-(461,32,l),
-(265,32,l),
-(265,-150,l)
+(454,-150,l),
+(454,32,l),
+(274,32,l),
+(274,-150,l)
 );
 },
 {
@@ -49,8 +50,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(395,-150,l),
-(395,32,l),
+(389,-150,l),
+(389,32,l),
 (309,32,l),
 (309,-150,l)
 );
@@ -61,8 +62,10 @@ ref = "Pe-cy";
 scale = (1,-1);
 }
 );
-width = 703;
+width = 713;
 }
 );
+metricLeft = H;
+metricRight = H;
 unicode = 1039;
 }

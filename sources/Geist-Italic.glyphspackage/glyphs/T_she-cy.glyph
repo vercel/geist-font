@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "Tshe-cy";
 kernLeft = T;
 layers = (
@@ -9,19 +9,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(557,680,l),
-(563,710,l),
+(619,680,l),
+(625,710,l),
 (109,710,l),
 (103,680,l)
 );
 },
 {
 angle = 180;
-pos = (784,710);
+pos = (808,710);
 ref = "Che-cy";
 }
 );
-width = 765;
+width = 769;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -29,19 +29,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(624,553,l),
-(658,710,l),
+(682,553,l),
+(715,710,l),
 (104,710,l),
-(70,553,l)
+(71,553,l)
 );
 },
 {
 angle = 180;
-pos = (874,710);
+pos = (898,710);
 ref = "Che-cy";
 }
 );
-width = 853;
+width = 861;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -49,21 +49,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(583,626,l),
-(601,710,l),
+(618,626,l),
+(635,710,l),
 (107,710,l),
-(89,626,l)
+(90,626,l)
 );
 },
 {
 angle = 180;
-pos = (852,710);
+pos = (855,710);
 ref = "Che-cy";
 }
 );
-width = 833;
+width = 816;
 }
 );
 metricLeft = T;
+metricRight = B;
 unicode = 1035;
 }

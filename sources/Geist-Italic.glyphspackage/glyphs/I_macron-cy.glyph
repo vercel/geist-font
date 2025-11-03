@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "Imacron-cy";
 kernRight = d;
 layers = (
@@ -14,7 +14,7 @@ pos = (219,180);
 ref = macroncomb;
 }
 );
-width = 712;
+width = 710;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -23,11 +23,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (221,170);
+pos = (222,170);
 ref = macroncomb;
 }
 );
-width = 756;
+width = 755;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -36,11 +36,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (217,180);
+pos = (232,180);
 ref = macroncomb;
 }
 );
-width = 744;
+width = 743;
 }
 );
 unicode = 1250;

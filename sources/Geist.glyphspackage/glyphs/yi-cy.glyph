@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = "yi-cy";
 kernLeft = n;
 kernRight = u;
@@ -10,8 +11,8 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-31,0);
-ref = dieresiscomb;
+pos = (-11,0);
+ref = dieresiscomb.narrow;
 }
 );
 width = 200;
@@ -23,8 +24,8 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-90,0);
-ref = dieresiscomb;
+pos = (-47,0);
+ref = dieresiscomb.narrow;
 }
 );
 width = 306;
@@ -36,8 +37,8 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-53,0);
-ref = dieresiscomb;
+pos = (-33,0);
+ref = dieresiscomb.narrow;
 }
 );
 width = 244;

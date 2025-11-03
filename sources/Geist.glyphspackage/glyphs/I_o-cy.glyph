@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = "Io-cy";
 kernLeft = b;
 kernRight = E;

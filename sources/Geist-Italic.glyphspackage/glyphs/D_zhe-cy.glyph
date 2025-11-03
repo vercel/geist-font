@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "Dzhe-cy";
 kernLeft = b;
 layers = (
@@ -7,18 +7,18 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-closed = 1;
-nodes = (
-(267,-150,l),
-(303,15,l),
-(271,15,l),
-(235,-150,l)
-);
-},
-{
 angle = 180;
 pos = (716,710);
 ref = "Pe-cy";
+},
+{
+closed = 1;
+nodes = (
+(265,-150,l),
+(300,15,l),
+(270,15,l),
+(235,-150,l)
+);
 }
 );
 width = 677;
@@ -27,38 +27,38 @@ width = 677;
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
-closed = 1;
-nodes = (
-(379,-150,l),
-(417,32,l),
-(221,32,l),
-(183,-150,l)
-);
+angle = 180;
+pos = (764,710);
+ref = "Pe-cy";
 },
 {
-angle = 180;
-pos = (765,710);
-ref = "Pe-cy";
+closed = 1;
+nodes = (
+(364,-150,l),
+(402,32,l),
+(222,32,l),
+(184,-150,l)
+);
 }
 );
-width = 728;
+width = 727;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-closed = 1;
-nodes = (
-(306,-150,l),
-(344,32,l),
-(258,32,l),
-(220,-150,l)
-);
-},
-{
 angle = 180;
 pos = (743,710);
 ref = "Pe-cy";
+},
+{
+closed = 1;
+nodes = (
+(303,-150,l),
+(342,32,l),
+(262,32,l),
+(223,-150,l)
+);
 }
 );
 width = 704;

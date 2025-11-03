@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = "E-cy";
 kernLeft = O;
 kernRight = C;
@@ -14,30 +15,30 @@ layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 alignment = -1;
-pos = (699,0);
+pos = (688,0);
 ref = "Ereversed-cy";
 scale = (-1,1);
 }
 );
-width = 699;
+width = 688;
 },
 {
 anchors = (
 {
 name = top;
-pos = (386,710);
+pos = (387,710);
 }
 );
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 alignment = -1;
-pos = (784,0);
+pos = (773,0);
 ref = "Ereversed-cy";
 scale = (-1,1);
 }
 );
-width = 784;
+width = 773;
 },
 {
 anchors = (
@@ -50,12 +51,12 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 alignment = -1;
-pos = (723,0);
+pos = (712,0);
 ref = "Ereversed-cy";
 scale = (-1,1);
 }
 );
-width = 723;
+width = 712;
 }
 );
 metricLeft = O;

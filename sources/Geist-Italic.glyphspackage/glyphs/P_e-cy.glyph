@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "Pe-cy";
 kernLeft = b;
 kernRight = d;
@@ -45,14 +45,14 @@ nodes = (
 (319,553,l),
 (529,553,l),
 (412,0,l),
-(609,0,l),
-(759,710,l),
+(608,0,l),
+(758,710,l),
 (156,710,l),
 (6,0,l)
 );
 }
 );
-width = 728;
+width = 727;
 },
 {
 anchors = (
