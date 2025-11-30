@@ -365,6 +365,8 @@ sub exclam' question by SPC;
 
 # ###
 lookup numbersign_numbersign_numbersign.liga {
+ignore sub numbersign numbersign' numbersign numbersign;
+ignore sub numbersign' numbersign numbersign numbersign;
 sub SPC SPC numbersign' by numbersign_numbersign_numbersign.liga;
 sub SPC numbersign' numbersign by SPC;
 sub numbersign' numbersign numbersign by SPC;
