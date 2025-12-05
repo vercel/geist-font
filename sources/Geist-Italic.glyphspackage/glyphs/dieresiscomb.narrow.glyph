@@ -1,28 +1,28 @@
 {
-color = 4;
+color = 9;
 glyphname = dieresiscomb.narrow;
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (168,530);
+pos = (165,530);
 }
 );
 background = {
 anchors = (
 {
 name = _top;
-pos = (196,530);
+pos = (270,530);
 }
 );
 shapes = (
 {
-pos = (65,14);
+pos = (139,14);
 ref = dotaccentcomb;
 },
 {
-pos = (192,14);
+pos = (266,14);
 ref = dotaccentcomb;
 }
 );
@@ -32,47 +32,47 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(162,628,l),
+(161,628,l),
 (176,698,l),
 (142,698,l),
-(128,628,l)
+(127,628,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(250,628,l),
-(264,698,l),
-(230,698,l),
-(216,628,l)
+(245,628,l),
+(260,698,l),
+(226,698,l),
+(211,628,l)
 );
 }
 );
-width = 223;
+width = 218;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (258,540);
+pos = (230,540);
 }
 );
 background = {
 anchors = (
 {
 name = _top;
-pos = (286,530);
+pos = (362,530);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (29,0);
+pos = (105,0);
 ref = dotaccentcomb;
 },
 {
 alignment = -1;
-pos = (276,0);
+pos = (352,0);
 ref = dotaccentcomb;
 }
 );
@@ -82,47 +82,47 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(250,594,l),
-(278,730,l),
+(225,594,l),
+(254,730,l),
 (130,730,l),
-(102,594,l)
+(101,594,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(438,594,l),
-(466,730,l),
-(318,730,l),
-(290,594,l)
+(381,594,l),
+(410,730,l),
+(286,730,l),
+(257,594,l)
 );
 }
 );
-width = 401;
+width = 344;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (212,530);
+pos = (209,530);
 }
 );
 background = {
 anchors = (
 {
 name = _top;
-pos = (243,530);
+pos = (319,530);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (65,0);
+pos = (141,0);
 ref = dotaccentcomb;
 },
 {
 alignment = -1;
-pos = (238,0);
+pos = (314,0);
 ref = dotaccentcomb;
 }
 );
@@ -132,23 +132,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(207,613,l),
+(206,613,l),
 (227,711,l),
 (139,711,l),
-(119,613,l)
+(118,613,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(341,613,l),
-(361,711,l),
-(273,711,l),
-(253,613,l)
+(334,613,l),
+(355,711,l),
+(267,711,l),
+(246,613,l)
 );
 }
 );
-width = 311;
+width = 304;
 }
 );
 metricLeft = o;

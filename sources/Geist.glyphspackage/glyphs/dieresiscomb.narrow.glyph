@@ -1,28 +1,28 @@
 {
-color = 4;
+color = 9;
 glyphname = dieresiscomb.narrow;
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (111,530);
+pos = (109,530);
 }
 );
 background = {
 anchors = (
 {
 name = _top;
-pos = (111,530);
+pos = (109,530);
 }
 );
 shapes = (
 {
-pos = (-20,14);
+pos = (-22,14);
 ref = dotaccentcomb;
 },
 {
-pos = (107,14);
+pos = (105,14);
 ref = dotaccentcomb;
 }
 );
@@ -41,38 +41,38 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(172,628,l),
-(172,698,l),
-(138,698,l),
-(138,628,l)
+(168,628,l),
+(168,698,l),
+(134,698,l),
+(134,628,l)
 );
 }
 );
-width = 222;
+width = 218;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (200,540);
+pos = (172,540);
 }
 );
 background = {
 anchors = (
 {
 name = _top;
-pos = (202,530);
+pos = (174,530);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (-55,0);
+pos = (-83,0);
 ref = dotaccentcomb;
 },
 {
 alignment = -1;
-pos = (192,0);
+pos = (164,0);
 ref = dotaccentcomb;
 }
 );
@@ -82,8 +82,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(180,594,l),
-(180,730,l),
+(156,594,l),
+(156,730,l),
 (32,730,l),
 (32,594,l)
 );
@@ -91,38 +91,38 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(368,594,l),
-(368,730,l),
-(220,730,l),
-(220,594,l)
+(312,594,l),
+(312,730,l),
+(188,730,l),
+(188,594,l)
 );
 }
 );
-width = 400;
+width = 344;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (155,530);
+pos = (152,530);
 }
 );
 background = {
 anchors = (
 {
 name = _top;
-pos = (158,530);
+pos = (155,530);
 }
 );
 shapes = (
 {
 alignment = -1;
-pos = (-20,0);
+pos = (-23,0);
 ref = dotaccentcomb;
 },
 {
 alignment = -1;
-pos = (153,0);
+pos = (150,0);
 ref = dotaccentcomb;
 }
 );
@@ -141,14 +141,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(266,613,l),
-(266,711,l),
-(178,711,l),
-(178,613,l)
+(260,613,l),
+(260,711,l),
+(172,711,l),
+(172,613,l)
 );
 }
 );
-width = 310;
+width = 304;
 }
 );
 metricLeft = o;

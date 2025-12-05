@@ -39,11 +39,11 @@ pos = (266,0);
 ref = jdotless;
 },
 {
-pos = (349,0);
+pos = (345,0);
 ref = dotaccentcomb;
 }
 );
-width = 635;
+width = 633;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

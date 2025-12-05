@@ -1,8 +1,8 @@
 {
-color = 4;
+color = 5;
 glyphname = "softsign-cy";
 kernLeft = n;
-kernRight = b;
+kernRight = o;
 layers = (
 {
 anchors = (

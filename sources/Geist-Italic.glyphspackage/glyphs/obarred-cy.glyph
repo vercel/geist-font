@@ -1,6 +1,8 @@
 {
-color = 4;
+color = 5;
 glyphname = "obarred-cy";
+kernLeft = o;
+kernRight = o;
 layers = (
 {
 anchors = (

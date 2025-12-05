@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "Gestroke-cy";
 kernLeft = H;
 kernRight = T;

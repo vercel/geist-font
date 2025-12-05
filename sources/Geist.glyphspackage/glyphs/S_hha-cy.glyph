@@ -31,11 +31,11 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 angle = 180;
-pos = (725,710);
+pos = (724,710);
 ref = "Che-cy";
 }
 );
-width = 725;
+width = 724;
 },
 {
 anchors = (

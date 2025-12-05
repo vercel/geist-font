@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = "Zhedescender-cy";
 kernLeft = X;
 kernRight = X;
@@ -33,16 +33,16 @@ ref = "Zhe-cy";
 {
 closed = 1;
 nodes = (
-(1092,-150,l),
-(1092,157,l),
-(861,157,l),
-(861,0,l),
-(895,0,l),
-(895,-150,l)
+(1112,-150,l),
+(1112,157,l),
+(881,157,l),
+(881,0,l),
+(915,0,l),
+(915,-150,l)
 );
 }
 );
-width = 1097;
+width = 1117;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

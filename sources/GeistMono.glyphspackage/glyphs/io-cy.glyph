@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = "io-cy";
 layers = (
 {
@@ -9,7 +9,6 @@ shapes = (
 ref = "ie-cy";
 },
 {
-pos = (4,0);
 ref = dieresiscomb;
 }
 );
@@ -22,7 +21,7 @@ shapes = (
 ref = "ie-cy";
 },
 {
-pos = (6,-2);
+pos = (3,-2);
 ref = dieresiscomb;
 }
 );

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "umacron-cy";
 kernLeft = v;
 kernRight = v;

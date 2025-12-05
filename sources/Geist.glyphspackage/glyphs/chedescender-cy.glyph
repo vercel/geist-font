@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = "chedescender-cy";
 kernLeft = u;
 kernRight = u;
@@ -33,16 +33,16 @@ ref = "che-cy";
 {
 closed = 1;
 nodes = (
-(684,-100,l),
-(684,140,l),
-(439,140,l),
-(439,0,l),
-(490,0,l),
-(490,-100,l)
+(704,-100,l),
+(704,140,l),
+(459,140,l),
+(459,0,l),
+(510,0,l),
+(510,-100,l)
 );
 }
 );
-width = 704;
+width = 724;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

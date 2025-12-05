@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "ge-cy";
 kernLeft = n;
 kernRight = r;

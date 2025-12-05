@@ -8,40 +8,46 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
+alignment = -1;
 ref = "softsign-cy";
 },
 {
-pos = (490,0);
+alignment = -1;
+pos = (460,0);
 ref = idotless;
 }
 );
-width = 690;
+width = 660;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
+alignment = -1;
 ref = "softsign-cy";
 },
 {
-pos = (580,0);
+alignment = -1;
+pos = (574,0);
 ref = idotless;
 }
 );
-width = 886;
+width = 880;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
+alignment = -1;
 ref = "softsign-cy";
 },
 {
-pos = (510,0);
+alignment = -1;
+pos = (456,0);
 ref = idotless;
 }
 );
-width = 754;
+width = 700;
 }
 );
 metricLeft = "softsign-cy";

@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 5;
 glyphname = "je-cy.ss08";
 kernLeft = j;
 kernRight = d;
@@ -20,7 +20,7 @@ shapes = (
 ref = j.ss08;
 }
 );
-width = 369;
+width = 367;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

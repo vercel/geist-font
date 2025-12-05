@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = "Kadescender-cy";
 kernLeft = b;
 kernRight = X;
@@ -41,16 +41,16 @@ ref = "Ka-cy";
 {
 closed = 1;
 nodes = (
-(731,-150,l),
-(731,157,l),
-(500,157,l),
-(500,0,l),
-(534,0,l),
-(534,-150,l)
+(751,-150,l),
+(751,157,l),
+(520,157,l),
+(520,0,l),
+(554,0,l),
+(554,-150,l)
 );
 }
 );
-width = 741;
+width = 761;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

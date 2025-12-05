@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3436";
 .formatVersion = 3;
 axes = (
 {
@@ -111,7 +111,7 @@ tag = slng;
 );
 }
 );
-date = "2025-09-25 14:14:33 +0000";
+date = "2025-12-05 15:28:17 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -1542,7 +1542,11 @@ pos = (552,36);
 },
 {
 angle = 78;
-pos = (225,530);
+pos = (244,0);
+},
+{
+angle = 78;
+pos = (96,530);
 }
 );
 iconName = Light;
@@ -1636,10 +1640,14 @@ pos = (52,342);
 },
 {
 angle = 78;
-pos = (137,0);
+pos = (45,0);
 },
 {
 pos = (-1,0);
+},
+{
+angle = 78;
+pos = (244,0);
 }
 );
 id = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
@@ -1720,14 +1728,18 @@ Location = 900;
 );
 guides = (
 {
-pos = (255,376);
+pos = (251,376);
 },
 {
-pos = (0,-12);
+pos = (317,48);
 },
 {
 angle = 78;
-pos = (254,531);
+pos = (67,540);
+},
+{
+angle = 78;
+pos = (244,0);
 }
 );
 iconName = Bold;
@@ -4628,5 +4640,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 600;
+versionMinor = 700;
 }

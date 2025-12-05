@@ -30,7 +30,7 @@ pos = (350,0);
 ref = "softsign-cy";
 }
 );
-width = 840;
+width = 870;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -59,7 +59,7 @@ pos = (330,0);
 ref = "softsign-cy";
 }
 );
-width = 910;
+width = 926;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -87,7 +87,7 @@ pos = (336,0);
 ref = "softsign-cy";
 }
 );
-width = 846;
+width = 876;
 }
 );
 metricLeft = n;

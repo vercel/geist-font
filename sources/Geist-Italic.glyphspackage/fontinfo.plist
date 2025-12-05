@@ -1,5 +1,5 @@
 {
-.appVersion = "3434";
+.appVersion = "3436";
 .formatVersion = 3;
 axes = (
 {
@@ -108,7 +108,7 @@ tag = slng;
 );
 }
 );
-date = "2025-11-03 02:16:46 +0000";
+date = "2025-12-05 15:27:38 +0000";
 familyName = Geist;
 featurePrefixes = (
 {
@@ -1063,7 +1063,7 @@ pos = (168,152);
 },
 {
 angle = 78;
-pos = (376,540);
+pos = (175,540);
 }
 );
 iconName = Bold;

@@ -11,7 +11,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (39,180);
+pos = (42,180);
 ref = dieresiscomb.narrow;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-4,170);
+pos = (24,170);
 ref = dieresiscomb.narrow;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (18,180);
+pos = (21,180);
 ref = dieresiscomb.narrow;
 }
 );

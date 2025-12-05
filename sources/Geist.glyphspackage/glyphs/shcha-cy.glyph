@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = "shcha-cy";
 kernLeft = n;
 kernRight = u;
@@ -34,16 +34,16 @@ ref = "sha-cy";
 {
 closed = 1;
 nodes = (
-(932,-100,l),
-(932,140,l),
-(687,140,l),
-(687,0,l),
-(738,0,l),
-(738,-100,l)
+(942,-100,l),
+(942,140,l),
+(697,140,l),
+(697,0,l),
+(748,0,l),
+(748,-100,l)
 );
 }
 );
-width = 952;
+width = 962;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";

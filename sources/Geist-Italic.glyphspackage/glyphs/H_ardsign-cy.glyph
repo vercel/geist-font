@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "Hardsign-cy";
 kernRight = B;
 layers = (
@@ -187,7 +187,7 @@ pos = (130,0);
 ref = "Softsign-cy";
 }
 );
-width = 783;
+width = 793;
 }
 );
 metricLeft = "=H-40";

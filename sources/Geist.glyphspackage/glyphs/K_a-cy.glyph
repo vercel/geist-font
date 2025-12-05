@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 4;
 glyphname = "Ka-cy";
 kernLeft = b;
 kernRight = X;
@@ -83,7 +83,7 @@ pos = (369,0);
 },
 {
 name = bottomright;
-pos = (710,0);
+pos = (720,0);
 },
 {
 name = top;
@@ -95,9 +95,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(710,0,l),
-(434,355,l),
-(700,710,l),
+(720,0,l),
+(444,355,l),
+(710,710,l),
 (480,710,l),
 (230,355,l),
 (490,0,l)
@@ -113,7 +113,7 @@ nodes = (
 );
 }
 );
-width = 720;
+width = 730;
 },
 {
 anchors = (
@@ -123,7 +123,7 @@ pos = (325,0);
 },
 {
 name = bottomright;
-pos = (611,0);
+pos = (613,0);
 },
 {
 name = top;
@@ -135,9 +135,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(611,0,l),
-(264,355,l),
-(601,710,l),
+(613,0,l),
+(266,355,l),
+(603,710,l),
 (495,710,l),
 (168,355,l),
 (505,0,l)
@@ -153,7 +153,7 @@ nodes = (
 );
 }
 );
-width = 626;
+width = 628;
 }
 );
 metricLeft = H;
