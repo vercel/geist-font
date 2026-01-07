@@ -52,7 +52,7 @@ This creates a markdown file in `packages/next/.changeset/` describing your chan
 
 1. **On every push**: The CI builds fonts and runs tests
 2. **On push to `main`**:
-   - If there are changeset files, the CI creates a "Version Packages" PR that bumps versions
+   - If there are changeset files, the CI creates a PR titled "changesets: update versions of packages for release"
    - When that PR is merged, the CI publishes to npm (named [geist](https://www.npmjs.com/package/geist?activeTab=readme)) and creates a GitHub release
    - An additional step attaches a zip file containing only the relevant font files to the GitHub release
 
@@ -60,5 +60,5 @@ This creates a markdown file in `packages/next/.changeset/` describing your chan
 
 1. Create a PR with your changes and a changeset file
 2. Get the PR reviewed and merged to `main`
-3. A "Version Packages" PR will automatically be raised — review and merge it
+3. A PR titled "changesets: update versions of packages for release" will automatically be raised — review and merge it
 4. Upon merging the PR, CI will automatically publish to npm and create the GitHub release

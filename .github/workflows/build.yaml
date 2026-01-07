@@ -85,6 +85,7 @@ jobs:
           publish: pnpm run release
           version: pnpm run version
           cwd: packages/next
+          title: "changesets: update versions of packages for release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
