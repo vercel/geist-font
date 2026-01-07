@@ -2,6 +2,8 @@ name: Build font and specimen
 
 on: push
 
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   build:
     name: Build and test
@@ -23,25 +25,6 @@ jobs:
         key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
         restore-keys: |
           ${{ runner.os }}-venv-
-    - name: gen zip file name
-      id: zip-name
-      shell: bash
-      # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
-      run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
-
-    # If a new release is cut, use the release tag to auto-bump the source files
-    # - name: Bump release
-    #   if: github.event_name == 'release'
-    #   run: |
-    #     . venv/bin/activate
-    #     SRCS=$(yq e ".sources[]" sources/config.yaml)
-    #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
-    #     echo "Bumping $SRCS to $TAG_NAME"
-    #     for src in $SRCS
-    #     do
-    #       bumpfontversion sources/$src --new-version $TAG_NAME;
-    #     done
-
     - name: Build font
       run: make build
     - name: Check with fontbakery
@@ -60,57 +43,75 @@ jobs:
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.ZIP_NAME }}
+        name: geist-font-fonts
         path: |
           fonts
           out
-    outputs:
-      zip_name: ${{ env.ZIP_NAME }}
-
-  # There are two ways a release can be created: either by pushing a tag, or by
-  # creating a release from the GitHub UI. Pushing a tag does not automatically
-  # create a release, so we have to do that ourselves. However, creating a
-  # release from the GitHub UI *does* push a tag, and we don't want to create
-  # a new release in that case because one already exists!
 
   release:
-    name: Create and populate release
+    name: Release
     needs: build
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    if: contains(github.ref, 'refs/tags/')
-    env:
-      ZIP_NAME: ${{ needs.build.outputs.zip_name }}
-      GH_TOKEN: ${{ github.token }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Download font artefact files
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download font artifacts
         uses: actions/download-artifact@v4
         with:
-          name: ${{ env.ZIP_NAME }}
-          path: ${{ env.ZIP_NAME }}
-      - name: Copy DESCRIPTION.en_us.html to artefact directory
-        run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
-      - name: Copy ARTICLE.en_us.html to artefact directory
-        run: cp documentation/article/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
-        continue-on-error: true
-      - name: Copy OFL.txt to artefact directory
-        run: cp OFL.txt ${{ env.ZIP_NAME }}/OFL.txt
-      - name: Remove proof/fontbakery stuff from release
-        run: rm -rf ${{ env.ZIP_NAME }}/out
-      - name: gen release file name
-        shell: bash
-        run: echo "RELEASE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
+          name: geist-font-fonts
+          path: ./artifacts
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        working-directory: packages/next
+        run: pnpm install --frozen-lockfile
+
+      - name: Create Release Pull Request or Publish to npm
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: pnpm run release
+          version: pnpm run version
+          cwd: packages/next
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
+
+      - name: Get published version
+        if: steps.changesets.outputs.published == 'true'
+        id: version
+        run: |
+          VERSION=$(jq -r '.version' packages/next/package.json)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "zip_name=geist-font-v$VERSION" >> $GITHUB_OUTPUT
+
       - name: Create release bundle
-        run: mv ${{ env.ZIP_NAME }} ${{ env.RELEASE_ZIP_NAME }}; zip -r ${{ env.RELEASE_ZIP_NAME }}.zip ${{ env.RELEASE_ZIP_NAME }}
-      - name: Check for release
-        id: create_release
+        if: steps.changesets.outputs.published == 'true'
         run: |
-          if ! gh release view ${{ github.ref_name }}; then
-          git show -s --format=%B ${{ github.ref_name }} | tail -n +4 | gh release create ${{ github.ref_name }} -t ${{ github.ref_name }} -F -
-          fi
-      - name: Populate release
+          mkdir -p ${{ steps.version.outputs.zip_name }}
+          cp -r artifacts/fonts/* ${{ steps.version.outputs.zip_name }}/
+          cp documentation/DESCRIPTION.en_us.html ${{ steps.version.outputs.zip_name }}/ || true
+          cp documentation/article/ARTICLE.en_us.html ${{ steps.version.outputs.zip_name }}/ || true
+          cp OFL.txt ${{ steps.version.outputs.zip_name }}/
+          zip -r ${{ steps.version.outputs.zip_name }}.zip ${{ steps.version.outputs.zip_name }}
+
+      - name: Create GitHub Release
+        if: steps.changesets.outputs.published == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload ${{ github.ref_name }} ${{ env.RELEASE_ZIP_NAME }}.zip --clobber
-      - name: Set release live
-        run: |
-          gh release edit ${{ github.ref_name }} --draft=false
+          gh release create "v${{ steps.version.outputs.version }}" \
+            --title "v${{ steps.version.outputs.version }}" \
+            --generate-notes \
+            ${{ steps.version.outputs.zip_name }}.zip
