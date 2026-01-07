@@ -24,6 +24,39 @@ customize: venv
 build.stamp: venv sources/config-Geist.yaml $(SOURCES)
 	rm -rf fonts geist-font geist-font.zip
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)
+	$(MAKE) copy-npm-fonts
+	$(MAKE) create-release-zip
+	touch build.stamp
+
+copy-npm-fonts:
+	# Clear any pre-existing build artifacts
+	rm -rf packages/next/dist/fonts
+	# Copy over the relevant font files
+	mkdir -p packages/next/dist/fonts/geist-sans packages/next/dist/fonts/geist-mono
+	cp fonts/Geist/ttf/*.ttf packages/next/dist/fonts/geist-sans/
+	cp fonts/Geist/webfonts/*.woff2 packages/next/dist/fonts/geist-sans/
+	cp fonts/Geist/variable/*.ttf packages/next/dist/fonts/geist-sans/
+	cp fonts/GeistMono/ttf/*.ttf packages/next/dist/fonts/geist-mono/
+	cp fonts/GeistMono/webfonts/*.woff2 packages/next/dist/fonts/geist-mono/
+	cp fonts/GeistMono/variable/*.ttf packages/next/dist/fonts/geist-mono/
+	# Apparently there is a naming mismatch between the font files for npm distribution and the actual font files,
+	# so we need to rename them to the correct names.
+	cd packages/next/dist/fonts/geist-sans && \
+		mv Geist-ExtraLight.ttf Geist-UltraLight.ttf && \
+		mv Geist-ExtraLight.woff2 Geist-UltraLight.woff2 && \
+		mv Geist-ExtraBold.ttf Geist-UltraBlack.ttf && \
+		mv Geist-ExtraBold.woff2 Geist-UltraBlack.woff2 && \
+		mv 'Geist[wght].ttf' Geist-Variable.ttf && \
+		mv 'Geist[wght].woff2' Geist-Variable.woff2
+	cd packages/next/dist/fonts/geist-mono && \
+		mv GeistMono-ExtraLight.ttf GeistMono-UltraLight.ttf && \
+		mv GeistMono-ExtraLight.woff2 GeistMono-UltraLight.woff2 && \
+		mv GeistMono-ExtraBold.ttf GeistMono-UltraBlack.ttf && \
+		mv GeistMono-ExtraBold.woff2 GeistMono-UltraBlack.woff2 && \
+		mv 'GeistMono[wght].ttf' GeistMono-Variable.ttf && \
+		mv 'GeistMono[wght].woff2' GeistMono-Variable.woff2
+
+create-release-zip:
 	mkdir -p geist-font
 	cp -r fonts/* geist-font/
 	cp documentation/DESCRIPTION.en_us.html geist-font/ || true
@@ -31,7 +64,6 @@ build.stamp: venv sources/config-Geist.yaml $(SOURCES)
 	cp OFL.txt geist-font/
 	zip -r geist-font.zip geist-font
 	rm -rf geist-font
-	touch build.stamp
 
 venv/touchfile: requirements.txt
 	test -d venv || python3.10 -m venv venv
