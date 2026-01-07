@@ -76,7 +76,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: packages/next
-        run: cd packages/next && pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Create Release Pull Request or Publish
         id: changesets
