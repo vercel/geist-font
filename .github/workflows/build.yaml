@@ -80,7 +80,9 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Move the font files for npm from build artifacts to the npm package
-        run: mv artifacts/packages/next/dist/fonts packages/next/dist/fonts
+        run: |
+          rm -rf packages/next/dist/fonts
+          mv artifacts/packages/next/dist/fonts packages/next/dist/fonts
 
       - name: Create Release Pull Request or Publish
         id: changesets
