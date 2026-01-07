@@ -47,6 +47,7 @@ jobs:
         path: |
           fonts
           out
+          geist-font.zip
 
   release:
     name: Release
@@ -75,9 +76,9 @@ jobs:
 
       - name: Install dependencies
         working-directory: packages/next
-        run: pnpm install --frozen-lockfile
+        run: cd packages/next && pnpm install --frozen-lockfile
 
-      - name: Create Release Pull Request or Publish to npm
+      - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
         with:
@@ -88,30 +89,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
 
-      - name: Get published version
-        if: steps.changesets.outputs.published == 'true'
-        id: version
-        run: |
-          VERSION=$(jq -r '.version' packages/next/package.json)
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-          echo "zip_name=geist-font-v$VERSION" >> $GITHUB_OUTPUT
-
-      - name: Create release bundle
-        if: steps.changesets.outputs.published == 'true'
-        run: |
-          mkdir -p ${{ steps.version.outputs.zip_name }}
-          cp -r artifacts/fonts/* ${{ steps.version.outputs.zip_name }}/
-          cp documentation/DESCRIPTION.en_us.html ${{ steps.version.outputs.zip_name }}/ || true
-          cp documentation/article/ARTICLE.en_us.html ${{ steps.version.outputs.zip_name }}/ || true
-          cp OFL.txt ${{ steps.version.outputs.zip_name }}/
-          zip -r ${{ steps.version.outputs.zip_name }}.zip ${{ steps.version.outputs.zip_name }}
-
-      - name: Create GitHub Release
+      # This will upload the font zip and attach it to the existing github release for the npm package,
+      # allowing users to download just the font zip files without the source code of the npm package.
+      - name: Upload font zip to GitHub Release
         if: steps.changesets.outputs.published == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "v${{ steps.version.outputs.version }}" \
-            --title "v${{ steps.version.outputs.version }}" \
-            --generate-notes \
-            ${{ steps.version.outputs.zip_name }}.zip
+          VERSION=$(jq -r '.version' packages/next/package.json)
+          mv artifacts/geist-font.zip "geist-font-v$VERSION.zip"
+          gh release upload "geist@$VERSION" "geist-font-v$VERSION.zip" --clobber

@@ -22,8 +22,16 @@ customize: venv
 	. venv/bin/activate; python3.10 scripts/customize.py
 
 build.stamp: venv sources/config-Geist.yaml $(SOURCES)
-	rm -rf fonts
-	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
+	rm -rf fonts geist-font geist-font.zip
+	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)
+	mkdir -p geist-font
+	cp -r fonts/* geist-font/
+	cp documentation/DESCRIPTION.en_us.html geist-font/ || true
+	cp documentation/article/ARTICLE.en_us.html geist-font/ || true
+	cp OFL.txt geist-font/
+	zip -r geist-font.zip geist-font
+	rm -rf geist-font
+	touch build.stamp
 
 venv/touchfile: requirements.txt
 	test -d venv || python3.10 -m venv venv
