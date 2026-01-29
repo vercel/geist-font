@@ -1,0 +1,26 @@
+{
+glyphname = onehalf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = onesuperior;
+},
+{
+pos = (342,-380);
+ref = twosuperior;
+},
+{
+pos = (152,0);
+ref = _diagonal;
+}
+);
+width = 760;
+}
+);
+metricLeft = h;
+metricRight = h;
+unicode = 189;
+}

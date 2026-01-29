@@ -1,0 +1,19 @@
+{
+glyphname = Gmacron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = G;
+},
+{
+pos = (152,190);
+ref = macroncomb;
+}
+);
+width = 684;
+}
+);
+unicode = 7712;
+}

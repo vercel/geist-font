@@ -1,0 +1,21 @@
+{
+glyphname = second;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = minute;
+},
+{
+alignment = -1;
+pos = (152,0);
+ref = minute;
+}
+);
+width = 380;
+}
+);
+unicode = 8243;
+}

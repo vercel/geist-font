@@ -1,0 +1,15 @@
+{
+glyphname = commaturnedmod;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = commaturnedabovecomb;
+}
+);
+width = 190;
+}
+);
+unicode = 699;
+}
