@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = "Te-cy";
 kernLeft = T;
 kernRight = T;

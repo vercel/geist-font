@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = "Gestroke-cy";
 kernLeft = H;
 kernRight = T;
@@ -10,18 +10,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(452,313,l),
-(452,343,l),
-(76,343,l),
-(76,313,l)
+(388,339,l),
+(388,367,l),
+(56,367,l),
+(56,339,l)
 );
 },
 {
-pos = (47,0);
+pos = (60,0);
 ref = "Ge-cy";
 }
 );
-width = 616;
+width = 582;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -29,18 +29,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(508,250,l),
-(508,407,l),
-(42,407,l),
-(42,250,l)
+(498,267,l),
+(498,407,l),
+(22,407,l),
+(22,267,l)
 );
 },
 {
-pos = (53,0);
+pos = (60,0);
 ref = "Ge-cy";
 }
 );
-width = 685;
+width = 628;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -48,21 +48,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(478,286,l),
-(478,370,l),
-(72,370,l),
-(72,286,l)
+(438,300,l),
+(438,380,l),
+(52,380,l),
+(52,300,l)
 );
 },
 {
-pos = (53,0);
+pos = (60,0);
 ref = "Ge-cy";
 }
 );
-width = 629;
+width = 600;
 }
 );
-metricLeft = "=H-20";
+metricLeft = "=H-40";
 metricRight = T;
 unicode = 1170;
 }

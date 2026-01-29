@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 5;
 glyphname = "Iishort-cy";
 kernLeft = b;
 kernRight = d;
@@ -11,11 +11,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (219,180);
+pos = (220,180);
 ref = "brevecomb-cy";
 }
 );
-width = 712;
+width = 710;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -24,11 +24,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (213,170);
+pos = (187,170);
 ref = "brevecomb-cy";
 }
 );
-width = 756;
+width = 755;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -37,11 +37,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (212,180);
+pos = (220,180);
 ref = "brevecomb-cy";
 }
 );
-width = 744;
+width = 743;
 }
 );
 unicode = 1049;

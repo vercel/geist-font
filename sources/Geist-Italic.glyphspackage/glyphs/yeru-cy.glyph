@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 5;
 glyphname = "yeru-cy";
 kernLeft = n;
 kernRight = u;
@@ -8,22 +8,17 @@ layers = (
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-closed = 1;
-nodes = (
-(575,0,l),
-(687,530,l),
-(657,530,l),
-(545,0,l)
-);
+ref = "softsign-cy";
 },
 {
-ref = "softsign-cy";
+pos = (484,0);
+ref = idotless;
 }
 );
-width = 716;
+width = 684;
 },
 {
-layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+background = {
 shapes = (
 {
 closed = 1;
@@ -33,32 +28,33 @@ nodes = (
 (728,540,l),
 (614,0,l)
 );
-},
-{
-alignment = -1;
-ref = "softsign-cy";
 }
 );
-width = 922;
+};
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = "softsign-cy";
+},
+{
+pos = (578,0);
+ref = idotless;
+}
+);
+width = 884;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
-closed = 1;
-nodes = (
-(658,0,l),
-(770,530,l),
-(686,530,l),
-(574,0,l)
-);
+ref = "softsign-cy";
 },
 {
-alignment = -1;
-ref = "softsign-cy";
+pos = (506,0);
+ref = idotless;
 }
 );
-width = 794;
+width = 750;
 }
 );
 metricLeft = "softsign-cy";

@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = "yi-cy";
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (34,0);
+pos = (35,0);
 ref = dieresiscomb;
 }
 );

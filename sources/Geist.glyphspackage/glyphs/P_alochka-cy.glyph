@@ -1,8 +1,8 @@
 {
-color = 8;
+color = 5;
 glyphname = "Palochka-cy";
 kernLeft = b;
-kernRight = H;
+kernRight = d;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";

@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3436";
 .formatVersion = 3;
 axes = (
 {
@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex I Iacute Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Abrevedotbelow.ss08 Adieresis.ss08 Adotbelow.ss08 Cdotaccent.ss08 Ecircumflexdotbelow.ss08 Edieresis.ss08 Edotaccent.ss08 Edotbelow.ss08 Gdotaccent.ss08 Idieresis.ss08 Idotaccent.ss08 Idotbelow.ss08 Ocircumflexdotbelow.ss08 Odieresis.ss08 Ohorndotbelow.ss08 Udieresis.ss08 Udotbelow.ss08 Uhorndotbelow.ss08 Wdieresis.ss08 Ydieresis.ss08 Ydotbelow.ss08 Zdotaccent.ss08 Idieresis.ss05.ss08 Idotaccent.ss05.ss08 Idotbelow.ss05.ss08 Gdotaccent.ss06.ss08 A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy Lambda Omega";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex I Iacute Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Abrevedotbelow.ss08 Adieresis.ss08 Adotbelow.ss08 Cdotaccent.ss08 Ecircumflexdotbelow.ss08 Edieresis.ss08 Edotaccent.ss08 Edotbelow.ss08 Gdotaccent.ss08 Idieresis.ss08 Idotaccent.ss08 Idotbelow.ss08 Ocircumflexdotbelow.ss08 Odieresis.ss08 Ohorndotbelow.ss08 Udieresis.ss08 Udotbelow.ss08 Uhorndotbelow.ss08 Wdieresis.ss08 Ydieresis.ss08 Ydotbelow.ss08 Zdotaccent.ss08 Gdotaccent.ss06.ss08 A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy Lambda Omega";
 name = Uppercase;
 },
 {
@@ -111,7 +111,7 @@ tag = slng;
 );
 }
 );
-date = "2025-09-25 14:14:33 +0000";
+date = "2025-12-05 15:28:17 +0000";
 familyName = "Geist Mono";
 featurePrefixes = (
 {
@@ -341,6 +341,251 @@ sub N o period by numero;
 tag = ordn;
 },
 {
+automatic = 1;
+code = "sub strokeshortcomb by strokeshortcomb.case;
+sub slashshortcomb by slashshortcomb.case;
+sub slashlongcomb by slashlongcomb.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "sub a by a.ss02;
+sub aacute by aacute.ss02;
+sub abreve by abreve.ss02;
+sub abreveacute by abreveacute.ss02;
+sub abrevedotbelow by abrevedotbelow.ss02;
+sub abrevegrave by abrevegrave.ss02;
+sub abrevetilde by abrevetilde.ss02;
+sub acaron by acaron.ss02;
+sub acircumflex by acircumflex.ss02;
+sub acircumflexacute by acircumflexacute.ss02;
+sub acircumflexdotbelow by acircumflexdotbelow.ss02;
+sub acircumflexgrave by acircumflexgrave.ss02;
+sub acircumflextilde by acircumflextilde.ss02;
+sub adieresis by adieresis.ss02;
+sub adotbelow by adotbelow.ss02;
+sub agrave by agrave.ss02;
+sub amacron by amacron.ss02;
+sub aogonek by aogonek.ss02;
+sub aring by aring.ss02;
+sub atilde by atilde.ss02;
+";
+labels = (
+{
+language = dflt;
+value = "Alt a";
+}
+);
+tag = ss02;
+},
+{
+automatic = 1;
+code = "sub l by l.ss03;
+sub lacute by lacute.ss03;
+sub lcaron by lcaron.ss03;
+sub lcommaaccent by lcommaaccent.ss03;
+sub lslash by lslash.ss03;
+";
+labels = (
+{
+language = dflt;
+value = "Alt l";
+}
+);
+tag = ss03;
+},
+{
+automatic = 1;
+code = "sub R by R.ss04;
+sub Racute by Racute.ss04;
+sub Rcaron by Rcaron.ss04;
+sub Rcommaaccent by Rcommaaccent.ss04;
+";
+labels = (
+{
+language = dflt;
+value = "Alt R";
+}
+);
+tag = ss04;
+},
+{
+automatic = 1;
+code = "sub g by g.ss05;
+sub gbreve by gbreve.ss05;
+sub gcaron by gcaron.ss05;
+sub gcircumflex by gcircumflex.ss05;
+sub gcommaaccent by gcommaaccent.ss05;
+sub gdotaccent by gdotaccent.ss05;
+sub gmacron by gmacron.ss05;
+sub gstroke by gstroke.ss05;
+";
+labels = (
+{
+language = dflt;
+value = "Alt g";
+}
+);
+tag = ss05;
+},
+{
+automatic = 1;
+code = "sub G by G.ss06;
+sub Gbreve by Gbreve.ss06;
+sub Gcircumflex by Gcircumflex.ss06;
+sub Gcommaaccent by Gcommaaccent.ss06;
+sub Gdotaccent by Gdotaccent.ss06;
+sub Gmacron by Gmacron.ss06;
+";
+labels = (
+{
+language = dflt;
+value = "Alt G";
+}
+);
+tag = ss06;
+},
+{
+automatic = 1;
+code = "sub upArrow by upArrow.ss07;
+sub northEastArrow by northEastArrow.ss07;
+sub rightArrow by rightArrow.ss07;
+sub southEastArrow by southEastArrow.ss07;
+sub downArrow by downArrow.ss07;
+sub southWestArrow by southWestArrow.ss07;
+sub leftArrow by leftArrow.ss07;
+sub northWestArrow by northWestArrow.ss07;
+sub leftRightArrow by leftRightArrow.ss07;
+sub upDownArrow by upDownArrow.ss07;
+";
+labels = (
+{
+language = dflt;
+value = "Alt arrows";
+}
+);
+tag = ss07;
+},
+{
+automatic = 1;
+code = "sub Abrevedotbelow by Abrevedotbelow.ss08;
+sub Adieresis by Adieresis.ss08;
+sub Adotbelow by Adotbelow.ss08;
+sub Cdotaccent by Cdotaccent.ss08;
+sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss08;
+sub Edieresis by Edieresis.ss08;
+sub Edotaccent by Edotaccent.ss08;
+sub Edotbelow by Edotbelow.ss08;
+sub Gdotaccent by Gdotaccent.ss08;
+sub Idieresis by Idieresis.ss08;
+sub Idotaccent by Idotaccent.ss08;
+sub Idotbelow by Idotbelow.ss08;
+sub Ocircumflexdotbelow by Ocircumflexdotbelow.ss08;
+sub Odieresis by Odieresis.ss08;
+sub Ohorndotbelow by Ohorndotbelow.ss08;
+sub Udieresis by Udieresis.ss08;
+sub Udotbelow by Udotbelow.ss08;
+sub Uhorndotbelow by Uhorndotbelow.ss08;
+sub Wdieresis by Wdieresis.ss08;
+sub Ydieresis by Ydieresis.ss08;
+sub Ydotbelow by Ydotbelow.ss08;
+sub Zdotaccent by Zdotaccent.ss08;
+sub Gdotaccent.ss06 by Gdotaccent.ss06.ss08;
+sub abrevedotbelow by abrevedotbelow.ss08;
+sub acircumflexdotbelow by acircumflexdotbelow.ss08;
+sub adieresis by adieresis.ss08;
+sub adotbelow by adotbelow.ss08;
+sub cdotaccent by cdotaccent.ss08;
+sub ecircumflexdotbelow by ecircumflexdotbelow.ss08;
+sub edieresis by edieresis.ss08;
+sub edotaccent by edotaccent.ss08;
+sub edotbelow by edotbelow.ss08;
+sub gdotaccent by gdotaccent.ss08;
+sub i by i.ss08;
+sub idieresis by idieresis.ss08;
+sub idotaccent by idotaccent.ss08;
+sub idotbelow by idotbelow.ss08;
+sub iogonek by iogonek.ss08;
+sub j by j.ss08;
+sub ocircumflexdotbelow by ocircumflexdotbelow.ss08;
+sub odieresis by odieresis.ss08;
+sub ohorndotbelow by ohorndotbelow.ss08;
+sub udieresis by udieresis.ss08;
+sub udotbelow by udotbelow.ss08;
+sub uhorndotbelow by uhorndotbelow.ss08;
+sub wdieresis by wdieresis.ss08;
+sub ydieresis by ydieresis.ss08;
+sub ydotbelow by ydotbelow.ss08;
+sub zdotaccent by zdotaccent.ss08;
+sub abrevedotbelow.ss02 by abrevedotbelow.ss02.ss08;
+sub acircumflexdotbelow.ss02 by acircumflexdotbelow.ss02.ss08;
+sub adieresis.ss02 by adieresis.ss02.ss08;
+sub adotbelow.ss02 by adotbelow.ss02.ss08;
+sub gdotaccent.ss05 by gdotaccent.ss05.ss08;
+sub Io-cy by Io-cy.ss08;
+sub Yi-cy by Yi-cy.ss08;
+sub io-cy by io-cy.ss08;
+sub i-cy by i-cy.ss08;
+sub yi-cy by yi-cy.ss08;
+sub je-cy by je-cy.ss08;
+sub period by period.ss08;
+sub colon by colon.ss08;
+sub semicolon by semicolon.ss08;
+sub ellipsis by ellipsis.ss08;
+sub exclam by exclam.ss08;
+sub exclamdown by exclamdown.ss08;
+sub question by question.ss08;
+sub questiondown by questiondown.ss08;
+sub periodcentered by periodcentered.ss08;
+sub dieresiscomb by dieresiscomb.ss08;
+sub dotaccentcomb by dotaccentcomb.ss08;
+sub dotbelowcomb by dotbelowcomb.ss08;
+sub dieresis by dieresis.ss08;
+sub dotaccent by dotaccent.ss08;
+";
+labels = (
+{
+language = dflt;
+value = "Rounded dot";
+}
+);
+tag = ss08;
+},
+{
+automatic = 1;
+code = "sub zero by zero.ss09;
+";
+labels = (
+{
+language = dflt;
+value = "Non-slashed zero";
+}
+);
+tag = ss09;
+},
+{
+code = "sub parenleft by parenleft.alt;
+sub parenright by parenright.alt;
+sub bracketleft by bracketleft.alt;
+sub bracketright by bracketright.alt;
+sub guillemetleft by guillemetleft.alt;
+sub guillemetright by guillemetright.alt;
+sub less by less.alt;
+sub greater by greater.alt;
+
+sub less.alt less.alt by guillemetleft.alt;
+sub greater.alt greater.alt by guillemetright.alt;
+";
+labels = (
+{
+language = dflt;
+value = "Alternative enclosing shapes";
+}
+);
+tag = ss10;
+},
+{
 code = "# </>
 lookup less_slash_greater.liga {
 sub SPC SPC greater' by less_slash_greater.liga;
@@ -365,6 +610,8 @@ sub exclam' question by SPC;
 
 # ###
 lookup numbersign_numbersign_numbersign.liga {
+ignore sub numbersign numbersign' numbersign numbersign;
+ignore sub numbersign' numbersign numbersign numbersign;
 sub SPC SPC numbersign' by numbersign_numbersign_numbersign.liga;
 sub SPC numbersign' numbersign by SPC;
 sub numbersign' numbersign numbersign by SPC;
@@ -1005,6 +1252,12 @@ sub SPC equal' by period_equal.liga;
 sub period' equal by SPC;
 } period_equal.liga;
 ";
+labels = (
+{
+language = dflt;
+value = "Coding ligatures";
+}
+);
 notes = "# --->
 lookup hyphen_hyphen_hyphen_greater.liga {
 ignore sub bracketleft hyphen' hyphen hyphen greater;
@@ -1246,246 +1499,7 @@ sub colon' @UppercaseRelated by colon.case;
 
 
 ";
-tag = liga;
-},
-{
-automatic = 1;
-code = "sub strokeshortcomb by strokeshortcomb.case;
-sub slashshortcomb by slashshortcomb.case;
-sub slashlongcomb by slashlongcomb.case;
-";
-tag = case;
-},
-{
-automatic = 1;
-code = "sub a by a.ss02;
-sub aacute by aacute.ss02;
-sub abreve by abreve.ss02;
-sub abreveacute by abreveacute.ss02;
-sub abrevedotbelow by abrevedotbelow.ss02;
-sub abrevegrave by abrevegrave.ss02;
-sub abrevetilde by abrevetilde.ss02;
-sub acaron by acaron.ss02;
-sub acircumflex by acircumflex.ss02;
-sub acircumflexacute by acircumflexacute.ss02;
-sub acircumflexdotbelow by acircumflexdotbelow.ss02;
-sub acircumflexgrave by acircumflexgrave.ss02;
-sub acircumflextilde by acircumflextilde.ss02;
-sub adieresis by adieresis.ss02;
-sub adotbelow by adotbelow.ss02;
-sub agrave by agrave.ss02;
-sub amacron by amacron.ss02;
-sub aogonek by aogonek.ss02;
-sub aring by aring.ss02;
-sub atilde by atilde.ss02;
-";
-labels = (
-{
-language = dflt;
-value = "Alt a";
-}
-);
-tag = ss02;
-},
-{
-automatic = 1;
-code = "sub l by l.ss03;
-sub lacute by lacute.ss03;
-sub lcaron by lcaron.ss03;
-sub lcommaaccent by lcommaaccent.ss03;
-sub lslash by lslash.ss03;
-";
-labels = (
-{
-language = dflt;
-value = "Alt l";
-}
-);
-tag = ss03;
-},
-{
-automatic = 1;
-code = "sub R by R.ss04;
-sub Racute by Racute.ss04;
-sub Rcaron by Rcaron.ss04;
-sub Rcommaaccent by Rcommaaccent.ss04;
-";
-labels = (
-{
-language = dflt;
-value = "Alt R";
-}
-);
-tag = ss04;
-},
-{
-automatic = 1;
-code = "sub g by g.ss05;
-sub gbreve by gbreve.ss05;
-sub gcaron by gcaron.ss05;
-sub gcircumflex by gcircumflex.ss05;
-sub gcommaaccent by gcommaaccent.ss05;
-sub gdotaccent by gdotaccent.ss05;
-sub gmacron by gmacron.ss05;
-sub gstroke by gstroke.ss05;
-";
-labels = (
-{
-language = dflt;
-value = "Alt g";
-}
-);
-tag = ss05;
-},
-{
-automatic = 1;
-code = "sub G by G.ss06;
-sub Gbreve by Gbreve.ss06;
-sub Gcircumflex by Gcircumflex.ss06;
-sub Gcommaaccent by Gcommaaccent.ss06;
-sub Gdotaccent by Gdotaccent.ss06;
-sub Gmacron by Gmacron.ss06;
-";
-labels = (
-{
-language = dflt;
-value = "Alt G";
-}
-);
-tag = ss06;
-},
-{
-automatic = 1;
-code = "sub upArrow by upArrow.ss07;
-sub northEastArrow by northEastArrow.ss07;
-sub rightArrow by rightArrow.ss07;
-sub southEastArrow by southEastArrow.ss07;
-sub downArrow by downArrow.ss07;
-sub southWestArrow by southWestArrow.ss07;
-sub leftArrow by leftArrow.ss07;
-sub northWestArrow by northWestArrow.ss07;
-sub leftRightArrow by leftRightArrow.ss07;
-sub upDownArrow by upDownArrow.ss07;
-";
-labels = (
-{
-language = dflt;
-value = "Alt arrows";
-}
-);
-tag = ss07;
-},
-{
-automatic = 1;
-code = "sub Abrevedotbelow by Abrevedotbelow.ss08;
-sub Adieresis by Adieresis.ss08;
-sub Adotbelow by Adotbelow.ss08;
-sub Cdotaccent by Cdotaccent.ss08;
-sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss08;
-sub Edieresis by Edieresis.ss08;
-sub Edotaccent by Edotaccent.ss08;
-sub Edotbelow by Edotbelow.ss08;
-sub Gdotaccent by Gdotaccent.ss08;
-sub Idieresis by Idieresis.ss08;
-sub Idotaccent by Idotaccent.ss08;
-sub Idotbelow by Idotbelow.ss08;
-sub Ocircumflexdotbelow by Ocircumflexdotbelow.ss08;
-sub Odieresis by Odieresis.ss08;
-sub Ohorndotbelow by Ohorndotbelow.ss08;
-sub Udieresis by Udieresis.ss08;
-sub Udotbelow by Udotbelow.ss08;
-sub Uhorndotbelow by Uhorndotbelow.ss08;
-sub Wdieresis by Wdieresis.ss08;
-sub Ydieresis by Ydieresis.ss08;
-sub Ydotbelow by Ydotbelow.ss08;
-sub Zdotaccent by Zdotaccent.ss08;
-sub Gdotaccent.ss06 by Gdotaccent.ss06.ss08;
-sub abrevedotbelow by abrevedotbelow.ss08;
-sub acircumflexdotbelow by acircumflexdotbelow.ss08;
-sub adieresis by adieresis.ss08;
-sub adotbelow by adotbelow.ss08;
-sub cdotaccent by cdotaccent.ss08;
-sub ecircumflexdotbelow by ecircumflexdotbelow.ss08;
-sub edieresis by edieresis.ss08;
-sub edotaccent by edotaccent.ss08;
-sub edotbelow by edotbelow.ss08;
-sub gdotaccent by gdotaccent.ss08;
-sub i by i.ss08;
-sub idieresis by idieresis.ss08;
-sub idotaccent by idotaccent.ss08;
-sub idotbelow by idotbelow.ss08;
-sub iogonek by iogonek.ss08;
-sub j by j.ss08;
-sub ocircumflexdotbelow by ocircumflexdotbelow.ss08;
-sub odieresis by odieresis.ss08;
-sub ohorndotbelow by ohorndotbelow.ss08;
-sub udieresis by udieresis.ss08;
-sub udotbelow by udotbelow.ss08;
-sub uhorndotbelow by uhorndotbelow.ss08;
-sub wdieresis by wdieresis.ss08;
-sub ydieresis by ydieresis.ss08;
-sub ydotbelow by ydotbelow.ss08;
-sub zdotaccent by zdotaccent.ss08;
-sub abrevedotbelow.ss02 by abrevedotbelow.ss02.ss08;
-sub acircumflexdotbelow.ss02 by acircumflexdotbelow.ss02.ss08;
-sub adieresis.ss02 by adieresis.ss02.ss08;
-sub adotbelow.ss02 by adotbelow.ss02.ss08;
-sub gdotaccent.ss05 by gdotaccent.ss05.ss08;
-sub period by period.ss08;
-sub colon by colon.ss08;
-sub semicolon by semicolon.ss08;
-sub ellipsis by ellipsis.ss08;
-sub exclam by exclam.ss08;
-sub exclamdown by exclamdown.ss08;
-sub question by question.ss08;
-sub questiondown by questiondown.ss08;
-sub periodcentered by periodcentered.ss08;
-sub dieresiscomb by dieresiscomb.ss08;
-sub dotaccentcomb by dotaccentcomb.ss08;
-sub dotbelowcomb by dotbelowcomb.ss08;
-sub dieresis by dieresis.ss08;
-sub dotaccent by dotaccent.ss08;
-";
-labels = (
-{
-language = dflt;
-value = "Rounded dot";
-}
-);
-tag = ss08;
-},
-{
-automatic = 1;
-code = "sub zero by zero.ss09;
-";
-labels = (
-{
-language = dflt;
-value = "Non-slashed zero";
-}
-);
-tag = ss09;
-},
-{
-code = "sub parenleft by parenleft.alt;
-sub parenright by parenright.alt;
-sub bracketleft by bracketleft.alt;
-sub bracketright by bracketright.alt;
-sub guillemetleft by guillemetleft.alt;
-sub guillemetright by guillemetright.alt;
-sub less by less.alt;
-sub greater by greater.alt;
-
-sub less.alt less.alt by guillemetleft.alt;
-sub greater.alt greater.alt by guillemetright.alt;
-";
-labels = (
-{
-language = dflt;
-value = "Alternative enclosing shapes";
-}
-);
-tag = ss10;
+tag = ss11;
 }
 );
 fontMaster = (
@@ -1542,7 +1556,11 @@ pos = (552,36);
 },
 {
 angle = 78;
-pos = (225,530);
+pos = (244,0);
+},
+{
+angle = 78;
+pos = (96,530);
 }
 );
 iconName = Light;
@@ -1636,10 +1654,14 @@ pos = (52,342);
 },
 {
 angle = 78;
-pos = (137,0);
+pos = (45,0);
 },
 {
 pos = (-1,0);
+},
+{
+angle = 78;
+pos = (244,0);
 }
 );
 id = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
@@ -1720,14 +1742,18 @@ Location = 900;
 );
 guides = (
 {
-pos = (255,376);
+pos = (251,376);
 },
 {
-pos = (0,-12);
+pos = (317,48);
 },
 {
 angle = 78;
-pos = (254,531);
+pos = (67,540);
+},
+{
+angle = 78;
+pos = (244,0);
 }
 );
 iconName = Bold;
@@ -4628,5 +4654,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 600;
+versionMinor = 700;
 }

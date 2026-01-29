@@ -8,7 +8,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (-1,180);
+pos = (0,180);
 ref = dieresiscomb;
 }
 );

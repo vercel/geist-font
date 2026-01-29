@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "ushort-cy";
 layers = (
 {
@@ -9,7 +9,6 @@ shapes = (
 ref = "u-cy";
 },
 {
-pos = (6,0);
 ref = "brevecomb-cy";
 }
 );
@@ -22,7 +21,7 @@ shapes = (
 ref = "u-cy";
 },
 {
-pos = (5,0);
+pos = (-1,0);
 ref = "brevecomb-cy";
 }
 );
@@ -35,7 +34,7 @@ shapes = (
 ref = "u-cy";
 },
 {
-pos = (8,0);
+pos = (-3,0);
 ref = "brevecomb-cy";
 }
 );

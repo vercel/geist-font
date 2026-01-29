@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = "u-cy";
 kernLeft = v;
 kernRight = v;

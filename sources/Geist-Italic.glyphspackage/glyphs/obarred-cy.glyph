@@ -1,6 +1,8 @@
 {
-color = 3;
+color = 5;
 glyphname = "obarred-cy";
+kernLeft = o;
+kernRight = o;
 layers = (
 {
 anchors = (
@@ -14,10 +16,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(474,250,l),
+(474,252,l),
 (480,280,l),
 (63,280,l),
-(57,250,l)
+(57,252,l)
 );
 },
 {

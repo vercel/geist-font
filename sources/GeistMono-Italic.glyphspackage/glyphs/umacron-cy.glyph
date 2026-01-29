@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "umacron-cy";
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = "u-cy";
 },
 {
-pos = (6,0);
+pos = (-1,0);
 ref = macroncomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = "u-cy";
 },
 {
-pos = (4,0);
+pos = (-1,0);
 ref = macroncomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = "u-cy";
 },
 {
-pos = (9,0);
+pos = (-1,0);
 ref = macroncomb;
 }
 );

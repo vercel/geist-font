@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = "Yi-cy.ss05.ss08";
 layers = (
 {
@@ -8,8 +9,8 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (4,180);
-ref = dieresiscomb.ss08;
+pos = (39,180);
+ref = dieresiscomb.narrow.ss08;
 }
 );
 width = 320;
@@ -21,8 +22,8 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (31,180);
-ref = dieresiscomb.ss08;
+pos = (67,180);
+ref = dieresiscomb.narrow.ss08;
 }
 );
 width = 426;
@@ -34,8 +35,8 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (14,170);
-ref = dieresiscomb.ss08;
+pos = (83,170);
+ref = dieresiscomb.narrow.ss08;
 }
 );
 width = 503;

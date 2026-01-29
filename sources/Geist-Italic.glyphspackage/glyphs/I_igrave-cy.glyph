@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 5;
 glyphname = "Iigrave-cy";
 layers = (
 {
@@ -13,7 +13,7 @@ pos = (252,180);
 ref = gravecomb;
 }
 );
-width = 712;
+width = 710;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -22,11 +22,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (232,180);
+pos = (247,180);
 ref = gravecomb;
 }
 );
-width = 744;
+width = 743;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -35,11 +35,11 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (234,170);
+pos = (235,170);
 ref = gravecomb;
 }
 );
-width = 756;
+width = 755;
 }
 );
 unicode = 1037;
