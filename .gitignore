@@ -23,6 +23,11 @@ build.ninja
 ehthumbs.db
 Thumbs.db
 
+# Font build artifacts #
+geist-font/
+geist-font*.zip
+packages/next/dist/fonts/
+
 # Autosaved by application when editing
 ######################
 *(تم الحفظ تلقائيًا).*
