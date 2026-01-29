@@ -415,7 +415,7 @@ immediately.
                             </span>
 
                             <span class='details_text'>
-                            <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1122 instead.
+                            <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1125 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
 
                             
@@ -445,7 +445,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
                             </span>
 
                             <span class='details_text'>
-                            <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1131 instead.
+                            <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1137 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
 
                             
@@ -1091,25 +1091,17 @@ This check relies on the external service <a href="http://namecheck.fontdata.com
 
                             <span class='details_text'>
                             <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- Idieresis.ss05.ss08
-
-- Idotaccent.ss05.ss08
-
-- adieresis.ss01.ss08
+<pre><code>- adieresis.ss01.ss08
 
 - blackCircled
 
 - hyphen_hyphen_hyphen_greater.liga
-
-- uni0306.cy
 
 - uni1EA1.ss01.ss08
 
 - uni1EAD.ss01.ss08
 
 - uni1EB7.ss01.ss08
-
-- uni1ECA.ss05.ss08
 </code></pre>
 
                             
@@ -1143,8 +1135,6 @@ This check relies on the external service <a href="http://namecheck.fontdata.com
 <pre><code>- blackCircled
 
 - hyphen_hyphen_hyphen_greater.liga
-
-- uni0306.cy
 </code></pre>
 
                             
@@ -1466,13 +1456,13 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, canadian-aboriginal, tai-le, todhri, hebrew, malayalam, tifinagh, old-permic, math, coptic, syriac</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, malayalam, old-permic, tai-le, math, coptic, duployan, syriac, tifinagh, hebrew, todhri</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -1484,11 +1474,11 @@ definitions.</p>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, elbasan, math</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
@@ -1555,15 +1545,15 @@ definitions.</p>
 <li>U+240B SYMBOL FOR VERTICAL TABULATION: try adding symbols</li>
 <li>U+240C SYMBOL FOR FORM FEED: try adding symbols</li>
 <li>U+2423 OPEN BOX: try adding symbols</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: mongolian, yi, symbols</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: mongolian, yi, symbols</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: mongolian, yi, symbols</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: mongolian, yi, symbols</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: mongolian, yi, symbols</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: mongolian, yi, symbols</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: mongolian, yi, symbols</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: mongolian, yi, symbols</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: mongolian, yi, symbols</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: yi, mongolian, symbols</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: yi, mongolian, symbols</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: yi, mongolian, symbols</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: yi, mongolian, symbols</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: yi, mongolian, symbols</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: yi, mongolian, symbols</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: yi, mongolian, symbols</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: yi, mongolian, symbols</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: yi, mongolian, symbols</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
@@ -1576,7 +1566,7 @@ definitions.</p>
 <li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: kannada, marchen, telugu, tamil, batak, lepcha, grantha, malayalam, gurmukhi, buginese, symbols, hanifi-rohingya, new-tai-lue, tagalog, tai-viet, newa, kaithi, tirhuta, music, wancho, brahmi, dogra, bengali, khmer, ahom, modi, myanmar, khudawadi, psalter-pahlavi, duployan, javanese, khojki, mende-kikakui, chakma, sogdian, devanagari, mahajani, pahawh-hmong, balinese, canadian-aboriginal, sundanese, soyombo, buhid, thai, limbu, saurashtra, zanabazar-square, math, coptic, hanunoo, lao, phags-pa, hebrew, siddham, armenian, oriya, rejang, syriac, manichaean, meetei-mayek, caucasian-albanian, sharada, syloti-nagri, cham, old-permic, osage, gujarati, masaram-gondi, nko, sinhala, tai-tham, elbasan, tibetan, bhaiksuki, tai-le, mongolian, tagbanwa, kayah-li, adlam, thaana, kharoshthi, gunjala-gondi, miao, mandaic, takri, bassa-vah, tifinagh, warang-citi, yi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: yi, symbols, khudawadi, tirhuta, newa, syloti-nagri, new-tai-lue, modi, lao, brahmi, javanese, limbu, nko, elbasan, buhid, psalter-pahlavi, marchen, music, batak, zanabazar-square, canadian-aboriginal, telugu, bassa-vah, sogdian, khmer, hebrew, buginese, sinhala, gunjala-gondi, hanifi-rohingya, thai, math, syriac, takri, tifinagh, khojki, cham, phags-pa, masaram-gondi, thaana, saurashtra, warang-citi, dogra, tibetan, manichaean, caucasian-albanian, tai-tham, grantha, tai-viet, hanunoo, old-permic, balinese, kayah-li, wancho, tai-le, sundanese, sharada, chakma, mongolian, meetei-mayek, mende-kikakui, myanmar, kannada, osage, rejang, ahom, miao, oriya, mahajani, mandaic, tamil, gujarati, gurmukhi, coptic, duployan, kharoshthi, tagbanwa, adlam, soyombo, tagalog, lepcha, malayalam, devanagari, kaithi, armenian, bhaiksuki, siddham, pahawh-hmong, bengali</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
 <li>U+2777 DINGBAT NEGATIVE CIRCLED DIGIT TWO: try adding symbols</li>
@@ -1587,7 +1577,7 @@ definitions.</p>
 <li>U+277C DINGBAT NEGATIVE CIRCLED DIGIT SEVEN: try adding symbols</li>
 <li>U+277D DINGBAT NEGATIVE CIRCLED DIGIT EIGHT: try adding symbols</li>
 <li>U+277E DINGBAT NEGATIVE CIRCLED DIGIT NINE: try adding symbols</li>
-<li>U+3003 DITTO MARK: try adding one of: chinese-hongkong, phags-pa, chinese-simplified, japanese, chinese-traditional, yi</li>
+<li>U+3003 DITTO MARK: try adding one of: yi, phags-pa, chinese-simplified, japanese, chinese-hongkong, chinese-traditional</li>
 <li>U+301C WAVE DASH: try adding japanese</li>
 <li>U+F8FF : not included in any glyphset definition</li>
 </ul>
@@ -1626,13 +1616,13 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, canadian-aboriginal, tai-le, todhri, hebrew, malayalam, tifinagh, old-permic, math, coptic, syriac</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, malayalam, old-permic, tai-le, math, coptic, duployan, syriac, tifinagh, hebrew, todhri</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -1644,11 +1634,11 @@ definitions.</p>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
-<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: math, elbasan, greek</li>
-<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
-<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: math, greek</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+039B GREEK CAPITAL LETTER LAMDA: try adding one of: greek, elbasan, math</li>
+<li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math</li>
+<li>U+03BB GREEK SMALL LETTER LAMDA: try adding one of: greek, math</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
@@ -1716,15 +1706,15 @@ definitions.</p>
 <li>U+240B SYMBOL FOR VERTICAL TABULATION: try adding symbols</li>
 <li>U+240C SYMBOL FOR FORM FEED: try adding symbols</li>
 <li>U+2423 OPEN BOX: try adding symbols</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: mongolian, yi, symbols</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: mongolian, yi, symbols</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: mongolian, yi, symbols</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: mongolian, yi, symbols</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: mongolian, yi, symbols</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: mongolian, yi, symbols</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: mongolian, yi, symbols</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: mongolian, yi, symbols</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: mongolian, yi, symbols</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: yi, mongolian, symbols</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: yi, mongolian, symbols</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: yi, mongolian, symbols</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: yi, mongolian, symbols</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: yi, mongolian, symbols</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: yi, mongolian, symbols</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: yi, mongolian, symbols</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: yi, mongolian, symbols</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: yi, mongolian, symbols</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
@@ -1737,7 +1727,7 @@ definitions.</p>
 <li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: kannada, marchen, telugu, tamil, batak, lepcha, grantha, malayalam, gurmukhi, buginese, symbols, hanifi-rohingya, new-tai-lue, tagalog, tai-viet, newa, kaithi, tirhuta, music, wancho, brahmi, dogra, bengali, khmer, ahom, modi, myanmar, khudawadi, psalter-pahlavi, duployan, javanese, khojki, mende-kikakui, chakma, sogdian, devanagari, mahajani, pahawh-hmong, balinese, canadian-aboriginal, sundanese, soyombo, buhid, thai, limbu, saurashtra, zanabazar-square, math, coptic, hanunoo, lao, phags-pa, hebrew, siddham, armenian, oriya, rejang, syriac, manichaean, meetei-mayek, caucasian-albanian, sharada, syloti-nagri, cham, old-permic, osage, gujarati, masaram-gondi, nko, sinhala, tai-tham, elbasan, tibetan, bhaiksuki, tai-le, mongolian, tagbanwa, kayah-li, adlam, thaana, kharoshthi, gunjala-gondi, miao, mandaic, takri, bassa-vah, tifinagh, warang-citi, yi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: yi, symbols, khudawadi, tirhuta, newa, syloti-nagri, new-tai-lue, modi, lao, brahmi, javanese, limbu, nko, elbasan, buhid, psalter-pahlavi, marchen, music, batak, zanabazar-square, canadian-aboriginal, telugu, bassa-vah, sogdian, khmer, hebrew, buginese, sinhala, gunjala-gondi, hanifi-rohingya, thai, math, syriac, takri, tifinagh, khojki, cham, phags-pa, masaram-gondi, thaana, saurashtra, warang-citi, dogra, tibetan, manichaean, caucasian-albanian, tai-tham, grantha, tai-viet, hanunoo, old-permic, balinese, kayah-li, wancho, tai-le, sundanese, sharada, chakma, mongolian, meetei-mayek, mende-kikakui, myanmar, kannada, osage, rejang, ahom, miao, oriya, mahajani, mandaic, tamil, gujarati, gurmukhi, coptic, duployan, kharoshthi, tagbanwa, adlam, soyombo, tagalog, lepcha, malayalam, devanagari, kaithi, armenian, bhaiksuki, siddham, pahawh-hmong, bengali</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
 <li>U+2777 DINGBAT NEGATIVE CIRCLED DIGIT TWO: try adding symbols</li>
@@ -1748,7 +1738,7 @@ definitions.</p>
 <li>U+277C DINGBAT NEGATIVE CIRCLED DIGIT SEVEN: try adding symbols</li>
 <li>U+277D DINGBAT NEGATIVE CIRCLED DIGIT EIGHT: try adding symbols</li>
 <li>U+277E DINGBAT NEGATIVE CIRCLED DIGIT NINE: try adding symbols</li>
-<li>U+3003 DITTO MARK: try adding one of: chinese-hongkong, phags-pa, chinese-simplified, japanese, chinese-traditional, yi</li>
+<li>U+3003 DITTO MARK: try adding one of: yi, phags-pa, chinese-simplified, japanese, chinese-hongkong, chinese-traditional</li>
 <li>U+301C WAVE DASH: try adding japanese</li>
 <li>U+F8FF : not included in any glyphset definition</li>
 </ul>
@@ -1835,6 +1825,26 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">Shaper didn't attach acutecomb to uni0430 when shaping the text 'а́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0435 when shaping the text 'е́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0438 when shaping the text 'и́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni043E when shaping the text 'о́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0443 when shaping the text 'у́'</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">Shaper didn't attach acutecomb to uni044B when shaping the text 'ы́'</td>
 <td align="left"></td>
 </tr>
@@ -1844,10 +1854,22 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">Shaper didn't attach acutecomb to uni044E when shaping the text 'ю́'</td>
-<td align="left">ru_Cyrl (Russian) and be_Cyrl (Belarusian)</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044F when shaping the text 'я́'</td>
+<td align="left">ru_Cyrl (Russian)</td>
 </tr>
 <tr>
 <td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0430 when shaping the text 'а́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0435 when shaping the text 'е́'</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -1855,11 +1877,91 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
+<td align="left">Shaper didn't attach acutecomb to uni0438 when shaping the text 'и́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0456 when shaping the text 'і́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0457 when shaping the text 'ї́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni043E when shaping the text 'о́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0443 when shaping the text 'у́'</td>
+<td align="left"></td>
+</tr>
+<tr>
 <td align="left">Shaper didn't attach acutecomb to uni044E when shaping the text 'ю́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044F when shaping the text 'я́'</td>
 <td align="left">uk_Cyrl (Ukrainian)</td>
 </tr>
 <tr>
 <td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0430 when shaping the text 'а́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0435 when shaping the text 'е́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0451 when shaping the text 'ё́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0456 when shaping the text 'і́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni043E when shaping the text 'о́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni0443 when shaping the text 'у́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044B when shaping the text 'ы́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044D when shaping the text 'э́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044E when shaping the text 'ю́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uni044F when shaping the text 'я́'</td>
+<td align="left">be_Cyrl (Belarusian)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to uni0430 when shaping the text 'а̀'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to uni043E when shaping the text 'о̀'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to uni0443 when shaping the text 'у̀'</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -1868,7 +1970,35 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">Shaper didn't attach gravecomb to uni044E when shaping the text 'ю̀'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to uni044F when shaping the text 'я̀'</td>
 <td align="left">bg_Cyrl (Bulgarian)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0302 to uni0430 when shaping the text 'а̂'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0302 to uni0435 when shaping the text 'е̂'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0302 to uni0438 when shaping the text 'и̂'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0302 to uni043E when shaping the text 'о̂'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0302 to uni0443 when shaping the text 'у̂'</td>
+<td align="left">sr_Cyrl (Serbian)</td>
 </tr>
 <tr>
 <td align="left">Auxiliary orthography codepoints:</td>
@@ -2115,10 +2245,6 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">Shaper didn't attach acutecomb to uni044D when shaping the text 'э́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044E when shaping the text 'ю́'</td>
 <td align="left">ru_Cyrl (Russian) and be_Cyrl (Belarusian)</td>
 </tr>
 <tr>
@@ -2127,23 +2253,7 @@ definitions.</p>
 </tr>
 <tr>
 <td align="left">Shaper didn't attach acutecomb to uni0454 when shaping the text 'є́'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach acutecomb to uni044E when shaping the text 'ю́'</td>
 <td align="left">uk_Cyrl (Ukrainian)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni044A when shaping the text 'ъ̀'</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Shaper didn't attach gravecomb to uni044E when shaping the text 'ю̀'</td>
-<td align="left">bg_Cyrl (Bulgarian)</td>
 </tr>
 <tr>
 <td align="left">Auxiliary orthography codepoints:</td>
