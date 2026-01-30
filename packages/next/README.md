@@ -1,12 +1,14 @@
 ![](.images/hero.png)
 
-# Geist Sans & Geist Mono
+# Geist Sans, Geist Mono & Geist Pixel
 
 Geist is a new font family created by [Vercel](https://vercel.com/design) in collaboration with [Basement Studio](https://basement.studio/).
 
 Geist Sans is a sans-serif typeface designed for legibility and simplicity. It is modern, geometric, and based on the principles of classic Swiss typography. It is designed to be used in body copy, headlines, logos, posters, and other large display sizes.
 
 Geist Mono is a monospaced typeface, crafted to be the perfect partner to Geist Sans. It is designed to be used in code editors, diagrams, terminals, and other text-based interfaces where code is rendered.
+
+Geist Pixel is a display typeface family featuring five unique pixel-based variants, each with a distinct visual style. It is designed for decorative use in headlines, logos, and other display contexts where a pixelated aesthetic is desired.
 
 
 ### Installation
@@ -17,7 +19,23 @@ npm install geist
 
 ### Using with Next.js
 
-`GeistSans` is exported from `geist/font/sans`, and `GeistMono` can be found in `geist/font/mono`. Both are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
+`GeistSans` is exported from `geist/font/sans`, `GeistMono` can be found in `geist/font/mono`, and Geist Pixel variants are available from `geist/font/pixel`. All are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
+
+#### Geist Pixel Variants
+
+Geist Pixel includes five distinct variants, each exported separately:
+
+| Export | CSS Variable | Description |
+|--------|--------------|-------------|
+| `GeistPixelSquare` | `--font-geist-pixel-square` | Square pixel shapes |
+| `GeistPixelGrid` | `--font-geist-pixel-grid` | Grid-based pixel pattern |
+| `GeistPixelCircle` | `--font-geist-pixel-circle` | Circular pixel shapes |
+| `GeistPixelTriangle` | `--font-geist-pixel-triangle` | Triangular pixel shapes |
+| `GeistPixelLine` | `--font-geist-pixel-line` | Line-based pixel pattern |
+
+```jsx
+import { GeistPixelSquare, GeistPixelGrid, GeistPixelCircle, GeistPixelTriangle, GeistPixelLine } from "geist/font/pixel";
+```
 
 #### App Router
 
@@ -72,10 +90,15 @@ This is required to fix errors like:
 
 #### With Tailwind CSS
 
-`GeistSans` and `GeistMono` can be used through a CSS variable.
+All Geist fonts can be used through CSS variables.
 
 - `GeistSans`: `--font-geist-sans`
 - `GeistMono`: `--font-geist-mono`
+- `GeistPixelSquare`: `--font-geist-pixel-square`
+- `GeistPixelGrid`: `--font-geist-pixel-grid`
+- `GeistPixelCircle`: `--font-geist-pixel-circle`
+- `GeistPixelTriangle`: `--font-geist-pixel-triangle`
+- `GeistPixelLine`: `--font-geist-pixel-line`
 
 In `app/layout.js`:
 
@@ -83,12 +106,13 @@ In `app/layout.js`:
 ```jsx
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
+import { GeistPixelSquare } from 'geist/font/pixel'
 
 export default function RootLayout({
   children,
 }) {
   return (
-    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
+    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable} ${GeistPixelSquare.variable}`}>
       <body>{children}</body>
     </html>
   )
@@ -104,6 +128,11 @@ Then in `tailwind.css`:
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-pixel-square: var(--font-geist-pixel-square);
+  --font-pixel-grid: var(--font-geist-pixel-grid);
+  --font-pixel-circle: var(--font-geist-pixel-circle);
+  --font-pixel-triangle: var(--font-geist-pixel-triangle);
+  --font-pixel-line: var(--font-geist-pixel-line);
 
   /* rest of your theme config */
 }
@@ -120,6 +149,11 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-geist-sans)'],
         mono: ['var(--font-geist-mono)'],
+        'pixel-square': ['var(--font-geist-pixel-square)'],
+        'pixel-grid': ['var(--font-geist-pixel-grid)'],
+        'pixel-circle': ['var(--font-geist-pixel-circle)'],
+        'pixel-triangle': ['var(--font-geist-pixel-triangle)'],
+        'pixel-line': ['var(--font-geist-pixel-line)'],
       },
     },
   },
