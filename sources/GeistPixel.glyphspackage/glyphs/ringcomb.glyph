@@ -1,0 +1,142 @@
+{
+glyphname = ringcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (133,532);
+},
+{
+name = top;
+pos = (133,760);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,576,o),
+(225,616,o),
+(225,668,cs),
+(225,720,o),
+(185,760,o),
+(133,760,cs),
+(81,760,o),
+(41,720,o),
+(41,668,cs),
+(41,616,o),
+(81,576,o),
+(133,576,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(109,626,o),
+(91,644,o),
+(91,668,cs),
+(91,692,o),
+(109,710,o),
+(133,710,cs),
+(157,710,o),
+(175,692,o),
+(175,668,cs),
+(175,644,o),
+(157,626,o),
+(133,626,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (114,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,684);
+ref = pixel;
+}
+);
+width = 266;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 778;
+}

@@ -1,0 +1,107 @@
+{
+glyphname = brevecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (152,532);
+},
+{
+name = top;
+pos = (152,722);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(234,603,o),
+(287,653,o),
+(291,731,c),
+(233,731,l),
+(227,685,o),
+(198,665,o),
+(152,665,cs),
+(106,665,o),
+(76,685,o),
+(70,731,c),
+(12,731,l),
+(16,653,o),
+(70,603,o),
+(152,603,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (38,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,646);
+ref = pixel;
+}
+);
+width = 304;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 774;
+}

@@ -1,0 +1,29 @@
+{
+export = 0;
+glyphname = pixel.circle;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(30,0,o),
+(38,8,o),
+(38,19,cs),
+(38,30,o),
+(30,38,o),
+(19,38,cs),
+(8,38,o),
+(0,30,o),
+(0,19,cs),
+(0,8,o),
+(8,0,o),
+(19,0,cs)
+);
+}
+);
+width = 38;
+}
+);
+}

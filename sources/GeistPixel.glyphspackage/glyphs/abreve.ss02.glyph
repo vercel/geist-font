@@ -1,0 +1,18 @@
+{
+glyphname = abreve.ss02;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss02;
+},
+{
+pos = (114,0);
+ref = brevecomb;
+}
+);
+width = 570;
+}
+);
+}

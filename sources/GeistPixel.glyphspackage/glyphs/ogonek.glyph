@@ -1,0 +1,15 @@
+{
+glyphname = ogonek;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ogonekcomb;
+}
+);
+width = 266;
+}
+);
+unicode = 731;
+}

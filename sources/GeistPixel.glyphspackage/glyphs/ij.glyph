@@ -1,0 +1,23 @@
+{
+glyphname = ij;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = i;
+},
+{
+alignment = -1;
+pos = (304,0);
+ref = j;
+}
+);
+width = 646;
+}
+);
+metricLeft = i;
+metricRight = j;
+unicode = 307;
+}

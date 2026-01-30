@@ -1,0 +1,129 @@
+{
+glyphname = tildecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (190,532);
+},
+{
+name = top;
+pos = (190,722);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(318,610,o),
+(355,654,o),
+(359,730,c),
+(307,730,l),
+(303,680,o),
+(290,666,o),
+(265,666,cs),
+(249,666,o),
+(236,673,o),
+(215,690,cs),
+(192,709,o),
+(171,720,o),
+(139,720,cs),
+(85,720,o),
+(46,680,o),
+(44,603,c),
+(96,603,l),
+(98,651,o),
+(115,664,o),
+(139,664,cs),
+(159,664,o),
+(168,657,o),
+(191,638,cs),
+(213,620,o),
+(235,610,o),
+(261,610,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (38,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,646);
+ref = pixel;
+}
+);
+width = 380;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 771;
+}

@@ -1,0 +1,21 @@
+{
+export = 0;
+glyphname = pixel.triangle;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(38,0,l),
+(19,38,l),
+(0,0,l),
+(19,0,l)
+);
+}
+);
+width = 38;
+}
+);
+}

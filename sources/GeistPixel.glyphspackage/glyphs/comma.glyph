@@ -1,0 +1,113 @@
+{
+glyphname = comma;
+kernLeft = period;
+kernRight = period;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,-161,l),
+(154,0,l),
+(85,0,l),
+(34,-161,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(157,0,l),
+(157,122,l),
+(33,122,l),
+(33,0,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (38,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-114);
+ref = pixel;
+}
+);
+width = 190;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 44;
+}

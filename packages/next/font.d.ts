@@ -170,3 +170,55 @@ declare module "geist/font/sans-non-variable" {
    */
   export const GeistSansNonVariable: NextFontWithVariable;
 }
+
+declare module "geist/font/pixel" {
+  /**
+   * Geist Pixel Square font, with `className` and `variable` properties,
+   * meant to be attached to DOM elements via `className`
+   *
+   * A pixelated display font with square-shaped pixels.
+   *
+   * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
+   */
+  export const GeistPixelSquare: NextFontWithVariable;
+
+  /**
+   * Geist Pixel Grid font, with `className` and `variable` properties,
+   * meant to be attached to DOM elements via `className`
+   *
+   * A pixelated display font with grid-shaped pixels.
+   *
+   * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
+   */
+  export const GeistPixelGrid: NextFontWithVariable;
+
+  /**
+   * Geist Pixel Circle font, with `className` and `variable` properties,
+   * meant to be attached to DOM elements via `className`
+   *
+   * A pixelated display font with circle-shaped pixels.
+   *
+   * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
+   */
+  export const GeistPixelCircle: NextFontWithVariable;
+
+  /**
+   * Geist Pixel Triangle font, with `className` and `variable` properties,
+   * meant to be attached to DOM elements via `className`
+   *
+   * A pixelated display font with triangle-shaped pixels.
+   *
+   * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
+   */
+  export const GeistPixelTriangle: NextFontWithVariable;
+
+  /**
+   * Geist Pixel Line font, with `className` and `variable` properties,
+   * meant to be attached to DOM elements via `className`
+   *
+   * A pixelated display font with line-shaped pixels.
+   *
+   * * {@link https://github.com/vercel/geist-font/releases Download Font Files}
+   */
+  export const GeistPixelLine: NextFontWithVariable;
+}
