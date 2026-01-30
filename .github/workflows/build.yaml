@@ -1,18 +1,31 @@
 name: Build font and specimen
 
-on: push
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+    tags:
+      - '*'
+
+permissions: write-all
 
 jobs:
   build:
     name: Build and test
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v5
+    - uses: actions/checkout@v6
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v6
       with:
-        python-version: "3.10"
-    - name: Install sys tools/deps
+        python-version: "3.11"
+    - name: Setup fontspector
+      uses: fonttools/setup-fontspector@main
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Install toolset
       run: |
         sudo apt-get update
         sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
@@ -23,10 +36,10 @@ jobs:
         key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
         restore-keys: |
           ${{ runner.os }}-venv-
-    - name: gen zip file name
+    - name: Set artifact file name
       id: zip-name
       shell: bash
-      # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
+      # Set the archive name to repo name + "-fonts" e.g "radiocanadafonts-fonts.zip"
       run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
 
     # If a new release is cut, use the release tag to auto-bump the source files
@@ -44,19 +57,18 @@ jobs:
 
     - name: Build font
       run: make build
-    - name: Check with fontbakery
+    - name: Check with fontspector
       run: make test
       continue-on-error: true
-    - name: proof
+    - name: Generate proofs
       run: make proof
-    - name: setup site
+    - name: Set up test result site
       run: cp scripts/index.html out/index.html
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
+    - name: Collect deployment assets
       if: ${{ github.ref == 'refs/heads/main' }}
+      uses: actions/upload-pages-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out
+        path: ./out
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
@@ -67,6 +79,22 @@ jobs:
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
+  deploy:
+    name: Deploy results to GitHub Pages
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
   # There are two ways a release can be created: either by pushing a tag, or by
   # creating a release from the GitHub UI. Pushing a tag does not automatically
   # create a release, so we have to do that ourselves. However, creating a
@@ -74,30 +102,28 @@ jobs:
   # a new release in that case because one already exists!
 
   release:
-    name: Create and populate release
+    name: Release bundle
+    if: contains(github.ref, 'refs/tags/')
     needs: build
     runs-on: ubuntu-latest
-    if: contains(github.ref, 'refs/tags/')
     env:
       ZIP_NAME: ${{ needs.build.outputs.zip_name }}
       GH_TOKEN: ${{ github.token }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Download font artefact files
-        uses: actions/download-artifact@v4
+      - uses: actions/checkout@v6
+      - name: Use font artifacts from CI
+        uses: actions/download-artifact@v5
         with:
           name: ${{ env.ZIP_NAME }}
           path: ${{ env.ZIP_NAME }}
-      - name: Copy DESCRIPTION.en_us.html to artefact directory
-        run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
-      - name: Copy ARTICLE.en_us.html to artefact directory
-        run: cp documentation/article/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
+      - name: Copy ARTICLE.en_us.html to release directory
+        run: cp documentation/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
         continue-on-error: true
-      - name: Copy OFL.txt to artefact directory
+      - name: Copy OFL.txt to release directory
         run: cp OFL.txt ${{ env.ZIP_NAME }}/OFL.txt
-      - name: Remove proof/fontbakery stuff from release
+      - name: Remove proof/test outputs from release
         run: rm -rf ${{ env.ZIP_NAME }}/out
-      - name: gen release file name
+      - name: Set release file name
         shell: bash
         run: echo "RELEASE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
       - name: Create release bundle
