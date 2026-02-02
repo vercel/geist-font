@@ -26,27 +26,27 @@
   ],
   "exports": {
     "./font": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/font.d.ts",
       "default": "./dist/font.js"
     },
     "./font/mono": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/mono.d.ts",
       "default": "./dist/mono.js"
     },
     "./font/mono-non-variable": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/mono-non-variable.d.ts",
       "default": "./dist/mono-non-variable.js"
     },
     "./font/sans": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/sans.d.ts",
       "default": "./dist/sans.js"
     },
     "./font/sans-non-variable": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/sans-non-variable.d.ts",
       "default": "./dist/sans-non-variable.js"
     },
     "./font/pixel": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/pixel.d.ts",
       "default": "./dist/pixel.js"
     }
   },
