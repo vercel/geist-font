@@ -62,3 +62,11 @@ This creates a markdown file in `packages/next/.changeset/` describing your chan
 2. Get the PR reviewed and merged to `main`
 3. A PR titled "changesets: update versions of packages for release" will automatically be raised — review and merge it
 4. Upon merging the PR, CI will automatically publish to npm and create the GitHub release
+
+### Beta Release
+
+You can run a beta release from any git ref (branch, SHA, or a PR ref) using the "Beta Release" workflow in GitHub Actions. The `ref` input is required and can be, for example, `my-branch`, `a1b2c3d`, or `refs/pull/123/head`.
+
+The workflow always enters Changesets prerelease mode (`beta`), versions packages with `-beta.X`, publishes to npm under the `beta` dist-tag, and creates a GitHub prerelease with the font zip attached.
+
+Note: beta releases require at least one changeset file in `packages/next/.changeset/`.

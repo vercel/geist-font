@@ -1,0 +1,132 @@
+name: Beta Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Git ref or SHA (branch, tag, SHA, or refs/pull/<id>/head)"
+        required: true
+        type: string
+
+concurrency: beta-release-${{ inputs.ref }}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build and test (beta)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install sys tools/deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
+          sudo snap install yq
+      - uses: actions/cache@v4
+        with:
+          path: ./venv/
+          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-venv-
+      - name: Build font
+        run: make build
+      - name: Check with fontbakery
+        run: make test
+        continue-on-error: true
+      - name: proof
+        run: make proof
+      - name: setup site
+        run: cp scripts/index.html out/index.html
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: geist-font-fonts-beta
+          path: |
+            fonts
+            out
+            geist-font.zip
+            packages/next/dist/fonts
+
+  release:
+    name: Beta release
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+          fetch-depth: 0
+
+      - name: Download font artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: geist-font-fonts-beta
+          path: ./artifacts
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        working-directory: packages/next
+        run: pnpm install --frozen-lockfile
+
+      - name: Ensure changeset exists
+        run: |
+          if ! find packages/next/.changeset -maxdepth 1 -type f -name "*.md" ! -name "README.md" | grep -q .; then
+            echo "No changesets found in packages/next/.changeset. Add one before running a beta release."
+            exit 1
+          fi
+
+      - name: Move the font files for npm from build artifacts to the npm package
+        run: |
+          rm -rf packages/next/dist/fonts
+          mv artifacts/packages/next/dist/fonts packages/next/dist/fonts
+
+      - name: Enter prerelease mode
+        working-directory: packages/next
+        run: |
+          if pnpm changeset pre enter beta; then
+            exit 0
+          fi
+          if [ -f .changeset/pre.json ]; then
+            echo "Already in prerelease mode; continuing."
+            exit 0
+          fi
+          exit 1
+
+      - name: Version packages
+        working-directory: packages/next
+        run: pnpm changeset version
+
+      - name: Publish beta
+        working-directory: packages/next
+        run: pnpm changeset publish --tag beta
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
+
+      - name: Create GitHub prerelease
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=$(jq -r '.version' packages/next/package.json)
+          TAG="geist@$VERSION"
+          TARGET=$(git rev-parse HEAD)
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --prerelease --target "$TARGET" --generate-notes
+          fi
+          mv artifacts/geist-font.zip "geist-font-v$VERSION.zip"
+          gh release upload "$TAG" "geist-font-v$VERSION.zip" --clobber

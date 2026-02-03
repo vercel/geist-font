@@ -1,0 +1,28 @@
+name: Guard prerelease state
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    name: Ensure no prerelease state
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail if changesets prerelease state is present
+        run: |
+          if [ -f packages/next/.changeset/pre.json ]; then
+            echo "ERROR: Changesets prerelease state detected (packages/next/.changeset/pre.json)."
+            echo "This file should not be merged to main."
+            echo ""
+            echo "How to fix:"
+            echo "1) On your branch, run: cd packages/next && pnpm changeset pre exit"
+            echo "2) Commit the removal of pre.json"
+            echo "3) Push and re-run CI"
+            exit 1
+          fi
