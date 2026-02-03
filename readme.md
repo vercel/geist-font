@@ -33,19 +33,10 @@ Fonts are built automatically by GitHub Actions - take a look in the "Actions" t
 If you want to build fonts manually on your own computer:
 
 * `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
+* `make test` will run [Fontspector](https://github.com/fonttools/fontspector)'s quality assurance tests.
 * `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://guidoferreyra.github.io/Geist.git.
-
-## Changelog
-
-When you update your font (new version or new release), please report all notable changes here, with a date.
-Changelog example:
-
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+The proof files and QA tests are also available automatically via GitHub Actions - look at https://vercel.github.io/geist-font/.
 
 ## License
 
