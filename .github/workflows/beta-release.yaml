@@ -77,6 +77,13 @@ jobs:
         with:
           node-version-file: .nvmrc
 
+      # Hardcoded because we know it works, it would be fine to try to upgrade
+      - name: 'Install corepack@0.31'
+        shell: bash
+        run: |
+          npm install -g corepack@0.31
+          echo "corepack version after: $(corepack --version)"
+
       - name: Enable Corepack
         run: corepack enable
 
