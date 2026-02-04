@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3436";
 .formatVersion = 3;
 axes = (
 {
@@ -108,7 +108,7 @@ tag = slng;
 );
 }
 );
-date = "2025-09-25 14:13:49 +0000";
+date = "2025-12-05 15:28:01 +0000";
 familyName = Geist;
 featurePrefixes = (
 {
@@ -648,6 +648,7 @@ sub Yi-cy.ss05 by Yi-cy.ss05.ss08;
 sub io-cy by io-cy.ss08;
 sub i-cy by i-cy.ss08;
 sub yi-cy by yi-cy.ss08;
+sub je-cy by je-cy.ss08;
 sub period by period.ss08;
 sub colon by colon.ss08;
 sub semicolon by semicolon.ss08;
@@ -662,6 +663,7 @@ sub periodcentered.loclCAT.case by periodcentered.loclCAT.case.ss08;
 sub dieresiscomb by dieresiscomb.ss08;
 sub dotaccentcomb by dotaccentcomb.ss08;
 sub dotbelowcomb by dotbelowcomb.ss08;
+sub dieresiscomb.narrow by dieresiscomb.narrow.ss08;
 sub dieresis by dieresis.ss08;
 sub dotaccent by dotaccent.ss08;
 ";
@@ -805,7 +807,7 @@ Location = 100;
 guides = (
 {
 angle = 180;
-pos = (0,-8);
+pos = (0,-12);
 },
 {
 pos = (53,802);
@@ -829,7 +831,7 @@ pos = (162,152);
 pos = (512,28);
 },
 {
-pos = (690,23);
+pos = (595,-120);
 }
 );
 iconName = Light;
@@ -918,7 +920,7 @@ Location = 400;
 guides = (
 {
 angle = 180;
-pos = (0,-8);
+pos = (0,-12);
 },
 {
 pos = (-34,393);
@@ -933,7 +935,7 @@ pos = (208,-210);
 pos = (44,588);
 },
 {
-pos = (339,160);
+pos = (535,-110);
 },
 {
 pos = (155,152);
@@ -941,6 +943,9 @@ pos = (155,152);
 {
 angle = 180;
 pos = (184,598);
+},
+{
+pos = (436,393);
 }
 );
 id = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -1028,7 +1033,7 @@ Location = 900;
 guides = (
 {
 angle = 180;
-pos = (0,-8);
+pos = (0,-12);
 },
 {
 pos = (33,595);
@@ -1046,10 +1051,10 @@ pos = (208,-222);
 pos = (220,720);
 },
 {
-pos = (274,160);
+pos = (777,-100);
 },
 {
-pos = (168,152);
+pos = (168,140);
 }
 );
 iconName = Bold;
@@ -3947,7 +3952,7 @@ HH = "157";
 HV = "196";
 OH = "157";
 OV = "201";
-cydeH = "136";
+cydeH = "140";
 nV = "194";
 nd = "136";
 oH = "139";
@@ -3983,7 +3988,7 @@ HH = "30";
 HV = "32";
 OH = "32";
 OV = "34";
-cydeH = "30";
+cydeH = "28";
 nV = "30";
 nd = "30";
 oH = "30";
@@ -6204,5 +6209,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 600;
+versionMinor = 710;
 }

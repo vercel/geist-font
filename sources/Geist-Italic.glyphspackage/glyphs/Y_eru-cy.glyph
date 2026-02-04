@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "Yeru-cy";
 kernLeft = b;
 kernRight = H;
@@ -32,7 +32,7 @@ width = 795;
 anchors = (
 {
 name = top;
-pos = (588,710);
+pos = (572,710);
 }
 );
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -40,23 +40,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(868,0,l),
-(1018,710,l),
-(823,710,l),
-(673,0,l)
+(836,0,l),
+(986,710,l),
+(791,710,l),
+(641,0,l)
 );
 },
 {
 ref = "Softsign-cy";
 }
 );
-width = 987;
+width = 955;
 },
 {
 anchors = (
 {
 name = top;
-pos = (523,710);
+pos = (521,710);
 }
 );
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -64,17 +64,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(708,0,l),
-(858,710,l),
-(772,710,l),
-(622,0,l)
+(704,0,l),
+(854,710,l),
+(768,710,l),
+(618,0,l)
 );
 },
 {
 ref = "Softsign-cy";
 }
 );
-width = 856;
+width = 852;
 }
 );
 metricLeft = H;

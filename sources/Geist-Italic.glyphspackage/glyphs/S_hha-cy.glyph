@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 5;
 glyphname = "Shha-cy";
 kernLeft = b;
 layers = (
@@ -14,11 +14,11 @@ layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
 angle = 180;
-pos = (615,710);
+pos = (667,710);
 ref = "Che-cy";
 }
 );
-width = 577;
+width = 629;
 },
 {
 anchors = (
@@ -31,11 +31,11 @@ layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
 angle = 180;
-pos = (703,710);
+pos = (762,710);
 ref = "Che-cy";
 }
 );
-width = 667;
+width = 726;
 },
 {
 anchors = (
@@ -48,11 +48,11 @@ layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
 angle = 180;
-pos = (671,710);
+pos = (733,710);
 ref = "Che-cy";
 }
 );
-width = 633;
+width = 695;
 }
 );
 unicode = 1210;

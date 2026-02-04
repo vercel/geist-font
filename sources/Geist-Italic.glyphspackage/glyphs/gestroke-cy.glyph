@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 5;
 glyphname = "gestroke-cy";
 kernLeft = n;
 kernRight = r;
@@ -10,18 +10,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(351,264,l),
-(357,294,l),
-(71,294,l),
-(65,264,l)
+(395,264,l),
+(401,292,l),
+(51,292,l),
+(45,264,l)
 );
 },
 {
-pos = (57,0);
+pos = (86,0);
 ref = "ge-cy";
 }
 );
-width = 524;
+width = 556;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -29,14 +29,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(392,175,l),
-(422,312,l),
-(46,312,l),
-(16,175,l)
+(407,160,l),
+(437,300,l),
+(23,300,l),
+(-7,160,l)
 );
 },
 {
-pos = (40,0);
+pos = (47,0);
 ref = "ge-cy";
 }
 );
@@ -48,21 +48,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(359,232,l),
-(375,306,l),
-(69,306,l),
-(53,232,l)
+(387,232,l),
+(403,306,l),
+(49,306,l),
+(33,232,l)
 );
 },
 {
-pos = (50,0);
+pos = (69,0);
 ref = "ge-cy";
 }
 );
-width = 545;
+width = 559;
 }
 );
-metricLeft = "=n-20";
+metricLeft = "=n-40";
 metricRight = r;
 unicode = 1171;
 }

@@ -1,22 +1,24 @@
 {
-color = 0;
+color = 5;
 glyphname = "Kadescender-cy";
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
-closed = 1;
-nodes = (
-(552,-150,l),
-(552,36,l),
-(510,36,l),
-(520,8,l),
-(520,-150,l)
-);
+pos = (-30,0);
+ref = "Ka-cy";
 },
 {
-ref = "Ka-cy";
+closed = 1;
+nodes = (
+(530,-150,l),
+(530,30,l),
+(452,30,l),
+(452,0,l),
+(498,0,l),
+(498,-150,l)
+);
 }
 );
 width = 600;
@@ -25,18 +27,19 @@ width = 600;
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
-closed = 1;
-nodes = (
-(575,-150,l),
-(575,70,l),
-(489,70,l),
-(489,13,l),
-(489,-150,l)
-);
+pos = (-30,0);
+ref = "Ka-cy";
 },
 {
-pos = (-10,0);
-ref = "Ka-cy";
+closed = 1;
+nodes = (
+(570,-150,l),
+(570,84,l),
+(436,84,l),
+(436,0,l),
+(484,0,l),
+(484,-150,l)
+);
 }
 );
 width = 600;
@@ -53,18 +56,19 @@ ref = "Zhedescender-cy";
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {
+pos = (-20,0);
+ref = "Ka-cy";
+},
+{
 closed = 1;
 nodes = (
 (580,-150,l),
-(580,110,l),
-(434,110,l),
-(434,22,l),
-(434,-150,l)
+(580,158,l),
+(363,158,l),
+(363,0,l),
+(400,0,l),
+(400,-150,l)
 );
-},
-{
-pos = (-20,0);
-ref = "Ka-cy";
 }
 );
 width = 600;

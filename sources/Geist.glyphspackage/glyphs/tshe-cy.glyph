@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = "tshe-cy";
 kernLeft = b;
 kernRight = n;
@@ -11,6 +11,7 @@ shapes = (
 ref = h;
 },
 {
+alignment = -1;
 pos = (-160,269);
 ref = strokeshortcomb;
 }
@@ -24,7 +25,8 @@ shapes = (
 ref = h;
 },
 {
-pos = (-95,315);
+alignment = -1;
+pos = (-85,315);
 ref = strokeshortcomb;
 }
 );
@@ -37,6 +39,7 @@ shapes = (
 ref = h;
 },
 {
+alignment = -1;
 pos = (-114,266);
 ref = strokeshortcomb;
 }
@@ -44,5 +47,6 @@ ref = strokeshortcomb;
 width = 581;
 }
 );
+metricRight = n;
 unicode = 1115;
 }

@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "Yi-cy.ss08";
 kernLeft = b;
 kernRight = d;
@@ -11,8 +11,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (-5,180);
-ref = dieresiscomb.ss08;
+pos = (29,180);
+ref = dieresiscomb.narrow.ss08;
 }
 );
 width = 225;
@@ -24,8 +24,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (-8,180);
-ref = dieresiscomb.ss08;
+pos = (28,180);
+ref = dieresiscomb.narrow.ss08;
 }
 );
 width = 271;
@@ -37,8 +37,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (-38,170);
-ref = dieresiscomb.ss08;
+pos = (21,170);
+ref = dieresiscomb.narrow.ss08;
 }
 );
 width = 321;

@@ -1,4 +1,5 @@
 {
+color = 5;
 glyphname = "Pe-cy";
 kernLeft = b;
 kernRight = d;
@@ -51,13 +52,13 @@ nodes = (
 );
 }
 );
-width = 726.723;
+width = 727;
 },
 {
 anchors = (
 {
 name = bottomright;
-pos = (611,0);
+pos = (621,0);
 }
 );
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -67,16 +68,16 @@ closed = 1;
 nodes = (
 (178,0,l),
 (178,626,l),
-(525,626,l),
-(525,0,l),
-(611,0,l),
-(611,710,l),
+(535,626,l),
+(535,0,l),
+(621,0,l),
+(621,710,l),
 (92,710,l),
 (92,0,l)
 );
 }
 );
-width = 703.06667;
+width = 713;
 }
 );
 metricLeft = H;

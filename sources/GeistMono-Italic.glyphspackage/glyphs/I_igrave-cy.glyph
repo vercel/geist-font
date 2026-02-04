@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "Iigrave-cy";
 layers = (
 {
@@ -22,7 +22,7 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (-5,180);
+pos = (-20,180);
 ref = gravecomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = "Ii-cy";
 },
 {
-pos = (-5,170);
+pos = (-3,170);
 ref = gravecomb;
 }
 );

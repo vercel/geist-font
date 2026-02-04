@@ -8,7 +8,6 @@ shapes = (
 ref = e;
 },
 {
-pos = (5,0);
 ref = macroncomb;
 }
 );
@@ -21,7 +20,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (5,-2);
+pos = (2,-2);
 ref = macroncomb;
 }
 );

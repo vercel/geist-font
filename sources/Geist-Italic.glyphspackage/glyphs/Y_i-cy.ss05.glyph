@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 4;
 glyphname = "Yi-cy.ss05";
 layers = (
 {
@@ -9,8 +9,8 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (66,180);
-ref = dieresiscomb;
+pos = (89,180);
+ref = dieresiscomb.narrow;
 }
 );
 width = 320;
@@ -22,8 +22,8 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (76,180);
-ref = dieresiscomb;
+pos = (99,180);
+ref = dieresiscomb.narrow;
 }
 );
 width = 427;
@@ -35,8 +35,8 @@ shapes = (
 ref = I.ss05;
 },
 {
-pos = (43,170);
-ref = dieresiscomb;
+pos = (114,170);
+ref = dieresiscomb.narrow;
 }
 );
 width = 503;

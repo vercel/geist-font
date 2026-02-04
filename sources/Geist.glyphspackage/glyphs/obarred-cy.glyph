@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 5;
 glyphname = "obarred-cy";
 layers = (
 {
@@ -14,10 +14,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(483,250,l),
-(483,280,l),
-(66,280,l),
-(66,250,l)
+(484,252,l),
+(484,280,l),
+(67,280,l),
+(67,252,l)
 );
 },
 {
@@ -45,11 +45,10 @@ nodes = (
 );
 },
 {
-pos = (-1,0);
 ref = o;
 }
 );
-width = 649;
+width = 648;
 },
 {
 anchors = (
@@ -70,12 +69,13 @@ nodes = (
 );
 },
 {
-pos = (-3,0);
 ref = o;
 }
 );
-width = 576;
+width = 573;
 }
 );
+metricLeft = o;
+metricRight = o;
 unicode = 1257;
 }
