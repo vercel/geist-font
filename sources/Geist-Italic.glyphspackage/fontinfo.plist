@@ -108,7 +108,7 @@ tag = slng;
 );
 }
 );
-date = "2026-01-30 18:59:33 +0000";
+date = "2026-02-04 21:10:54 +0000";
 familyName = Geist;
 featurePrefixes = (
 {
@@ -6395,5 +6395,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 710;
+versionMinor = 800;
 }
