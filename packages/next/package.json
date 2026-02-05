@@ -7,7 +7,7 @@
   "module": "./dist/font.js",
   "types": "./font.d.ts",
   "scripts": {
-    "prepare": "cp ../../LICENSE.TXT .",
+    "prepare": "cp ../../LICENSE.txt .",
     "version": "changeset version",
     "release": "changeset publish"
   },
