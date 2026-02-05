@@ -2,4 +2,4 @@
 "geist": minor
 ---
 
-Beta release
+Adds pixel font
