@@ -143,8 +143,9 @@ jobs:
           git checkout -B "$BRANCH"
           git add -A
           git restore --staged packages/next/.changeset/pre.json || true
+          git restore --staged packages/next/CHANGELOG.md || true
           if git diff --cached --quiet; then
-            echo "Nothing staged after excluding pre.json."
+            echo "Nothing staged after excluding pre.json and CHANGELOG.md."
             exit 0
           fi
           git commit -m "chore: version packages for beta release"
