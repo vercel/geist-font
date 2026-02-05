@@ -1,0 +1,5 @@
+---
+"geist": minor
+---
+
+Beta release
