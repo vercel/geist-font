@@ -11,71 +11,80 @@ on:
 
 permissions: write-all
 
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   build:
     name: Build and test
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v6
-      with:
-        python-version: "3.11"
-    - name: Setup fontspector
-      uses: fonttools/setup-fontspector@main
-      env:
+      - uses: actions/checkout@v6
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Setup fontspector
+        uses: fonttools/setup-fontspector@main
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Install toolset
-      run: |
-        sudo apt-get update
-        sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
-        sudo snap install yq
-    - uses: actions/cache@v4
-      with:
-        path: ./venv/
-        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-venv-
-    - name: Set artifact file name
-      id: zip-name
-      shell: bash
-      # Set the archive name to repo name + "-fonts" e.g "radiocanadafonts-fonts.zip"
-      run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
+      - name: Install toolset
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
+          sudo snap install yq
+      - uses: actions/cache@v4
+        with:
+          path: ./venv/
+          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-venv-
+      - name: Set artifact file name
+        id: zip-name
+        shell: bash
+        # Set the archive name to repo name + "-fonts" e.g "radiocanadafonts-fonts.zip"
+        run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
 
-    # If a new release is cut, use the release tag to auto-bump the source files
-    # - name: Bump release
-    #   if: github.event_name == 'release'
-    #   run: |
-    #     . venv/bin/activate
-    #     SRCS=$(yq e ".sources[]" sources/config.yaml)
-    #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
-    #     echo "Bumping $SRCS to $TAG_NAME"
-    #     for src in $SRCS
-    #     do
-    #       bumpfontversion sources/$src --new-version $TAG_NAME;
-    #     done
+      # If a new release is cut, use the release tag to auto-bump the source files
+      # - name: Bump release
+      #   if: github.event_name == 'release'
+      #   run: |
+      #     . venv/bin/activate
+      #     SRCS=$(yq e ".sources[]" sources/config.yaml)
+      #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
+      #     echo "Bumping $SRCS to $TAG_NAME"
+      #     for src in $SRCS
+      #     do
+      #       bumpfontversion sources/$src --new-version $TAG_NAME;
+      #     done
 
-    - name: Build font
-      run: make build
-    - name: Check with fontspector
-      run: make test
-      continue-on-error: true
-    - name: Generate proofs
-      run: make proof
-    - name: Set up test result site
-      run: cp scripts/index.html out/index.html
-    - name: Collect deployment assets
-      if: ${{ github.ref == 'refs/heads/main' }}
-      uses: actions/upload-pages-artifact@v4
-      with:
-        path: ./out
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ env.ZIP_NAME }}
-        path: |
-          fonts
-          out
+      - name: Build font
+        run: make build
+      - name: Check with fontspector
+        run: make test
+        continue-on-error: true
+      - name: Generate proofs
+        run: make proof
+      - name: Set up test result site
+        run: cp scripts/index.html out/index.html
+      - name: Collect deployment assets
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./out
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ZIP_NAME }}
+          path: |
+            fonts
+            out
+      - name: Archive npm release artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: geist-font-fonts-npm
+          path: |
+            geist-font.zip
+            packages/next/dist/fonts
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
@@ -140,3 +149,67 @@ jobs:
       - name: Set release live
         run: |
           gh release edit ${{ github.ref_name }} --draft=false
+
+  release-npm:
+    name: Release packages
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Download npm artifacts
+        uses: actions/download-artifact@v5
+        with:
+          name: geist-font-fonts-npm
+          path: ./artifacts
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      # Hardcoded because we know it works, it would be fine to try to upgrade
+      - name: 'Install corepack@0.31'
+        shell: bash
+        run: |
+          npm install -g corepack@0.31
+          echo "corepack version after: $(corepack --version)"
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        working-directory: packages/next
+        run: pnpm install --frozen-lockfile
+
+      - name: Move the font files for npm from build artifacts to the npm package
+        run: |
+          rm -rf packages/next/dist/fonts
+          mv artifacts/packages/next/dist/fonts packages/next/dist/fonts
+
+      - name: Create Release Pull Request or Publish
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: pnpm run release
+          version: pnpm run version
+          cwd: packages/next
+          title: "changesets: update versions of packages for release"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
+
+      # This will upload the font zip and attach it to the existing github release for the npm package,
+      # allowing users to download just the font zip files without the source code of the npm package.
+      - name: Upload font zip to GitHub Release
+        if: steps.changesets.outputs.published == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=$(jq -r '.version' packages/next/package.json)
+          mv artifacts/geist-font.zip "geist-font-v$VERSION.zip"
+          gh release upload "geist@$VERSION" "geist-font-v$VERSION.zip" --clobber
