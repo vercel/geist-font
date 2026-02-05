@@ -1,4 +1,4 @@
-![](.images/hero.png)
+![](https://raw.githubusercontent.com/vercel/geist-font/main/packages/next/images/hero.png)
 
 # Geist Sans, Geist Mono & Geist Pixel
 
@@ -9,7 +9,6 @@ Geist Sans is a sans-serif typeface designed for legibility and simplicity. It i
 Geist Mono is a monospaced typeface, crafted to be the perfect partner to Geist Sans. It is designed to be used in code editors, diagrams, terminals, and other text-based interfaces where code is rendered.
 
 Geist Pixel is a display typeface family featuring five unique pixel-based variants, each with a distinct visual style. It is designed for decorative use in headlines, logos, and other display contexts where a pixelated aesthetic is desired.
-
 
 ### Installation
 
@@ -25,16 +24,22 @@ npm install geist
 
 Geist Pixel includes five distinct variants, each exported separately:
 
-| Export | CSS Variable | Description |
-|--------|--------------|-------------|
-| `GeistPixelSquare` | `--font-geist-pixel-square` | Square pixel shapes |
-| `GeistPixelGrid` | `--font-geist-pixel-grid` | Grid-based pixel pattern |
-| `GeistPixelCircle` | `--font-geist-pixel-circle` | Circular pixel shapes |
-| `GeistPixelTriangle` | `--font-geist-pixel-triangle` | Triangular pixel shapes |
-| `GeistPixelLine` | `--font-geist-pixel-line` | Line-based pixel pattern |
+| Export               | CSS Variable                  | Description              |
+| -------------------- | ----------------------------- | ------------------------ |
+| `GeistPixelSquare`   | `--font-geist-pixel-square`   | Square pixel shapes      |
+| `GeistPixelGrid`     | `--font-geist-pixel-grid`     | Grid-based pixel pattern |
+| `GeistPixelCircle`   | `--font-geist-pixel-circle`   | Circular pixel shapes    |
+| `GeistPixelTriangle` | `--font-geist-pixel-triangle` | Triangular pixel shapes  |
+| `GeistPixelLine`     | `--font-geist-pixel-line`     | Line-based pixel pattern |
 
 ```jsx
-import { GeistPixelSquare, GeistPixelGrid, GeistPixelCircle, GeistPixelTriangle, GeistPixelLine } from "geist/font/pixel";
+import {
+  GeistPixelSquare,
+  GeistPixelGrid,
+  GeistPixelCircle,
+  GeistPixelTriangle,
+  GeistPixelLine,
+} from "geist/font/pixel";
 ```
 
 #### App Router
@@ -44,14 +49,12 @@ In `app/layout.js`:
 ```jsx
 import { GeistSans } from "geist/font/sans";
 
-export default function RootLayout({
-  children,
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en" className={GeistSans.className}>
       <body>{children}</body>
     </html>
-  )
+  );
 }
 ```
 
@@ -67,7 +70,7 @@ export default function MyApp({ Component, pageProps }) {
     <main className={GeistSans.className}>
       <Component {...pageProps} />
     </main>
-  )
+  );
 }
 ```
 
@@ -102,22 +105,23 @@ All Geist fonts can be used through CSS variables.
 
 In `app/layout.js`:
 
-
 ```jsx
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
-import { GeistPixelSquare } from 'geist/font/pixel'
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
+import { GeistPixelSquare } from "geist/font/pixel";
 
-export default function RootLayout({
-  children,
-}) {
+export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable} ${GeistPixelSquare.variable}`}>
+    <html
+      lang="en"
+      className={`${GeistSans.variable} ${GeistMono.variable} ${GeistPixelSquare.variable}`}
+    >
       <body>{children}</body>
     </html>
-  )
+  );
 }
 ```
+
 ##### Tailwind CSS V4
 
 Then in `tailwind.css`:
@@ -147,21 +151,23 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-geist-sans)'],
-        mono: ['var(--font-geist-mono)'],
-        'pixel-square': ['var(--font-geist-pixel-square)'],
-        'pixel-grid': ['var(--font-geist-pixel-grid)'],
-        'pixel-circle': ['var(--font-geist-pixel-circle)'],
-        'pixel-triangle': ['var(--font-geist-pixel-triangle)'],
-        'pixel-line': ['var(--font-geist-pixel-line)'],
+        sans: ["var(--font-geist-sans)"],
+        mono: ["var(--font-geist-mono)"],
+        "pixel-square": ["var(--font-geist-pixel-square)"],
+        "pixel-grid": ["var(--font-geist-pixel-grid)"],
+        "pixel-circle": ["var(--font-geist-pixel-circle)"],
+        "pixel-triangle": ["var(--font-geist-pixel-triangle)"],
+        "pixel-line": ["var(--font-geist-pixel-line)"],
       },
     },
   },
-}
+};
 ```
 
 ### License
+
 The Geist font family is free and open sourced under the [SIL Open Font License](./LICENSE.TXT).
 
 ### Inspiration
+
 Geist has been influenced and inspired by the following typefaces: [Inter](https://rsms.me/inter), [Univers](https://www.linotype.com/1567/univers-family.html), [SF Mono](https://developer.apple.com/fonts/), [SF Pro](https://developer.apple.com/fonts/), [Suisse International](https://www.swisstypefaces.com/fonts/suisse/), [ABC Diatype Mono](https://abcdinamo.com/typefaces/diatype), and [ABC Diatype](https://abcdinamo.com/typefaces/diatype). We thank the creators of these typefaces for their craft.
