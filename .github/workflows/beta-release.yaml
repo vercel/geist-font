@@ -152,6 +152,6 @@ jobs:
 
       - name: Publish beta
         working-directory: packages/next
-        run: pnpm changeset publish --tag beta --no-git-tag
+        run: pnpm changeset publish --no-git-tag
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
