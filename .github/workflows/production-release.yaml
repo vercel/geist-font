@@ -2,6 +2,12 @@ name: Production Release
 
 on:
   workflow_dispatch:
+    inputs:
+      skip_version:
+        description: "Skip changeset version/commit and only publish"
+        required: false
+        default: false
+        type: boolean
 
 concurrency: production-release-main
 
@@ -108,6 +114,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Ensure changeset exists
+        if: ${{ !inputs.skip_version }}
         run: |
           if ! find packages/next/.changeset -maxdepth 1 -type f -name "*.md" ! -name "README.md" | grep -q .; then
             echo "No changesets found in packages/next/.changeset. Add one before running a production release."
@@ -127,10 +134,12 @@ jobs:
           mv artifacts/packages/next/dist/fonts packages/next/dist/fonts
 
       - name: Version packages
+        if: ${{ !inputs.skip_version }}
         working-directory: packages/next
         run: pnpm changeset version
 
       - name: Commit version changes
+        if: ${{ !inputs.skip_version }}
         run: |
           if git diff --quiet; then
             echo "No version changes to commit."
