@@ -1,0 +1,18 @@
+{
+glyphname = imacron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = idotless;
+},
+{
+ref = macroncomb;
+}
+);
+width = 380;
+}
+);
+unicode = 299;
+}

@@ -1,0 +1,141 @@
+{
+glyphname = cedillacomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (152,0);
+},
+{
+name = bottom;
+pos = (152,-228);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(242,-220,o),
+(289,-182,o),
+(289,-126,cs),
+(289,-74,o),
+(258,-39,o),
+(193,-36,c),
+(227,10,l),
+(163,10,l),
+(125,-50,l),
+(153,-80,l),
+(217,-80,o),
+(229,-99,o),
+(229,-124,cs),
+(229,-149,o),
+(209,-164,o),
+(175,-164,cs),
+(142,-164,o),
+(123,-152,o),
+(111,-122,c),
+(60,-142,l),
+(74,-186,o),
+(113,-220,o),
+(177,-220,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (228,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,-228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,-228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,-114);
+ref = pixel;
+}
+);
+width = 342;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 807;
+}

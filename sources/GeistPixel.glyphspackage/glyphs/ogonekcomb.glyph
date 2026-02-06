@@ -1,0 +1,126 @@
+{
+glyphname = ogonekcomb;
+layers = (
+{
+anchors = (
+{
+name = _ogonek;
+pos = (190,38);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(164,-210,o),
+(200,-199,o),
+(215,-184,c),
+(191,-128,l),
+(178,-137,o),
+(162,-142,o),
+(143,-142,cs),
+(126,-142,o),
+(114,-132,o),
+(114,-116,cs),
+(114,-100,o),
+(120,-83,o),
+(145,-48,cs),
+(180,0,l),
+(123,18,l),
+(93,-22,ls),
+(66,-59,o),
+(36,-102,o),
+(36,-140,cs),
+(36,-186,o),
+(72,-210,o),
+(129,-210,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (76,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,-228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,-228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,0);
+ref = pixel;
+}
+);
+width = 266;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 808;
+}

@@ -1,0 +1,84 @@
+{
+glyphname = quotesingle;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (38,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,532);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,532);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,646);
+ref = pixel;
+}
+);
+width = 152;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 39;
+}

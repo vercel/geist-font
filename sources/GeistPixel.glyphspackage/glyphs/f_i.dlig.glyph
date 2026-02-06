@@ -1,0 +1,231 @@
+{
+glyphname = f_i.dlig;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = f;
+},
+{
+alignment = -1;
+pos = (494,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (532,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (570,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (570,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (532,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,266);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,418);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,418);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,266);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (608,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (608,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,608);
+ref = pixel;
+}
+);
+width = 684;
+}
+);
+metricLeft = f;
+metricRight = i;
+}

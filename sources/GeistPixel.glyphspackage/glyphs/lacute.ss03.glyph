@@ -1,0 +1,18 @@
+{
+glyphname = lacute.ss03;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = l.ss03;
+},
+{
+pos = (76,190);
+ref = acutecomb;
+}
+);
+width = 380;
+}
+);
+}

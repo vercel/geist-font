@@ -30,13 +30,14 @@ copy-npm-fonts:
 	# Clear any pre-existing build artifacts
 	rm -rf packages/next/dist/fonts
 	# Copy over the relevant font files
-	mkdir -p packages/next/dist/fonts/geist-sans packages/next/dist/fonts/geist-mono
+	mkdir -p packages/next/dist/fonts/geist-sans packages/next/dist/fonts/geist-mono packages/next/dist/fonts/geist-pixel
 	cp fonts/Geist/ttf/*.ttf packages/next/dist/fonts/geist-sans/
 	cp fonts/Geist/webfonts/*.woff2 packages/next/dist/fonts/geist-sans/
 	cp fonts/Geist/variable/*.ttf packages/next/dist/fonts/geist-sans/
 	cp fonts/GeistMono/ttf/*.ttf packages/next/dist/fonts/geist-mono/
 	cp fonts/GeistMono/webfonts/*.woff2 packages/next/dist/fonts/geist-mono/
 	cp fonts/GeistMono/variable/*.ttf packages/next/dist/fonts/geist-mono/
+	cp fonts/GeistPixel/webfonts/*.woff2 packages/next/dist/fonts/geist-pixel/
 	# Apparently there is a naming mismatch between the font files for npm distribution and the actual font files,
 	# so we need to rename them to the correct names.
 	cd packages/next/dist/fonts/geist-sans && \
@@ -74,6 +75,7 @@ test: build.stamp
 	TOCHECK=$$(find fonts/Geist/ttf -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/Geist-fontspector-report.html --ghmarkdown out/fontspector/Geist-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-Geist.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
 	TOCHECK=$$(find fonts/GeistMono/variable -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/GeistMonoVF-fontspector-report.html --ghmarkdown out/fontspector/GeistMonoVF-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-GeistMono.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
 	TOCHECK=$$(find fonts/GeistMono/ttf -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/GeistMono-fontspector-report.html --ghmarkdown out/fontspector/GeistMono-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-GeistMono.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
+	TOCHECK=$$(find fonts/GeistPixel/ttf -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/GeistPixel-fontspector-report.html --ghmarkdown out/fontspector/GeistPixel-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-GeistPixel.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
 	TOCHECK=$$(find fonts/Geist/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/Geist/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof

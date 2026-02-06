@@ -1,0 +1,100 @@
+{
+glyphname = numero;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = N;
+},
+{
+alignment = -1;
+pos = (608,-190);
+ref = ordmasculine;
+},
+{
+alignment = -1;
+pos = (646,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (646,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (684,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (722,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (760,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (798,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (836,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (874,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (912,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (912,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (874,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (836,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (798,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (760,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (722,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (684,38);
+ref = pixel;
+}
+);
+width = 1026;
+}
+);
+unicode = 8470;
+}

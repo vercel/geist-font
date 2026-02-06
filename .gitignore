@@ -27,6 +27,10 @@ Thumbs.db
 geist-font/
 geist-font*.zip
 packages/next/dist/fonts/
+artifacts/
+
+# this is copied as part of the prepare script
+packages/next/LICENSE.txt
 
 # Autosaved by application when editing
 ######################

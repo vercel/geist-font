@@ -1,13 +1,13 @@
 {
   "name": "geist",
-  "version": "1.5.1",
+  "version": "1.7.0",
   "description": "Geist is a new font family for Vercel, created by Vercel in collaboration with Basement Studio.",
   "main": "./dist/font.js",
   "type": "module",
   "module": "./dist/font.js",
   "types": "./font.d.ts",
   "scripts": {
-    "prepare": "cp ../../LICENSE.TXT .",
+    "prepare": "cp ../../LICENSE.txt .",
     "version": "changeset version",
     "release": "changeset publish"
   },
@@ -24,28 +24,33 @@
     "geist",
     "geist mono",
     "geist sans",
+    "geist pixel",
     "vercel font"
   ],
   "exports": {
     "./font": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/font.d.ts",
       "default": "./dist/font.js"
     },
     "./font/mono": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/mono.d.ts",
       "default": "./dist/mono.js"
     },
     "./font/mono-non-variable": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/mono-non-variable.d.ts",
       "default": "./dist/mono-non-variable.js"
     },
     "./font/sans": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/sans.d.ts",
       "default": "./dist/sans.js"
     },
     "./font/sans-non-variable": {
-      "types": "./dist/index.d.ts",
+      "types": "./dist/sans-non-variable.d.ts",
       "default": "./dist/sans-non-variable.js"
+    },
+    "./font/pixel": {
+      "types": "./dist/pixel.d.ts",
+      "default": "./dist/pixel.js"
     }
   },
   "license": "SIL OPEN FONT LICENSE",

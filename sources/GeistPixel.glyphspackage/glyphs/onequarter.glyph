@@ -1,0 +1,26 @@
+{
+glyphname = onequarter;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = onesuperior;
+},
+{
+pos = (152,0);
+ref = fraction;
+},
+{
+pos = (342,0);
+ref = four.dnom;
+}
+);
+width = 760;
+}
+);
+metricLeft = h;
+metricRight = h;
+unicode = 188;
+}

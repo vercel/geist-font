@@ -182,6 +182,11 @@ jobs:
       - name: Enable Corepack
         run: corepack enable
 
+      - name: Configure npm auth
+        run: npm config set //registry.npmjs.org/:_authToken="${NPM_TOKEN}"
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
+
       - name: Install dependencies
         working-directory: packages/next
         run: pnpm install --frozen-lockfile

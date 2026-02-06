@@ -1,0 +1,179 @@
+{
+glyphname = yen;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(532,143,l),
+(532,221,l),
+(78,221,l),
+(78,143,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(532,291,l),
+(532,369,l),
+(78,369,l),
+(78,291,l)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = Y;
+},
+{
+alignment = -1;
+pos = (152,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,228);
+ref = pixel;
+}
+);
+width = 532;
+}
+);
+metricLeft = O;
+metricRight = O;
+unicode = 165;
+}

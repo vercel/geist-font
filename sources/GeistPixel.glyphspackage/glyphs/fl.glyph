@@ -1,0 +1,22 @@
+{
+glyphname = fl;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = f;
+},
+{
+alignment = -1;
+pos = (342,0);
+ref = l.ss03;
+}
+);
+width = 684;
+}
+);
+metricLeft = f;
+metricRight = l;
+unicode = 64258;
+}

@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       ref:
-        description: "Git ref or SHA (branch, tag, SHA, or refs/pull/<id>/head)"
+        description: "Branch to trigger a beta release from"
         required: true
         type: string
 
@@ -18,14 +18,18 @@ jobs:
     name: Build and test (beta)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: ${{ inputs.ref }}
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v5
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.10"
-      - name: Install sys tools/deps
+          python-version: "3.11"
+      - name: Setup fontspector
+        uses: fonttools/setup-fontspector@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install toolset
         run: |
           sudo apt-get update
           sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
@@ -36,24 +40,36 @@ jobs:
           key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
           restore-keys: |
             ${{ runner.os }}-venv-
+      - name: Set artifact file name
+        id: zip-name
+        shell: bash
+        # Set the archive name to repo name + "-fonts" e.g "radiocanadafonts-fonts.zip"
+        run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
       - name: Build font
         run: make build
-      - name: Check with fontbakery
+      - name: Check with fontspector
         run: make test
         continue-on-error: true
-      - name: proof
+      - name: Generate proofs
         run: make proof
-      - name: setup site
+      - name: Set up test result site
         run: cp scripts/index.html out/index.html
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: geist-font-fonts-beta
+          name: ${{ env.ZIP_NAME }}
           path: |
             fonts
             out
+      - name: Archive npm release artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: geist-font-fonts-npm
+          path: |
             geist-font.zip
             packages/next/dist/fonts
+    outputs:
+      zip_name: ${{ env.ZIP_NAME }}
 
   release:
     name: Beta release
@@ -61,15 +77,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ inputs.ref }}
           fetch-depth: 0
 
       - name: Download font artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
-          name: geist-font-fonts-beta
+          name: geist-font-fonts-npm
           path: ./artifacts
 
       - name: Setup Node.js
@@ -86,6 +102,11 @@ jobs:
 
       - name: Enable Corepack
         run: corepack enable
+
+      - name: Configure npm auth
+        run: npm config set //registry.npmjs.org/:_authToken="${NPM_TOKEN}"
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
 
       - name: Install dependencies
         working-directory: packages/next
@@ -119,21 +140,40 @@ jobs:
         working-directory: packages/next
         run: pnpm changeset version
 
+      - name: Commit version changes (no pre.json)
+        run: |
+          if git diff --quiet; then
+            echo "No version changes to commit."
+            exit 0
+          fi
+
+          REF="${{ inputs.ref }}"
+          BRANCH=""
+          if [[ "$REF" == refs/heads/* ]]; then
+            BRANCH="${REF#refs/heads/}"
+          elif git show-ref --verify --quiet "refs/remotes/origin/$REF"; then
+            BRANCH="$REF"
+          else
+            echo "Ref '$REF' is not a branch; refusing to continue."
+            exit 1
+          fi
+
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          git checkout -B "$BRANCH"
+          git add -A
+          git restore --staged packages/next/.changeset/pre.json || true
+          git restore --staged packages/next/CHANGELOG.md || true
+          if git diff --cached --quiet; then
+            echo "Nothing staged after excluding pre.json and CHANGELOG.md."
+            exit 0
+          fi
+          git commit -m "chore: version packages for beta release"
+          git push origin "HEAD:$BRANCH"
+
       - name: Publish beta
         working-directory: packages/next
-        run: pnpm changeset publish --tag beta
+        run: pnpm changeset publish --no-git-tag
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
-
-      - name: Create GitHub prerelease
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          VERSION=$(jq -r '.version' packages/next/package.json)
-          TAG="geist@$VERSION"
-          TARGET=$(git rev-parse HEAD)
-          if ! gh release view "$TAG" >/dev/null 2>&1; then
-            gh release create "$TAG" --prerelease --target "$TARGET" --generate-notes
-          fi
-          mv artifacts/geist-font.zip "geist-font-v$VERSION.zip"
-          gh release upload "$TAG" "geist-font-v$VERSION.zip" --clobber
