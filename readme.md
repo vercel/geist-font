@@ -25,7 +25,7 @@ Download the latest release from the [releases page](https://github.com/vercel/g
 npm i geist
 ```
 
-View the npm README for full instructions [here](https://www.npmjs.com/package/geist)
+View the npm README for full instructions [here](https://www.npmjs.com/package/geist).
 
 ### Inspiration
 
