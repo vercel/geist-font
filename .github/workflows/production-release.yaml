@@ -154,3 +154,19 @@ jobs:
         run: pnpm changeset publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Upload the built font zip to the GitHub release for the published npm package.
+      - name: Upload font zip to GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=$(jq -r '.version' packages/next/package.json)
+          TAG="geist@$VERSION"
+
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --title "$TAG" --notes "Production release for $TAG"
+          fi
+
+          mv artifacts/geist-font.zip "geist-font-v$VERSION.zip"
+          gh release upload "$TAG" "geist-font-v$VERSION.zip" --clobber
