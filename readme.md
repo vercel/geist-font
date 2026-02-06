@@ -19,6 +19,14 @@ Geist Pixel is a pixel typeface designed to complement the Geist font family, bu
 
 Download the latest release from the [releases page](https://github.com/vercel/geist-font/releases/latest) and install the fonts on your system.
 
+**Via npm package:**
+
+```
+npm i geist
+```
+
+View the npm README for full instructions [here](https://www.npmjs.com/package/geist)
+
 ### Inspiration
 
 Geist has been influenced and inspired by the following typefaces: [Inter](https://rsms.me/inter/), [Univers](https://www.linotype.com/1212814/univers-family.html), [SF Mono](https://developer.apple.com/fonts/), [SF Pro](https://developer.apple.com/fonts/), [Suisse International](https://www.swisstypefaces.com/fonts/suisse/), [ABC Diatype Mono](https://abcdinamo.com/typefaces/diatype), and [ABC Diatype](https://abcdinamo.com/typefaces/diatype). We thank the creators of these typefaces for their craft.
