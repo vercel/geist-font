@@ -32,12 +32,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
           sudo snap install yq
-      - uses: actions/cache@v4
-        with:
-          path: ./venv/
-          key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-venv-
       - name: Set artifact file name
         id: zip-name
         shell: bash
@@ -198,7 +192,7 @@ jobs:
 
       - name: Create Release Pull Request or Publish
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@v1.4.10
         with:
           publish: pnpm run release
           version: pnpm run version
