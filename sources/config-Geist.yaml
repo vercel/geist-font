@@ -11,6 +11,7 @@ sources:
   - Geist-Italic.glyphspackage
 outputDir: ../fonts/Geist
 familyName: "Geist"
+cleanUp: true
 
 # Next you can supply alternative paths for where you want the
 # binaries to live. But we'd recommend you stick to the defaults
