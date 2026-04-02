@@ -11,6 +11,7 @@ sources:
   - GeistMono-Italic.glyphspackage
 outputDir: ../fonts/GeistMono  
 familyName: "Geist Mono"
+cleanUp: true
 
 # Next you can supply alternative paths for where you want the
 # binaries to live. But we'd recommend you stick to the defaults

@@ -10,7 +10,7 @@ ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (-29,-163);
+pos = (0,-163);
 ref = onesuperior;
 }
 );
@@ -30,7 +30,7 @@ ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (-26,-163);
+pos = (-6,-163);
 ref = onesuperior;
 }
 );
@@ -45,7 +45,7 @@ ref = blackCircledStroke;
 },
 {
 alignment = -1;
-pos = (-30,-163);
+pos = (9,-163);
 ref = onesuperior;
 }
 );

@@ -1,5 +1,5 @@
 {
-.appVersion = "3436";
+.appVersion = "3516";
 .formatVersion = 3;
 axes = (
 {
@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex I Iacute Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Abrevedotbelow.ss08 Adieresis.ss08 Adotbelow.ss08 Cdotaccent.ss08 Ecircumflexdotbelow.ss08 Edieresis.ss08 Edotaccent.ss08 Edotbelow.ss08 Gdotaccent.ss08 Idieresis.ss08 Idotaccent.ss08 Idotbelow.ss08 Ocircumflexdotbelow.ss08 Odieresis.ss08 Ohorndotbelow.ss08 Udieresis.ss08 Udotbelow.ss08 Uhorndotbelow.ss08 Wdieresis.ss08 Ydieresis.ss08 Ydotbelow.ss08 Zdotaccent.ss08 Gdotaccent.ss06.ss08 A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy Lambda Omega";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex I Iacute Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Abrevedotbelow.ss08 Adieresis.ss08 Adotbelow.ss08 Cdotaccent.ss08 Ecircumflexdotbelow.ss08 Edieresis.ss08 Edotaccent.ss08 Edotbelow.ss08 Gdotaccent.ss08 Idieresis.ss08 Idotaccent.ss08 Idotbelow.ss08 Ocircumflexdotbelow.ss08 Odieresis.ss08 Ohorndotbelow.ss08 Udieresis.ss08 Udotbelow.ss08 Uhorndotbelow.ss08 Wdieresis.ss08 Ydieresis.ss08 Ydotbelow.ss08 Zdotaccent.ss08 Gdotaccent.ss06.ss08 A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy Io-cy.ss08 Yi-cy.ss08 Lambda Omega eulerconstant";
 name = Uppercase;
 },
 {
@@ -1500,6 +1500,81 @@ sub colon' @UppercaseRelated by colon.case;
 
 ";
 tag = ss11;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub bar bar bar greater by bar_bar_bar_greater.liga;
+sub hyphen hyphen hyphen greater by hyphen_hyphen_hyphen_greater.liga;
+sub less bar bar bar by less_bar_bar_bar.liga;
+sub less equal equal greater by less_equal_equal_greater.liga;
+sub less exclam hyphen hyphen by less_exclam_hyphen_hyphen.liga;
+sub asciitilde asciitilde greater by asciitilde_asciitilde_greater.liga;
+sub bar bar equal by bar_bar_equal.liga;
+sub bar bar greater by bar_bar_greater.liga;
+sub bar hyphen greater by bar_hyphen_greater.liga;
+sub equal equal equal by equal_equal_equal.liga;
+sub equal equal greater by equal_equal_greater.liga;
+sub equal greater greater by equal_greater_greater.liga;
+sub equal less less by equal_less_less.liga;
+sub equal slash equal by equal_slash_equal.liga;
+sub exclam equal equal by exclam_equal_equal.liga;
+sub greater equal greater by greater_equal_greater.liga;
+sub greater greater equal by greater_greater_equal.liga;
+sub greater greater hyphen by greater_greater_hyphen.liga;
+sub greater hyphen greater by greater_hyphen_greater.liga;
+sub hyphen greater greater by hyphen_greater_greater.liga;
+sub hyphen hyphen greater by hyphen_hyphen_greater.liga;
+sub hyphen hyphen hyphen by hyphen_hyphen_hyphen.liga;
+sub hyphen less less by hyphen_less_less.liga;
+sub less asciitilde asciitilde by less_asciitilde_asciitilde.liga;
+sub less asciitilde greater by less_asciitilde_greater.liga;
+sub less bar bar by less_bar_bar.liga;
+sub less bar greater by less_bar_greater.liga;
+sub less equal equal by less_equal_equal.liga;
+sub less equal greater by less_equal_greater.liga;
+sub less equal less by less_equal_less.liga;
+sub less hyphen greater by less_hyphen_greater.liga;
+sub less hyphen hyphen by less_hyphen_hyphen.liga;
+sub less hyphen less by less_hyphen_less.liga;
+sub less less equal by less_less_equal.liga;
+sub less less hyphen by less_less_hyphen.liga;
+sub less slash greater by less_slash_greater.liga;
+sub numbersign numbersign numbersign by numbersign_numbersign_numbersign.liga;
+sub period period equal by period_period_equal.liga;
+sub period period period by period_period_period.liga;
+sub question question question by question_question_question.liga;
+sub asciitilde asciitilde by asciitilde_asciitilde.liga;
+sub asciitilde at by asciitilde_at.liga;
+sub asciitilde equal by asciitilde_equal.liga;
+sub asciitilde greater by asciitilde_greater.liga;
+sub asciitilde hyphen by asciitilde_hyphen.liga;
+sub bar braceright by bar_braceright.liga;
+sub bar equal by bar_equal.liga;
+sub bar greater by bar_greater.liga;
+sub braceleft bar by braceleft_bar.liga;
+sub colon equal by colon_equal.liga;
+sub equal equal by equal_equal.liga;
+sub equal greater by equal_greater.liga;
+sub exclam equal by exclam_equal.liga;
+sub exclam question by exclam_question.liga;
+sub greater equal by greater_equal.liga;
+sub greater hyphen by greater_hyphen.liga;
+sub hyphen asciitilde by hyphen_asciitilde.liga;
+sub hyphen greater by hyphen_greater.liga;
+sub hyphen hyphen by hyphen_hyphen.liga;
+sub hyphen less by hyphen_less.liga;
+sub less asciitilde by less_asciitilde.liga;
+sub less bar by less_bar.liga;
+sub less equal by less_equal.liga;
+sub less greater by less_greater.liga;
+sub less hyphen by less_hyphen.liga;
+sub percent percent by percent_percent.liga;
+sub period equal by period_equal.liga;
+sub question question by question_question.liga;
+sub slash equal by slash_equal.liga;
+";
+tag = liga;
 }
 );
 fontMaster = (
@@ -1778,7 +1853,7 @@ pos = -150;
 pos = 12;
 }
 );
-name = "UltraBlack Italic";
+name = "Black Italic";
 stemValues = (
 154,
 142,
@@ -2356,6 +2431,10 @@ language = dflt;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
