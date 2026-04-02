@@ -4,6 +4,44 @@ kernLeft = U;
 kernRight = I.ss05;
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (246,0);
+},
+{
+name = bottom_2;
+pos = (737,0);
+},
+{
+name = caret_1;
+pos = (491,0);
+},
+{
+name = ogonek_1;
+pos = (246,10);
+},
+{
+name = ogonek_2;
+pos = (737,10);
+},
+{
+name = top_1;
+pos = (246,710);
+},
+{
+name = top_2;
+pos = (737,710);
+},
+{
+name = topright_1;
+pos = (962,710);
+},
+{
+name = topright_2;
+pos = (962,710);
+}
+);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -17,6 +55,44 @@ ref = I.ss05;
 width = 982;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (304,0);
+},
+{
+name = bottom_2;
+pos = (912,0);
+},
+{
+name = caret_1;
+pos = (608,0);
+},
+{
+name = ogonek_1;
+pos = (304,10);
+},
+{
+name = ogonek_2;
+pos = (912,10);
+},
+{
+name = top_1;
+pos = (304,710);
+},
+{
+name = top_2;
+pos = (912,710);
+},
+{
+name = topright_1;
+pos = (1196,710);
+},
+{
+name = topright_2;
+pos = (1196,710);
+}
+);
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
 shapes = (
 {
@@ -30,6 +106,44 @@ ref = I.ss05;
 width = 1216;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (279,0);
+},
+{
+name = bottom_2;
+pos = (836,0);
+},
+{
+name = caret_1;
+pos = (557.5,0);
+},
+{
+name = ogonek_1;
+pos = (279,10);
+},
+{
+name = ogonek_2;
+pos = (836,10);
+},
+{
+name = top_1;
+pos = (279,710);
+},
+{
+name = top_2;
+pos = (836,710);
+},
+{
+name = topright_1;
+pos = (1095,710);
+},
+{
+name = topright_2;
+pos = (1095,710);
+}
+);
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
 shapes = (
 {
