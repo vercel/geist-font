@@ -19,6 +19,19 @@ venv: venv/touchfile
 customize: venv
 	. venv/bin/activate; python3 scripts/customize.py
 
+dev: venv sources/config-Geist.yaml $(SOURCES)
+	. venv/bin/activate; gftools builder sources/config-GeistPixel.yaml
+
+build-GeistPixel: venv
+	mkdir -p fonts/GeistPixel/variable fonts/GeistPixel/ttf fonts/GeistPixel/otf fonts/GeistPixel/webfonts
+	. venv/bin/activate; glyphs2ufo sources/GeistPixel.glyphspackage --output-dir temp/
+	. venv/bin/activate; fontmake -m temp/GeistPixel.designspace -o variable --output-dir fonts/GeistPixel/variable/ --verbose DEBUG
+	. venv/bin/activate; fontmake -m temp/GeistPixel.designspace -o ttf -i --output-dir fonts/GeistPixel/ttf/ --verbose DEBUG
+	. venv/bin/activate; fontmake -m temp/GeistPixel.designspace -o otf -i --output-dir fonts/GeistPixel/otf/ --verbose DEBUG
+	. venv/bin/activate; for f in fonts/GeistPixel/ttf/*.ttf fonts/GeistPixel/variable/*.ttf; do \
+		python3 -c "from fontTools.ttLib import TTFont; import os; font=TTFont('$$f'); font.flavor='woff2'; font.save('fonts/GeistPixel/webfonts/'+os.path.splitext(os.path.basename('$$f'))[0]+'.woff2')"; \
+	done
+
 build.stamp: venv sources/config-Geist.yaml $(SOURCES)
 	rm -rf fonts geist-font geist-font.zip
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)

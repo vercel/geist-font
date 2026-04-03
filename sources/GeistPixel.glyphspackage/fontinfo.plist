@@ -1,10 +1,10 @@
 {
-.appVersion = "3436";
+.appVersion = "3434";
 .formatVersion = 3;
 axes = (
 {
-name = "Pixel Shape";
-tag = PXSH;
+name = "Element Shape";
+tag = ELSH;
 }
 );
 customParameters = (
@@ -37,9 +37,18 @@ data = Latn;
 tag = dlng;
 }
 );
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = "Element Shape";
+Location = 100;
 }
 );
-date = "2026-01-28 20:29:16 +0000";
+}
+);
+date = "2026-04-03 11:28:45 +0000";
 familyName = "Geist Pixel";
 featurePrefixes = (
 {
@@ -324,7 +333,7 @@ tag = ss09;
 fontMaster = (
 {
 axesValues = (
-400
+1
 );
 customParameters = (
 {
@@ -368,11 +377,6 @@ name = "Master Icon Glyph Name";
 value = v;
 }
 );
-guides = (
-{
-pos = (172,912);
-}
-);
 id = m01;
 metricValues = (
 {
@@ -395,12 +399,8 @@ visible = 1;
 );
 instances = (
 {
-name = Regular;
-type = variable;
-},
-{
 axesValues = (
-400
+1
 );
 instanceInterpolations = {
 m01 = 1;
@@ -409,15 +409,7 @@ name = Square;
 },
 {
 axesValues = (
-400
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"pixel=pixel.circle"
-);
-}
+20
 );
 instanceInterpolations = {
 m01 = 1;
@@ -426,15 +418,7 @@ name = Circle;
 },
 {
 axesValues = (
-400
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"pixel=pixel.grid"
-);
-}
+40
 );
 instanceInterpolations = {
 m01 = 1;
@@ -443,15 +427,7 @@ name = Grid;
 },
 {
 axesValues = (
-400
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"pixel=pixel.triangle"
-);
-}
+60
 );
 instanceInterpolations = {
 m01 = 1;
@@ -460,15 +436,7 @@ name = Triangle;
 },
 {
 axesValues = (
-400
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"pixel=pixel.line"
-);
-}
+80
 );
 instanceInterpolations = {
 m01 = 1;
