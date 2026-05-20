@@ -8,6 +8,7 @@ proof
 node_modules
 package-lock.json
 package.json
+!packages/**/package.json
 master_ufo
 instance_ufos
 .ninja_log
