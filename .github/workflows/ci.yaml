@@ -174,8 +174,8 @@ jobs:
           node-version-file: .nvmrc
 
       # npm Trusted Publishing requires npm CLI >= 11.5.1; Node 22.x ships with npm 10.x
-      - name: Upgrade npm to latest
-        run: npm install -g npm@latest
+      - name: Install npm 11
+        run: npm install -g npm@11.14.1
 
       # Hardcoded because we know it works, it would be fine to try to upgrade
       - name: 'Install corepack@0.31'
