@@ -1,4 +1,4 @@
-name: Build font and specimen
+name: CI
 
 on:
   workflow_dispatch:
@@ -149,6 +149,13 @@ jobs:
     needs: build
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    # contents: write    -> let changesets/action push tags via the GitHub API
+    # pull-requests: write -> let changesets/action open the "Version Packages" PR
+    # id-token: write    -> required for npm Trusted Publishing (OIDC)
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -166,6 +173,10 @@ jobs:
         with:
           node-version-file: .nvmrc
 
+      # npm Trusted Publishing requires npm CLI >= 11.5.1; Node 22.x ships with npm 10.x
+      - name: Upgrade npm to latest
+        run: npm install -g npm@latest
+
       # Hardcoded because we know it works, it would be fine to try to upgrade
       - name: 'Install corepack@0.31'
         shell: bash
@@ -175,11 +186,6 @@ jobs:
 
       - name: Enable Corepack
         run: corepack enable
-
-      - name: Configure npm auth
-        run: npm config set //registry.npmjs.org/:_authToken="${NPM_TOKEN}"
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
 
       - name: Install dependencies
         working-directory: packages/next
@@ -192,15 +198,16 @@ jobs:
 
       - name: Create Release Pull Request or Publish
         id: changesets
-        uses: changesets/action@v1.4.10
+        uses: changesets/action@v1.8.0
         with:
           publish: pnpm run release
           version: pnpm run version
           cwd: packages/next
           title: "changesets: update versions of packages for release"
+          # Sign the "Version Packages" PR commit with GitHub's GPG key
+          commitMode: github-api
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN_ELEVATED }}
 
       # This will upload the font zip and attach it to the existing github release for the npm package,
       # allowing users to download just the font zip files without the source code of the npm package.
