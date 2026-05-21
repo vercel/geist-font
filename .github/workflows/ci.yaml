@@ -184,8 +184,8 @@ jobs:
           npm install -g corepack@0.31
           echo "corepack version after: $(corepack --version)"
 
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Enable pnpm via Corepack
+        run: corepack enable pnpm
 
       - name: Install dependencies
         working-directory: packages/next
