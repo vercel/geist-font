@@ -19,7 +19,7 @@ ref = acutecomb;
 },
 {
 alignment = -1;
-pos = (190,1);
+pos = (190,0);
 ref = acutecomb;
 }
 );

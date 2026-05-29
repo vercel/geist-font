@@ -2,6 +2,28 @@
 glyphname = f_i.dlig;
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (171,0);
+},
+{
+name = bottom_2;
+pos = (513,0);
+},
+{
+name = caret_1;
+pos = (342,0);
+},
+{
+name = top_1;
+pos = (171,532);
+},
+{
+name = top_2;
+pos = (513,532);
+}
+);
 layerId = m01;
 shapes = (
 {

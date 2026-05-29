@@ -2,6 +2,44 @@
 glyphname = U_I.liga;
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (266,0);
+},
+{
+name = bottom_2;
+pos = (798,0);
+},
+{
+name = caret_1;
+pos = (532,0);
+},
+{
+name = ogonek_1;
+pos = (266,10);
+},
+{
+name = ogonek_2;
+pos = (798,10);
+},
+{
+name = top_1;
+pos = (266,722);
+},
+{
+name = top_2;
+pos = (798,722);
+},
+{
+name = topright_1;
+pos = (1044,722);
+},
+{
+name = topright_2;
+pos = (1044,722);
+}
+);
 layerId = m01;
 shapes = (
 {

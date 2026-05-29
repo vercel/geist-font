@@ -16,12 +16,29 @@ build: build.stamp
 
 venv: venv/touchfile
 
+venv-pixel: venv-pixel/touchfile
+
 customize: venv
 	. venv/bin/activate; python3 scripts/customize.py
 
-build.stamp: venv sources/config-Geist.yaml $(SOURCES)
+build.stamp: venv venv-pixel sources/config-Geist.yaml $(SOURCES)
 	rm -rf fonts geist-font geist-font.zip
-	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)
+	# Geist Pixel uses a virtual master, which the released gftools in
+	# requirements.txt can't build (it fails with "No final targets"). Build it
+	# with the dev gftools in venv-pixel that has the virtual-master fix;
+	# everything else uses venv.
+	@for config in sources/config*.yaml; do \
+		if [ "$$config" = "sources/config-GeistPixel.yaml" ]; then \
+			( . venv-pixel/bin/activate && gftools builder "$$config" ); \
+		else \
+			( . venv/bin/activate && gftools builder "$$config" ); \
+		fi; \
+	done
+	# Geist Pixel's static instances and webfonts are hand-exported from Glyphs
+	# and committed (buildStatic:false means gftools only builds the variable, so
+	# the clean `rm -rf fonts` above drops them). Restore the committed assets the
+	# release zip and npm package consume.
+	git checkout -- fonts/GeistPixel/otf fonts/GeistPixel/ttf fonts/GeistPixel/webfonts
 	$(MAKE) copy-npm-fonts
 	$(MAKE) create-release-zip
 	touch build.stamp
@@ -69,6 +86,16 @@ venv/touchfile: requirements.txt
 	. venv/bin/activate; pip install -Ur requirements.txt
 	touch venv/touchfile
 
+# Geist Pixel's virtual-master support only exists in an unreleased gftools dev
+# build (Simon Cozens' fix). Pin the exact commit for reproducibility; revisit
+# once it ships in an official gftools release and we can fold it into venv.
+GFTOOLS_PIXEL_REF = 47ec3706b
+
+venv-pixel/touchfile: Makefile
+	test -d venv-pixel || python3 -m venv venv-pixel
+	. venv-pixel/bin/activate; pip install "gftools @ git+https://github.com/googlefonts/gftools@$(GFTOOLS_PIXEL_REF)"
+	touch venv-pixel/touchfile
+
 test: build.stamp
 	which fontspector || (echo "fontspector not found. Please install it with 'cargo install fontspector'." && exit 1)
 	TOCHECK=$$(find fonts/Geist/variable -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/GeistVF-fontspector-report.html --ghmarkdown out/fontspector/GeistVF-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-Geist.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
@@ -86,7 +113,7 @@ images: venv $(DRAWBOT_OUTPUT)
 	. venv/bin/activate; python3 $< --output $@
 
 clean:
-	rm -rf venv
+	rm -rf venv venv-pixel
 	find . -name "*.pyc" -delete
 
 update-project-template:

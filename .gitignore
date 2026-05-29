@@ -2,6 +2,7 @@
 .pnpm-debug.log
 *~
 venv
+venv-pixel
 venv-test
 build.stamp
 proof

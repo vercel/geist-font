@@ -2,6 +2,12 @@
 glyphname = fl;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (342,0);
+}
+);
 layerId = m01;
 shapes = (
 {
