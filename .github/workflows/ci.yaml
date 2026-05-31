@@ -218,4 +218,4 @@ jobs:
         run: |
           VERSION=$(jq -r '.version' packages/next/package.json)
           mv artifacts/geist-font.zip "geist-font-v$VERSION.zip"
-          gh release upload "geist@$VERSION" "geist-font-v$VERSION.zip" --clobber
+          gh release upload "v$VERSION" "geist-font-v$VERSION.zip" --clobber
