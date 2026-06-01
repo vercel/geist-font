@@ -196,6 +196,20 @@ jobs:
           rm -rf packages/next/dist/fonts
           mv artifacts/packages/next/dist/fonts packages/next/dist/fonts
 
+      # TEMP diagnostic: ENEEDAUTH on OIDC publish (geist@1.7.2). Confirms whether
+      # the npm that `changeset publish` will use is the OIDC-capable one (>= 11.5.1)
+      # and whether the OIDC token endpoint is actually exposed to this job.
+      # Remove once the publish is fixed.
+      - name: Diagnose npm/OIDC publish environment
+        working-directory: packages/next
+        run: |
+          echo "node: $(node --version) ($(command -v node))"
+          echo "npm:  $(npm --version) ($(command -v npm))"
+          echo "pnpm: $(pnpm --version) ($(command -v pnpm))"
+          echo "registry: $(npm config get registry)"
+          echo "OIDC token URL present:   ${ACTIONS_ID_TOKEN_REQUEST_URL:+yes}"
+          echo "OIDC request token present: ${ACTIONS_ID_TOKEN_REQUEST_TOKEN:+yes}"
+
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1.8.0
