@@ -522,7 +522,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2026 The Geist Pixel Project Authors (https://github.com/vercel/geistpixel-font.git)";
+value = "Copyright 2026 The Geist Project Authors (https://github.com/vercel/geist-font)";
 }
 );
 },
