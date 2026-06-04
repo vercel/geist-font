@@ -48,6 +48,16 @@ This creates a markdown file in `packages/next/.changeset/` describing your chan
 - **minor**: New font weights, new features, backward-compatible additions
 - **major**: Breaking changes to the npm package's API or major font structure changes
 
+### Version Numbers
+
+Three version numbers live in this repo and they are related but not identical:
+
+1. **Package version**: `version` in `packages/next/package.json`, managed by Changesets and published as the npm `geist` semver (e.g. `1.7.3`).
+2. **Font binary version**: `head.fontRevision` baked into each `.otf`/`.ttf` from the FontMake build sources; what an OS or design tool reports for an installed font (e.g. `Version 1.703`).
+3. **GitHub release tag**: `v$VERSION` since [#233](https://github.com/vercel/geist-font/pull/233), matching the package version (e.g. `v1.7.3`).
+
+The binary version follows package version `1.X.Y` → binary `1.X0Y` (assuming single-digit `X` and `Y`): `1.7.0` ↔ `1.700`, `1.7.3` ↔ `1.703`, `1.8.0` ↔ `1.800`. The binary version only needs to advance when the font binary itself is being rebuilt for a release; the npm package can release a patch (e.g. for a non-font fix) without re-bumping the binary. When a release ships a font rebuild, bump the binary version in the same PR so the value reported by the font matches the package version it ships under.
+
 ### How Releases Work
 
 1. **On every push**: The CI builds fonts and runs tests
