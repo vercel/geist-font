@@ -87,13 +87,10 @@ stat:
       value: 800
     - name: Black
       value: 900
-  - name: Italic
-    tag: ital
-    values:
-    - name: Roman
-      value: 0
-      linkedValue: 1
-      flags: 2
+  # NOTE: The upright Geist[wght].ttf intentionally omits an `ital` STAT axis.
+  # An `ital` design axis here (with a Roman value) is not present in fvar and
+  # causes some consumers (e.g. Figma) to reject the variable font and hide the
+  # weight axis. The Italic sibling is shipped as a separate file below.
   Geist-Italic[wght].ttf:
   - name: Weight
     tag: wght
