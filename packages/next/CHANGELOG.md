@@ -1,5 +1,11 @@
 # geist
 
+## 1.8.2
+
+### Patch Changes
+
+- 339fffd: Geist Sans: stop mapping U+03C9 (small omega ω) to the capital Omega glyph; encode U+2126 OHM SIGN instead.
+
 ## 1.8.1
 
 ### Patch Changes
