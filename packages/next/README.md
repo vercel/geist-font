@@ -27,7 +27,7 @@ npm install geist
 Use `GeistSerif` to load the variable font. Regular is the default shape, so it does not need a `font-variation-settings` declaration. Square is the secondary default:
 
 ```jsx
-import { GeistSerif } from "geist/font/serif";
+import { GeistSerif } from "geist/font/serif/variable";
 
 export function SerifSamples() {
   return (
@@ -71,6 +71,20 @@ import { GeistSerifSquare } from "geist/font/serif/square";
 import { GeistSerifTriangle } from "geist/font/serif/triangle";
 import { GeistSerifHeart } from "geist/font/serif/heart";
 ```
+
+If you need the variable font and all four static variants, the aggregate entry point is available for convenience:
+
+```jsx
+import {
+  GeistSerif,
+  GeistSerifRegular,
+  GeistSerifSquare,
+  GeistSerifTriangle,
+  GeistSerifHeart,
+} from "geist/font/serif";
+```
+
+The aggregate entry point includes all five font files. Prefer `/variable` or an individual static entry point when you only need one.
 
 #### Geist Pixel Variants
 

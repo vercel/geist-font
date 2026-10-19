@@ -77,6 +77,10 @@
       "types": "./dist/serif.d.ts",
       "default": "./dist/serif.js"
     },
+    "./font/serif/variable": {
+      "types": "./dist/serif-variable.d.ts",
+      "default": "./dist/serif-variable.js"
+    },
     "./font/serif/regular": {
       "types": "./dist/serif-regular.d.ts",
       "default": "./dist/serif-regular.js"
