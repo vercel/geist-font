@@ -121,7 +121,7 @@ import { GeistPixelTriangle } from "geist/font/pixel/triangle";
 import { GeistPixelLine } from "geist/font/pixel/line";
 ```
 
-The aggregate `geist/font/pixel` entry point remains available for backwards compatibility and convenient access to `GeistPixel` plus all five static variants, but it includes all six font files.
+The aggregate `geist/font/pixel` entry point remains available for backwards compatibility, but it includes all five static font files. The variable font stays isolated at `geist/font/pixel/variable`.
 
 #### App Router
 
