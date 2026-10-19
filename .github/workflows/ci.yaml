@@ -2,6 +2,16 @@ name: CI
 
 on:
   workflow_dispatch:
+    inputs:
+      publish_canary:
+        description: Publish the package version from this branch with the canary npm tag
+        required: false
+        default: false
+        type: boolean
+      canary_version:
+        description: Prerelease version matching x.y.z-canary.n
+        required: false
+        type: string
   pull_request:
   push:
     branches:
@@ -219,3 +229,63 @@ jobs:
           VERSION=$(jq -r '.version' packages/next/package.json)
           mv artifacts/geist-font.zip "geist-font-v$VERSION.zip"
           gh release upload "v$VERSION" "geist-font-v$VERSION.zip" --clobber
+
+  release-npm-canary:
+    name: Release canary package
+    needs: build
+    if: github.event_name == 'workflow_dispatch' && inputs.publish_canary && github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Download npm artifacts
+        uses: actions/download-artifact@v5
+        with:
+          name: geist-font-fonts-npm
+          path: ./artifacts
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Install npm 11
+        run: npm install -g npm@11.14.1
+
+      - name: Install corepack
+        run: npm install -g corepack@0.31
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        working-directory: packages/next
+        run: pnpm install --frozen-lockfile
+
+      - name: Use font artifacts from CI
+        run: |
+          rm -rf packages/next/dist/fonts
+          mv artifacts/packages/next/dist/fonts packages/next/dist/fonts
+
+      - name: Validate canary version
+        working-directory: packages/next
+        env:
+          VERSION: ${{ inputs.canary_version }}
+        run: |
+          if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+-canary\.[0-9]+$ ]]; then
+            echo "Package version must match x.y.z-canary.n; received $VERSION"
+            exit 1
+          fi
+          if npm view "geist@$VERSION" version >/dev/null 2>&1; then
+            echo "geist@$VERSION is already published"
+            exit 1
+          fi
+          npm pkg set "version=$VERSION"
+
+      - name: Publish canary
+        working-directory: packages/next
+        run: npm publish --tag canary --provenance

@@ -25,6 +25,7 @@
     "geist mono",
     "geist sans",
     "geist pixel",
+    "geist serif",
     "vercel font"
   ],
   "exports": {
@@ -51,6 +52,10 @@
     "./font/pixel": {
       "types": "./dist/pixel.d.ts",
       "default": "./dist/pixel.js"
+    },
+    "./font/serif": {
+      "types": "./dist/serif.d.ts",
+      "default": "./dist/serif.js"
     }
   },
   "license": "SIL OPEN FONT LICENSE",

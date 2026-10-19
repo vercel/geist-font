@@ -47,7 +47,7 @@ copy-npm-fonts:
 	# Clear any pre-existing build artifacts
 	rm -rf packages/next/dist/fonts
 	# Copy over the relevant font files
-	mkdir -p packages/next/dist/fonts/geist-sans packages/next/dist/fonts/geist-mono packages/next/dist/fonts/geist-pixel
+	mkdir -p packages/next/dist/fonts/geist-sans packages/next/dist/fonts/geist-mono packages/next/dist/fonts/geist-pixel packages/next/dist/fonts/geist-serif
 	cp fonts/Geist/ttf/*.ttf packages/next/dist/fonts/geist-sans/
 	cp fonts/Geist/webfonts/*.woff2 packages/next/dist/fonts/geist-sans/
 	cp fonts/Geist/variable/*.ttf packages/next/dist/fonts/geist-sans/
@@ -55,6 +55,7 @@ copy-npm-fonts:
 	cp fonts/GeistMono/webfonts/*.woff2 packages/next/dist/fonts/geist-mono/
 	cp fonts/GeistMono/variable/*.ttf packages/next/dist/fonts/geist-mono/
 	cp fonts/GeistPixel/webfonts/*.woff2 packages/next/dist/fonts/geist-pixel/
+	cp fonts/GeistSerif/webfonts/*.woff2 packages/next/dist/fonts/geist-serif/
 	# Apparently there is a naming mismatch between the font files for npm distribution and the actual font files,
 	# so we need to rename them to the correct names.
 	cd packages/next/dist/fonts/geist-sans && \

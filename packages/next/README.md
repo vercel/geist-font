@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/vercel/geist-font/main/packages/next/images/hero.png)
 
-# Geist Sans, Geist Mono & Geist Pixel
+# Geist Sans, Geist Mono, Geist Pixel & Geist Serif
 
 Geist is a new font family created by [Vercel](https://vercel.com/design) in collaboration with [Basement Studio](https://basement.studio/).
 
@@ -10,6 +10,8 @@ Geist Mono is a monospaced typeface, crafted to be the perfect partner to Geist 
 
 Geist Pixel is a display typeface family featuring five unique pixel-based variants, each with a distinct visual style. It is designed for decorative use in headlines, logos, and other display contexts where a pixelated aesthetic is desired.
 
+Geist Serif is a display serif with an Element Shape (`ELSH`) axis. Its Regular and Square variants are suited to primary typography, while Triangle and Heart offer more decorative alternatives.
+
 ### Installation
 
 ```sh
@@ -18,7 +20,59 @@ npm install geist
 
 ### Using with Next.js
 
-`GeistSans` is exported from `geist/font/sans`, `GeistMono` can be found in `geist/font/mono`, and Geist Pixel variants are available from `geist/font/pixel`. All are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
+`GeistSans` is exported from `geist/font/sans`, `GeistMono` can be found in `geist/font/mono`, Geist Pixel variants are available from `geist/font/pixel`, and Geist Serif is available from `geist/font/serif`. All are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
+
+#### Geist Serif
+
+Use `GeistSerif` to load the variable font. Regular is the default shape, so it does not need a `font-variation-settings` declaration. Square is the secondary default:
+
+```jsx
+import { GeistSerif } from "geist/font/serif";
+
+export function SerifSamples() {
+  return (
+    <>
+      <p className={GeistSerif.className}>Geist Serif Regular</p>
+      <p
+        className={GeistSerif.className}
+        style={{ fontVariationSettings: '"ELSH" 25' }}
+      >
+        Geist Serif Square
+      </p>
+    </>
+  );
+}
+```
+
+Triangle and Heart use the same axis for more decorative applications:
+
+```css
+.serif-triangle {
+  font-variation-settings: "ELSH" 50;
+}
+
+.serif-heart {
+  font-variation-settings: "ELSH" 100;
+}
+```
+
+Static exports are also available when the variable axis is not needed:
+
+| Export               | CSS variable                  | Element shape |
+| -------------------- | ----------------------------- | ------------- |
+| `GeistSerifRegular`  | `--font-geist-serif-regular`  | Regular       |
+| `GeistSerifSquare`   | `--font-geist-serif-square`   | Square        |
+| `GeistSerifTriangle` | `--font-geist-serif-triangle` | Triangle      |
+| `GeistSerifHeart`    | `--font-geist-serif-heart`    | Heart         |
+
+```jsx
+import {
+  GeistSerifRegular,
+  GeistSerifSquare,
+  GeistSerifTriangle,
+  GeistSerifHeart,
+} from "geist/font/serif";
+```
 
 #### Geist Pixel Variants
 
@@ -102,6 +156,11 @@ All Geist fonts can be used through CSS variables.
 - `GeistPixelCircle`: `--font-geist-pixel-circle`
 - `GeistPixelTriangle`: `--font-geist-pixel-triangle`
 - `GeistPixelLine`: `--font-geist-pixel-line`
+- `GeistSerif`: `--font-geist-serif`
+- `GeistSerifRegular`: `--font-geist-serif-regular`
+- `GeistSerifSquare`: `--font-geist-serif-square`
+- `GeistSerifTriangle`: `--font-geist-serif-triangle`
+- `GeistSerifHeart`: `--font-geist-serif-heart`
 
 In `app/layout.js`:
 

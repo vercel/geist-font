@@ -28,7 +28,8 @@ Thumbs.db
 # Font build artifacts #
 geist-font/
 geist-font*.zip
-packages/next/dist/fonts/
+packages/next/dist/fonts/*
+!packages/next/dist/fonts/geist-serif/
 artifacts/
 
 # this is copied as part of the prepare script
