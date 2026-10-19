@@ -34,11 +34,11 @@ build.stamp: venv venv-pixel sources/config-Geist.yaml $(SOURCES)
 			( . venv/bin/activate && gftools builder "$$config" ); \
 		fi; \
 	done
-	# Geist Pixel's static instances and webfonts are hand-exported from Glyphs
-	# and committed (buildStatic:false means gftools only builds the variable, so
-	# the clean `rm -rf fonts` above drops them). Restore the committed assets the
-	# release zip and npm package consume.
+	# Geist Pixel and Geist Serif include hand-exported, committed assets that the
+	# clean `rm -rf fonts` above drops. Restore the assets consumed by the release
+	# zip and npm package.
 	git checkout -- fonts/GeistPixel/otf fonts/GeistPixel/ttf fonts/GeistPixel/webfonts
+	git checkout -- fonts/GeistSerif/webfonts
 	$(MAKE) copy-npm-fonts
 	$(MAKE) create-release-zip
 	touch build.stamp
