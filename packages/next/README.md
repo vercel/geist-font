@@ -56,45 +56,43 @@ Triangle and Heart use the same axis for more decorative applications:
 }
 ```
 
-Static exports are also available when the variable axis is not needed:
+Static exports are also available when the variable axis is not needed. Each variant has its own entry point so only the selected font file is emitted and preloaded:
 
-| Export               | CSS variable                  | Element shape |
-| -------------------- | ----------------------------- | ------------- |
-| `GeistSerifRegular`  | `--font-geist-serif-regular`  | Regular       |
-| `GeistSerifSquare`   | `--font-geist-serif-square`   | Square        |
-| `GeistSerifTriangle` | `--font-geist-serif-triangle` | Triangle      |
-| `GeistSerifHeart`    | `--font-geist-serif-heart`    | Heart         |
+| Export               | Entry point                 | CSS variable                  |
+| -------------------- | --------------------------- | ----------------------------- |
+| `GeistSerifRegular`  | `geist/font/serif/regular`  | `--font-geist-serif-regular`  |
+| `GeistSerifSquare`   | `geist/font/serif/square`   | `--font-geist-serif-square`   |
+| `GeistSerifTriangle` | `geist/font/serif/triangle` | `--font-geist-serif-triangle` |
+| `GeistSerifHeart`    | `geist/font/serif/heart`    | `--font-geist-serif-heart`    |
 
 ```jsx
-import {
-  GeistSerifRegular,
-  GeistSerifSquare,
-  GeistSerifTriangle,
-  GeistSerifHeart,
-} from "geist/font/serif";
+import { GeistSerifRegular } from "geist/font/serif/regular";
+import { GeistSerifSquare } from "geist/font/serif/square";
+import { GeistSerifTriangle } from "geist/font/serif/triangle";
+import { GeistSerifHeart } from "geist/font/serif/heart";
 ```
 
 #### Geist Pixel Variants
 
-Geist Pixel includes five distinct variants, each exported separately:
+Geist Pixel includes five distinct variants. Use their individual entry points to emit and preload only the fonts you import:
 
-| Export               | CSS Variable                  | Description              |
-| -------------------- | ----------------------------- | ------------------------ |
-| `GeistPixelSquare`   | `--font-geist-pixel-square`   | Square pixel shapes      |
-| `GeistPixelGrid`     | `--font-geist-pixel-grid`     | Grid-based pixel pattern |
-| `GeistPixelCircle`   | `--font-geist-pixel-circle`   | Circular pixel shapes    |
-| `GeistPixelTriangle` | `--font-geist-pixel-triangle` | Triangular pixel shapes  |
-| `GeistPixelLine`     | `--font-geist-pixel-line`     | Line-based pixel pattern |
+| Export               | Entry point                 | CSS Variable                  |
+| -------------------- | --------------------------- | ----------------------------- |
+| `GeistPixelSquare`   | `geist/font/pixel/square`   | `--font-geist-pixel-square`   |
+| `GeistPixelGrid`     | `geist/font/pixel/grid`     | `--font-geist-pixel-grid`     |
+| `GeistPixelCircle`   | `geist/font/pixel/circle`   | `--font-geist-pixel-circle`   |
+| `GeistPixelTriangle` | `geist/font/pixel/triangle` | `--font-geist-pixel-triangle` |
+| `GeistPixelLine`     | `geist/font/pixel/line`     | `--font-geist-pixel-line`     |
 
 ```jsx
-import {
-  GeistPixelSquare,
-  GeistPixelGrid,
-  GeistPixelCircle,
-  GeistPixelTriangle,
-  GeistPixelLine,
-} from "geist/font/pixel";
+import { GeistPixelSquare } from "geist/font/pixel/square";
+import { GeistPixelGrid } from "geist/font/pixel/grid";
+import { GeistPixelCircle } from "geist/font/pixel/circle";
+import { GeistPixelTriangle } from "geist/font/pixel/triangle";
+import { GeistPixelLine } from "geist/font/pixel/line";
 ```
+
+The aggregate `geist/font/pixel` entry point remains available for backwards compatibility, but it includes all five font files.
 
 #### App Router
 
