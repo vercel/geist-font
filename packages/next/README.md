@@ -88,6 +88,21 @@ The aggregate entry point includes all five font files. Prefer `/variable` or an
 
 #### Geist Pixel Variants
 
+Use `GeistPixel` to load one variable font and select its shape through `ELSH`:
+
+```jsx
+import { GeistPixel } from "geist/font/pixel/variable";
+```
+
+| Shape    | `ELSH` value |
+| -------- | ------------ |
+| Regular  | `0`          |
+| Square   | `1`          |
+| Circle   | `20`         |
+| Grid     | `40`         |
+| Triangle | `60`         |
+| Line     | `80`         |
+
 Geist Pixel includes five distinct variants. Use their individual entry points to emit and preload only the fonts you import:
 
 | Export               | Entry point                 | CSS Variable                  |
@@ -106,7 +121,7 @@ import { GeistPixelTriangle } from "geist/font/pixel/triangle";
 import { GeistPixelLine } from "geist/font/pixel/line";
 ```
 
-The aggregate `geist/font/pixel` entry point remains available for backwards compatibility, but it includes all five font files.
+The aggregate `geist/font/pixel` entry point remains available for backwards compatibility and convenient access to `GeistPixel` plus all five static variants, but it includes all six font files.
 
 #### App Router
 

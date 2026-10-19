@@ -53,6 +53,10 @@
       "types": "./dist/pixel.d.ts",
       "default": "./dist/pixel.js"
     },
+    "./font/pixel/variable": {
+      "types": "./dist/pixel-variable.d.ts",
+      "default": "./dist/pixel-variable.js"
+    },
     "./font/pixel/square": {
       "types": "./dist/pixel-square.d.ts",
       "default": "./dist/pixel-square.js"

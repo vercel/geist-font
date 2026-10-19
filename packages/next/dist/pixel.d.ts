@@ -1,5 +1,6 @@
 import { NextFontWithVariable } from "next/dist/compiled/@next/font";
 
+export declare const GeistPixel: NextFontWithVariable;
 export declare const GeistPixelSquare: NextFontWithVariable;
 export declare const GeistPixelGrid: NextFontWithVariable;
 export declare const GeistPixelCircle: NextFontWithVariable;
