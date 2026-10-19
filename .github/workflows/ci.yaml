@@ -116,7 +116,7 @@ jobs:
 
   release:
     name: Release bundle
-    if: contains(github.ref, 'refs/tags/')
+    if: contains(github.ref, 'refs/tags/') && !startsWith(github.ref_name, 'npm-canary-v')
     needs: build
     runs-on: ubuntu-latest
     env:
@@ -233,7 +233,7 @@ jobs:
   release-npm-canary:
     name: Release canary package
     needs: build
-    if: github.event_name == 'workflow_dispatch' && inputs.publish_canary && github.ref != 'refs/heads/main'
+    if: (github.event_name == 'workflow_dispatch' && inputs.publish_canary && github.ref != 'refs/heads/main') || (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/npm-canary-v'))
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -274,8 +274,9 @@ jobs:
       - name: Validate canary version
         working-directory: packages/next
         env:
-          VERSION: ${{ inputs.canary_version }}
+          REQUESTED_VERSION: ${{ inputs.canary_version || github.ref_name }}
         run: |
+          VERSION=${REQUESTED_VERSION#npm-canary-v}
           if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+-canary\.[0-9]+$ ]]; then
             echo "Package version must match x.y.z-canary.n; received $VERSION"
             exit 1
