@@ -2340,13 +2340,13 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Basement.studio, Andrés Briganti, Mateo Zaragoza";
+value = "Andrés Briganti, Mateo Zaragoza";
 }
 );
 },
 {
 key = designerURL;
-value = "https://basement.studio/";
+value = "https://vercel.com/font";
 },
 {
 key = licenses;
@@ -2366,13 +2366,13 @@ key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Basement.studio, Vercel, Andrés Briganti, Guido Ferreyra, Mateo Zaragoza";
+value = "Vercel, Andrés Briganti, Guido Ferreyra, Mateo Zaragoza";
 }
 );
 },
 {
 key = manufacturerURL;
-value = "https://basement.studio/";
+value = "https://vercel.com/font";
 },
 {
 key = vendorID;
