@@ -1,5 +1,11 @@
 # geist
 
+## 1.8.2
+
+### Patch Changes
+
+- 742b082: Center the horizontal bars in the Geist Sans yen sign across all weights.
+
 ## 1.8.1
 
 ### Patch Changes
