@@ -51,7 +51,7 @@ cattrs==25.2.0
     # via
     #   statmake
     #   ufolib2
-certifi==2025.8.3
+certifi==2026.10.19
     # via
     #   requests
     #   selenium
