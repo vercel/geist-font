@@ -39,7 +39,7 @@ booleanoperations==0.9.0
     #   afdko
     #   fontparts
     #   ufo2ft
-brotli==1.1.0
+brotli==1.2.1
     # via
     #   fonttools
     #   gftools
