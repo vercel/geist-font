@@ -2,7 +2,7 @@
 
 # Geist Sans, Geist Mono, Geist Pixel & Geist Serif
 
-Geist is a new font family created by [Vercel](https://vercel.com/design) in collaboration with [Basement Studio](https://basement.studio/).
+Geist is a font family created by [Vercel](https://vercel.com/design). Geist Sans and Geist Mono were created in collaboration with [Basement Studio](https://basement.studio/). Geist Pixel was created in collaboration with [Andrés Briganti](https://briganti.works). Geist Serif was created in collaboration with Andrés Briganti and Mark Davis.
 
 Geist Sans is a sans-serif typeface designed for legibility and simplicity. It is modern, geometric, and based on the principles of classic Swiss typography. It is designed to be used in body copy, headlines, logos, posters, and other large display sizes.
 
@@ -20,9 +20,27 @@ npm install geist
 
 ### Using with Next.js
 
-`GeistSans` is exported from `geist/font/sans`, `GeistMono` can be found in `geist/font/mono`, Geist Pixel variants are available from `geist/font/pixel`, and Geist Serif is available from `geist/font/serif`. All are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
+`GeistSans` is exported from `geist/font/sans` and `GeistMono` from `geist/font/mono`. Geist Pixel and Geist Serif each ship a variable entry point (`geist/font/pixel/variable`, `geist/font/serif/variable`) and one entry point per variant (e.g. `geist/font/pixel/grid`, `geist/font/serif/square`), so you only emit and preload the files you import. All are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
 
-#### Geist Serif
+#### Import only the fonts you use
+
+`next/font` emits and preloads every font defined in a module you import. The aggregate entry points (`geist/font/pixel`, `geist/font/serif`) define all of their variants, so importing a single export from them still ships every file. Import from the scoped entry point instead:
+
+```jsx
+// Before: emits and preloads all five Geist Pixel files (~131 KB)
+import { GeistPixelSquare } from "geist/font/pixel";
+
+// After: emits and preloads only GeistPixel-Square.woff2 (~28 KB)
+import { GeistPixelSquare } from "geist/font/pixel/square";
+```
+
+The same applies to Geist Serif. Its variable font covers all four shapes in a single file (~35 KB), while the aggregate `geist/font/serif` ships five (~175 KB):
+
+```jsx
+import { GeistSerif } from "geist/font/serif/variable";
+```
+
+#### Geist Serif Variants
 
 Use `GeistSerif` to load the variable font. Regular is the default shape, so it does not need a `font-variation-settings` declaration. Square is the secondary default:
 
@@ -55,6 +73,15 @@ Triangle and Heart use the same axis for more decorative applications:
   font-variation-settings: "ELSH" 100;
 }
 ```
+
+| Shape    | `ELSH` value |
+| -------- | ------------ |
+| Regular  | `0`          |
+| Square   | `25`         |
+| Triangle | `50`         |
+| Heart    | `100`        |
+
+`ELSH` switches between these four shapes instead of interpolating between them. In-between values snap to a shape (Square from 24.5, Triangle from 49.5, Heart from 74.5), so a transition on `font-variation-settings` jumps rather than morphs.
 
 Static exports are also available when the variable axis is not needed. Each variant has its own entry point so only the selected font file is emitted and preloaded:
 
@@ -102,6 +129,8 @@ import { GeistPixel } from "geist/font/pixel/variable";
 | Grid     | `40`         |
 | Triangle | `60`         |
 | Line     | `80`         |
+
+Unlike Geist Serif, Geist Pixel interpolates along `ELSH`: values between the ones above blend neighboring shapes, and a transition on `font-variation-settings` morphs from one shape to the next.
 
 Geist Pixel includes five distinct variants. Use their individual entry points to emit and preload only the fonts you import:
 
@@ -178,6 +207,7 @@ All Geist fonts can be used through CSS variables.
 
 - `GeistSans`: `--font-geist-sans`
 - `GeistMono`: `--font-geist-mono`
+- `GeistPixel`: `--font-geist-pixel`
 - `GeistPixelSquare`: `--font-geist-pixel-square`
 - `GeistPixelGrid`: `--font-geist-pixel-grid`
 - `GeistPixelCircle`: `--font-geist-pixel-circle`
@@ -194,13 +224,14 @@ In `app/layout.js`:
 ```jsx
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
-import { GeistPixelSquare } from "geist/font/pixel";
+import { GeistPixelSquare } from "geist/font/pixel/square";
+import { GeistSerif } from "geist/font/serif/variable";
 
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${GeistSans.variable} ${GeistMono.variable} ${GeistPixelSquare.variable}`}
+      className={`${GeistSans.variable} ${GeistMono.variable} ${GeistPixelSquare.variable} ${GeistSerif.variable}`}
     >
       <body>{children}</body>
     </html>
@@ -218,6 +249,7 @@ Then in `tailwind.css`:
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-geist-serif);
   --font-pixel-square: var(--font-geist-pixel-square);
   --font-pixel-grid: var(--font-geist-pixel-grid);
   --font-pixel-circle: var(--font-geist-pixel-circle);
@@ -239,6 +271,7 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-geist-sans)"],
         mono: ["var(--font-geist-mono)"],
+        serif: ["var(--font-geist-serif)"],
         "pixel-square": ["var(--font-geist-pixel-square)"],
         "pixel-grid": ["var(--font-geist-pixel-grid)"],
         "pixel-circle": ["var(--font-geist-pixel-circle)"],
