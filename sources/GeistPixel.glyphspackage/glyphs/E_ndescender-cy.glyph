@@ -1,0 +1,88 @@
+{
+glyphname = "Endescender-cy";
+kernLeft = b;
+kernRight = "Tse-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (380,0);
+},
+{
+name = top;
+pos = (380,722);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = H;
+},
+{
+alignment = -1;
+pos = (570,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (608,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (570,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (608,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (608,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (646,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (608,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (646,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (608,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (646,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (608,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (646,38);
+ref = pixel;
+}
+);
+width = 722;
+}
+);
+unicode = 1186;
+}

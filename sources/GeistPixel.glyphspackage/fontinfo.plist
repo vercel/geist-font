@@ -37,7 +37,7 @@ data = Latn;
 tag = dlng;
 },
 {
-data = Latn;
+data = "Latn, Cyrl";
 tag = slng;
 }
 );
@@ -223,6 +223,7 @@ sub amacron by amacron.ss01;
 sub aogonek by aogonek.ss01;
 sub aring by aring.ss01;
 sub atilde by atilde.ss01;
+sub a-cy by a-cy.ss01;
 ";
 labels = (
 {
@@ -244,6 +245,7 @@ sub amacron by amacron.ss02;
 sub aogonek by aogonek.ss02;
 sub aring by aring.ss02;
 sub atilde by atilde.ss02;
+sub a-cy by a-cy.ss02;
 ";
 labels = (
 {
@@ -296,6 +298,9 @@ sub Igrave by Igrave.ss05;
 sub Imacron by Imacron.ss05;
 sub Iogonek by Iogonek.ss05;
 sub Itilde by Itilde.ss05;
+sub I-cy by I-cy.ss05;
+sub Yi-cy by Yi-cy.ss05;
+sub Palochka-cy by Palochka-cy.ss05;
 ";
 labels = (
 {
@@ -467,6 +472,13 @@ m01 = {
 "@MMK_L_A" = {
 "@MMK_R_T" = -76;
 "@MMK_R_V" = -38;
+"De-cy" = 38;
+"Zhe-cy" = 38;
+"Zhedescender-cy" = 38;
+};
+"@MMK_L_B" = {
+"El-cy" = -38;
+"Lje-cy" = -38;
 };
 "@MMK_L_L" = {
 "@MMK_R_T" = -152;
@@ -475,8 +487,14 @@ m01 = {
 "@MMK_L_T" = {
 "@MMK_R_A" = -76;
 "@MMK_R_T" = 0;
+"@MMK_R_U-cy" = 38;
 "@MMK_R_a" = -76;
 "@MMK_R_o" = -76;
+"Ustraight-cy" = 38;
+"Ustraightstroke-cy" = 38;
+};
+"@MMK_L_Tse-cy" = {
+"@MMK_R_A" = 38;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -38;
@@ -492,6 +510,52 @@ m01 = {
 "@MMK_L_r" = {
 "@MMK_R_a" = -38;
 "@MMK_R_o" = -38;
+};
+"@MMK_L_tse-cy" = {
+"@MMK_R_a" = -38;
+"@MMK_R_o" = -38;
+"de-cy" = 0;
+"el-cy" = 0;
+"lje-cy" = 0;
+};
+"@MMK_L_v" = {
+"el-cy" = -38;
+"lje-cy" = -38;
+};
+"De-cy" = {
+"@MMK_R_A" = 38;
+"Zhe-cy" = 38;
+"Zhedescender-cy" = 38;
+};
+"Es-cy" = {
+"hardsign-cy" = 38;
+"te-cy" = 38;
+};
+"Ka-cy" = {
+A = 38;
+"A-cy" = 38;
+"De-cy" = 38;
+};
+"Kadescender-cy" = {
+A = 38;
+"A-cy" = 38;
+"De-cy" = 38;
+};
+"Kje-cy" = {
+A = 38;
+"A-cy" = 38;
+"De-cy" = 38;
+};
+"Yi-cy" = {
+"Yi-cy" = 76;
+};
+"Zhe-cy" = {
+"@MMK_R_A" = 38;
+"De-cy" = 38;
+};
+"Zhedescender-cy" = {
+"@MMK_R_A" = 38;
+"De-cy" = 38;
 };
 underscore = {
 "@MMK_R_o" = -38;
@@ -2412,5 +2476,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 900;
 }

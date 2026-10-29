@@ -1,0 +1,88 @@
+{
+glyphname = "Shcha-cy";
+kernLeft = b;
+kernRight = "Tse-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (494,0);
+},
+{
+name = top;
+pos = (494,722);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = "Sha-cy";
+},
+{
+alignment = -1;
+pos = (798,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (836,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (798,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (836,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (836,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (874,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (836,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (874,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (836,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (874,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (836,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (874,38);
+ref = pixel;
+}
+);
+width = 950;
+}
+);
+unicode = 1065;
+}
