@@ -1,0 +1,147 @@
+{
+glyphname = "Obarred-cy";
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (342,0);
+},
+{
+name = top;
+pos = (342,722);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+alignment = -1;
+pos = (114,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (532,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (532,380);
+ref = pixel;
+}
+);
+width = 684;
+}
+);
+unicode = 1256;
+}

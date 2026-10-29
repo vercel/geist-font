@@ -1,0 +1,15 @@
+{
+glyphname = "Schwa-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Schwa;
+}
+);
+width = 684;
+}
+);
+unicode = 1240;
+}

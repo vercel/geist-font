@@ -1,0 +1,369 @@
+{
+glyphname = "U-cy";
+kernLeft = "U-cy";
+kernRight = V;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = top;
+pos = (304,722);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (76,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,266);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,266);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,266);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,266);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,304);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,342);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,380);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,418);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,418);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,418);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,418);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,456);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,494);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,532);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,532);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,532);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,532);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (532,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (532,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (532,684);
+ref = pixel;
+}
+);
+width = 608;
+}
+);
+unicode = 1059;
+}

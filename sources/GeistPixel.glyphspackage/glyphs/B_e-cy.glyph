@@ -1,0 +1,127 @@
+{
+glyphname = "Be-cy";
+kernLeft = b;
+kernRight = B;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = top;
+pos = (304,722);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "Softsign-cy";
+},
+{
+alignment = -1;
+pos = (152,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,684);
+ref = pixel;
+}
+);
+width = 646;
+}
+);
+unicode = 1041;
+}
