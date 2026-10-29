@@ -38,7 +38,7 @@ build.stamp: venv venv-pixel sources/config-Geist.yaml $(SOURCES)
 	# clean `rm -rf fonts` above drops. Restore the assets consumed by the release
 	# zip and npm package.
 	git checkout -- fonts/GeistPixel/otf fonts/GeistPixel/ttf fonts/GeistPixel/webfonts
-	git checkout -- fonts/GeistSerif/webfonts
+	git checkout -- fonts/GeistSerif/ttf fonts/GeistSerif/variable fonts/GeistSerif/webfonts
 	$(MAKE) copy-npm-fonts
 	$(MAKE) create-release-zip
 	touch build.stamp
