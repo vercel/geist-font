@@ -1,9 +1,9 @@
 # Geist
 
-![The word "Geist" written as ASCII art using triangular patterns. Below are three font specimens:
-Sans - A modern sans-serif typeface showing the alphabet in uppercase and lowercase, numbers, and symbols including punctuation and special characters. Mono - A monospaced typeface displaying the same character set with fixed-width spacing ideal for coding. Pixel - A pixelated bitmap-style typeface showing the complete alphabet, numbers, and symbols with a retro digital aesthetic. At the bottom are five icons representing different geometric patterns or grid styles.](./documentation/img/geist-banner--light.png#gh-light-mode-only)
-![The word "Geist" written as ASCII art using triangular patterns. Below are three font specimens:
-Sans - A modern sans-serif typeface showing the alphabet in uppercase and lowercase, numbers, and symbols including punctuation and special characters. Mono - A monospaced typeface displaying the same character set with fixed-width spacing ideal for coding. Pixel - A pixelated bitmap-style typeface showing the complete alphabet, numbers, and symbols with a retro digital aesthetic. At the bottom are five icons representing different geometric patterns or grid styles.](./documentation/img/geist-banner--dark.png#gh-dark-mode-only)
+![The word "Geist." set in bold Geist Sans. Below are four font specimens, each showing the alphabet in uppercase and lowercase, numbers, and symbols:
+Sans - A modern sans-serif typeface. Serif - A high-contrast display serif. Mono - A monospaced typeface with fixed-width spacing ideal for coding. Pixel - A pixelated bitmap-style typeface with a retro digital aesthetic.](./documentation/img/geist-banner--light.png#gh-light-mode-only)
+![The word "Geist." set in bold Geist Sans. Below are four font specimens, each showing the alphabet in uppercase and lowercase, numbers, and symbols:
+Sans - A modern sans-serif typeface. Serif - A high-contrast display serif. Mono - A monospaced typeface with fixed-width spacing ideal for coding. Pixel - A pixelated bitmap-style typeface with a retro digital aesthetic.](./documentation/img/geist-banner--dark.png#gh-dark-mode-only)
 
 # Geist Sans, Geist Mono & Geist Pixel
 
