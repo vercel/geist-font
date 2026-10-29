@@ -43,7 +43,7 @@ booleanoperations==0.10.0
     #   afdko
     #   fontparts
     #   ufo2ft
-brotli==1.2.0
+brotli==1.2.1
     # via
     #   fonttools
     #   gftools
@@ -57,7 +57,7 @@ cattrs==25.3.0
     # via
     #   statmake
     #   ufolib2
-certifi==2026.1.4
+certifi==2026.10.19
     # via
     #   requests
     #   selenium
