@@ -44,18 +44,6 @@ export function SerifSamples() {
 }
 ```
 
-Triangle and Heart use the same axis for more decorative applications:
-
-```css
-.serif-triangle {
-  font-variation-settings: "ELSH" 50;
-}
-
-.serif-heart {
-  font-variation-settings: "ELSH" 100;
-}
-```
-
 | Shape    | `ELSH` value |
 | -------- | ------------ |
 | Regular  | `0`          |
