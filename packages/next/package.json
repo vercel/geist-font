@@ -1,6 +1,6 @@
 {
   "name": "geist",
-  "version": "1.8.2",
+  "version": "1.9.0",
   "description": "Geist is Vercel's font family, including Geist Sans, Geist Mono, Geist Pixel, and Geist Serif.",
   "main": "./dist/font.js",
   "type": "module",
