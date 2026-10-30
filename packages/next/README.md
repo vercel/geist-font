@@ -22,24 +22,6 @@ npm install geist
 
 `GeistSans` is exported from `geist/font/sans` and `GeistMono` from `geist/font/mono`. Geist Pixel and Geist Serif each ship a variable entry point (`geist/font/pixel/variable`, `geist/font/serif/variable`) and one entry point per variant (e.g. `geist/font/pixel/grid`, `geist/font/serif/square`), so you only emit and preload the files you import. All are `NextFontWithVariable` instances. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
 
-#### Import only the fonts you use
-
-`next/font` emits and preloads every font defined in a module you import. The aggregate entry points (`geist/font/pixel`, `geist/font/serif`) define all of their variants, so importing a single export from them still ships every file. Import from the scoped entry point instead:
-
-```jsx
-// Before: emits and preloads all five Geist Pixel files (~131 KB)
-import { GeistPixelSquare } from "geist/font/pixel";
-
-// After: emits and preloads only GeistPixel-Square.woff2 (~28 KB)
-import { GeistPixelSquare } from "geist/font/pixel/square";
-```
-
-The same applies to Geist Serif. Its variable font covers all four shapes in a single file (~35 KB), while the aggregate `geist/font/serif` ships five (~175 KB):
-
-```jsx
-import { GeistSerif } from "geist/font/serif/variable";
-```
-
 #### Geist Serif Variants
 
 Use `GeistSerif` to load the variable font. Regular is the default shape, so it does not need a `font-variation-settings` declaration. Square is the secondary default:
