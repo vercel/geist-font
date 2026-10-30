@@ -41,8 +41,6 @@ import { GeistPixel } from "geist/font/pixel/variable";
 import { GeistSerif } from "geist/font/serif/variable";
 ```
 
-View the npm README for full instructions [here](https://www.npmjs.com/package/geist).
-
 **Via Google Fonts:**
 
 [Geist](https://fonts.google.com/specimen/Geist), [Geist Mono](https://fonts.google.com/specimen/Geist+Mono), and [Geist Pixel](https://fonts.google.com/specimen/Geist+Pixel) are available on Google Fonts. On Google Fonts, Geist Pixel ships as one variable family that selects its shape through the `ELSH` axis. Geist Serif is not on Google Fonts yet; install it from the releases page or via npm.
