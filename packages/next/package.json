@@ -1,7 +1,7 @@
 {
   "name": "geist",
   "version": "1.8.2",
-  "description": "Geist is a new font family for Vercel, created by Vercel in collaboration with Basement Studio.",
+  "description": "Geist is Vercel's font family, including Geist Sans, Geist Mono, Geist Pixel, and Geist Serif.",
   "main": "./dist/font.js",
   "type": "module",
   "module": "./dist/font.js",
@@ -25,6 +25,7 @@
     "geist mono",
     "geist sans",
     "geist pixel",
+    "geist serif",
     "vercel font"
   ],
   "exports": {
@@ -51,6 +52,54 @@
     "./font/pixel": {
       "types": "./dist/pixel.d.ts",
       "default": "./dist/pixel.js"
+    },
+    "./font/pixel/variable": {
+      "types": "./dist/pixel-variable.d.ts",
+      "default": "./dist/pixel-variable.js"
+    },
+    "./font/pixel/square": {
+      "types": "./dist/pixel-square.d.ts",
+      "default": "./dist/pixel-square.js"
+    },
+    "./font/pixel/grid": {
+      "types": "./dist/pixel-grid.d.ts",
+      "default": "./dist/pixel-grid.js"
+    },
+    "./font/pixel/circle": {
+      "types": "./dist/pixel-circle.d.ts",
+      "default": "./dist/pixel-circle.js"
+    },
+    "./font/pixel/triangle": {
+      "types": "./dist/pixel-triangle.d.ts",
+      "default": "./dist/pixel-triangle.js"
+    },
+    "./font/pixel/line": {
+      "types": "./dist/pixel-line.d.ts",
+      "default": "./dist/pixel-line.js"
+    },
+    "./font/serif": {
+      "types": "./dist/serif.d.ts",
+      "default": "./dist/serif.js"
+    },
+    "./font/serif/variable": {
+      "types": "./dist/serif-variable.d.ts",
+      "default": "./dist/serif-variable.js"
+    },
+    "./font/serif/regular": {
+      "types": "./dist/serif-regular.d.ts",
+      "default": "./dist/serif-regular.js"
+    },
+    "./font/serif/square": {
+      "types": "./dist/serif-square.d.ts",
+      "default": "./dist/serif-square.js"
+    },
+    "./font/serif/triangle": {
+      "types": "./dist/serif-triangle.d.ts",
+      "default": "./dist/serif-triangle.js"
+    },
+    "./font/serif/heart": {
+      "types": "./dist/serif-heart.d.ts",
+      "default": "./dist/serif-heart.js"
     }
   },
   "license": "SIL OPEN FONT LICENSE",
