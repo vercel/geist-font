@@ -63,8 +63,6 @@ Triangle and Heart use the same axis for more decorative applications:
 | Triangle | `50`         |
 | Heart    | `100`        |
 
-`ELSH` switches between these four shapes instead of interpolating between them. In-between values snap to a shape (Square from 24.5, Triangle from 49.5, Heart from 74.5), so a transition on `font-variation-settings` jumps rather than morphs.
-
 Static exports are also available when the variable axis is not needed. Each variant has its own entry point so only the selected font file is emitted and preloaded:
 
 | Export               | Entry point                 | CSS variable                  |
