@@ -24,7 +24,16 @@ npm install geist
 
 #### Geist Serif Variants
 
-Use `GeistSerif` to load the variable font. Regular is the default shape, so it does not need a `font-variation-settings` declaration. Square is the secondary default:
+Geist Serif has a variable axis that swaps the shape of every dot in the font, including those on i and j and in punctuation. The axis is called Element Shape (`ELSH`), and it gives you four variants: Regular with round dots (the default), Square, Triangle (a nod to the Vercel logo), and Heart.
+
+Each variant also ships as its own static file. If you use the variable font, pick a variant with `font-variation-settings`:
+
+| Shape    | `ELSH` value |
+| -------- | ------------ |
+| Regular  | `0`          |
+| Square   | `25`         |
+| Triangle | `50`         |
+| Heart    | `100`        |
 
 ```jsx
 import { GeistSerif } from "geist/font/serif/variable";
@@ -35,23 +44,16 @@ export function SerifSamples() {
       <p className={GeistSerif.className}>Geist Serif Regular</p>
       <p
         className={GeistSerif.className}
-        style={{ fontVariationSettings: '"ELSH" 25' }}
+        style={{ fontVariationSettings: '"ELSH" 50' }}
       >
-        Geist Serif Square
+        Geist Serif Triangle
       </p>
     </>
   );
 }
 ```
 
-| Shape    | `ELSH` value |
-| -------- | ------------ |
-| Regular  | `0`          |
-| Square   | `25`         |
-| Triangle | `50`         |
-| Heart    | `100`        |
-
-Static exports are also available when the variable axis is not needed. Each variant has its own entry point so only the selected font file is emitted and preloaded:
+To use a static file instead, import its variant from its own entry point, so only that font file is emitted and preloaded:
 
 | Export               | Entry point                 | CSS variable                  |
 | -------------------- | --------------------------- | ----------------------------- |
