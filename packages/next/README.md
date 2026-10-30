@@ -24,9 +24,11 @@ npm install geist
 
 #### Geist Serif Variants
 
-Geist Serif comes in four variants: Regular with round dots (the default), Square, Triangle (a nod to the Vercel logo), and Heart.
+Use `GeistSerif` to load one variable font and select its shape through `ELSH`:
 
-Each variant also ships as its own static file. If you use the variable font, pick a variant with `font-variation-settings`:
+```jsx
+import { GeistSerif } from "geist/font/serif/variable";
+```
 
 | Shape    | `ELSH` value |
 | -------- | ------------ |
@@ -35,27 +37,9 @@ Each variant also ships as its own static file. If you use the variable font, pi
 | Triangle | `50`         |
 | Heart    | `100`        |
 
-```jsx
-import { GeistSerif } from "geist/font/serif/variable";
+Geist Serif includes four distinct variants: Regular with round dots (the default), Square, Triangle (a nod to the Vercel logo), and Heart. Use their individual entry points to emit and preload only the fonts you import:
 
-export function SerifSamples() {
-  return (
-    <>
-      <p className={GeistSerif.className}>Geist Serif Regular</p>
-      <p
-        className={GeistSerif.className}
-        style={{ fontVariationSettings: '"ELSH" 50' }}
-      >
-        Geist Serif Triangle
-      </p>
-    </>
-  );
-}
-```
-
-To use a static file instead, import its variant from its own entry point, so only that font file is emitted and preloaded:
-
-| Export               | Entry point                 | CSS variable                  |
+| Export               | Entry point                 | CSS Variable                  |
 | -------------------- | --------------------------- | ----------------------------- |
 | `GeistSerifRegular`  | `geist/font/serif/regular`  | `--font-geist-serif-regular`  |
 | `GeistSerifSquare`   | `geist/font/serif/square`   | `--font-geist-serif-square`   |
