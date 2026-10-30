@@ -24,7 +24,7 @@ npm install geist
 
 #### Geist Serif Variants
 
-Geist Serif has a variable axis that swaps the shape of every dot in the font, including those on i and j and in punctuation. The axis is called Element Shape (`ELSH`), and it gives you four variants: Regular with round dots (the default), Square, Triangle (a nod to the Vercel logo), and Heart.
+Geist Serif comes in four variants: Regular with round dots (the default), Square, Triangle (a nod to the Vercel logo), and Heart.
 
 Each variant also ships as its own static file. If you use the variable font, pick a variant with `font-variation-settings`:
 
