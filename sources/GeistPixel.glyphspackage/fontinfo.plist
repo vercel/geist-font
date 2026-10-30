@@ -71,6 +71,11 @@ languagesystem latn MAH;
 languagesystem latn NLD;
 ";
 name = Languagesystems;
+},
+{
+code = "languagesystem cyrl dflt;
+";
+name = Cyrillic;
 }
 );
 features = (
