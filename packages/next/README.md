@@ -98,8 +98,6 @@ import { GeistPixel } from "geist/font/pixel/variable";
 | Triangle | `60`         |
 | Line     | `80`         |
 
-Unlike Geist Serif, Geist Pixel interpolates along `ELSH`: values between the ones above blend neighboring shapes, and a transition on `font-variation-settings` morphs from one shape to the next.
-
 Geist Pixel includes five distinct variants. Use their individual entry points to emit and preload only the fonts you import:
 
 | Export               | Entry point                 | CSS Variable                  |
