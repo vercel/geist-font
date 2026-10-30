@@ -1,5 +1,11 @@
 # geist
 
+## 1.9.0
+
+### Minor Changes
+
+- d33068f: Add Geist Serif variable and static fonts.
+
 ## 1.8.2
 
 ### Patch Changes
