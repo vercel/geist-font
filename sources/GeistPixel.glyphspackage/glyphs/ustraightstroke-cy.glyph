@@ -1,0 +1,87 @@
+{
+glyphname = "ustraightstroke-cy";
+kernLeft = v;
+kernRight = v;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (266,0);
+},
+{
+name = top;
+pos = (266,532);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "ustraight-cy";
+},
+{
+alignment = -1;
+pos = (76,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,38);
+ref = pixel;
+}
+);
+width = 532;
+}
+);
+unicode = 1201;
+}
