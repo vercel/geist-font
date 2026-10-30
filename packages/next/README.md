@@ -2,7 +2,7 @@
 
 # Geist Sans, Geist Mono, Geist Pixel & Geist Serif
 
-Geist is a font family created by [Vercel](https://vercel.com/design). Geist Sans and Geist Mono were created in collaboration with [Basement Studio](https://basement.studio/). Geist Pixel was created in collaboration with [Andrés Briganti](https://briganti.works). Geist Serif was created in collaboration with Andrés Briganti and Mark Davis.
+Geist is a font family created by [Vercel](https://vercel.com/design). Geist Sans and Geist Mono were created in collaboration with [Basement Studio](https://basement.studio/). Geist Pixel was created in collaboration with [Andrés Briganti](https://briganti.works). Geist Serif was created in collaboration with Andrés Briganti and [Mark Davis](https://designermarkdavis.com/Cal-Sans).
 
 Geist Sans is a sans-serif typeface designed for legibility and simplicity. It is modern, geometric, and based on the principles of classic Swiss typography. It is designed to be used in body copy, headlines, logos, posters, and other large display sizes.
 
