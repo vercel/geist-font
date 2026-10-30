@@ -27,7 +27,19 @@ Download the latest release from the [releases page](https://github.com/vercel/g
 npm i geist
 ```
 
-Geist Pixel and Geist Serif have scoped entry points, so you can import a single variant and ship only its font file, for example `geist/font/pixel/grid` or `geist/font/serif/square`, or the variable font from `geist/font/pixel/variable` and `geist/font/serif/variable`. View the npm README for full instructions [here](https://www.npmjs.com/package/geist).
+Geist Pixel and Geist Serif have scoped entry points, so you only ship the font files you import. Import a single variant:
+
+```js
+import { GeistPixelGrid } from "geist/font/pixel/grid";
+import { GeistSerifSquare } from "geist/font/serif/square";
+```
+
+Or load one variable font and pick its shape through the `ELSH` axis:
+
+```js
+import { GeistPixel } from "geist/font/pixel/variable";
+import { GeistSerif } from "geist/font/serif/variable";
+```
 
 **Via Google Fonts:**
 
