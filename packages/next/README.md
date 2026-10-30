@@ -10,7 +10,7 @@ Geist Mono is a monospaced typeface, crafted to be the perfect partner to Geist 
 
 Geist Pixel is a display typeface family featuring five unique pixel-based variants, each with a distinct visual style. It is designed for decorative use in headlines, logos, and other display contexts where a pixelated aesthetic is desired.
 
-Geist Serif is a high-contrast display serif with fine, saw-toothed serifs and sharp hairlines, built on the same foundations as Geist Sans, Geist Mono, and Geist Pixel. It is available in four variants: Regular, Square, Triangle, and Heart.
+Geist Serif is a high-contrast display serif with fine, saw-toothed serifs and sharp hairlines. Its Regular and Square variants are suited to primary typography, while Triangle and Heart offer more decorative alternatives.
 
 ### Installation
 
