@@ -62,18 +62,18 @@ jobs:
         run: cp scripts/index.html out/index.html
       - name: Collect deployment assets
         if: ${{ github.ref == 'refs/heads/main' }}
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./out
       - name: Archive artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ env.ZIP_NAME }}
           path: |
             fonts
             out
       - name: Archive npm release artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: geist-font-fonts-npm
           path: |
@@ -96,7 +96,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
   # There are two ways a release can be created: either by pushing a tag, or by
   # creating a release from the GitHub UI. Pushing a tag does not automatically
@@ -115,7 +115,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Use font artifacts from CI
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v8
         with:
           name: ${{ env.ZIP_NAME }}
           path: ${{ env.ZIP_NAME }}
@@ -163,13 +163,13 @@ jobs:
           fetch-depth: 0
 
       - name: Download npm artifacts
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v8
         with:
           name: geist-font-fonts-npm
           path: ./artifacts
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
 

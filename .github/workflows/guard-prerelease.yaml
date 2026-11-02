@@ -13,7 +13,7 @@ jobs:
     name: Ensure no prerelease state
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Fail if changesets prerelease state is present
         run: |
           if [ -f packages/next/.changeset/pre.json ]; then
