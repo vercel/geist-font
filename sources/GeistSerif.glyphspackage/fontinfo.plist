@@ -9618,7 +9618,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2026 The Geist Project Authors (https://github.com/vercel/geist-font.git)";
+value = "Copyright 2026 The Geist Project Authors (https://github.com/vercel/geist-font)";
 }
 );
 },
@@ -9627,7 +9627,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "WORDMARK, Mark Davis, Andrés Briganti";
+value = "WORDMARK, Mark Davis, Andrés Briganti, Evil Rabbit";
 }
 );
 },
