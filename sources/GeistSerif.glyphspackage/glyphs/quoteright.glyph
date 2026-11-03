@@ -1,0 +1,27 @@
+{
+color = 5;
+glyphname = quoteright;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (1,597);
+ref = comma;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+angle = 180;
+pos = (185,1254);
+ref = quoteleft;
+}
+);
+width = 185;
+}
+);
+unicode = 8217;
+}

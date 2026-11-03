@@ -1,0 +1,43 @@
+{
+color = 5;
+glyphname = bar;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(172,-110,l),
+(172,750,l),
+(92,750,l),
+(92,-110,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(97,-110,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(97,745,l),
+(41,745,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(41,-110,l)
+);
+}
+);
+width = 140;
+}
+);
+unicode = 124;
+}

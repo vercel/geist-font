@@ -1,0 +1,20 @@
+{
+glyphname = gcommaaccent.ss04;
+kernLeft = g;
+kernRight = g;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = g;
+},
+{
+pos = (146,0);
+ref = commaturnedabovecomb.ss04;
+}
+);
+width = 491;
+}
+);
+}

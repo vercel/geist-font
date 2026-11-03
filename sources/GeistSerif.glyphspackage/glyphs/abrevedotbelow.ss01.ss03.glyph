@@ -1,0 +1,24 @@
+{
+glyphname = abrevedotbelow.ss01.ss03;
+kernLeft = a;
+kernRight = a;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (195,0);
+ref = dotbelowcomb.ss03;
+},
+{
+pos = (99,0);
+ref = brevecomb;
+}
+);
+width = 548;
+}
+);
+}

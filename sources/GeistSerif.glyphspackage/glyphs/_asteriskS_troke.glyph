@@ -1,0 +1,46 @@
+{
+color = 5;
+export = 0;
+glyphname = _asteriskStroke;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(28,524,l),
+(57,524,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(182,542,l),
+(210,542,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(336,524,l),
+(364,524,l),
+(364,580,l),
+(336,580,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(210,562,l),
+(182,562,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(57,580,l),
+(28,580,l)
+);
+}
+);
+width = 392;
+}
+);
+}

@@ -1,0 +1,80 @@
+{
+glyphname = Schwa;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (-63,0);
+ref = O;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(540,-12,o),
+(674,136,o),
+(674,355,cs),
+(674,575,o),
+(539,722,o),
+(348,722,cs),
+(194,722,o),
+(104,625,o),
+(56,491,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(20,555,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(134,471,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(68,495,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(136,581,o),
+(208,625,o),
+(308,625,cs),
+(489,625,o),
+(570,497,o),
+(570,313,cs),
+(570,130,o),
+(474,27,o),
+(362,27,cs),
+(252,27,o),
+(159,130,o),
+(164,313,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(129,292,l),
+(601,292,l),
+(601,327,l),
+(52,327,l),
+(52,132,o),
+(170,-12,o),
+(354,-12,cs)
+);
+}
+);
+width = 726;
+}
+);
+metricLeft = O;
+metricRight = O;
+unicode = 399;
+}

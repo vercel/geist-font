@@ -1,0 +1,260 @@
+{
+glyphname = R.ss01;
+kernLeft = H;
+kernRight = R;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (334,0);
+},
+{
+name = top;
+pos = (334,710);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (330,0);
+},
+{
+name = top;
+pos = (317,710);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(158,0,l),
+(158,286,l),
+(364,286,ls),
+(446,286,o),
+(480,259,o),
+(485,200,cs),
+(503,0,l),
+(590,0,l),
+(570,209,ls),
+(562,297,o),
+(510,335,o),
+(424,335,c),
+(430,326,l),
+(505,330,o),
+(583,399,o),
+(583,495,cs),
+(583,627,o),
+(490,710,o),
+(341,710,cs),
+(72,710,l),
+(72,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(158,626,l),
+(341,626,ls),
+(439,626,o),
+(493,579,o),
+(493,497,cs),
+(493,415,o),
+(438,370,o),
+(352,370,cs),
+(158,370,l)
+);
+},
+{
+ref = R;
+}
+);
+};
+hints = (
+{
+name = _corner.ucSerif;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,0);
+scale = (-1.2,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (2,6);
+scale = (-0.8,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,0,l),
+(198,710,l),
+(104,710,l),
+(104,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(344,358,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(522,368,o),
+(574,464,o),
+(574,540,cs),
+(574,647,o),
+(472,710,o),
+(335,710,cs),
+(186,710,l),
+(186,675,l),
+(302,675,ls),
+(421,675,o),
+(478,610,o),
+(478,522,cs),
+(478,441,o),
+(430,367,o),
+(304,367,cs),
+(175,367,l),
+(175,332,l),
+(344,332,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(312,361,l),
+(324,332,l),
+(406,332,o),
+(447,299,o),
+(456,221,cs),
+(476,0,l),
+(570,0,l),
+(550,221,ls),
+(540,332,o),
+(464,355,o),
+(378,361,c)
+);
+}
+);
+width = 649;
+},
+{
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+hints = (
+{
+name = _corner.ucSerif;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,0);
+scale = (-1.2,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (2,1);
+scale = (-0.9,1.1);
+type = Corner;
+}
+);
+layerId = "E20E3A59-5BE9-4E2B-967D-A34F7677467F";
+name = "5 May 26 at 00:45";
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,0,l),
+(218,710,l),
+(124,710,l),
+(124,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(373,337,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(570,350,o),
+(594,464,o),
+(594,534,cs),
+(594,647,o),
+(492,710,o),
+(355,710,cs),
+(206,710,l),
+(206,658,l),
+(322,658,ls),
+(441,658,o),
+(498,617,o),
+(498,526,cs),
+(498,448,o),
+(450,386,o),
+(324,386,cs),
+(195,386,l),
+(195,332,l),
+(364,332,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(511,0,l),
+(608,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(393,352,l),
+(301,352,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+})
+);
+}
+);
+width = 684;
+}
+);
+metricLeft = H;
+}

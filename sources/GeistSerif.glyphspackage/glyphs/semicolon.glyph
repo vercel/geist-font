@@ -1,0 +1,35 @@
+{
+color = 5;
+glyphname = semicolon;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (51,393);
+ref = period;
+},
+{
+alignment = -1;
+pos = (51,0);
+ref = comma;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+pos = (0,417);
+ref = period;
+},
+{
+pos = (13,0);
+ref = comma;
+}
+);
+width = 222;
+}
+);
+unicode = 59;
+}

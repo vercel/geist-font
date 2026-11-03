@@ -1,0 +1,29 @@
+{
+color = 5;
+glyphname = backslash;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (455,0);
+ref = slash;
+scale = (-1,1);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (391,0);
+ref = slash;
+scale = (-1,1);
+}
+);
+width = 333;
+}
+);
+unicode = 92;
+}

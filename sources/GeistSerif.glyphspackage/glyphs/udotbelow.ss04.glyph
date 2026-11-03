@@ -1,0 +1,20 @@
+{
+glyphname = udotbelow.ss04;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (197,0);
+ref = dotbelowcomb.ss04;
+}
+);
+width = 589;
+}
+);
+}

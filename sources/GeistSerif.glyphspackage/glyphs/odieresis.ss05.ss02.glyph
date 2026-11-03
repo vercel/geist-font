@@ -1,0 +1,20 @@
+{
+glyphname = odieresis.ss05.ss02;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = o.ss05;
+},
+{
+pos = (120,0);
+ref = dieresiscomb.ss02;
+}
+);
+width = 604;
+}
+);
+}

@@ -1,0 +1,21 @@
+{
+glyphname = dcroat;
+kernLeft = o;
+kernRight = l;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = d;
+},
+{
+pos = (164,257);
+ref = strokeshortcomb;
+}
+);
+width = 587;
+}
+);
+unicode = 273;
+}

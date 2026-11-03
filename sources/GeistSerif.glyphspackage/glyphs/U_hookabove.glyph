@@ -1,0 +1,21 @@
+{
+glyphname = Uhookabove;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (312,180);
+ref = hookabovecomb;
+}
+);
+width = 778;
+}
+);
+unicode = 7910;
+}

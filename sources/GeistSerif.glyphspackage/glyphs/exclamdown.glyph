@@ -1,0 +1,44 @@
+{
+color = 5;
+glyphname = exclamdown;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(153,-162,l),
+(153,68,ls),
+(153,148,o),
+(144,273,o),
+(138,343,c),
+(83,343,l),
+(77,273,o),
+(67,148,o),
+(67,68,cs),
+(67,-162,l)
+);
+},
+{
+alignment = -1;
+pos = (6,548);
+ref = period;
+scale = (1,-1);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = 1;
+pos = (0,530);
+ref = exclam;
+scale = (1,-1);
+}
+);
+width = 211;
+}
+);
+unicode = 161;
+}

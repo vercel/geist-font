@@ -1,0 +1,35 @@
+{
+color = 5;
+glyphname = guilsinglleft;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (331,0);
+ref = guilsinglright;
+scale = (-1,1);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(238,26,l),
+(126,251,l),
+(238,476,l),
+(225,476,l),
+(42,280,l),
+(42,222,l),
+(225,26,l)
+);
+}
+);
+width = 280;
+}
+);
+unicode = 8249;
+}

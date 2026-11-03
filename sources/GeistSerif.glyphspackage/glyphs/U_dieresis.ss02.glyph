@@ -1,0 +1,20 @@
+{
+glyphname = Udieresis.ss02;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (241,180);
+ref = dieresiscomb.ss02;
+}
+);
+width = 778;
+}
+);
+}

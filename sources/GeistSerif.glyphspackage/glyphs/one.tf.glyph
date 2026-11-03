@@ -1,0 +1,72 @@
+{
+color = 5;
+glyphname = one.tf;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(522,0,l),
+(522,84,l),
+(132,84,l),
+(132,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(376,0,l),
+(376,710,l),
+(308,710,l),
+(308,626,o),
+(280,600,o),
+(202,600,cs),
+(132,600,l),
+(132,526,l),
+(290,526,l),
+(290,0,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.lcSerif;
+origin = (0,5);
+scale = (1.5,1);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (0,6);
+scale = (-1.8,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(286,628,l),
+(130,628,l),
+(130,638,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(368,725,l),
+(378,725,l),
+(378,0,l),
+(286,0,l)
+);
+}
+);
+width = 600;
+}
+);
+metricWidth = plus;
+}

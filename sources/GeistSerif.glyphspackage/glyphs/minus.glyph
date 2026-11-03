@@ -1,0 +1,30 @@
+{
+glyphname = minus;
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (6,0);
+ref = plus;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(504,261,l),
+(504,296,l),
+(96,296,l),
+(96,261,l)
+);
+}
+);
+width = 600;
+}
+);
+metricWidth = plus;
+unicode = 8722;
+}

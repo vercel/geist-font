@@ -1,0 +1,318 @@
+{
+glyphname = q;
+kernLeft = o;
+kernRight = q;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (287,0);
+},
+{
+name = top;
+pos = (287,530);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = top;
+pos = (275,530);
+}
+);
+hints = (
+{
+name = _corner.lcSerif;
+options = 4;
+origin = (2,0);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+origin = (2,32);
+scale = (1.5,1);
+type = Corner;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(1008,530,l),
+(930,530,l),
+(928,416,l),
+(940,422,l),
+(914,500,o),
+(848,542,o),
+(766,542,cs),
+(608,542,o),
+(537,411,o),
+(537,265,cs),
+(537,119,o),
+(608,-12,o),
+(766,-12,cs),
+(848,-12,o),
+(918,32,o),
+(936,100,c),
+(924,114,l),
+(924,-150,l),
+(1008,-150,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(682,68,o),
+(625,141,o),
+(625,265,cs),
+(625,389,o),
+(682,462,o),
+(774,462,cs),
+(866,462,o),
+(924,395,o),
+(924,265,cs),
+(924,135,o),
+(867,68,o),
+(774,68,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(497,-200,l),
+(497,545,l),
+(491,545,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(394,461,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(453,446,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(422,507,o),
+(360,545,o),
+(277,545,cs),
+(137,545,o),
+(41,426,o),
+(41,259,cs),
+(41,99,o),
+(142,-15,o),
+(260,-15,cs),
+(365,-15,o),
+(424,57,o),
+(444,94,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99999";
+};
+}),
+(429,140,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(408,104,o),
+(365,49,o),
+(300,49,cs),
+(223,49,o),
+(133,108,o),
+(133,281,cs),
+(133,423,o),
+(194,505,o),
+(274,505,cs),
+(355,505,o),
+(396,440,o),
+(413,382,c),
+(413,108,l),
+(417,108,l),
+(417,-200,l)
+);
+},
+{
+pos = (-17,0);
+ref = o;
+}
+);
+};
+hints = (
+{
+name = _corner.lcSerif;
+options = 4;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+origin = (0,2);
+scale = (1.3,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(413,80,l),
+(417,80,l),
+(417,-200,l),
+(497,-200,l),
+(497,545,l),
+(491,545,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(394,461,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(413,423,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(420,93,l),
+(389,67,o),
+(352,47,o),
+(307,47,cs),
+(219,47,o),
+(128,122,o),
+(128,287,cs),
+(128,418,o),
+(186,507,o),
+(273,507,cs),
+(332,507,o),
+(413,467,o),
+(413,339,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(453,476,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99999";
+};
+}),
+(417,508,o),
+(368,542,o),
+(294,542,cs),
+(154,542,o),
+(40,419,o),
+(40,254,cs),
+(40,106,o),
+(131,-12,o),
+(264,-12,cs),
+(347,-12,o),
+(398,34,o),
+(426,82,c)
+);
+}
+);
+width = 558;
+},
+{
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+hints = (
+{
+name = "_corner.serif-alt";
+options = 4;
+origin = (0,0);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = "79F5E34A-0FF3-48E9-BCAB-139BD28B69E1";
+name = "28 Mar 26 at 16:21";
+shapes = (
+{
+closed = 1;
+nodes = (
+(504,-200,l),
+(504,545,l),
+(480,545,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(401,461,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(460,449,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(429,513,o),
+(359,545,o),
+(284,545,cs),
+(144,545,o),
+(48,426,o),
+(48,259,cs),
+(48,99,o),
+(149,-15,o),
+(267,-15,cs),
+(372,-15,o),
+(431,57,o),
+(451,94,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(436,140,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(415,104,o),
+(372,59,o),
+(307,59,cs),
+(230,59,o),
+(144,108,o),
+(144,281,cs),
+(144,423,o),
+(201,505,o),
+(281,505,cs),
+(362,505,o),
+(420,436,o),
+(420,338,cs),
+(420,108,l),
+(424,108,l),
+(424,-219,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+})
+);
+}
+);
+width = 600;
+}
+);
+metricLeft = "=o*.8";
+tags = (
+"5 (normal)"
+);
+unicode = 113;
+}

@@ -1,0 +1,85 @@
+{
+glyphname = jdotless;
+kernLeft = j;
+kernRight = j;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (138,-200);
+},
+{
+name = top;
+pos = (138,530);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (130,-150);
+},
+{
+name = top;
+pos = (138,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(46,-150,ls),
+(142,-150,o),
+(180,-116,o),
+(180,-22,cs),
+(180,530,l),
+(96,530,l),
+(96,-18,ls),
+(96,-62,o),
+(73,-76,o),
+(38,-76,cs),
+(-5,-76,l),
+(-5,-150,l)
+);
+}
+);
+};
+hints = (
+{
+name = _cap.stem;
+options = 2;
+origin = (0,4);
+type = Cap;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-7,-212,ls),
+(118,-212,o),
+(180,-129,o),
+(180,-24,cs),
+(180,545,l),
+(96,545,l),
+(96,-117,ls),
+(96,-151,o),
+(86,-164,o),
+(51,-154,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(-22,-134,l),
+(-34,-134,l),
+(-34,-212,l)
+);
+}
+);
+width = 255;
+}
+);
+unicode = 567;
+}

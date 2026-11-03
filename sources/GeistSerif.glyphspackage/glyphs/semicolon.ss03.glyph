@@ -1,0 +1,36 @@
+{
+color = 5;
+glyphname = semicolon.ss03;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (51,393);
+ref = period;
+},
+{
+alignment = -1;
+pos = (51,0);
+ref = comma;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+pos = (0,413);
+ref = period.ss03;
+},
+{
+pos = (-13,0);
+ref = comma.ss03;
+}
+);
+width = 210;
+}
+);
+metricLeft = period.ss03;
+metricRight = "=|";
+}

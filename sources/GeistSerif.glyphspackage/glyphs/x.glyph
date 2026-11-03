@@ -1,0 +1,172 @@
+{
+glyphname = x;
+kernLeft = x;
+kernRight = x;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (269,0);
+},
+{
+name = top;
+pos = (259,530);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (258,0);
+},
+{
+name = top;
+pos = (258,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,0,l),
+(259,214,l),
+(405,0,l),
+(503,0,l),
+(311,270,l),
+(494,530,l),
+(394,530,l),
+(259,330,l),
+(120,530,l),
+(22,530,l),
+(207,272,l),
+(12,0,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.lcSerif;
+origin = (0,1);
+scale = (0.7,0.9);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+origin = (1,0);
+scale = (0.7,1);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (1,1);
+scale = (0.9,-0.9);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+origin = (2,0);
+scale = (0.7,1);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (2,1);
+scale = (0.9,-0.9);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+origin = (0,3);
+scale = (0.7,0.9);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (0,0);
+scale = (-0.7,1);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (0,2);
+scale = (-0.7,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(502,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(132,530,l),
+(31,530,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(402,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(471,530,l),
+(428,530,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(239,285,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(269,269,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(19,0,l),
+(64,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(270,283,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(240,299,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+})
+);
+}
+);
+width = 523;
+}
+);
+metricRight = "=|";
+tags = (
+"5 (normal)"
+);
+unicode = 120;
+}

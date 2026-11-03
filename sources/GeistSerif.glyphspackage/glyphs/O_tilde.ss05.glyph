@@ -1,0 +1,20 @@
+{
+glyphname = Otilde.ss05;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = O.ss05;
+},
+{
+pos = (195,180);
+ref = tildecomb;
+}
+);
+width = 792;
+}
+);
+}

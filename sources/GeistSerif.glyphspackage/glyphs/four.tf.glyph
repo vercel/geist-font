@@ -1,0 +1,27 @@
+{
+color = 5;
+glyphname = four.tf;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (3,0);
+ref = four;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (7,0);
+ref = four;
+}
+);
+width = 600;
+}
+);
+metricWidth = plus;
+}

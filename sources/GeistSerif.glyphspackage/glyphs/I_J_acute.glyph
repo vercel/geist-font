@@ -1,0 +1,20 @@
+{
+glyphname = IJacute;
+kernLeft = H;
+kernRight = J;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = Iacute;
+},
+{
+pos = (272,0);
+ref = Jacute;
+}
+);
+width = 577;
+}
+);
+}

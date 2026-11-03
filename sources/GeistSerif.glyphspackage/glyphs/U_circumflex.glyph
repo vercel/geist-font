@@ -1,0 +1,32 @@
+{
+glyphname = Ucircumflex;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = U;
+},
+{
+pos = (164,180);
+ref = circumflexcomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (238,180);
+ref = circumflexcomb;
+}
+);
+width = 778;
+}
+);
+unicode = 219;
+}

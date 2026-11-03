@@ -1,0 +1,119 @@
+{
+export = 0;
+glyphname = "_cap.stem-alt";
+layers = (
+{
+anchors = (
+{
+name = node1;
+pos = (188,540);
+},
+{
+name = node2;
+pos = (108,540);
+}
+);
+background = {
+shapes = (
+{
+ref = _cap.stem;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 0;
+nodes = (
+(188,540,l),
+(183,540,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(30,482,l),
+(30,478,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(90,455,ls,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(105,449,o),
+(109,443,o),
+(109,424,cs)
+);
+}
+);
+width = 240;
+},
+{
+anchors = (
+{
+name = node1;
+pos = (190,545);
+},
+{
+name = node2;
+pos = (96,545);
+}
+);
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+background = {
+shapes = (
+{
+ref = _cap.stem;
+},
+{
+closed = 1;
+nodes = (
+(192,0,l),
+(192,379,l),
+(212,453,o),
+(260,468,o),
+(307,468,c),
+(348,542,l),
+(261,542,o),
+(197,482,o),
+(176,399,c),
+(190,399,l),
+(190,542,l),
+(96,542,l),
+(96,0,l)
+);
+}
+);
+};
+layerId = "22B6EB26-F5B2-4807-ABC6-3D766A27AC5C";
+name = "27 Mar 26 at 19:58";
+shapes = (
+{
+closed = 0;
+nodes = (
+(190,545,l),
+(172,545,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(28,510,l),
+(28,489,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(96,462,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+})
+);
+}
+);
+width = 240;
+}
+);
+}

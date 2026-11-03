@@ -1,0 +1,21 @@
+{
+glyphname = Uhorn;
+kernLeft = U;
+kernRight = Uhorn;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (648,189);
+ref = horncomb;
+}
+);
+width = 778;
+}
+);
+unicode = 431;
+}

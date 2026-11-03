@@ -1,0 +1,40 @@
+{
+color = 9;
+glyphname = caroncomb.alt;
+layers = (
+{
+anchors = (
+{
+name = _topright;
+pos = (30,530);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,455,l),
+(164,710,l),
+(80,710,l),
+(50,455,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(68,455,l),
+(164,710,l),
+(80,710,l),
+(50,455,l)
+);
+}
+);
+width = 214;
+}
+);
+}

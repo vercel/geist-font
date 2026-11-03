@@ -1,0 +1,34 @@
+{
+glyphname = j.ss04;
+kernLeft = j;
+kernRight = j;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (50,0);
+ref = dotaccentcomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (42,0);
+ref = dotaccentcomb.ss04;
+}
+);
+width = 255;
+}
+);
+tags = (
+"1 (single-stem)"
+);
+}

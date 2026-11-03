@@ -1,0 +1,89 @@
+{
+export = 0;
+glyphname = _corner.lcSerif;
+layers = (
+{
+anchors = (
+{
+name = left;
+pos = (0,52);
+},
+{
+name = origin;
+},
+{
+name = right;
+pos = (8,0);
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 0;
+nodes = (
+(0,73,l),
+(0,56,o),
+(-4,50,o),
+(-19,41,cs),
+(-81,4,l),
+(-81,0,l),
+(8,0,l)
+);
+}
+);
+width = 72;
+},
+{
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+layerId = "884B7098-2B13-4FB0-BEAC-8F91EB854259";
+name = "27 Mar 26 at 19:55";
+shapes = (
+{
+closed = 0;
+nodes = (
+(0,50,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(-16,32,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(-66,23,l),
+(-66,0,l),
+(12,0,l)
+);
+}
+);
+width = 72;
+},
+{
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+layerId = "325188D1-5BA6-4171-A4C9-BB7B4199AA85";
+name = "10 Apr 26 at 11:23";
+shapes = (
+{
+closed = 0;
+nodes = (
+(0,70,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(-22,49,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(-81,30,l),
+(-81,0,l),
+(24,0,l)
+);
+}
+);
+width = 72;
+}
+);
+}

@@ -1,0 +1,116 @@
+{
+export = 0;
+glyphname = M_A_I_S_O_N_N_O_I_R;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = M;
+},
+{
+alignment = -1;
+pos = (852,0);
+ref = A;
+},
+{
+alignment = -1;
+pos = (1541,0);
+ref = I;
+},
+{
+alignment = -1;
+pos = (1843,0);
+ref = S;
+},
+{
+alignment = -1;
+pos = (2462,0);
+ref = O;
+},
+{
+alignment = -1;
+pos = (3244,0);
+ref = N;
+},
+{
+alignment = -1;
+pos = (4235,0);
+ref = N;
+},
+{
+alignment = -1;
+pos = (4995,0);
+ref = O;
+},
+{
+alignment = -1;
+pos = (5777,0);
+ref = I;
+},
+{
+alignment = -1;
+pos = (6079,0);
+ref = R;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+ref = M;
+},
+{
+alignment = -1;
+pos = (852,0);
+ref = A;
+},
+{
+alignment = -1;
+pos = (1541,0);
+ref = I;
+},
+{
+alignment = -1;
+pos = (1843,0);
+ref = S;
+},
+{
+alignment = -1;
+pos = (2462,0);
+ref = O;
+},
+{
+alignment = -1;
+pos = (3244,0);
+ref = N;
+},
+{
+alignment = -1;
+pos = (4235,0);
+ref = N;
+},
+{
+alignment = -1;
+pos = (4995,0);
+ref = O;
+},
+{
+alignment = -1;
+pos = (5777,0);
+ref = I;
+},
+{
+alignment = -1;
+pos = (6079,0);
+ref = R;
+}
+);
+width = 6700;
+}
+);
+metricLeft = M;
+metricRight = R;
+}

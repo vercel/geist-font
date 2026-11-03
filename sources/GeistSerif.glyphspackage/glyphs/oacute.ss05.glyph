@@ -1,0 +1,20 @@
+{
+glyphname = oacute.ss05;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = o.ss05;
+},
+{
+pos = (258,1);
+ref = acutecomb;
+}
+);
+width = 604;
+}
+);
+}

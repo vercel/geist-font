@@ -1,0 +1,18 @@
+{
+glyphname = brevecomb_hookabovecomb;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = brevecomb;
+},
+{
+pos = (73,201);
+ref = hookabovecomb;
+}
+);
+width = 367;
+}
+);
+}

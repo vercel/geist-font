@@ -1,0 +1,52 @@
+{
+color = 5;
+glyphname = acutecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (44,529);
+},
+{
+name = top;
+pos = (44,727);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (81,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(114,598,l),
+(204,726,l),
+(110,726,l),
+(44,598,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(201,741,l),
+(201,745,l),
+(104,745,l),
+(28,583,l),
+(58,583,l)
+);
+}
+);
+width = 236;
+}
+);
+unicode = 769;
+}

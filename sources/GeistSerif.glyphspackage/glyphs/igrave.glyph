@@ -1,0 +1,32 @@
+{
+glyphname = igrave;
+kernLeft = n;
+kernRight = i;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-43,0);
+ref = gravecomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-47,1);
+ref = gravecomb;
+}
+);
+width = 288;
+}
+);
+unicode = 236;
+}

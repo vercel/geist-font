@@ -1,0 +1,60 @@
+{
+glyphname = seven.tf;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (28,0);
+ref = seven;
+}
+);
+};
+hints = (
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,1);
+scale = (1.8,-1.8);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,710,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(86,648,l),
+(512,648,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(502,663,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(210,18,l),
+(210,0,l),
+(327,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(555,677,l),
+(555,710,l)
+);
+}
+);
+width = 600;
+}
+);
+metricWidth = plus;
+}

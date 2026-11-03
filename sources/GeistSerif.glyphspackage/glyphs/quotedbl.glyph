@@ -1,0 +1,44 @@
+{
+color = 5;
+glyphname = quotedbl;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(155,444,l),
+(161,710,l),
+(73,710,l),
+(73,630,l),
+(93,444,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(309,444,l),
+(329,630,l),
+(329,710,l),
+(241,710,l),
+(247,444,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+pos = (140,0);
+ref = quotesingle;
+},
+{
+ref = quotesingle;
+}
+);
+width = 294;
+}
+);
+unicode = 34;
+}
