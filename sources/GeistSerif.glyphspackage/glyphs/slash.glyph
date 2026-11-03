@@ -1,0 +1,43 @@
+{
+color = 5;
+glyphname = slash;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(120,-110,l),
+(415,750,l),
+(335,750,l),
+(40,-110,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(71,-108,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(371,745,l),
+(315,745,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(15,-110,l)
+);
+}
+);
+width = 333;
+}
+);
+unicode = 47;
+}

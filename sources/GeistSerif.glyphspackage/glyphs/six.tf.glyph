@@ -1,0 +1,27 @@
+{
+color = 5;
+glyphname = six.tf;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (4,0);
+ref = six;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (15,0);
+ref = six;
+}
+);
+width = 600;
+}
+);
+metricWidth = plus;
+}

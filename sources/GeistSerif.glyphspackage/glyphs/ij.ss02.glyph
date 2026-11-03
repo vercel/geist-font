@@ -1,0 +1,20 @@
+{
+glyphname = ij.ss02;
+kernLeft = n;
+kernRight = j;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = i.ss02;
+},
+{
+pos = (288,0);
+ref = j.ss02;
+}
+);
+width = 543;
+}
+);
+}

@@ -1,0 +1,18 @@
+{
+glyphname = circumflexcomb_gravecomb;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = circumflexcomb;
+},
+{
+pos = (170,109);
+ref = gravecomb.topright;
+}
+);
+width = 372;
+}
+);
+}

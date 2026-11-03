@@ -1,0 +1,41 @@
+{
+color = 5;
+glyphname = quotesingle;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(117,444,l),
+(133,630,l),
+(133,710,l),
+(45,710,l),
+(45,630,l),
+(61,444,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(76,500,l),
+(80,500,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "1.591454861227248e-07";
+};
+}),
+(124,710,l),
+(30,710,l)
+);
+}
+);
+width = 154;
+}
+);
+unicode = 39;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = ntilde;
+kernLeft = n;
+kernRight = n;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = n;
+},
+{
+pos = (89,0);
+ref = tildecomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = n;
+},
+{
+pos = (108,0);
+ref = tildecomb;
+}
+);
+width = 602;
+}
+);
+unicode = 241;
+}

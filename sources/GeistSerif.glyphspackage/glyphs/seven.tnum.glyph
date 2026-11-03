@@ -1,0 +1,38 @@
+{
+export = 0;
+glyphname = seven.tnum;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(296,0,l),
+(296,240,o),
+(375,428,o),
+(554,632,c),
+(554,710,l),
+(50,710,l),
+(50,626,l),
+(460,626,l),
+(302,444,o),
+(208,220,o),
+(208,0,c)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (30,0);
+ref = seven;
+}
+);
+width = 600;
+}
+);
+metricWidth = "=plus";
+}

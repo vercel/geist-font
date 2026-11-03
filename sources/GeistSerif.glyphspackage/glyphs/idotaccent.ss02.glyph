@@ -1,0 +1,21 @@
+{
+export = 0;
+glyphname = idotaccent.ss02;
+kernLeft = n;
+kernRight = i;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (51,0);
+ref = dotaccentcomb.ss02;
+}
+);
+width = 288;
+}
+);
+}

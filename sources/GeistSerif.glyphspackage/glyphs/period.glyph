@@ -1,0 +1,49 @@
+{
+color = 5;
+glyphname = period;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (105,0);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(157,0,l),
+(157,113,l),
+(44,113,l),
+(44,0,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(146,-12,o),
+(175,15,o),
+(175,56,cs),
+(175,96,o),
+(146,124,o),
+(105,124,cs),
+(64,124,o),
+(35,96,o),
+(35,56,cs),
+(35,15,o),
+(64,-12,o),
+(105,-12,cs)
+);
+}
+);
+width = 210;
+}
+);
+unicode = 46;
+}

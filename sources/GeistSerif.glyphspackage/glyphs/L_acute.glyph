@@ -1,0 +1,21 @@
+{
+glyphname = Lacute;
+kernLeft = H;
+kernRight = L;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = L;
+},
+{
+pos = (114,181);
+ref = acutecomb;
+}
+);
+width = 586;
+}
+);
+unicode = 313;
+}

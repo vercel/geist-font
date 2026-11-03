@@ -26,9 +26,12 @@ build.stamp: venv venv-pixel sources/config-Geist.yaml $(SOURCES)
 	# Geist Pixel uses a virtual master, which the released gftools in
 	# requirements.txt can't build (it fails with "No final targets"). Build it
 	# with the dev gftools in venv-pixel that has the virtual-master fix;
-	# everything else uses venv.
+	# everything else uses venv. Geist Serif is exported from Glyphs (fontmake
+	# breaks its corner-component serifs), so its config is skipped here.
 	@for config in sources/config*.yaml; do \
-		if [ "$$config" = "sources/config-GeistPixel.yaml" ]; then \
+		if [ "$$config" = "sources/config-GeistSerif.yaml" ]; then \
+			continue; \
+		elif [ "$$config" = "sources/config-GeistPixel.yaml" ]; then \
 			( . venv-pixel/bin/activate && gftools builder "$$config" ); \
 		else \
 			( . venv/bin/activate && gftools builder "$$config" ); \

@@ -1,0 +1,31 @@
+{
+color = 5;
+glyphname = underscore;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(513,-78,l),
+(513,0,l),
+(44,0,l),
+(44,-78,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (0,-369);
+ref = endash;
+}
+);
+width = 588;
+}
+);
+unicode = 95;
+}

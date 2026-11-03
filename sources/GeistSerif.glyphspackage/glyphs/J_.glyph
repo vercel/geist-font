@@ -1,0 +1,137 @@
+{
+glyphname = J;
+kernLeft = J;
+kernRight = J;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (158,0);
+},
+{
+name = top;
+pos = (158,710);
+}
+);
+background = {
+anchors = (
+{
+name = top;
+pos = (465,710);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(419,-16,o),
+(507,86,o),
+(507,248,cs),
+(507,710,l),
+(421,710,l),
+(421,248,ls),
+(421,133,o),
+(370,68,o),
+(280,68,cs),
+(193,68,o),
+(143,129,o),
+(142,238,c),
+(54,232,l),
+(55,86,o),
+(148,-16,o),
+(280,-16,cs)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.ucSerif;
+origin = (0,11);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 2;
+origin = (0,12);
+scale = (-1.2,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(111,-71,ls),
+(111,-141,o),
+(94,-168,o),
+(29,-159,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(-61,-146,l),
+(-75,-146,l),
+(-75,-224,l),
+(-13,-224,ls),
+(114,-224,o),
+(205,-141,o),
+(205,14,cs),
+(205,710,l),
+(111,710,l)
+);
+}
+);
+width = 305;
+},
+{
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+hints = (
+{
+name = _corner.ucSerif;
+origin = (0,8);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 2;
+origin = (0,9);
+scale = (-1.2,1);
+type = Corner;
+}
+);
+layerId = "31A1518D-9665-4AE6-8C8C-E40098368997";
+name = "5 May 26 at 00:40";
+shapes = (
+{
+closed = 1;
+nodes = (
+(124,102,ls),
+(124,-22,o),
+(122,-159,o),
+(-56,-191,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(-53,-202,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(137,-200,o),
+(218,-108,o),
+(218,61,cs),
+(218,710,l),
+(124,710,l)
+);
+}
+);
+width = 342;
+}
+);
+metricRight = "=H*.8";
+unicode = 74;
+}

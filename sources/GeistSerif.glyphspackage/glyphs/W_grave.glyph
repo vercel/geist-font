@@ -1,0 +1,32 @@
+{
+glyphname = Wgrave;
+kernLeft = W;
+kernRight = W;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = W;
+},
+{
+pos = (307,180);
+ref = gravecomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = W;
+},
+{
+pos = (334,181);
+ref = gravecomb;
+}
+);
+width = 1053;
+}
+);
+unicode = 7808;
+}

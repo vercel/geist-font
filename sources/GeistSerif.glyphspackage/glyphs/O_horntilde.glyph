@@ -1,0 +1,21 @@
+{
+glyphname = Ohorntilde;
+kernLeft = O;
+kernRight = Ohorn;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (195,180);
+ref = tildecomb;
+}
+);
+width = 792;
+}
+);
+unicode = 7904;
+}

@@ -1,0 +1,125 @@
+{
+glyphname = idotless;
+kernLeft = n;
+kernRight = i;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (144,0);
+},
+{
+name = ogonek;
+pos = (267,0);
+},
+{
+name = top;
+pos = (147,530);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (116,0);
+},
+{
+name = ogonek;
+pos = (158,0);
+},
+{
+name = top;
+pos = (116,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(158,0,l),
+(158,530,l),
+(74,530,l),
+(74,0,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (0,0);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = "_cap.stem-alt";
+options = 10;
+origin = (0,1);
+scale = (1.05,1);
+type = Cap;
+},
+{
+name = _corner.lcSerif;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(189,0,l),
+(189,545,l),
+(105,545,l),
+(105,0,l)
+);
+}
+);
+width = 288;
+},
+{
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+hints = (
+{
+name = _corner.serif2;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _cap.stem1;
+options = 2;
+origin = (0,1);
+type = Cap;
+},
+{
+name = _corner.serif;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = "DF4FA26E-6DCD-4B1F-8D69-30199ED8524E";
+name = "26 Feb 26 at 10:17";
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,0,l),
+(168,527,l),
+(72,527,l),
+(72,0,l)
+);
+}
+);
+width = 240;
+}
+);
+metricLeft = n;
+metricRight = "=|n*.8";
+tags = (
+"1 (single-stem)"
+);
+unicode = 305;
+}

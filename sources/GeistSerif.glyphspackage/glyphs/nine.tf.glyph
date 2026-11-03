@@ -1,0 +1,27 @@
+{
+color = 5;
+glyphname = nine.tf;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (21,0);
+ref = nine;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (14,6);
+ref = nine;
+}
+);
+width = 600;
+}
+);
+metricWidth = plus;
+}

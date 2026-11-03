@@ -1,0 +1,22 @@
+{
+glyphname = questiondown.ss04;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (588,530);
+ref = _question.part;
+},
+{
+alignment = -1;
+pos = (195,429);
+ref = period.ss04;
+}
+);
+width = 588;
+}
+);
+}

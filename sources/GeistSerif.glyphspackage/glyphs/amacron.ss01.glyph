@@ -1,0 +1,20 @@
+{
+glyphname = amacron.ss01;
+kernLeft = a;
+kernRight = a;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (105,0);
+ref = macroncomb;
+}
+);
+width = 548;
+}
+);
+}

@@ -1,0 +1,21 @@
+{
+glyphname = Ecircumflexhookabove;
+kernLeft = H;
+kernRight = E;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (142,180);
+ref = circumflexcomb_hookabovecomb;
+}
+);
+width = 605;
+}
+);
+unicode = 7874;
+}

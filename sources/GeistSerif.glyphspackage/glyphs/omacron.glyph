@@ -1,0 +1,21 @@
+{
+glyphname = omacron;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = o;
+},
+{
+pos = (124,0);
+ref = macroncomb;
+}
+);
+width = 604;
+}
+);
+unicode = 333;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = Atilde;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = A;
+},
+{
+pos = (132,180);
+ref = tildecomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (132,180);
+ref = tildecomb;
+}
+);
+width = 689;
+}
+);
+unicode = 195;
+}

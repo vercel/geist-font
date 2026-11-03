@@ -1,0 +1,60 @@
+{
+color = 9;
+glyphname = commaaccentcomb.ss02;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (113,0);
+},
+{
+name = bottom;
+pos = (113,-240);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(102,-240,l),
+(163,-135,l),
+(163,-53,l),
+(63,-53,l),
+(63,-143,l),
+(99,-143,l),
+(44,-240,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(107,-294,l),
+(196,-43,l),
+(54,-43,l),
+(115,-144,l),
+(67,-294,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,-271,l),
+(163,-135,l),
+(163,-53,l),
+(63,-53,l),
+(63,-143,l),
+(117,-143,l),
+(47,-271,l)
+);
+}
+);
+width = 207;
+}
+);
+}

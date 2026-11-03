@@ -1,0 +1,44 @@
+{
+color = 5;
+glyphname = bracketleft;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = 1;
+pos = (347,0);
+ref = bracketright;
+scale = (-1,1);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(353,-134,l),
+(353,-124,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(173,-84,l),
+(173,695,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(353,735,l),
+(353,745,l),
+(90,745,l),
+(90,-134,l)
+);
+}
+);
+width = 363;
+}
+);
+unicode = 91;
+}

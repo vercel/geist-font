@@ -1,0 +1,44 @@
+{
+export = 0;
+glyphname = _Q.tail;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(278,-184,l),
+(287,-184,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(377,-107,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(35,-17,l),
+(35,5,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(-136,17,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+})
+);
+}
+);
+width = 300;
+}
+);
+}

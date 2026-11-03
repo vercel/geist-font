@@ -1,0 +1,27 @@
+{
+color = 5;
+glyphname = periodcentered;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (0,248);
+ref = period;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (0,241);
+ref = period;
+}
+);
+width = 210;
+}
+);
+unicode = 183;
+}

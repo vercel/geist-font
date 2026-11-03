@@ -1,0 +1,22 @@
+# Geist Serif is exported from Glyphs 3, not built with gftools: fontmake breaks its
+# corner-component serifs. `make build` skips this config and restores the committed
+# fonts in fonts/GeistSerif; it documents the family and its STAT for Google Fonts.
+sources:
+  - GeistSerif.glyphspackage
+outputDir: ../fonts/GeistSerif
+familyName: "Geist Serif"
+cleanUp: true
+buildStatic: false
+stat:
+  - name: Element Shape
+    tag: ELSH
+    values:
+    - name: Regular
+      value: 0
+      flags: 2
+    - name: Square
+      value: 25
+    - name: Triangle
+      value: 50
+    - name: Heart
+      value: 100

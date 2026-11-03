@@ -1,0 +1,148 @@
+{
+glyphname = thorn;
+kernLeft = thorn;
+kernRight = o;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (277,0);
+},
+{
+name = top;
+pos = (277,530);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = top;
+pos = (288,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(155,-150,l),
+(155,64,l),
+(187,16,o),
+(240,-12,o),
+(316,-12,cs),
+(469,-12,o),
+(540,119,o),
+(540,265,cs),
+(540,411,o),
+(469,542,o),
+(316,542,cs),
+(240,542,o),
+(185,514,o),
+(155,463,c),
+(155,710,l),
+(69,710,l),
+(69,-150,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(190,68,o),
+(146,166,o),
+(146,265,cs),
+(146,368,o),
+(190,466,o),
+(299,466,cs),
+(409,466,o),
+(452,370,o),
+(452,265,cs),
+(452,164,o),
+(409,68,o),
+(299,68,cs)
+);
+}
+);
+};
+hints = (
+{
+name = "_cap.stem-alt";
+options = 10;
+origin = (0,3);
+scale = (1.05,1);
+type = Cap;
+},
+{
+name = _corner.lcSerif;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+options = 2;
+origin = (0,2);
+scale = (-1.2,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(91,768,l),
+(91,-200,l),
+(175,-200,l),
+(175,768,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(168,437,l),
+(199,463,o),
+(236,483,o),
+(281,483,cs),
+(369,483,o),
+(460,408,o),
+(460,243,cs),
+(460,112,o),
+(402,23,o),
+(315,23,cs),
+(256,23,o),
+(175,63,o),
+(175,191,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(146,61,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99999";
+};
+}),
+(165,28,o),
+(212,-12,o),
+(293,-12,cs),
+(434,-12,o),
+(548,111,o),
+(548,276,cs),
+(548,424,o),
+(457,542,o),
+(324,542,cs),
+(241,542,o),
+(190,496,o),
+(162,448,c)
+);
+}
+);
+width = 588;
+}
+);
+metricLeft = "=n*.4";
+metricRight = "=o*.8";
+unicode = 254;
+}

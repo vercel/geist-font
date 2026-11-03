@@ -1,0 +1,26 @@
+{
+glyphname = three.tf;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (-5,0);
+ref = three;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (1,0);
+ref = three;
+}
+);
+width = 600;
+}
+);
+metricWidth = plus;
+}

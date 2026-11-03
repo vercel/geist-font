@@ -1,0 +1,21 @@
+{
+glyphname = uhornacute;
+kernLeft = u;
+kernRight = uhorn;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (241,1);
+ref = acutecomb;
+}
+);
+width = 589;
+}
+);
+unicode = 7913;
+}

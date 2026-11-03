@@ -1,0 +1,24 @@
+{
+glyphname = idotbelow.ss03;
+kernLeft = i;
+kernRight = i;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (51,0);
+ref = dotaccentcomb.ss03;
+},
+{
+pos = (56,0);
+ref = dotbelowcomb.ss03;
+}
+);
+width = 288;
+}
+);
+}

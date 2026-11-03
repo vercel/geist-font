@@ -1,0 +1,56 @@
+{
+color = 5;
+glyphname = asterisk;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,488,l),
+(282,382,l),
+(334,416,l),
+(266,518,l),
+(386,518,l),
+(386,582,l),
+(266,582,l),
+(334,684,l),
+(282,718,l),
+(215,611,l),
+(149,718,l),
+(97,684,l),
+(164,582,l),
+(44,582,l),
+(44,518,l),
+(164,518,l),
+(97,416,l),
+(149,382,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+ref = _asteriskStroke;
+},
+{
+alignment = -1;
+angle = 60;
+pos = (576,106);
+ref = _asteriskStroke;
+},
+{
+alignment = -1;
+angle = 120;
+pos = (772,658);
+ref = _asteriskStroke;
+}
+);
+width = 392;
+}
+);
+unicode = 42;
+}

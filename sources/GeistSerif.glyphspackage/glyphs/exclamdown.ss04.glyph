@@ -1,0 +1,22 @@
+{
+glyphname = exclamdown.ss04;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (0,530);
+ref = _exclam.part;
+scale = (1,-1);
+},
+{
+alignment = -1;
+pos = (0,426);
+ref = period.ss04;
+}
+);
+width = 211;
+}
+);
+}

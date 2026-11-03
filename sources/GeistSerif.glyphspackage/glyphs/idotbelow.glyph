@@ -1,0 +1,25 @@
+{
+glyphname = idotbelow;
+kernLeft = i;
+kernRight = i;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (51,0);
+ref = dotaccentcomb;
+},
+{
+pos = (56,0);
+ref = dotbelowcomb;
+}
+);
+width = 288;
+}
+);
+unicode = 7883;
+}

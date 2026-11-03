@@ -1,0 +1,32 @@
+{
+export = 0;
+glyphname = "_corner.serif-alt";
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 0;
+nodes = (
+(0,96,ls),
+(0,76,o),
+(-3,69,o),
+(-16,61,cs),
+(-78,23,l),
+(-78,21,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(85,-23,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+})
+);
+}
+);
+width = 72;
+}
+);
+}

@@ -1,0 +1,328 @@
+{
+glyphname = g;
+kernLeft = g;
+kernRight = g;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (250,-200);
+},
+{
+name = top;
+pos = (250,530);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (237,-150);
+},
+{
+name = top;
+pos = (239,530);
+}
+);
+hints = (
+{
+name = _corner.lcSerif;
+origin = (3,7);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (3,8);
+scale = (-1,1);
+type = Corner;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(393,-162,o),
+(480,-88,o),
+(480,36,cs),
+(480,530,l),
+(400,530,l),
+(400,446,l),
+(376,505,o),
+(311,542,o),
+(237,542,cs),
+(104,542,o),
+(10,436,o),
+(10,285,cs),
+(10,134,o),
+(106,28,o),
+(241,28,cs),
+(310,28,o),
+(370,64,o),
+(396,120,c),
+(396,34,ls),
+(396,-44,o),
+(343,-82,o),
+(247,-82,cs),
+(165,-82,o),
+(129,-52,o),
+(113,-2,c),
+(25,-8,l),
+(47,-101,o),
+(133,-162,o),
+(247,-162,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(154,108,o),
+(98,176,o),
+(98,285,cs),
+(98,394,o),
+(152,462,o),
+(245,462,cs),
+(337,462,o),
+(398,394,o),
+(396,285,cs),
+(395,176,o),
+(336,108,o),
+(245,108,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(668,214,o),
+(617,272,o),
+(624,367,cs),
+(630,455,o),
+(681,505,o),
+(752,505,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "90";
+};
+}),
+(829,505,o),
+(881,446,o),
+(874,351,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "180";
+};
+}),
+(868,264,o),
+(817,214,o),
+(745,214,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "270";
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(-387,218,l),
+(-409,200,o),
+(-466,169,o),
+(-525,169,cs),
+(-590,169,o),
+(-637,207,o),
+(-637,306,cs),
+(-637,638,l),
+(-721,638,l),
+(-721,272,ls),
+(-721,161,o),
+(-650,96,o),
+(-557,96,cs),
+(-488,96,o),
+(-430,132,o),
+(-381,208,c)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(356,181,o),
+(441,253,o),
+(441,352,cs),
+(441,418,o),
+(403,470,o),
+(341,486,c),
+(341,511,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 291.12472;
+};
+}),
+(297,528,o),
+(264,532,o),
+(237,532,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 270;
+};
+}),
+(114,532,o),
+(29,449,o),
+(29,350,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 180;
+};
+}),
+(29,252,o),
+(111,181,o),
+(233,181,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 90;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(501,490,l),
+(501,573,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 252.76818;
+};
+}),
+(486,573,l),
+(322,512,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 180;
+};
+}),
+(326,490,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 90;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(68,22,o),
+(0,-24,o),
+(0,-92,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 180;
+};
+}),
+(0,-158,o),
+(63,-212,o),
+(190,-212,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 90;
+};
+}),
+(364,-212,o),
+(499,-104,o),
+(499,-10,cs),
+(499,47,o),
+(449,96,o),
+(346,96,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 270;
+};
+}),
+(182,96,ls,{
+"Letterink-NibData" = {
+AngleInDegrees = 270;
+};
+}),
+(111,96,o),
+(75,110,o),
+(75,140,cs),
+(75,154,o),
+(83,168,o),
+(97,184,cs),
+(120,210,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 321.34019;
+};
+}),
+(103,220,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 239.30028;
+};
+}),
+(77,202,ls),
+(38,175,o),
+(20,143,o),
+(20,111,cs),
+(20,60,o),
+(66,26,o),
+(130,26,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 90;
+};
+}),
+(130,12,l),
+(341,12,ls,{
+"Letterink-NibData" = {
+AngleInDegrees = 90;
+};
+}),
+(395,12,o),
+(416,-14,o),
+(416,-51,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 180;
+};
+}),
+(416,-122,o),
+(338,-180,o),
+(226,-180,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 270;
+};
+}),
+(141,-180,o),
+(80,-150,o),
+(80,-80,cs),
+(80,-23,o),
+(121,12,o),
+(177,12,c),
+(177,22,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 270;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(186,203,o),
+(134,256,o),
+(124,340,cs),
+(114,423,o),
+(150,493,o),
+(218,501,cs),
+(281,509,o),
+(334,460,o),
+(345,373,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "180";
+};
+}),
+(355,291,o),
+(323,220,o),
+(252,211,cs)
+);
+}
+);
+width = 491;
+}
+);
+tags = (
+"5 (normal)"
+);
+unicode = 103;
+}

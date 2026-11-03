@@ -1,0 +1,165 @@
+{
+glyphname = T;
+kernLeft = T;
+kernRight = T;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (321,0);
+},
+{
+name = center;
+pos = (321,355);
+},
+{
+name = top;
+pos = (321,710);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (266,0);
+},
+{
+name = center;
+pos = (266,348);
+},
+{
+name = top;
+pos = (266,710);
+}
+);
+hints = (
+{
+name = _corner.ucSerif;
+origin = (1,0);
+scale = (-1.2,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (1,3);
+scale = (1.2,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (2,0);
+scale = (2,1.8);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (2,3);
+scale = (-2,1.8);
+type = Corner;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(309,0,l),
+(309,626,l),
+(530,626,l),
+(530,710,l),
+(2,710,l),
+(2,626,l),
+(223,626,l),
+(223,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(368,0,l),
+(368,710,l),
+(274,710,l),
+(274,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(611,654,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(603,710,l),
+(39,710,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99999";
+};
+}),
+(31,654,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.ucSerif;
+origin = (0,0);
+scale = (-1.2,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (0,3);
+scale = (1.2,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (1,0);
+scale = (2,1.8);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (1,3);
+scale = (-2,1.8);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(368,0,l),
+(368,710,l),
+(274,710,l),
+(274,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(608,675,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(603,710,l),
+(39,710,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(34,675,l)
+);
+}
+);
+width = 642;
+}
+);
+unicode = 84;
+}

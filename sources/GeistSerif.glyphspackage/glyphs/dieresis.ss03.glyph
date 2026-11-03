@@ -1,0 +1,14 @@
+{
+glyphname = dieresis.ss03;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = dieresiscomb.ss03;
+}
+);
+width = 390;
+}
+);
+}
