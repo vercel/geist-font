@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-- Python 3.10
+- Python 3.11 or newer
 - Node.js (supported version in `.nvmrc`, prefer using [fnm](https://github.com/Schniz/fnm) for installing)
 - pnpm (via [corepack](https://github.com/nodejs/corepack))
 

@@ -8,7 +8,8 @@ The ELSH axis only swaps glyphs through rclt, so the variable font carries no ou
 Statics are built from the same copy, one per named instance, with that instance's Rename Glyphs and Replace Feature
 applied. Those parameters are Glyphs export features that fontmake does not read.
 """
-import argparse, re, shutil, subprocess, sys, tempfile
+import argparse, os, re, shutil, subprocess, sys, tempfile
+from datetime import datetime
 from pathlib import Path
 
 import openstep_plist as op
@@ -178,6 +179,8 @@ def main():
         (a.out / sub).mkdir(parents=True, exist_ok=True)
     with open(SOURCE / "fontinfo.plist") as f:
         info = op.load(f, use_numbers=True)
+    source_date = datetime.strptime(info["date"], "%Y-%m-%d %H:%M:%S %z")
+    os.environ.setdefault("SOURCE_DATE_EPOCH", str(int(source_date.timestamp())))
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
         expanded = tmp / "GeistSerif.glyphspackage"

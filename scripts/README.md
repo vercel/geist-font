@@ -10,7 +10,9 @@ There are two ways to build Geist Serif from `sources/GeistSerif.glyphspackage`.
 make build-serif
 ```
 
-No Glyphs needed. This installs its own environment from `requirements-serif.txt` and writes `fonts/GeistSerif/variable`, `ttf` and `webfonts`.
+No Glyphs needed. Python 3.11 or newer is required. This installs its own environment from `requirements-serif.txt` and writes `fonts/GeistSerif/variable`, `ttf` and `webfonts`. If `python3` is older, select a newer interpreter with `make PYTHON=python3.11 build-serif`.
+
+The build derives `SOURCE_DATE_EPOCH` from the source's Glyphs date so repeated builds produce byte-identical files.
 
 - `build-geist-serif.py` is the build.
 - `glyphs_corners.py` expands the corner components, cap components and stroked paths in a temporary copy of the source. Geist Serif's serifs are corner components, which fontmake can't draw correctly on its own. The source itself is never changed.

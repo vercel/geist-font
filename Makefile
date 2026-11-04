@@ -1,5 +1,6 @@
 SOURCES=$(shell python3 scripts/read-config.py --sources )
 FAMILY=$(shell python3 scripts/read-config.py --family )
+PYTHON ?= python3
 
 help:
 	@echo "###"
@@ -23,7 +24,7 @@ venv-serif: venv-serif/touchfile
 
 # fontmake alone breaks Geist Serif's corner-component serifs; see scripts/README.md.
 build-serif: venv-serif
-	. venv-serif/bin/activate; python3 scripts/build-geist-serif.py
+	venv-serif/bin/python scripts/build-geist-serif.py
 	cp fonts/GeistSerif/webfonts/*.woff2 packages/next/dist/fonts/geist-serif/
 
 customize: venv
@@ -104,8 +105,9 @@ venv/touchfile: requirements.txt
 GFTOOLS_PIXEL_REF = 47ec3706b
 
 venv-serif/touchfile: requirements-serif.txt
-	test -d venv-serif || python3 -m venv venv-serif
-	. venv-serif/bin/activate; pip install -r requirements-serif.txt
+	$(PYTHON) -c 'import sys; sys.exit("Geist Serif requires Python 3.11 or newer") if sys.version_info < (3, 11) else None'
+	test -d venv-serif || $(PYTHON) -m venv venv-serif
+	venv-serif/bin/pip install -r requirements-serif.txt
 	touch venv-serif/touchfile
 
 venv-pixel/touchfile: Makefile
@@ -120,6 +122,8 @@ test: build.stamp
 	TOCHECK=$$(find fonts/GeistMono/variable -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/GeistMonoVF-fontspector-report.html --ghmarkdown out/fontspector/GeistMonoVF-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-GeistMono.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
 	TOCHECK=$$(find fonts/GeistMono/ttf -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/GeistMono-fontspector-report.html --ghmarkdown out/fontspector/GeistMono-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-GeistMono.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
 	TOCHECK=$$(find fonts/GeistPixel/ttf -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/GeistPixel-fontspector-report.html --ghmarkdown out/fontspector/GeistPixel-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-GeistPixel.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
+	TOCHECK=$$(find fonts/GeistSerif/variable -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/GeistSerifVF-fontspector-report.html --ghmarkdown out/fontspector/GeistSerifVF-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-GeistSerif.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
+	TOCHECK=$$(find fonts/GeistSerif/ttf -type f 2>/dev/null); mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/GeistSerif-fontspector-report.html --ghmarkdown out/fontspector/GeistSerif-fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config-GeistSerif.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
 	TOCHECK=$$(find fonts/Geist/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/Geist/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof
