@@ -1,6 +1,5 @@
-# Geist Serif is exported from Glyphs 3, not built with gftools: fontmake breaks its
-# corner-component serifs. `make build` skips this config and restores the committed
-# fonts in fonts/GeistSerif; it documents the family and its STAT for Google Fonts.
+# Built by `make build-serif` (scripts/build-geist-serif.py), not gftools builder: fontmake alone breaks the
+# corner-component serifs. `make build` skips this config. It documents the family and its STAT for Google Fonts.
 sources:
   - GeistSerif.glyphspackage
 outputDir: ../fonts/GeistSerif
