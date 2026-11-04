@@ -7,6 +7,7 @@ help:
 	@echo "###"
 	@echo
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
+	@echo "  make build-serif:  Builds Geist Serif, see scripts/README.md"
 	@echo "  make test:   Tests the fonts with fontspector"
 	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
@@ -18,6 +19,13 @@ venv: venv/touchfile
 
 venv-pixel: venv-pixel/touchfile
 
+venv-serif: venv-serif/touchfile
+
+# fontmake alone breaks Geist Serif's corner-component serifs; see scripts/README.md.
+build-serif: venv-serif
+	. venv-serif/bin/activate; python3 scripts/build-geist-serif.py
+	cp fonts/GeistSerif/webfonts/*.woff2 packages/next/dist/fonts/geist-serif/
+
 customize: venv
 	. venv/bin/activate; python3 scripts/customize.py
 
@@ -26,8 +34,8 @@ build.stamp: venv venv-pixel sources/config-Geist.yaml $(SOURCES)
 	# Geist Pixel uses a virtual master, which the released gftools in
 	# requirements.txt can't build (it fails with "No final targets"). Build it
 	# with the dev gftools in venv-pixel that has the virtual-master fix;
-	# everything else uses venv. Geist Serif is exported from Glyphs (fontmake
-	# breaks its corner-component serifs), so its config is skipped here.
+	# everything else uses venv. Geist Serif has its own build (make build-serif),
+	# so its config is skipped here.
 	@for config in sources/config*.yaml; do \
 		if [ "$$config" = "sources/config-GeistSerif.yaml" ]; then \
 			continue; \
@@ -94,6 +102,11 @@ venv/touchfile: requirements.txt
 # build (Simon Cozens' fix). Pin the exact commit for reproducibility; revisit
 # once it ships in an official gftools release and we can fold it into venv.
 GFTOOLS_PIXEL_REF = 47ec3706b
+
+venv-serif/touchfile: requirements-serif.txt
+	test -d venv-serif || python3 -m venv venv-serif
+	. venv-serif/bin/activate; pip install -r requirements-serif.txt
+	touch venv-serif/touchfile
 
 venv-pixel/touchfile: Makefile
 	test -d venv-pixel || python3 -m venv venv-pixel
