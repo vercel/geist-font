@@ -1,0 +1,45 @@
+{
+color = 5;
+glyphname = exclam.ss04;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,205,l),
+(144,275,o),
+(153,400,o),
+(153,480,cs),
+(153,710,l),
+(67,710,l),
+(67,480,ls),
+(67,400,o),
+(77,275,o),
+(83,205,c)
+);
+},
+{
+alignment = -1;
+pos = (6,0);
+ref = period;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = _exclam.part;
+},
+{
+alignment = 1;
+ref = period.ss04;
+}
+);
+width = 211;
+}
+);
+metricLeft = period;
+metricRight = period;
+}

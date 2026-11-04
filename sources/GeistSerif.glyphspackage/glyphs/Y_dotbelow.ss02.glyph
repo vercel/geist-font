@@ -1,0 +1,20 @@
+{
+glyphname = Ydotbelow.ss02;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (259,0);
+ref = dotbelowcomb.ss02;
+}
+);
+width = 661;
+}
+);
+}

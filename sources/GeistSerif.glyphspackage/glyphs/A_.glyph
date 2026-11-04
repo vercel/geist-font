@@ -1,0 +1,135 @@
+{
+glyphname = A;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (313,0);
+},
+{
+name = ogonek;
+pos = (653,10);
+},
+{
+name = top;
+pos = (328,710);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (290,0);
+},
+{
+name = ogonek;
+pos = (604,0);
+},
+{
+name = top;
+pos = (290,710);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,0,l),
+(141,202,l),
+(439,202,l),
+(510,0,l),
+(604,0,l),
+(348,710,l),
+(232,710,l),
+(-24,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(290,635,l),
+(410,286,l),
+(170,286,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.ucSerif;
+origin = (0,2);
+scale = (0.8,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,3);
+scale = (-0.7,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (1,0);
+scale = (-0.9,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (1,4);
+scale = (0.7,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(367,710,l),
+(261,710,l),
+(552,0,l),
+(663,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(63,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(321,653,l),
+(326,710,l),
+(308,710,l),
+(28,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(131,225,l),
+(478,225,l),
+(478,260,l),
+(151,260,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+})
+);
+}
+);
+width = 689;
+}
+);
+unicode = 65;
+}

@@ -1,0 +1,44 @@
+{
+color = 5;
+glyphname = bullet.ss04;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (-33,217);
+ref = period.ss08;
+scale = (1.7494,1.7494);
+},
+{
+closed = 1;
+nodes = (
+(212,203,o),
+(259,246,o),
+(259,311,cs),
+(259,375,o),
+(212,421,o),
+(147,421,cs),
+(81,421,o),
+(35,375,o),
+(35,311,cs),
+(35,246,o),
+(81,203,o),
+(147,203,cs)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+pos = (-24,219);
+ref = period.ss04;
+scale = (1.6,1.65);
+}
+);
+width = 288;
+}
+);
+}

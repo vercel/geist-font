@@ -1,0 +1,192 @@
+{
+glyphname = two;
+layers = (
+{
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+hints = (
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (0,16);
+scale = (2,-1.8);
+type = Corner;
+}
+);
+layerId = "01781C3B-E846-437F-B6C6-8F97B278EDBC";
+name = "13 Jun 26 at 09:51";
+shapes = (
+{
+closed = 1;
+nodes = (
+(167,725,o),
+(58,626,o),
+(58,477,c),
+(158,477,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(161,618,o),
+(228,682,o),
+(314,682,cs),
+(394,682,o),
+(434,629,o),
+(434,522,cs),
+(434,435,o),
+(378,349,o),
+(251,241,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(61,80,l),
+(61,0,l),
+(510,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(517,72,l),
+(85,72,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(97,46,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(312,222,ls,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(479,360,o),
+(535,435,o),
+(535,541,cs),
+(535,649,o),
+(444,725,o),
+(314,725,cs)
+);
+}
+);
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(559,0,l),
+(559,84,l),
+(166,84,l),
+(170,138,o),
+(236,212,o),
+(364,280,cs),
+(511,358,o),
+(559,412,o),
+(559,520,cs),
+(559,642,o),
+(473,726,o),
+(327,726,cs),
+(173,726,o),
+(80,637,o),
+(64,498,c),
+(154,492,l),
+(169,588,o),
+(227,642,o),
+(327,642,cs),
+(421,642,o),
+(469,591,o),
+(469,518,cs),
+(469,446,o),
+(430,414,o),
+(332,362,cs),
+(119,249,o),
+(60,150,o),
+(60,0,c)
+);
+},
+{
+alignment = -1;
+angle = 180;
+pos = (580,711);
+ref = seven;
+}
+);
+};
+hints = (
+{
+name = _corner.numSerif;
+options = 1;
+origin = (0,18);
+scale = (1.5,-1.5);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(174,722,o),
+(65,622,o),
+(65,474,c),
+(157,474,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(160,615,o),
+(232,687,o),
+(315,687,cs),
+(389,687,o),
+(451,631,o),
+(451,543,cs),
+(451,435,o),
+(358,349,o),
+(220,268,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(151,227,o),
+(54,162,o),
+(54,41,cs),
+(54,0,l),
+(523,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(533,84,l),
+(72,84,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(90,48,l),
+(90,136,o),
+(172,196,o),
+(280,258,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(406,330,o),
+(538,388,o),
+(538,520,cs),
+(538,636,o),
+(435,722,o),
+(309,722,cs)
+);
+}
+);
+width = 588;
+}
+);
+unicode = 50;
+}

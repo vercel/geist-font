@@ -53,6 +53,10 @@ jobs:
 
       - name: Build font
         run: make build
+      - name: Rebuild Geist Serif from source
+        run: |
+          make build-serif
+          git diff --exit-code -- fonts/GeistSerif packages/next/dist/fonts/geist-serif
       - name: Check with fontspector
         run: make test
         continue-on-error: true

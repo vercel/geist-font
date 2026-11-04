@@ -1,0 +1,21 @@
+{
+glyphname = lslash;
+kernLeft = l;
+kernRight = l;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = l;
+},
+{
+pos = (-1,-34);
+ref = slashshortcomb;
+}
+);
+width = 286;
+}
+);
+unicode = 322;
+}

@@ -1,0 +1,37 @@
+{
+export = 0;
+glyphname = _exclam.part;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (105,0);
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,170,l),
+(123,170,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(154,530,l),
+(154,710,l),
+(57,710,l),
+(57,530,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99999";
+};
+})
+);
+}
+);
+width = 211;
+}
+);
+}

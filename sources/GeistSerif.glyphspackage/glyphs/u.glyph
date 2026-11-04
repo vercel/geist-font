@@ -1,0 +1,182 @@
+{
+glyphname = u;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = ogonek;
+pos = (571,33);
+},
+{
+name = top;
+pos = (285,530);
+},
+{
+name = topright;
+pos = (422,523);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = ogonek;
+pos = (486,0);
+},
+{
+name = top;
+pos = (275,530);
+},
+{
+name = topright;
+pos = (402,530);
+}
+);
+hints = (
+{
+name = _corner.lcSerif;
+origin = (1,7);
+type = Corner;
+},
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (1,8);
+scale = (-1,1);
+type = Corner;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-265,-12,o),
+(-202,37,o),
+(-181,124,c),
+(-194,131,l),
+(-194,0,l),
+(-114,0,l),
+(-114,530,l),
+(-198,530,l),
+(-198,214,ls),
+(-198,119,o),
+(-249,62,o),
+(-333,62,cs),
+(-409,62,o),
+(-445,109,o),
+(-445,212,cs),
+(-445,530,l),
+(-529,530,l),
+(-529,189,ls),
+(-529,63,o),
+(-461,-12,o),
+(-355,-12,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(430,110,l),
+(408,92,o),
+(351,61,o),
+(292,61,cs),
+(227,61,o),
+(180,99,o),
+(180,198,cs),
+(180,530,l),
+(96,530,l),
+(96,164,ls),
+(96,53,o),
+(167,-12,o),
+(260,-12,cs),
+(329,-12,o),
+(387,24,o),
+(436,100,c)
+);
+},
+{
+pos = (52,0);
+ref = a;
+}
+);
+};
+hints = (
+{
+name = _cap.stem;
+options = 2;
+origin = (0,8);
+type = Cap;
+},
+{
+name = _cap.stem;
+options = 2;
+origin = (0,20);
+type = Cap;
+},
+{
+name = "_corner.serif-alt";
+origin = (0,19);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(409,545,l),
+(409,132,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(382,78,o),
+(341,62,o),
+(299,62,cs),
+(234,62,o),
+(181,99,o),
+(181,193,cs),
+(181,545,l),
+(97,545,l),
+(97,172,ls),
+(97,53,o),
+(160,-12,o),
+(253,-12,cs),
+(348,-12,o),
+(404,57,o),
+(429,132,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(413,162,l),
+(413,-7,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(493,12,l),
+(493,545,l)
+);
+}
+);
+width = 589;
+}
+);
+metricLeft = "=n*.4";
+metricRight = "=|n*.8";
+tags = (
+"5 (normal)"
+);
+unicode = 117;
+}

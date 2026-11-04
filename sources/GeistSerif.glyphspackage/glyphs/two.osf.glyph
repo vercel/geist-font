@@ -1,0 +1,224 @@
+{
+color = 5;
+glyphname = two.osf;
+layers = (
+{
+hints = (
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (0,18);
+scale = (1.2,-1.8);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(177,545,o),
+(73,469,o),
+(73,344,c),
+(173,344,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(176,458,o),
+(238,506,o),
+(314,506,cs),
+(390,506,o),
+(419,457,o),
+(419,391,cs),
+(419,298,o),
+(361,249,o),
+(240,206,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(213,196,o),
+(66,142,o),
+(66,31,cs),
+(66,0,l),
+(505,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(512,60,l),
+(105,60,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(119,51,l),
+(119,109,o),
+(177,137,o),
+(266,167,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(428,222,o),
+(520,281,o),
+(520,384,cs),
+(520,482,o),
+(437,545,o),
+(313,545,cs)
+);
+}
+);
+width = 588;
+},
+{
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+hints = (
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (0,18);
+scale = (1.6,-1.8);
+type = Corner;
+}
+);
+layerId = "BF39A0DF-1B56-495B-9250-66ABBAF011F5";
+name = "16 Jun 26 at 06:45";
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,585,o),
+(74,503,o),
+(74,369,c),
+(174,369,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(177,487,o),
+(239,543,o),
+(307,543,cs),
+(397,543,o),
+(420,490,o),
+(420,415,cs),
+(420,296,o),
+(310,244,o),
+(212,198,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(136,162,o),
+(67,92,o),
+(67,41,cs),
+(67,0,l),
+(486,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(493,72,l),
+(101,72,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(131,55,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(145,118,o),
+(201,141,o),
+(270,169,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(388,217,o),
+(521,275,o),
+(521,397,cs),
+(521,517,o),
+(438,585,o),
+(318,585,cs)
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+hints = (
+{
+name = _corner.lcSerif;
+options = 1;
+origin = (0,18);
+scale = (1.2,-1.8);
+type = Corner;
+}
+);
+layerId = "C5F012BD-5E01-491C-9D8F-1493D6E21116";
+name = "17 Jun 26 at 07:03";
+shapes = (
+{
+closed = 1;
+nodes = (
+(171,545,o),
+(67,469,o),
+(67,344,c),
+(167,344,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(170,458,o),
+(232,506,o),
+(307,506,cs),
+(384,506,o),
+(413,457,o),
+(413,371,cs),
+(413,298,o),
+(355,249,o),
+(257,214,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(207,196,o),
+(60,142,o),
+(60,31,cs),
+(60,0,l),
+(489,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(496,67,l),
+(79,67,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(113,51,l),
+(113,109,o),
+(171,137,o),
+(312,185,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(422,222,o),
+(514,281,o),
+(514,382,cs),
+(514,482,o),
+(431,545,o),
+(307,545,cs)
+);
+}
+);
+width = 574;
+}
+);
+}

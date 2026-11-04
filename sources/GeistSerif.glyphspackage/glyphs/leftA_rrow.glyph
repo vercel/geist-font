@@ -1,0 +1,19 @@
+{
+glyphname = leftArrow;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+angle = 90;
+pos = (755,711);
+ref = upArrow;
+scale = (-1,1);
+}
+);
+width = 800;
+}
+);
+unicode = 8592;
+}

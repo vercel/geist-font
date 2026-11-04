@@ -1,0 +1,80 @@
+{
+glyphname = four;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(477,0,l),
+(477,154,l),
+(565,154,l),
+(565,238,l),
+(477,238,l),
+(477,710,l),
+(385,710,l),
+(30,232,l),
+(30,154,l),
+(391,154,l),
+(391,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(391,578,l),
+(391,238,l),
+(134,238,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.numSerif;
+options = 1;
+origin = (0,0);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.numSerif;
+origin = (0,11);
+scale = (1.2,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(456,0,l),
+(456,725,l),
+(446,725,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(10,185,l),
+(10,180,l),
+(580,180,l),
+(580,220,l),
+(61,220,l),
+(58,187,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(380,589,l),
+(364,589,l),
+(364,0,l)
+);
+}
+);
+width = 588;
+}
+);
+unicode = 52;
+}

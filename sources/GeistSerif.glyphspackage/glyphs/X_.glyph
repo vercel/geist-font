@@ -1,0 +1,168 @@
+{
+glyphname = X;
+kernLeft = X;
+kernRight = X;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+},
+{
+name = top;
+pos = (336,710);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (299,0);
+},
+{
+name = top;
+pos = (299,710);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(153,0,l),
+(340,290,l),
+(527,0,l),
+(629,0,l),
+(394,358,l),
+(625,710,l),
+(525,710,l),
+(342,424,l),
+(157,710,l),
+(55,710,l),
+(286,356,l),
+(53,0,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.ucSerif;
+origin = (0,1);
+scale = (0.9,0.9);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (1,0);
+scale = (0.8,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (1,1);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (2,0);
+scale = (0.8,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (2,1);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (0,3);
+scale = (0.9,0.9);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,0);
+scale = (-0.65,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,2);
+scale = (-0.7,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(643,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(168,710,l),
+(52,710,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(524,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(589,710,l),
+(543,710,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(332,394,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(358,371,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(58,0,l),
+(106,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(341,356,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(316,379,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+})
+);
+}
+);
+width = 671;
+}
+);
+unicode = 88;
+}

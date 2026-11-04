@@ -1,0 +1,40 @@
+{
+color = 9;
+glyphname = dotbelowcomb.ss04;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (88,0);
+},
+{
+name = bottom;
+pos = (88,-150);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(132,-150,l),
+(132,-60,l),
+(44,-60,l),
+(44,-150,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+pos = (-7,-151);
+ref = period.ss04;
+scale = (0.9,0.9);
+}
+);
+width = 176;
+}
+);
+}

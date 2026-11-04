@@ -1,0 +1,27 @@
+{
+color = 5;
+glyphname = eight.tf;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (-2,0);
+ref = eight;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (6,0);
+ref = eight;
+}
+);
+width = 600;
+}
+);
+metricWidth = plus;
+}

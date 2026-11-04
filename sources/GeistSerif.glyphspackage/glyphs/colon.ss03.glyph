@@ -1,0 +1,33 @@
+{
+color = 5;
+glyphname = colon.ss03;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (48,0);
+ref = period;
+},
+{
+alignment = -1;
+pos = (48,393);
+ref = period;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+pos = (0,413);
+ref = period.ss03;
+},
+{
+ref = period.ss03;
+}
+);
+width = 210;
+}
+);
+}

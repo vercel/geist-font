@@ -1,0 +1,172 @@
+{
+glyphname = F;
+kernLeft = H;
+kernRight = F;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (151,0);
+},
+{
+name = top;
+pos = (304,710);
+}
+);
+background = {
+hints = (
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,0);
+scale = (-1.2,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (1,0);
+scale = (2,1.8);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (2,1);
+scale = (1.2,1.1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (2,2);
+scale = (-1.1,1.1);
+type = Corner;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,0,l),
+(198,710,l),
+(104,710,l),
+(104,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(523,658,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "0";
+};
+}),
+(515,710,l),
+(186,710,l),
+(186,658,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,326,l),
+(450,326,l),
+(450,380,l),
+(175,380,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.ucSerif;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (1,0);
+scale = (2,1.8);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (2,2);
+scale = (-1.1,1.1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (2,1);
+scale = (1.2,1.1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,0);
+scale = (-1.2,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,0,l),
+(198,710,l),
+(104,710,l),
+(104,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(520,675,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(515,710,l),
+(186,710,l),
+(186,675,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,336,l),
+(450,336,l),
+(450,371,l),
+(175,371,l)
+);
+}
+);
+width = 567;
+}
+);
+metricLeft = H;
+metricRight = E;
+unicode = 70;
+}

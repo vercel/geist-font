@@ -1,0 +1,20 @@
+{
+glyphname = idieresis.ss02;
+kernLeft = n;
+kernRight = i;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-35,0);
+ref = dieresiscomb.ss02;
+}
+);
+width = 288;
+}
+);
+}

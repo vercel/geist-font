@@ -1,0 +1,21 @@
+{
+glyphname = Utilde;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (227,180);
+ref = tildecomb;
+}
+);
+width = 778;
+}
+);
+unicode = 360;
+}

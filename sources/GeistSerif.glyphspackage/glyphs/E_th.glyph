@@ -1,0 +1,35 @@
+{
+color = 5;
+glyphname = Eth;
+kernLeft = H;
+kernRight = D;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = D;
+},
+{
+pos = (-104,7);
+ref = strokeshortcomb.case;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (80,0);
+ref = barcomb;
+}
+);
+width = 717;
+}
+);
+metricLeft = E;
+metricRight = D;
+unicode = 208;
+}

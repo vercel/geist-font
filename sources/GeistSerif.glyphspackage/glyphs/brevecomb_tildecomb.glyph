@@ -1,0 +1,18 @@
+{
+glyphname = brevecomb_tildecomb;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = brevecomb;
+},
+{
+pos = (-12,201);
+ref = tildecomb;
+}
+);
+width = 367;
+}
+);
+}

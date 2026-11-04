@@ -1,0 +1,48 @@
+{
+color = 5;
+glyphname = period.ss02;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (105,0);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(146,-12,o),
+(175,15,o),
+(175,55,cs),
+(175,96,o),
+(146,124,o),
+(105,124,cs),
+(64,124,o),
+(35,96,o),
+(35,55,cs),
+(35,15,o),
+(64,-12,o),
+(105,-12,cs)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(161,0,l),
+(161,113,l),
+(48,113,l),
+(48,0,l)
+);
+}
+);
+width = 210;
+}
+);
+}

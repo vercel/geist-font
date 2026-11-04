@@ -1,0 +1,70 @@
+{
+glyphname = parenleft;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(259,-110,l),
+(175,34,o),
+(132,177,o),
+(132,320,cs),
+(132,463,o),
+(175,607,o),
+(259,750,c),
+(184,750,l),
+(92,612,o),
+(45,466,o),
+(45,320,cs),
+(45,174,o),
+(92,28,o),
+(184,-110,c)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(270,-123,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(188,-40,o),
+(140,121,o),
+(140,311,cs),
+(140,501,o),
+(188,652,o),
+(272,736,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(262,745,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(138,664,o),
+(60,485,o),
+(60,309,cs),
+(60,132,o),
+(138,-52,o),
+(262,-130,c,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+})
+);
+}
+);
+width = 294;
+}
+);
+unicode = 40;
+}

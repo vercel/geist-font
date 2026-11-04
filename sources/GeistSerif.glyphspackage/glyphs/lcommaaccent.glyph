@@ -1,0 +1,21 @@
+{
+glyphname = lcommaaccent;
+kernLeft = l;
+kernRight = l;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = l;
+},
+{
+pos = (41,0);
+ref = commaaccentcomb;
+}
+);
+width = 286;
+}
+);
+unicode = 316;
+}

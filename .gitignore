@@ -3,8 +3,10 @@
 *~
 venv
 venv-pixel
+venv-serif
 venv-test
 build.stamp
+__pycache__/
 proof
 node_modules
 package-lock.json

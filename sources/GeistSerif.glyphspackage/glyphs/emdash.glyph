@@ -1,0 +1,35 @@
+{
+color = 5;
+glyphname = emdash;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(863,253,l),
+(863,331,l),
+(44,331,l),
+(44,253,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(42,296,l),
+(840,296,l),
+(840,348,l),
+(42,348,l)
+);
+}
+);
+width = 882;
+}
+);
+unicode = 8212;
+}

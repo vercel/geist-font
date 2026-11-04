@@ -1,0 +1,96 @@
+{
+color = 5;
+glyphname = dieresiscomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (181,530);
+},
+{
+name = top;
+pos = (181,726);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (165,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,613,l),
+(122,711,l),
+(34,711,l),
+(34,613,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(296,613,l),
+(296,711,l),
+(208,711,l),
+(208,613,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,608,o),
+(147,632,o),
+(147,667,cs),
+(147,702,o),
+(122,726,o),
+(86,726,cs),
+(50,726,o),
+(25,702,o),
+(25,667,cs),
+(25,632,o),
+(50,608,o),
+(86,608,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(312,608,o),
+(337,632,o),
+(337,667,cs),
+(337,702,o),
+(312,726,o),
+(276,726,cs),
+(240,726,o),
+(215,702,o),
+(215,667,cs),
+(215,632,o),
+(240,608,o),
+(276,608,cs)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+pos = (-5,0);
+ref = dotaccentcomb;
+},
+{
+alignment = -1;
+pos = (175,0);
+ref = dotaccentcomb;
+}
+);
+width = 362;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 776;
+}

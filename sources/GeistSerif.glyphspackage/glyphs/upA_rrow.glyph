@@ -1,0 +1,68 @@
+{
+glyphname = upArrow;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(667,399,l),
+(356,710,l),
+(45,400,l),
+(45,289,l),
+(355,599,l),
+(667,288,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(397,0,l),
+(397,660,l),
+(315,660,l),
+(315,0,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(8,337,l),
+(357,590,l),
+(355,590,l),
+(704,337,l),
+(708,343,l),
+(358,710,l),
+(354,710,l),
+(4,343,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(402,0,l),
+(402,85,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "3.681074247197103e-06";
+};
+}),
+(379,642,l),
+(333,642,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "1.157771475845948e-05";
+};
+}),
+(308,85,l),
+(308,0,l)
+);
+}
+);
+width = 712;
+}
+);
+unicode = 8593;
+}

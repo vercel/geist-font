@@ -1,0 +1,35 @@
+{
+glyphname = Aring;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (-1,0);
+ref = A;
+},
+{
+alignment = -1;
+pos = (194,180);
+ref = ringcomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (167,180);
+ref = ringcomb;
+}
+);
+width = 689;
+}
+);
+unicode = 197;
+}

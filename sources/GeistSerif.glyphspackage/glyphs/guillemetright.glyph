@@ -1,0 +1,33 @@
+{
+color = 5;
+glyphname = guillemetright;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (197,0);
+ref = guilsinglright;
+},
+{
+alignment = -1;
+pos = (-5,0);
+ref = guilsinglright;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = 1;
+pos = (474,0);
+ref = guillemetleft;
+scale = (-1,1);
+}
+);
+width = 474;
+}
+);
+unicode = 187;
+}

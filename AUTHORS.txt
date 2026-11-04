@@ -6,6 +6,8 @@
 # Name or Organization <email address>
 
 Andrés Briganti <info@briganti.works>
+Evil Rabbit <evilrabbit@vercel.com>
+Mark Davis <Mark@DesignerMarkDavis.com>
 Mateo Zaragoza <mateo@basement.studio>
 Basement.studio <hello@basement.studio>
 Vercel <contactus@vercel.com>

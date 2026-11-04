@@ -1,0 +1,32 @@
+{
+glyphname = Agrave;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = A;
+},
+{
+pos = (169,180);
+ref = gravecomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (134,181);
+ref = gravecomb;
+}
+);
+width = 689;
+}
+);
+unicode = 192;
+}

@@ -1,0 +1,35 @@
+{
+glyphname = quotedblleft.ss04;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (185,570);
+ref = comma;
+},
+{
+alignment = -1;
+angle = 180;
+pos = (350,570);
+ref = comma;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (321,638);
+ref = quotedblbase.ss04;
+}
+);
+width = 321;
+}
+);
+metricLeft = "=|comma.ss04";
+metricRight = "=|comma.ss04";
+}

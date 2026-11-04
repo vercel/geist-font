@@ -1,0 +1,46 @@
+{
+color = 5;
+glyphname = ellipsis;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = period;
+},
+{
+alignment = -1;
+pos = (185,0);
+ref = period;
+},
+{
+alignment = -1;
+pos = (370,0);
+ref = period;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (-11,0);
+ref = period;
+},
+{
+alignment = -1;
+pos = (189,0);
+ref = period;
+},
+{
+alignment = -1;
+pos = (389,0);
+ref = period;
+}
+);
+width = 588;
+}
+);
+unicode = 8230;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = iacute;
+kernLeft = n;
+kernRight = i;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (41,0);
+ref = acutecomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (103,1);
+ref = acutecomb;
+}
+);
+width = 288;
+}
+);
+unicode = 237;
+}

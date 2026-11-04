@@ -1,0 +1,32 @@
+{
+glyphname = Ygrave;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (123,180);
+ref = gravecomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (153,181);
+ref = gravecomb;
+}
+);
+width = 661;
+}
+);
+unicode = 7922;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = dotaccentcomb.ss03;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (96,530);
+},
+{
+name = top;
+pos = (96,710);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (96,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,613,l),
+(140,711,l),
+(52,711,l),
+(52,613,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,738,l),
+(21,608,l),
+(171,608,l)
+);
+}
+);
+width = 192;
+}
+);
+}

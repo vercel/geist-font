@@ -1,0 +1,37 @@
+{
+color = 5;
+glyphname = four.osf;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(456,-160,l),
+(456,545,l),
+(454,545,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(7,2,l),
+(7,0,l),
+(580,0,l),
+(580,52,l),
+(57,52,l),
+(65,16,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(382,404,l),
+(362,421,l),
+(362,-160,l)
+);
+}
+);
+width = 588;
+}
+);
+}

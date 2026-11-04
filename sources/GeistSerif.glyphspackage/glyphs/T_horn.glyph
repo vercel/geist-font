@@ -1,0 +1,132 @@
+{
+color = 5;
+glyphname = Thorn;
+kernLeft = H;
+kernRight = Thorn;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (151,0);
+},
+{
+name = top;
+pos = (151,710);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (290,0);
+},
+{
+name = top;
+pos = (290,710);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(296,150,ls),
+(455,150,o),
+(548,230,o),
+(548,366,cs),
+(548,502,o),
+(455,582,o),
+(296,582,cs),
+(97,582,l),
+(97,498,l),
+(296,498,ls),
+(404,498,o),
+(458,454,o),
+(458,366,cs),
+(458,278,o),
+(404,234,o),
+(296,234,cs),
+(97,234,l),
+(97,150,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(158,0,l),
+(158,710,l),
+(72,710,l),
+(72,0,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.ucSerif;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,0);
+scale = (-1.2,1);
+type = Corner;
+},
+{
+name = _corner.ucSerif;
+origin = (0,1);
+scale = (1.2,1);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,0,l),
+(198,710,l),
+(104,710,l),
+(104,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(317,162,ls),
+(510,162,o),
+(573,266,o),
+(573,366,cs),
+(573,496,o),
+(467,563,o),
+(321,563,cs),
+(186,563,l),
+(186,511,l),
+(303,511,ls),
+(416,511,o),
+(473,466,o),
+(473,364,cs),
+(473,282,o),
+(436,214,o),
+(281,214,cs),
+(175,214,l),
+(175,162,l)
+);
+}
+);
+width = 599;
+}
+);
+metricLeft = I;
+metricRight = P;
+unicode = 222;
+}

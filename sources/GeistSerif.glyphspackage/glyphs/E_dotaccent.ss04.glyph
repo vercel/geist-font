@@ -1,0 +1,20 @@
+{
+glyphname = Edotaccent.ss04;
+kernLeft = H;
+kernRight = E;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (231,180);
+ref = dotaccentcomb.ss04;
+}
+);
+width = 605;
+}
+);
+}

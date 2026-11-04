@@ -1,0 +1,37 @@
+{
+export = 0;
+glyphname = one.tnum;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,0,l),
+(304,710,l),
+(236,710,l),
+(236,626,o),
+(208,600,o),
+(130,600,cs),
+(70,600,l),
+(70,526,l),
+(218,526,l),
+(218,0,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+pos = (95,0);
+ref = one;
+}
+);
+width = 600;
+}
+);
+metricWidth = plus;
+}

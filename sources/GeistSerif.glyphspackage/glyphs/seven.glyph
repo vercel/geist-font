@@ -1,0 +1,71 @@
+{
+glyphname = seven;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(256,0,l),
+(256,240,o),
+(335,428,o),
+(514,632,c),
+(514,710,l),
+(10,710,l),
+(10,626,l),
+(420,626,l),
+(262,444,o),
+(168,220,o),
+(168,0,c)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.ucSerif;
+options = 1;
+origin = (0,1);
+scale = (1.5,-1.5);
+type = Corner;
+}
+);
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(46,710,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(37,626,l),
+(462,626,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(465,663,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 0;
+};
+}),
+(153,2,l),
+(153,0,l),
+(277,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(505,677,l),
+(505,710,l)
+);
+}
+);
+width = 500;
+}
+);
+unicode = 55;
+}

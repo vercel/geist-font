@@ -1,0 +1,32 @@
+{
+glyphname = quotedblright.ss04;
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (149,597);
+ref = comma;
+},
+{
+alignment = -1;
+pos = (-16,597);
+ref = comma;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+angle = 180;
+pos = (321,1253);
+ref = quotedblleft.ss04;
+}
+);
+width = 321;
+}
+);
+metricLeft = comma.ss04;
+metricRight = comma.ss04;
+}

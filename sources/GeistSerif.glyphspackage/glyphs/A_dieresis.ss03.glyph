@@ -1,0 +1,20 @@
+{
+glyphname = Adieresis.ss03;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (133,180);
+ref = dieresiscomb.ss03;
+}
+);
+width = 689;
+}
+);
+}

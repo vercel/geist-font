@@ -1,0 +1,36 @@
+{
+color = 5;
+glyphname = bracketright;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(226,-110,l),
+(226,750,l),
+(-14,750,l),
+(-14,680,l),
+(146,680,l),
+(146,-40,l),
+(-14,-40,l),
+(-14,-110,l)
+);
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (363,611);
+ref = bracketleft;
+}
+);
+width = 363;
+}
+);
+unicode = 93;
+}

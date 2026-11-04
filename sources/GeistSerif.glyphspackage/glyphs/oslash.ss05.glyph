@@ -1,0 +1,45 @@
+{
+color = 9;
+glyphname = oslash.ss05;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = o.ss05;
+},
+{
+pos = (22,2);
+ref = slashlongcomb;
+}
+);
+};
+layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
+shapes = (
+{
+ref = o.ss05;
+},
+{
+closed = 1;
+nodes = (
+(107,0,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(537,529,l),
+(481,529,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(51,0,l)
+);
+}
+);
+width = 604;
+}
+);
+}
