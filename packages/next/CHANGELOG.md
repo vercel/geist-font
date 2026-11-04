@@ -1,5 +1,11 @@
 # geist
 
+## 1.9.1
+
+### Patch Changes
+
+- bace39d: Update Geist Serif to 1.002: adds ^ ¢ £, and the variable font is now named "Geist Serif" (was "Geist Serif VF").
+
 ## 1.9.0
 
 ### Minor Changes
