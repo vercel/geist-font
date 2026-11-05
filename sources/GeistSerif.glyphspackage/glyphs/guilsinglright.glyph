@@ -16,16 +16,26 @@ nodes = (
 (216,276,l),
 (44,76,l)
 );
+},
+{
+alignment = 1;
+ref = guilsinglleft;
+},
+{
+alignment = 1;
+pos = (280,0);
+ref = guilsinglleft;
+scale = (-1,1);
 }
 );
 };
 layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
 shapes = (
 {
-alignment = 1;
-pos = (280,0);
+alignment = -1;
+angle = 180;
+pos = (280,502);
 ref = guilsinglleft;
-scale = (-1,1);
 }
 );
 width = 280;

@@ -6,9 +6,9 @@ layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
 shapes = (
 {
 alignment = -1;
-pos = (0,710);
+angle = 180;
+pos = (712,710);
 ref = upArrow;
-scale = (1,-1);
 }
 );
 width = 712;

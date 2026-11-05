@@ -34,15 +34,15 @@ nodes = (
 hints = (
 {
 name = _corner.lcSerif;
-origin = (0,5);
-scale = (1.5,1);
+options = 1;
+origin = (0,0);
+scale = (-1.5,1);
 type = Corner;
 },
 {
 name = _corner.lcSerif;
-options = 1;
 origin = (0,6);
-scale = (-1.8,1);
+scale = (1.8,1);
 type = Corner;
 }
 );
@@ -51,16 +51,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(286,628,l),
-(130,628,l),
+(378,0,l),
+(378,725,l),
+(368,725,l),
 (130,638,l,{
 "Letterink-NibData" = {
 AngleInDegrees = 360;
 };
 }),
-(368,725,l),
-(378,725,l),
-(378,0,l),
+(130,628,l),
+(286,628,l),
 (286,0,l)
 );
 }

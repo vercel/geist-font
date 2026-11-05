@@ -16,10 +16,21 @@ scale = (-1,1);
 layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
 shapes = (
 {
-alignment = -1;
-pos = (391,0);
-ref = slash;
-scale = (-1,1);
+closed = 1;
+nodes = (
+(76,745,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 359.99999;
+};
+}),
+(20,745,l),
+(320,-108,l,{
+"Letterink-NibData" = {
+AngleInDegrees = 360;
+};
+}),
+(376,-110,l)
+);
 }
 );
 width = 333;

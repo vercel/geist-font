@@ -7,9 +7,8 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (755,711);
+pos = (755,-1);
 ref = upArrow;
-scale = (-1,1);
 }
 );
 width = 800;

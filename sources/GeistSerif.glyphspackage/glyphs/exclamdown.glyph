@@ -31,10 +31,15 @@ scale = (1,-1);
 layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
 shapes = (
 {
+angle = 180;
+pos = (211,530);
+ref = _exclam.part;
+},
+{
 alignment = 1;
-pos = (0,530);
-ref = exclam;
-scale = (1,-1);
+angle = 180;
+pos = (211,530);
+ref = period;
 }
 );
 width = 211;

@@ -16,10 +16,10 @@ scale = (-1,1);
 layerId = "DCBCDAAA-39F5-436E-B8F7-AA5CB02C428B";
 shapes = (
 {
-alignment = 1;
-pos = (294,0);
+alignment = -1;
+angle = 180;
+pos = (294,614);
 ref = parenleft;
-scale = (-1,1);
 }
 );
 width = 294;
