@@ -597,6 +597,17 @@ tag = ccmp;
 {
 code = "# Manual addition to the automatic ccmp (Glyphs merges same-tag features).
 # Composes decomposed breve + top mark into the stacked mark, like the circumflex stacks.
+# Soft-dotted letters lose their dot under every top mark, through a mark below too. The automatic rule above covers
+# fewer marks and only plain i and j.
+lookup ccmp_soft_dotted {
+	@SoftDottedTop = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @SoftDottedTop;
+	sub i' @SoftDottedTop by idotless;
+	sub j' @SoftDottedTop by jdotless;
+	sub idotbelow' @SoftDottedTop by idotless dotbelowcomb;
+	sub iogonek' @SoftDottedTop by idotless ogonekcomb;
+} ccmp_soft_dotted;
+
 lookup ccmp_breve_stacks {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
@@ -1636,10 +1647,6 @@ Black,
 {
 name = fileName;
 value = GeistSerifVF;
-},
-{
-name = uniqueID;
-value = "Vercel-GeistSerif-VF-1002-2026";
 },
 {
 name = "Use Extension Kerning";
@@ -11621,5 +11628,5 @@ com.wordmark.StemThicknessHeatmap.range.v3 = {
 };
 };
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
