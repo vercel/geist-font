@@ -8,16 +8,22 @@ The ELSH axis only swaps glyphs through rclt, so the variable font carries no ou
 Statics are built from the same copy, one per named instance, with that instance's Rename Glyphs and Replace Feature
 applied. Those parameters are Glyphs export features that fontmake does not read.
 """
-import argparse, os, re, shutil, subprocess, sys, tempfile
+import argparse, math, os, re, shutil, subprocess, sys, tempfile
 from datetime import datetime
 from pathlib import Path
 
 import openstep_plist as op
+import pathops
 from fontTools.otlLib.optimize import compact
-from fontTools.pens.recordingPen import DecomposingRecordingPen
+from fontTools.pens.areaPen import AreaPen
+from fontTools.pens.boundsPen import BoundsPen
+from fontTools.pens.recordingPen import DecomposingRecordingPen, RecordingPen
+from fontTools.pens.reverseContourPen import ReverseContourPen
+from fontTools.pens.transformPen import TransformPen
 from fontTools.pens.ttGlyphPen import TTGlyphPen
-from fontTools.ttLib import TTFont
-from fontTools.ttLib.tables._g_l_y_f import GlyphComponent, ROUND_XY_TO_GRID
+from fontTools.ttLib import TTFont, newTable
+from fontTools.ttLib.removeOverlaps import removeOverlaps
+from fontTools.ttLib.tables._g_l_y_f import Glyph, GlyphComponent, ROUND_XY_TO_GRID
 
 sys.path.insert(0, str(Path(__file__).parent))
 import glyphs_corners
@@ -123,11 +129,107 @@ def tidy(font):
     compact(font, 9)
 
 
+def component_parts(font):
+    glyf = font["glyf"]
+    return {n: [(c.glyphName, c.x, c.y) for c in glyf[n].components] for n in font.getGlyphOrder() if glyf[n].isComposite()}
+
+
+def tidy_contours(font):
+    """Outer contours run clockwise, counters the other way (mirrored components come out reversed), and zero-width
+    spikes go (three's 200% corner overshoots its stroke)."""
+    glyf = font["glyf"]; glyph_set = font.getGlyphSet()
+    for name in font.getGlyphOrder():
+        if glyf[name].isComposite() or glyf[name].numberOfContours <= 0: continue
+        rec = RecordingPen(); glyph_set[name].draw(rec)
+        contours = [[]]
+        for op_ in rec.value:
+            contours[-1].append(op_)
+            if op_[0] in ("closePath", "endPath"): contours.append([])
+        contours.pop()
+        changed = False
+        for contour in contours:
+            for i in range(len(contour) - 2, 1, -1):
+                a, b = contour[i - 1][1][-1], contour[i][1][-1]
+                c = contour[i + 1][1][-1] if contour[i + 1][0] == "lineTo" else contour[0][1][0]
+                if contour[i][0] != "lineTo": continue
+                u = (b[0] - a[0], b[1] - a[1]); v = (c[0] - b[0], c[1] - b[1])
+                if u[0] * v[0] + u[1] * v[1] < 0 and abs(u[0] * v[1] - u[1] * v[0]) <= 0.7 * max(math.hypot(*u), math.hypot(*v)):
+                    del contour[i]; changed = True
+        def measure(contour, pen):
+            for op_, args in contour: getattr(pen, op_)(*args)
+            return pen
+        areas = [measure(c, AreaPen()).value for c in contours]
+        kept = [i for i, area in enumerate(areas) if abs(area) >= 1]      # a contour with no area draws nothing
+        changed |= len(kept) != len(contours)
+        contours = [contours[i] for i in kept]; areas = [areas[i] for i in kept]
+        boxes = [measure(c, BoundsPen(None)).bounds for c in contours]
+        pen = TTGlyphPen(None); out = []
+        for i, contour in enumerate(contours):
+            depth = sum(1 for j, b in enumerate(boxes) if j != i and b[0] <= boxes[i][0] and b[1] <= boxes[i][1] and b[2] >= boxes[i][2] and b[3] >= boxes[i][3] and abs(areas[j]) > abs(areas[i]))
+            wrong = areas[i] > 0 if depth % 2 == 0 else areas[i] < 0
+            changed |= wrong
+            out.append((contour, wrong))
+        if not changed: continue
+        for contour, wrong in out:
+            measure(contour, ReverseContourPen(pen) if wrong else pen)
+        glyf[name] = pen.glyph()
+
+
+def recompose(font, parts):
+    """Overlap removal turns a glyph into an outline if any of its parts overlap. Where the overlap is all inside one
+    existing glyph, Ohornacute goes back to the Ohorn outline plus acutecomb. Checked: the outline must not change."""
+    glyf = font["glyf"]; glyph_set = font.getGlyphSet()
+    lost = [n for n in parts if not glyf[n].isComposite()]
+    def path_of(draw):
+        path = pathops.Path(); draw(path.getPen(glyphSet=glyph_set)); return path
+    def placed(name, x, y):
+        return path_of(lambda pen: glyph_set[name].draw(TransformPen(pen, (1, 0, 0, 1, x, y))))
+    done = 0
+    for name in lost:
+        best = None
+        for base in lost:
+            if base == name or glyf[base].isComposite() or len(parts[base]) >= len(parts[name]): continue
+            first = parts[base][0]
+            for comp, x, y in parts[name]:
+                if comp != first[0]: continue
+                dx, dy = x - first[1], y - first[2]
+                moved = [(c, cx + dx, cy + dy) for c, cx, cy in parts[base]]
+                if all(m in parts[name] for m in moved) and (best is None or len(parts[base]) > len(parts[best[0]])):
+                    best = (base, dx, dy, [p for p in parts[name] if p not in moved])
+        if not best: continue
+        base, dx, dy, rest = best
+        pieces = [placed(base, dx, dy)] + [placed(c, x, y) for c, x, y in rest]
+        whole = pathops.Path()
+        for piece in pieces: whole.addPath(piece)
+        separate = all(abs(pathops.op(a, b, pathops.PathOp.INTERSECTION).area) < 1 for i, a in enumerate(pieces) for b in pieces[i + 1:])
+        same = abs(pathops.op(whole, path_of(lambda pen: glyph_set[name].draw(pen)), pathops.PathOp.XOR).area) < 40
+        if not (separate and same): continue
+        comps = []
+        for c, x, y in [(base, dx, dy)] + rest:
+            gc = GlyphComponent(); gc.glyphName = c; gc.x = x; gc.y = y; gc.flags = ROUND_XY_TO_GRID
+            comps.append(gc)
+        glyf[name] = Glyph(); glyf[name].numberOfContours = -1; glyf[name].components = comps
+        done += 1
+    print(f"overlaps removed; {done} of {len(lost)} affected glyphs recomposed")
+
+
+def add_meta(font):
+    meta = newTable("meta")
+    meta.data = {"dlng": "Latn", "slng": "Latn"}
+    font["meta"] = meta
+
+
 def finish_variable(path, dest):
     font = TTFont(path)
     del font["gvar"]                    # all zero: the axis only swaps glyphs
     tidy(font)
+    parts = component_parts(font)
+    removeOverlaps(font)                # the corner serifs overlap their stems; fontmake only does this for statics
+    tidy_contours(font)
+    recompose(font, parts)
+    add_meta(font)
     name = font["name"]
+    set_name(font, 3, f"{font['head'].fontRevision:.3f};VRCL;{PS}-Regular")
     set_name(font, 4, f"{FAMILY} Regular")
     for nid in (16, 17): name.removeNames(nameID=nid)
     set_name(font, 25, PS)
@@ -135,6 +237,9 @@ def finish_variable(path, dest):
         inst.postscriptNameID = name.addMultilingualName({"en": f"{PS}-{name.getDebugName(inst.subfamilyNameID)}"}, ttFont=font, windows=True, mac=False)
     stat = font["STAT"].table           # glyphsLib adds an ital axis the font does not have
     keep = [i for i, a in enumerate(stat.DesignAxisRecord.Axis) if a.AxisTag == "ELSH"]
+    dropped = {a.AxisNameID for i, a in enumerate(stat.DesignAxisRecord.Axis) if i not in keep}
+    dropped |= {v.ValueNameID for v in stat.AxisValueArray.AxisValue if v.AxisIndex not in keep}
+    for nid in dropped: name.removeNames(nameID=nid)
     stat.DesignAxisRecord.Axis = [stat.DesignAxisRecord.Axis[i] for i in keep]
     stat.DesignAxisCount = len(keep)
     stat.AxisValueArray.AxisValue = [v for v in stat.AxisValueArray.AxisValue if v.AxisIndex in keep]
@@ -145,6 +250,7 @@ def finish_variable(path, dest):
 def finish_static(path, dest, style):
     font = TTFont(path)
     tidy(font)
+    add_meta(font)
     version = f"{font['head'].fontRevision:.3f}"
     if style == "Regular":
         set_name(font, 1, FAMILY); set_name(font, 4, f"{FAMILY} Regular")
