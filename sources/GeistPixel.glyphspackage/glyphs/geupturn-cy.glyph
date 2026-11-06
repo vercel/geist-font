@@ -1,0 +1,57 @@
+{
+glyphname = "geupturn-cy";
+kernLeft = n;
+kernRight = r;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (266,0);
+},
+{
+name = top;
+pos = (266,532);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "ge-cy";
+},
+{
+alignment = -1;
+pos = (380,532);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,532);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,608);
+ref = pixel;
+}
+);
+width = 494;
+}
+);
+unicode = 1169;
+}

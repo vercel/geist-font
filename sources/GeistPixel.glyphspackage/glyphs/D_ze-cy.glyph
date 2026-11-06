@@ -1,0 +1,17 @@
+{
+glyphname = "Dze-cy";
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = S;
+}
+);
+width = 646;
+}
+);
+unicode = 1029;
+}

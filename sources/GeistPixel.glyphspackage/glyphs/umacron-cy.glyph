@@ -1,0 +1,21 @@
+{
+glyphname = "umacron-cy";
+kernLeft = v;
+kernRight = v;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "u-cy";
+},
+{
+pos = (76,0);
+ref = macroncomb;
+}
+);
+width = 532;
+}
+);
+unicode = 1263;
+}

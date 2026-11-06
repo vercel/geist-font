@@ -1,0 +1,16 @@
+{
+glyphname = "a-cy.ss01";
+kernLeft = a;
+kernRight = l;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss01;
+}
+);
+width = 570;
+}
+);
+}
