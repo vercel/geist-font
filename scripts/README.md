@@ -29,6 +29,6 @@ Variable export settings to keep:
 
 For the statics, turn on **Remove Overlap** and **Autohint** in the export dialog.
 
-A Glyphs export doesn't include two things the builder adds for Google Fonts: an `HVAR` table, and a `STAT` table with only the `ELSH` axis. Use the builder for anything going to Google Fonts.
+A Glyphs export doesn't include what the builder adds for Google Fonts: overlaps removed from the variable font, an `HVAR` table, a `meta` table, and a `STAT` table with only the `ELSH` axis. Use the builder for anything going to Google Fonts.
 
 **Check the Square, Triangle and Heart statics.** Exporting them from this source with Glyphs 3.5 (3532) through its Python API changed the serifs on 118 glyphs, including 3, 6, T, X and Æ. Compare them against Regular: only the dot sets, `ellipsis`, `quoteleft`, `quoteright` and `Abrevedotbelow` should differ. The builder doesn't have this problem.

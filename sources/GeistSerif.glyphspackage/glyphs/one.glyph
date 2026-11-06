@@ -28,15 +28,15 @@ ref = seven;
 hints = (
 {
 name = _corner.numSerif;
-origin = (0,5);
-scale = (1.2,1);
+origin = (0,0);
+scale = (-1.2,1);
 type = Corner;
 },
 {
 name = _corner.numSerif;
 options = 1;
 origin = (0,6);
-scale = (-1.5,1);
+scale = (1.5,1);
 type = Corner;
 }
 );
@@ -45,16 +45,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(167,626,l),
-(31,626,l),
+(259,0,l),
+(259,725,l),
+(249,725,l),
 (31,631,l,{
 "Letterink-NibData" = {
 AngleInDegrees = 360;
 };
 }),
-(249,725,l),
-(259,725,l),
-(259,0,l),
+(31,626,l),
+(167,626,l),
 (167,0,l)
 );
 }
