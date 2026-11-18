@@ -609,6 +609,22 @@ sub SPC slash' greater by SPC;
 sub less' slash greater by SPC;
 } less_slash_greater.liga;
 
+# </
+lookup less_slash.liga {
+ignore sub less less' slash;
+ignore sub less' slash slash;
+sub SPC slash' by less_slash.liga;
+sub less' slash by SPC;
+} less_slash.liga;
+
+# />
+lookup slash_greater.liga {
+ignore sub slash slash' greater;
+ignore sub slash' greater greater;
+sub SPC greater' by slash_greater.liga;
+sub slash' greater by SPC;
+} slash_greater.liga;
+
 
 # ~=
 lookup asciitilde_equal.liga {
@@ -4648,5 +4664,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 900;
+versionMinor = 903;
 }

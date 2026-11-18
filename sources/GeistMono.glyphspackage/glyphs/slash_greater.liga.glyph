@@ -1,0 +1,68 @@
+{
+color = 8;
+glyphname = slash_greater.liga;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-398,-150,l),
+(-2,710,l),
+(-35,710,l),
+(-431,-150,l)
+);
+},
+{
+pos = (-194,0);
+ref = greater;
+scale = (1.2,1);
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-371,-150,l),
+(25,710,l),
+(-62,710,l),
+(-457,-150,l)
+);
+},
+{
+alignment = -1;
+pos = (-177,0);
+ref = greater;
+scale = (1.2,1);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-339,-153,l),
+(57,723,l),
+(-82,723,l),
+(-478,-153,l)
+);
+},
+{
+alignment = -1;
+pos = (-159,0);
+ref = greater;
+scale = (1.2,1);
+}
+);
+width = 600;
+}
+);
+}
