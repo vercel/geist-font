@@ -102,7 +102,7 @@ data = Latn;
 tag = dlng;
 },
 {
-data = Cyr;
+data = "Latn,Cyrl";
 tag = slng;
 }
 );
@@ -6213,5 +6213,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 900;
+versionMinor = 903;
 }
